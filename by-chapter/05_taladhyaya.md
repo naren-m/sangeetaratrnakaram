@@ -2,7 +2,7 @@
 
 *Sāṅgītaratnākara of Śārṅgadeva — Sanskrit Wikisource (CC-BY-SA), retrieved 2026-08-17.*
 
-Verses: **275**
+Verses: **397**
 
 ---
 
@@ -337,7 +337,9 @@ Verses: **275**
 तालाश्चत्वार इत्यन्ये चतुर्दशकलादिकाः  
 चच्चत्पुटादिभेदास्तु सन्ति खण्डाभिधाः परे
 
-*tālāścatvāra ityanye caturdaśakalādikāḥ caccatpuṭādibhedāstu santi khaṇḍābhidhāḥ pare*
+*tālāścatvāra ityanye caturdaśakalādikāḥ caccatpuṭādibhedāstu santi khaṇḍābhidhāḥ*
+
+> svara illustration: `परे`
 
 **46**
 
@@ -372,7 +374,9 @@ Verses: **275**
 लयप्रवृत्तिनियमो यतिरित्यभिधीयते  
 समा स्रोतोगता चान्या गोपुच्छा त्रिविधेति सा
 
-*layapravṛttiniyamo yatirityabhidhīyate samā srotogatā cānyā gopucchā trividheti sā*
+*layapravṛttiniyamo yatirityabhidhīyate samā srotogatā cānyā gopucchā trividheti*
+
+> svara illustration: `सा`
 
 **51**
 
@@ -748,6 +752,17 @@ Verses: **275**
 
 *nipraniprā niśanitāstāśāstāsaṃ kalā tviha ekakaṃ vividhaṃ vā'tra gītāṅgaṃ dantilo'vadat gītāṅganiyamaṃ kaṃcinnābrūta bhagavānmuniḥ*
 
+**1**
+
+शीर्षकम् ।  
+इति पञ्चवस्तुकम् ।  
+एवं षड्वस्तुसप्तवस्तुके शाखां चतुर्थशाखान्त उपवर्तनं शाखान्ते पूर्ववत्तालिकां शीर्षकं च लिखित्वा वस्तुत्रयात्मकं शाखार्धरूपं प्रतिशाखितुर्यवस्त्वन्त उपवर्तनं तालिकां शीर्षकं च लिखेत् । एवमेव सप्तवस्तुत्रयात्मकं शाखार्धरूपां प्रतिशाखां तुर्यवस्त्वन्त उपवर्तनयुक्तां तालिकां शीर्षकं च लिखित्वा सार्धवस्तुत्रयात्मिकां तुर्यवस्त्वन्तोपवर्तनयुक्तां प्रतिशाखां तालिकां च शीर्षकं च लिखेत् । सर्ववस्तूनां प्रतिवस्तु शाखात्वपक्षे तत्तदर्धानां प्रतिशाखात्वे प्रस्तारः--  
+शाखा
+
+*śīrṣakam | iti pañcavastukam | evaṃ ṣaḍvastusaptavastuke śākhāṃ caturthaśākhānta upavartanaṃ śākhānte pūrvavattālikāṃ śīrṣakaṃ ca likhitvā vastutrayātmakaṃ śākhārdharūpaṃ pratiśākhituryavastvanta upavartanaṃ tālikāṃ śīrṣakaṃ ca likhet | evameva saptavastutrayātmakaṃ śākhārdharūpāṃ pratiśākhāṃ turyavastvanta upavartanayuktāṃ tālikāṃ śīrṣakaṃ ca likhitvā sārdhavastutrayātmikāṃ turyavastvantopavartanayuktāṃ pratiśākhāṃ tālikāṃ ca śīrṣakaṃ ca likhet | sarvavastūnāṃ prativastu śākhātvapakṣe tattadardhānāṃ pratiśākhātve prastāraḥ-- śākhā*
+
+> ⚠ source numbering anomaly: found 1, expected 104
+
 **104**
 
 इति पञ्चवस्तुकम् । एवमेव षड्वस्तुकम् ॥  
@@ -777,6 +792,17 @@ Verses: **275**
 शतालप्रान्प्राहुरन्येऽष्टमद्वादशषोडशान्
 
 *āvāpanivitā ātāviśāstānivisaṃ kalāḥ śatālaprānprāhuranye'ṣṭamadvādaśaṣoḍaśān*
+
+**1**
+
+आनिविप्र आनिविप्र आनिविश आनिविता  
+आनिविश तानिविसं ॥  
+एवं षड्वस्तु सप्तवस्तुकमपि ज्ञेयम् ।  
+सर्ववस्तूनां प्रतिशाखात्वपक्षे तदुत्तरार्धानां प्रतिशाखात्वे प्रस्तारः--शाखा
+
+*ānivipra ānivipra āniviśa ānivitā āniviśa tānivisaṃ || evaṃ ṣaḍvastu saptavastukamapi jñeyam | sarvavastūnāṃ pratiśākhātvapakṣe taduttarārdhānāṃ pratiśākhātve prastāraḥ--śākhā*
+
+> ⚠ source numbering anomaly: found 1, expected 108
 
 **108**
 
@@ -984,6 +1010,78 @@ Verses: **275**
 मात्रामात्रमिति प्रोक्तं तच्चतुर्धा पुरातनैः
 
 *antāntamantāharaṇaprāntaṃ vaihāyasāntimam mātrāmātramiti proktaṃ taccaturdhā purātanaiḥ*
+
+**136**
+
+प्रस्तारः--  
+शता शता सं  
+इत्येककलोल्लोप्यकमात्रा ।  
+इति द्विकलमात्रा ।  
+इति चतुष्कलमात्रा ।  
+इति मात्रामात्रमुल्लोप्यकम् ।  
+वैहायसा चतुष्कलमुल्लोप्यकम् ।  
+चतुर्मात्रामात्रप्रयोगशून्यचतुष्कला ।  
+चतुष्कलान्तमुल्लोप्यकम् ।  
+आनिविश आनिविता आशविता आनिविसं ।  
+निविश निविता निशता शतासं ।  
+इत्युल्लोप्यककला प्रयोगः । शून्यकलाचतुष्कलानन्तरवैहायसरूपम् । चतुष्कला मात्रा ।  
+आनिविश आनिविता आशविता आनिविसं ।  
+निविश निविता निशता शतासं ।  
+इत्यन्ताहरणान्तमुल्लोप्यकम् ।  
+अथ युग्मस्यान्तस्यायुग्मस्य च त्रयो भेदाः स्थितं प्रवृत्तं महाजनिकं चेति ।  
+तत्र युग्मस्थितान्तमुल्लोप्यकं यथा--  
+इदमेव वैहायसम् ।  
+चतुष्कलमात्रा ।  
+आनिविश आनिविता आशाविता आनिविसं ।  
+वैहायसम् ।  
+निविश निविता निशता शतासं ।  
+युग्मप्रवृत्तम् ।  
+युग्मस्थितम् ।  
+अथ युग्मप्रवृत्तान्तं महाजनस्थितान्तमुल्लोप्यकं यथा--युग्मप्रवृत्तान्तमुल्लोप्यकं यथा--चतुष्कलमात्रा ।  
+आनिविश आनिविता आशविता आनिविसं ॥  
+वैहायसम् ।  
+निविश निविता निशता शतासं ॥  
+युग्मस्थितमयुग्मस्थितान्तमुल्लोप्यकम् ॥  
+अथायुग्मप्रवृत्तकम् । चतुष्कलमात्रा ॥  
+आनिविश आनिविता आशविता आनिविसं ॥ वैहायसम् ।  
+निविश निविता निशता शतासं ॥  
+इति युग्मप्रवृत्तम् । अथायुग्मप्रवृत्तान्तमुल्लोप्यम् । चतुष्कलमात्रा यथा--  
+आनिविश आनिविता आशविता आनिविसं ॥  
+इति चतुष्कला मात्रा ॥  
+वैहायसम् ।  
+निविश निविता निशता शतासं ॥  
+स्थितप्रवृत्तयुग्ममहाजनिकम् ।  
+अथ मिश्रान्तस्य षड्भेदाः । तत्र युग्मस्थितप्रवृत्तायुग्ममहाजनिकमिश्रान्तान्तमुल्लोप्यकं यथा--चतुष्कला मात्रा ।  
+निविश निविता निशता शतासं ।  
+इति वैहायसम् । युग्मस्थितप्रवृत्ते युग्मस्य महाजनिकम् ॥  
+अथ युग्मस्थितप्रवृत्ते युग्ममहाजनिकमिश्रान्तान्तमुल्लोप्यकं यथा--  
+इत्ययुग्मस्थितप्रवृत्ते युग्मस्य महाजनिकम् ।  
+अथायुग्मस्थितायुग्मप्रवृत्तमहाजनिकमिश्रान्तमुल्लोप्यकं यथा--चतुष्कलमात्रा ।  
+वैहायसम् ।  
+निविश निविता निशता शतासं  
+निशता शनिसं ।  
+युग्मस्य स्थितमयुग्मस्य प्रवृत्तमहाजनिकमिति । युग्मप्रवृत्तकं यथा--महाजनिकमिश्रान्तान्तमुल्लोप्यकं यथा--  
+चतुष्कलमात्रा ।  
+वैहायसम् ।  
+निविश निविता निशता शतासं ।  
+निशता प्रनिसं ।  
+इत्ययुग्मस्थितयुग्मस्य प्रवृत्तमहाजनिके ।  
+अथ युग्मस्थितायुग्मप्रवृत्तयुग्ममहाजनिकमिश्रान्तान्तमुल्लोप्यकं यथा--  
+इति युग्मस्य स्थितमयुग्मप्रवृत्तं महाजनिकम् ।  
+अथायुग्मस्थितं युग्मप्रवृत्तायुग्ममहाजनिकमिश्रान्तमुल्लोप्यकं यथा--  
+चतुष्कलमात्रा ।  
+निविश निविता निशता शतासं ।  
+वैहायसम् ।  
+निश निता शप्रनिसं ।  
+निश निता शप्रनिसं ।  
+निशता शनिसं ।  
+इति युग्मस्थितमयुग्मस्य प्रवृत्ताभ्यामेकाङ्गो महाजनिकेन । एते षण्मिश्रभेदाः । द्व्यङ्गो वा मिश्रः स्थितप्रवृत्ताभ्यामेकाङ्गो वा महाजनिकेन ।  
+इत्यन्तान्तमुल्लोप्यकम् ।  
+चतुष्कलानि चत्वारि प्रकर्यादीन्युदाहरन्
+
+*prastāraḥ-- śatā śatā saṃ ityekakalollopyakamātrā | iti dvikalamātrā | iti catuṣkalamātrā | iti mātrāmātramullopyakam | vaihāyasā catuṣkalamullopyakam | caturmātrāmātraprayogaśūnyacatuṣkalā | catuṣkalāntamullopyakam | āniviśa ānivitā āśavitā ānivisaṃ | niviśa nivitā niśatā śatāsaṃ | ityullopyakakalā prayogaḥ | śūnyakalācatuṣkalānantaravaihāyasarūpam | catuṣkalā mātrā | āniviśa ānivitā āśavitā ānivisaṃ | niviśa nivitā niśatā śatāsaṃ | ityantāharaṇāntamullopyakam | atha yugmasyāntasyāyugmasya ca trayo bhedāḥ sthitaṃ pravṛttaṃ mahājanikaṃ ceti | tatra yugmasthitāntamullopyakaṃ yathā-- idameva vaihāyasam | catuṣkalamātrā | āniviśa ānivitā āśāvitā ānivisaṃ | vaihāyasam | niviśa nivitā niśatā śatāsaṃ | yugmapravṛttam | yugmasthitam | atha yugmapravṛttāntaṃ mahājanasthitāntamullopyakaṃ yathā--yugmapravṛttāntamullopyakaṃ yathā--catuṣkalamātrā | āniviśa ānivitā āśavitā ānivisaṃ || vaihāyasam | niviśa nivitā niśatā śatāsaṃ || yugmasthitamayugmasthitāntamullopyakam || athāyugmapravṛttakam | catuṣkalamātrā || āniviśa ānivitā āśavitā ānivisaṃ || vaihāyasam | niviśa nivitā niśatā śatāsaṃ || iti yugmapravṛttam | athāyugmapravṛttāntamullopyam | catuṣkalamātrā yathā-- āniviśa ānivitā āśavitā ānivisaṃ || iti catuṣkalā mātrā || vaihāyasam | niviśa nivitā niśatā śatāsaṃ || sthitapravṛttayugmamahājanikam | atha miśrāntasya ṣaḍbhedāḥ | tatra yugmasthitapravṛttāyugmamahājanikamiśrāntāntamullopyakaṃ yathā--catuṣkalā mātrā | niviśa nivitā niśatā śatāsaṃ | iti vaihāyasam | yugmasthitapravṛtte yugmasya mahājanikam || atha yugmasthitapravṛtte yugmamahājanikamiśrāntāntamullopyakaṃ yathā-- ityayugmasthitapravṛtte yugmasya mahājanikam | athāyugmasthitāyugmapravṛttamahājanikamiśrāntamullopyakaṃ yathā--catuṣkalamātrā | vaihāyasam | niviśa nivitā niśatā śatāsaṃ niśatā śanisaṃ | yugmasya sthitamayugmasya pravṛttamahājanikamiti | yugmapravṛttakaṃ yathā--mahājanikamiśrāntāntamullopyakaṃ yathā-- catuṣkalamātrā | vaihāyasam | niviśa nivitā niśatā śatāsaṃ | niśatā pranisaṃ | ityayugmasthitayugmasya pravṛttamahājanike | atha yugmasthitāyugmapravṛttayugmamahājanikamiśrāntāntamullopyakaṃ yathā-- iti yugmasya sthitamayugmapravṛttaṃ mahājanikam | athāyugmasthitaṃ yugmapravṛttāyugmamahājanikamiśrāntamullopyakaṃ yathā-- catuṣkalamātrā | niviśa nivitā niśatā śatāsaṃ | vaihāyasam | niśa nitā śapranisaṃ | niśa nitā śapranisaṃ | niśatā śanisaṃ | iti yugmasthitamayugmasya pravṛttābhyāmekāṅgo mahājanikena | ete ṣaṇmiśrabhedāḥ | dvyaṅgo vā miśraḥ sthitapravṛttābhyāmekāṅgo vā mahājanikena | ityantāntamullopyakam | catuṣkalāni catvāri prakaryādīnyudāharan*
+
+> ⚠ source numbering anomaly: found 136, expected 137
 
 **137**
 
@@ -1521,6 +1619,15 @@ Verses: **275**
 
 *śampātālaṃ dvirante ca saṃnipāta upohane ādyāyāṃ dvikalaścācapuṭo'nyasyā upohane*
 
+**104**
+
+उद्धट्टादिः सुनन्दायां भवेद्युग्मो यथाक्षरः  
+स एव तालो द्विकलः सुमुख्याः स्यादुपोहने
+
+*uddhaṭṭādiḥ sunandāyāṃ bhavedyugmo yathākṣaraḥ sa eva tālo dvikalaḥ sumukhyāḥ syādupohane*
+
+> ⚠ source numbering anomaly: found 104, expected 204
+
 **205**
 
 कण्डिकानां वदन्तीत्थं परिवर्तान्दशापरे  
@@ -1962,6 +2069,15 @@ Verses: **275**
 
 > ⚠ numbering jumped 260->261
 
+**0**
+
+गत्रयं लः पलगपाः  
+लघ्वन्ते दत्रयं सिंहलीलो
+
+*gatrayaṃ laḥ palagapāḥ laghvante datrayaṃ siṃhalīlo*
+
+> ⚠ source numbering anomaly: found 0, expected 262
+
 **263**
 
 कन्दर्पतालस्तस्यैव पर्यायः स्यात्परिक्रमः
@@ -1969,6 +2085,23 @@ Verses: **275**
 *kandarpatālastasyaiva paryāyaḥ syātparikramaḥ*
 
 > ⚠ numbering jumped 262->263
+
+**0**
+
+लघुर्द्रुतद्वयं चान्ते गुरुः स्याद्वीरविक्रमः ॥  
+।
+
+*laghurdrutadvayaṃ cānte guruḥ syādvīravikramaḥ || |*
+
+> ⚠ source numbering anomaly: found 0, expected 264
+
+**0**
+
+विरामान्तद्रुतद्वंद्वान्यष्टौ लघु च चच्चरी ॥
+
+*virāmāntadrutadvaṃdvānyaṣṭau laghu ca caccarī ||*
+
+> ⚠ source numbering anomaly: found 0, expected 264
 
 **17** · _patakshara_
 
@@ -1994,6 +2127,14 @@ Verses: **275**
 
 *rājacūḍāmaṇirdau dvau nagaṇaśca drutau lagau*
 
+**0**
+
+त्र्यस्रो मिश्रो द्विधा वर्णस्त्र्यस्रो लौ दौ लघुद्वयम् ॥
+
+*tryasro miśro dvidhā varṇastryasro lau dau laghudvayam ||*
+
+> ⚠ source numbering anomaly: found 0, expected 268
+
 **269**
 
 मिश्रो द्रुतचतुष्काः स्युर्विरामान्तास्त्रयः पृथक्
@@ -2001,6 +2142,15 @@ Verses: **275**
 *miśro drutacatuṣkāḥ syurvirāmāntāstrayaḥ pṛthak*
 
 > ⚠ numbering jumped 268->269
+
+**0**
+
+चतुरस्रोऽपि दृश्यते ॥  
+गलौ द्रुतौ गुरुश्चेति
+
+*caturasro'pi dṛśyate || galau drutau guruśceti*
+
+> ⚠ source numbering anomaly: found 0, expected 270
 
 **35** · _patakshara_
 
@@ -2020,6 +2170,43 @@ Verses: **275**
 
 > ⚠ patakshara entry, numbered in a local series
 
+**0**
+
+ᳲ! इति मुद्रितमण्ठः ॥  
+मण्ठो न जौ लघुर्यद्वा  
+मण्ठरूपकवेलायाम्  
+गलपाः स्युः  
+लघुर्गुरुर्द्रुतद्वंद्वं राजविद्याधरो भवेत् ॥
+
+*ᳲ! iti mudritamaṇṭhaḥ || maṇṭho na jau laghuryadvā maṇṭharūpakavelāyām galapāḥ syuḥ laghurgururdrutadvaṃdvaṃ rājavidyādharo bhavet ||*
+
+> ⚠ source numbering anomaly: found 0, expected 270
+
+**0**
+
+मल्लिकामोदताले तु लौ द्वौ द्रुतचतुष्टयम्  
+। ।
+
+*mallikāmodatāle tu lau dvau drutacatuṣṭayam | |*
+
+> ⚠ source numbering anomaly: found 0, expected 270
+
+**279**
+
+विजयानन्दसंज्ञे तु लघुद्वंद्वं गुरुत्रयम्
+
+*vijayānandasaṃjñe tu laghudvaṃdvaṃ gurutrayam*
+
+> ⚠ source numbering anomaly: found 279, expected 270
+
+**0**
+
+क्रीडा द्रुतौ विरामान्तौ चण्डनिःसारुकश्च सः ॥
+
+*krīḍā drutau virāmāntau caṇḍaniḥsārukaśca saḥ ||*
+
+> ⚠ source numbering anomaly: found 0, expected 270
+
 **45** · _patakshara_
 
 र्! इति क्रीडातालश्चण्डनिःसारुकश्च
@@ -2027,6 +2214,23 @@ Verses: **275**
 *r! iti krīḍātālaścaṇḍaniḥsārukaśca*
 
 > ⚠ patakshara entry, numbered in a local series
+
+**0**
+
+लषौ गलौ प्लुतः कीर्तिः  
+लो द्रुतौ प्रतितालः स्यात्
+
+*laṣau galau plutaḥ kīrtiḥ lo drutau pratitālaḥ syāt*
+
+> ⚠ source numbering anomaly: found 0, expected 270
+
+**0**
+
+गुर्वोर्मध्ये तु चत्वारो विन्दवो बिन्दुमालिनी ॥
+
+*gurvormadhye tu catvāro vindavo bindumālinī ||*
+
+> ⚠ source numbering anomaly: found 0, expected 270
 
 **53** · _patakshara_
 
@@ -2036,6 +2240,31 @@ Verses: **275**
 
 > ⚠ patakshara entry, numbered in a local series
 
+**283**
+
+गुरुद्रुतप्लुताः प्रोक्ता मण्ठिका  
+विरामादिद्रुतौ द्वौ च मण्ठिका परिकीर्तिता
+
+*gurudrutaplutāḥ proktā maṇṭhikā virāmādidrutau dvau ca maṇṭhikā parikīrtitā*
+
+> ⚠ source numbering anomaly: found 283, expected 270
+
+**284**
+
+रगणो ढेङ्क्तिका कैश्चिदेष प्रोक्तस्तु योजनः
+
+*ragaṇo ḍheṅktikā kaiścideṣa proktastu yojanaḥ*
+
+> ⚠ source numbering anomaly: found 284, expected 270
+
+**0**
+
+द्विश्चत्वारो विरामान्ता द्रुतास्तु विषमे मताः ॥
+
+*dviścatvāro virāmāntā drutāstu viṣame matāḥ ||*
+
+> ⚠ source numbering anomaly: found 0, expected 270
+
 **59** · _patakshara_
 
 र्! इति विषमः
@@ -2043,6 +2272,22 @@ Verses: **275**
 *r! iti viṣamaḥ*
 
 > ⚠ patakshara entry, numbered in a local series
+
+**285**
+
+द्वौ लौ द्वौ दौ लघुर्दौ द्वौ कीर्तिता वर्णमण्ठिका
+
+*dvau lau dvau dau laghurdau dvau kīrtitā varṇamaṇṭhikā*
+
+> ⚠ source numbering anomaly: found 285, expected 270
+
+**0**
+
+अभिनन्दो लघुद्वंद्वं द्रुतयुग्मं गुरुस्तथा ॥
+
+*abhinando laghudvaṃdvaṃ drutayugmaṃ gurustathā ||*
+
+> ⚠ source numbering anomaly: found 0, expected 270
 
 **64** · _patakshara_
 
@@ -2052,6 +2297,23 @@ Verses: **275**
 
 > ⚠ patakshara entry, numbered in a local series
 
+**287**
+
+उक्तश्चतुर्धा कङ्कालः पूर्णः खण्डः समोऽसमः
+
+*uktaścaturdhā kaṅkālaḥ pūrṇaḥ khaṇḍaḥ samo'samaḥ*
+
+> ⚠ source numbering anomaly: found 287, expected 270
+
+**0**
+
+वसन्तो न्मौ  
+प्रतापशेखरो दीप्ताद्विरामान्तं द्रुतद्वयम् ॥
+
+*vasanto nmau pratāpaśekharo dīptādvirāmāntaṃ drutadvayam ||*
+
+> ⚠ source numbering anomaly: found 0, expected 270
+
 **75** · _patakshara_
 
 र्! इति प्रतापशेखरः
@@ -2059,6 +2321,14 @@ Verses: **275**
 *r! iti pratāpaśekharaḥ*
 
 > ⚠ patakshara entry, numbered in a local series
+
+**292**
+
+झम्पातालो विरामान्तं द्रुतद्वंद्वं लघुस्तथा
+
+*jhampātālo virāmāntaṃ drutadvaṃdvaṃ laghustathā*
+
+> ⚠ source numbering anomaly: found 292, expected 270
 
 **76** · _patakshara_
 
@@ -2068,6 +2338,14 @@ Verses: **275**
 
 > ⚠ patakshara entry, numbered in a local series
 
+**0**
+
+गजझम्पो गुरोरूर्ध्वं विरामान्तं द्रुतत्रयम् ॥
+
+*gajajhampo gurorūrdhvaṃ virāmāntaṃ drutatrayam ||*
+
+> ⚠ source numbering anomaly: found 0, expected 270
+
 **77** · _patakshara_
 
 र्! इति गजझम्पः
@@ -2075,6 +2353,14 @@ Verses: **275**
 *r! iti gajajhampaḥ*
 
 > ⚠ patakshara entry, numbered in a local series
+
+**293**
+
+चतुर्मुखो जप्लुताभ्यां स एवोन्मातृको मतः
+
+*caturmukho japlutābhyāṃ sa evonmātṛko mataḥ*
+
+> ⚠ source numbering anomaly: found 293, expected 270
 
 **86** · _patakshara_
 
@@ -2084,6 +2370,398 @@ Verses: **275**
 
 > ⚠ patakshara entry, numbered in a local series
 
+**298**
+
+विरामान्तौ द्रुतौ बिन्दुस्त्रिमात्रो रागवर्धनः
+
+*virāmāntau drutau bindustrimātro rāgavardhanaḥ*
+
+> ⚠ source numbering anomaly: found 298, expected 270
+
+**301**
+
+लघुर्द्रुतानां त्रितयं लघू द्वौ सारसः स्मृतः
+
+*laghurdrutānāṃ tritayaṃ laghū dvau sārasaḥ smṛtaḥ*
+
+> ⚠ source numbering anomaly: found 301, expected 270
+
+**0**
+
+द्रुतत्रयं लघुद्वंद्वं चण्डताले बभाषिरे ॥
+
+*drutatrayaṃ laghudvaṃdvaṃ caṇḍatāle babhāṣire ||*
+
+> ⚠ source numbering anomaly: found 0, expected 270
+
+**0**
+
+गलौ प्लुतत्रयं वक्रः प्लुतो बिन्दुत्रयं लये ॥
+
+*galau plutatrayaṃ vakraḥ pluto bindutrayaṃ laye ||*
+
+> ⚠ source numbering anomaly: found 0, expected 270
+
+**108**
+
+इममेवोचिरे तालं केचित्त्रिपुटसंज्ञया  
+। । इत्यडताली
+
+*imamevocire tālaṃ kecittripuṭasaṃjñayā | | ityaḍatālī*
+
+> ⚠ source numbering anomaly: found 108, expected 270
+
+**0**
+
+मुकुन्दे तु लघोर्बिन्दुचतुष्टयमथो गुरुः ॥
+
+*mukunde tu laghorbinducatuṣṭayamatho guruḥ ||*
+
+> ⚠ source numbering anomaly: found 0, expected 270
+
+**305**
+
+कुविन्दके लघुर्बिन्दुद्वयं गुरुरथ प्लुतः
+
+*kuvindake laghurbindudvayaṃ gururatha plutaḥ*
+
+> ⚠ source numbering anomaly: found 305, expected 270
+
+**0**
+
+कलध्वनिर्लघुद्वंद्वं गुरुर्लघुरथ प्लुतः ॥  
+पञ्चभिर्लघुभिर्गौरी  
+ताले सरस्वतीकण्ठाभरणे शार्ङ्गिसंमतौ ॥
+
+*kaladhvanirlaghudvaṃdvaṃ gururlaghuratha plutaḥ || pañcabhirlaghubhirgaurī tāle sarasvatīkaṇṭhābharaṇe śārṅgisaṃmatau ||*
+
+> ⚠ source numbering anomaly: found 0, expected 270
+
+**0**
+
+ताले राजमृगाङ्के तु द्रुतौ लघुरथो गुरुः ॥
+
+*tāle rājamṛgāṅke tu drutau laghuratho guruḥ ||*
+
+> ⚠ source numbering anomaly: found 0, expected 270
+
+**309**
+
+निःशङ्कसंज्ञके ताले लगुरू पगुरू गलौ ॥  
+शार्ङ्गदेवे द्रुतद्वंद्वं गप्लुतौ गद्वयं लघुः
+
+*niḥśaṅkasaṃjñake tāle lagurū pagurū galau || śārṅgadeve drutadvaṃdvaṃ gaplutau gadvayaṃ laghuḥ*
+
+> ⚠ source numbering anomaly: found 309, expected 270
+
+**310**
+
+अन्येऽपि सन्ति भूयांसस्तालास्ते लक्ष्मवर्त्मनि  
+प्रसिद्धिविधुरत्वेन शास्त्रेऽस्मिन्न प्रदर्शिताः
+
+*anye'pi santi bhūyāṃsastālāste lakṣmavartmani prasiddhividhuratvena śāstre'sminna pradarśitāḥ*
+
+> ⚠ source numbering anomaly: found 310, expected 270
+
+**311**
+
+तद्भेदप्रत्ययार्थं तु लघूपाया भवन्त्यमी  
+प्रस्तारसंख्ये नष्टं चोद्दिष्टं पातालकस्ततः
+
+*tadbhedapratyayārthaṃ tu laghūpāyā bhavantyamī prastārasaṃkhye naṣṭaṃ coddiṣṭaṃ pātālakastataḥ*
+
+> ⚠ source numbering anomaly: found 311, expected 270
+
+**312**
+
+द्रुतमेरुर्लघोर्मेरुर्गुरुमेरुः प्लुतस्य च  
+मेरुः संयोगमेरुश्च खण्डप्रस्तारकस्ततः
+
+*drutamerurlaghormerurgurumeruḥ plutasya ca meruḥ saṃyogameruśca khaṇḍaprastārakastataḥ*
+
+> ⚠ source numbering anomaly: found 312, expected 270
+
+**313**
+
+प्राचां चतुर्णां मेरूणां नष्टोद्दिष्टे पृथक्पृथक्  
+एकोनविंशतिरिति प्रत्ययास्तान्ब्रुवेऽधुना
+
+*prācāṃ caturṇāṃ merūṇāṃ naṣṭoddiṣṭe pṛthakpṛthak ekonaviṃśatiriti pratyayāstānbruve'dhunā*
+
+> ⚠ source numbering anomaly: found 313, expected 270
+
+**315**
+
+प्रागूने वामसंस्थांस्तु संभवे महतो लिखेत्  
+अल्पानसंभवे तालपूर्त्यै भूयोऽप्ययं विधिः
+
+*prāgūne vāmasaṃsthāṃstu saṃbhave mahato likhet alpānasaṃbhave tālapūrtyai bhūyo'pyayaṃ vidhiḥ*
+
+> ⚠ source numbering anomaly: found 315, expected 270
+
+**316**
+
+सर्वद्रुतावधिः कार्यः प्रस्तारोऽयं लघौ गुरौ  
+प्लुते व्यस्ते समस्ते च न तु व्यस्ते द्रुतेऽस्ति सः
+
+*sarvadrutāvadhiḥ kāryaḥ prastāro'yaṃ laghau gurau plute vyaste samaste ca na tu vyaste drute'sti saḥ*
+
+> ⚠ source numbering anomaly: found 316, expected 270
+
+**317**
+
+इति प्रस्तारः ।  
+एकद्व्यङ्कौ क्रमान्न्यस्य युञ्जीतान्त्यं पुरातनैः  
+द्वितीयतुर्यषष्ठाङ्कैरभावे तुर्यषष्ठयोः
+
+*iti prastāraḥ | ekadvyaṅkau kramānnyasya yuñjītāntyaṃ purātanaiḥ dvitīyaturyaṣaṣṭhāṅkairabhāve turyaṣaṣṭhayoḥ*
+
+> ⚠ source numbering anomaly: found 317, expected 270
+
+**316**
+
+सर्वद्रुतावधिः कार्यः प्रस्तारोऽयं लघौ गुरौ  
+प्लुते व्यस्ते समस्ते च न तु व्यस्ते द्रुतेऽस्ति सः
+
+*sarvadrutāvadhiḥ kāryaḥ prastāro'yaṃ laghau gurau plute vyaste samaste ca na tu vyaste drute'sti saḥ*
+
+> ⚠ source numbering anomaly: found 316, expected 270
+
+**317**
+
+इति प्रस्तारः  
+एकद्व्यङ्कौ क्रमान्न्यस्य युञ्जीतान्त्यं पुरातनैः  
+द्वितीयतुर्यषष्ठाङ्कैरभावे तुर्यषष्ठयोः
+
+*iti prastāraḥ ekadvyaṅkau kramānnyasya yuñjītāntyaṃ purātanaiḥ dvitīyaturyaṣaṣṭhāṅkairabhāve turyaṣaṣṭhayoḥ*
+
+> ⚠ source numbering anomaly: found 317, expected 270
+
+**318**
+
+तृतीयपञ्चमाङ्काभ्यां क्रमात्तं योगमग्रतः  
+लिखेद्दक्षिणसंस्थैवमङ्कश्रेणी विधीयते
+
+*tṛtīyapañcamāṅkābhyāṃ kramāttaṃ yogamagrataḥ likheddakṣiṇasaṃsthaivamaṅkaśreṇī vidhīyate*
+
+> ⚠ source numbering anomaly: found 318, expected 270
+
+**320**
+
+द्रुतो लघुः सार्धमात्रो गुरुः सार्धद्विमात्रिकः  
+प्लुतः सार्धत्रिमात्रश्चेत्येकैकद्रुतवर्धितैः  
+तालभेदाः क्रमादङ्कैः संख्यायन्ते स्थितैरिह
+
+*druto laghuḥ sārdhamātro guruḥ sārdhadvimātrikaḥ plutaḥ sārdhatrimātraścetyekaikadrutavardhitaiḥ tālabhedāḥ kramādaṅkaiḥ saṃkhyāyante sthitairiha*
+
+> ⚠ source numbering anomaly: found 320, expected 270
+
+**321**
+
+यदङ्कयोगादन्त्योऽङ्को लब्धस्तैरन्ततः क्रमात्  
+भेदा द्रुतान्तलघ्वन्तगुर्वन्ताश्च प्लुतान्तकाः  
+संख्यायन्त इति प्रोक्ताः संख्या निःशङ्कसूरिणा
+
+*yadaṅkayogādantyo'ṅko labdhastairantataḥ kramāt bhedā drutāntalaghvantagurvantāśca plutāntakāḥ saṃkhyāyanta iti proktāḥ saṃkhyā niḥśaṅkasūriṇā*
+
+> ⚠ source numbering anomaly: found 321, expected 270
+
+**322**
+
+इति संख्या ।  
+अत्रैतावतिथो भेदः किंरूप इति पृच्छति  
+यत्र तन्नष्टमाख्यातं तस्योत्तरमिहोच्यते
+
+*iti saṃkhyā | atraitāvatitho bhedaḥ kiṃrūpa iti pṛcchati yatra tannaṣṭamākhyātaṃ tasyottaramihocyate*
+
+> ⚠ source numbering anomaly: found 322, expected 270
+
+**323**
+
+भेदानां यावतां मध्ये नष्टप्रश्नः कृतो भवेत्  
+तावत्संख्याङ्कपर्यन्तां लिखेत्संख्याङ्कसंततिम्  
+अन्त्याङ्के तत्र नष्टाङ्कं पातयेदथ शेषतः
+
+*bhedānāṃ yāvatāṃ madhye naṣṭapraśnaḥ kṛto bhavet tāvatsaṃkhyāṅkaparyantāṃ likhetsaṃkhyāṅkasaṃtatim antyāṅke tatra naṣṭāṅkaṃ pātayedatha śeṣataḥ*
+
+> ⚠ source numbering anomaly: found 323, expected 270
+
+**324**
+
+पातयेत्पूर्वपूर्वाङ्कं तत्र त्वपतितो द्रुतः  
+पूर्वश्चेत्पतितो न स्याल्लघुस्तु पतिताद्भवेत्
+
+*pātayetpūrvapūrvāṅkaṃ tatra tvapatito drutaḥ pūrvaścetpatito na syāllaghustu patitādbhavet*
+
+> ⚠ source numbering anomaly: found 324, expected 270
+
+**325**
+
+उत्तरेणाकृतार्थेन सहितात्तदसंभवे  
+अकृतार्थेन पूर्णेन सान्तरे पतिते पृथक्  
+लघुर्निरन्तरे त्वस्मिल्लँघुरेव गुरुर्भवेत्
+
+*uttareṇākṛtārthena sahitāttadasaṃbhave akṛtārthena pūrṇena sāntare patite pṛthak laghurnirantare tvasmilla~ghureva gururbhavet*
+
+> ⚠ source numbering anomaly: found 325, expected 270
+
+**326**
+
+गुरुहेतोस्तृतीये तु पतिते गः प्लुती भवेत्
+
+*guruhetostṛtīye tu patite gaḥ plutī bhavet*
+
+> ⚠ source numbering anomaly: found 326, expected 270
+
+**327**
+
+अङ्काभावे द्रुता ग्राद्यास्तालपूरणहेतवः  
+इति नष्टस्य विज्ञेयमुत्तरं रूपनिर्णयात्
+
+*aṅkābhāve drutā grādyāstālapūraṇahetavaḥ iti naṣṭasya vijñeyamuttaraṃ rūpanirṇayāt*
+
+> ⚠ source numbering anomaly: found 327, expected 270
+
+**328**
+
+इति नष्टम्  
+ईदृग्रूपोऽत्र कथितो भेदः प्रश्न इतीदृशः  
+उद्दिष्टं तत्र संख्याङ्कसंततिं नष्टवल्लिखेत्
+
+*iti naṣṭam īdṛgrūpo'tra kathito bhedaḥ praśna itīdṛśaḥ uddiṣṭaṃ tatra saṃkhyāṅkasaṃtatiṃ naṣṭavallikhet*
+
+> ⚠ source numbering anomaly: found 328, expected 270
+
+**329**
+
+यैरङ्कैः पतितैर्नष्टे लभ्यन्ते ये द्रुतादयः  
+तानेवाङ्काल्लँभन्ते ते भेदमुद्दिष्टमाश्रिताः
+
+*yairaṅkaiḥ patitairnaṣṭe labhyante ye drutādayaḥ tānevāṅkālla~bhante te bhedamuddiṣṭamāśritāḥ*
+
+> ⚠ source numbering anomaly: found 329, expected 270
+
+**330**
+
+यद्वा षट्प्लुतहेत्वङ्कमध्येऽन्त्यात्प्राचि सप्तमे  
+तदभावे तु षष्ठाङ्के पातितेऽन्त्याङ्कमध्यतः
+
+*yadvā ṣaṭplutahetvaṅkamadhye'ntyātprāci saptame tadabhāve tu ṣaṣṭhāṅke pātite'ntyāṅkamadhyataḥ*
+
+> ⚠ source numbering anomaly: found 330, expected 270
+
+**331**
+
+यः शेषः स प्लुताल्लभ्यो लब्धहीनान्त्यशेषतः  
+ज्ञानं पूरणसंख्याया उद्दिष्टोत्तरमिष्यते
+
+*yaḥ śeṣaḥ sa plutāllabhyo labdhahīnāntyaśeṣataḥ jñānaṃ pūraṇasaṃkhyāyā uddiṣṭottaramiṣyate*
+
+> ⚠ source numbering anomaly: found 331, expected 270
+
+**332**
+
+इत्युद्दिष्टम्  
+आदौ रूपमथैकैकमङ्कसंख्याङ्कसंततेः  
+क्रमादधोऽधो विन्यस्येदन्त्यादींश्चतुरस्तथा
+
+*ityuddiṣṭam ādau rūpamathaikaikamaṅkasaṃkhyāṅkasaṃtateḥ kramādadho'dho vinyasyedantyādīṃścaturastathā*
+
+> ⚠ source numbering anomaly: found 332, expected 270
+
+**333**
+
+स्वपङ्क्तिस्थाल्लिँखेदङ्कानग्रे संख्याङ्कवद्युतान्  
+किंतु प्रतिनिधिर्नात्र विद्यते तुर्यषष्ठयोः
+
+*svapaṅktisthālli~khedaṅkānagre saṃkhyāṅkavadyutān kiṃtu pratinidhirnātra vidyate turyaṣaṣṭhayoḥ*
+
+> ⚠ source numbering anomaly: found 333, expected 270
+
+**334**
+
+इष्टतालद्रुतमितेष्वङ्केषु लिखितेष्विति  
+क्रमादन्त्योपान्त्यतुर्यषष्ठैर्यत्र द्रुतादयः  
+मीयन्ते सर्वभेदस्थाः पातालः सोऽभिधीयते
+
+*iṣṭatāladrutamiteṣvaṅkeṣu likhiteṣviti kramādantyopāntyaturyaṣaṣṭhairyatra drutādayaḥ mīyante sarvabhedasthāḥ pātālaḥ so'bhidhīyate*
+
+> ⚠ source numbering anomaly: found 334, expected 270
+
+**335**
+
+इति पातालः  
+पङ्क्तिं कृत्वेष्टतालस्थद्रुतसंमितकोष्ठिकाम्  
+तिरश्चीं तत्परामूनां कोष्ठेनाथ ततः पराः  
+द्विद्विकोष्ठोनिताः स्वस्वपूर्वतोऽथाङ्कयोजना
+
+*iti pātālaḥ paṅktiṃ kṛtveṣṭatālasthadrutasaṃmitakoṣṭhikām tiraścīṃ tatparāmūnāṃ koṣṭhenātha tataḥ parāḥ dvidvikoṣṭhonitāḥ svasvapūrvato'thāṅkayojanā*
+
+> ⚠ source numbering anomaly: found 335, expected 270
+
+**336**
+
+द्वौ द्वौ तासामाद्यकोष्ठौ स्यातामेकाङ्कसंयुतौ
+
+*dvau dvau tāsāmādyakoṣṭhau syātāmekāṅkasaṃyutau*
+
+> ⚠ source numbering anomaly: found 336, expected 270
+
+**337**
+
+अधस्तन्यास्तृतीयादौ विषमे कोष्ठके लिखेत्  
+अन्त्याद्यङ्कचतुष्कस्य योगं संख्याङ्कसंघवत्
+
+*adhastanyāstṛtīyādau viṣame koṣṭhake likhet antyādyaṅkacatuṣkasya yogaṃ saṃkhyāṅkasaṃghavat*
+
+> ⚠ source numbering anomaly: found 337, expected 270
+
+**338**
+
+समे त्वन्त्यं विनैतेषां योगं न्यस्याथ पङ्क्तिषु  
+परासु शेषकोष्ठेषु चतुर्योगोऽयमिष्यते  
+नास्ति प्रतिनिधिस्त्वासामङ्कयोस्तुर्यषष्ठयोः
+
+*same tvantyaṃ vinaiteṣāṃ yogaṃ nyasyātha paṅktiṣu parāsu śeṣakoṣṭheṣu caturyogo'yamiṣyate nāsti pratinidhistvāsāmaṅkayosturyaṣaṣṭhayoḥ*
+
+> ⚠ source numbering anomaly: found 338, expected 270
+
+**339**
+
+तासु स्वभावतो यास्तु निष्पन्ना ऊर्ध्वपङ्क्तयः
+
+*tāsu svabhāvato yāstu niṣpannā ūrdhvapaṅktayaḥ*
+
+> ⚠ source numbering anomaly: found 339, expected 270
+
+**340**
+
+तन्मध्ये तु समे कोष्ठेऽन्त्यस्थानेऽन्त्यादधस्तनः  
+अङ्कः कार्योऽथ तैरङ्कैर्भेदसंख्याऽभिधीयते
+
+*tanmadhye tu same koṣṭhe'ntyasthāne'ntyādadhastanaḥ aṅkaḥ kāryo'tha tairaṅkairbhedasaṃkhyā'bhidhīyate*
+
+> ⚠ source numbering anomaly: found 340, expected 270
+
+**341**
+
+विषमायामूर्ध्वपङ्क्तौ स्थितैरङ्क्तैरधः क्रमात्  
+एकद्रुताद्या विषमत्र्यादिसंख्या द्रुता भिदाः  
+सर्वद्रुतान्ता मीयन्ते समपङ्क्तिस्थितैः पुनः
+
+*viṣamāyāmūrdhvapaṅktau sthitairaṅktairadhaḥ kramāt ekadrutādyā viṣamatryādisaṃkhyā drutā bhidāḥ sarvadrutāntā mīyante samapaṅktisthitaiḥ punaḥ*
+
+> ⚠ source numbering anomaly: found 341, expected 270
+
+**342**
+
+द्रुतहीनादयो द्व्यादिसमसंख्या द्रुता भिदाः  
+सर्वद्रुतान्ता ज्ञायन्ते द्रुतमेरुरयं मतः
+
+*drutahīnādayo dvyādisamasaṃkhyā drutā bhidāḥ sarvadrutāntā jñāyante drutamerurayaṃ mataḥ*
+
+> ⚠ source numbering anomaly: found 342, expected 270
+
 **1** · _patakshara_
 
 इति द्रुतमेरुः
@@ -2091,6 +2769,37 @@ Verses: **275**
 *iti drutameruḥ*
 
 > ⚠ patakshara entry, numbered in a local series
+
+**144**
+
+।ऽए!  
+इति द्रुतमेरुकोष्ठखम्  
+इति द्रुतमेरुः  
+लघुमेरौ कोष्ठपङ्क्तीः प्राग्वन्न्यसेत्तदादिमः  
+एकैककोष्ठ एकाङ्कयुक्तोऽधःपङ्क्तिकेषु तु  
+शेषकोष्ठेष्वन्त्यतुर्यषष्ठयोगं निवेशयेत्
+
+*|'e! iti drutamerukoṣṭhakham iti drutameruḥ laghumerau koṣṭhapaṅktīḥ prāgvannyasettadādimaḥ ekaikakoṣṭha ekāṅkayukto'dhaḥpaṅktikeṣu tu śeṣakoṣṭheṣvantyaturyaṣaṣṭhayogaṃ niveśayet*
+
+> ⚠ source numbering anomaly: found 144, expected 270
+
+**345**
+
+परासां शेषकोष्ठेषूपान्त्याधस्तनसंयुतम्  
+त्रियोगमेवमादध्यादत्र च द्रुतमेरुवत्
+
+*parāsāṃ śeṣakoṣṭheṣūpāntyādhastanasaṃyutam triyogamevamādadhyādatra ca drutameruvat*
+
+> ⚠ source numbering anomaly: found 345, expected 270
+
+**347**
+
+लघुहीनादुपक्रम्यैकाद्येकोत्तरवृद्धलाः  
+सर्वलान्ताः क्रमाज्ज्ञेयाः संख्या सर्वाङ्गसंगतेः
+
+*laghuhīnādupakramyaikādyekottaravṛddhalāḥ sarvalāntāḥ kramājjñeyāḥ saṃkhyā sarvāṅgasaṃgateḥ*
+
+> ⚠ source numbering anomaly: found 347, expected 270
 
 **1** · _patakshara_
 
@@ -2100,6 +2809,69 @@ Verses: **275**
 
 > ⚠ patakshara entry, numbered in a local series
 
+**348**
+
+इति लघुमेरुः  
+गुरुमेरावधःपङ्क्तेः परा कोष्ठत्रयोनिता  
+चतुश्चतुष्कोष्ठहीनाः स्वस्वपूर्वाबलेः पराः
+
+*iti laghumeruḥ gurumerāvadhaḥpaṅkteḥ parā koṣṭhatrayonitā catuścatuṣkoṣṭhahīnāḥ svasvapūrvābaleḥ parāḥ*
+
+> ⚠ source numbering anomaly: found 348, expected 270
+
+**349**
+
+एकाङ्कवन्त आद्याद्यकोष्ठाः प्रथमपङ्क्तिगः  
+द्वितीयो द्व्यङ्कवानन्त्योपान्त्यषष्ठाङ्कयोगिनः
+
+*ekāṅkavanta ādyādyakoṣṭhāḥ prathamapaṅktigaḥ dvitīyo dvyaṅkavānantyopāntyaṣaṣṭhāṅkayoginaḥ*
+
+> ⚠ source numbering anomaly: found 349, expected 270
+
+**350**
+
+शेषकोष्ठाः परासां तु द्वितीयादिषु लिख्यते  
+योगोऽन्त्योपान्त्यषष्ठानामधस्तुर्याङ्कसंयुतः
+
+*śeṣakoṣṭhāḥ parāsāṃ tu dvitīyādiṣu likhyate yogo'ntyopāntyaṣaṣṭhānāmadhasturyāṅkasaṃyutaḥ*
+
+> ⚠ source numbering anomaly: found 350, expected 270
+
+**351**
+
+लघुस्थाने गुरुर्ज्ञेयः शेषं तु लघुमेरुवत्
+
+*laghusthāne gururjñeyaḥ śeṣaṃ tu laghumeruvat*
+
+> ⚠ source numbering anomaly: found 351, expected 270
+
+**352**
+
+इति गुरुमेरुः  
+प्लुतमेरावधःपङ्क्तेः पञ्चकोष्ठोनिता परा  
+तत्पराः स्वस्वपूर्वान्ताः षट्षट्कोष्ठोनिता मताः
+
+*iti gurumeruḥ plutamerāvadhaḥpaṅkteḥ pañcakoṣṭhonitā parā tatparāḥ svasvapūrvāntāḥ ṣaṭṣaṭkoṣṭhonitā matāḥ*
+
+> ⚠ source numbering anomaly: found 352, expected 270
+
+**353**
+
+अधःपङ्क्तौ तु षष्ठाङ्कस्थाने तुर्यं नियोजयेत्  
+त्रियोगोऽयमधः षष्ठयुक्तः स्यात्परपङ्क्तिषु
+
+*adhaḥpaṅktau tu ṣaṣṭhāṅkasthāne turyaṃ niyojayet triyogo'yamadhaḥ ṣaṣṭhayuktaḥ syātparapaṅktiṣu*
+
+> ⚠ source numbering anomaly: found 353, expected 270
+
+**354**
+
+प्लुतो ज्ञेयो गुरुस्थाने शेषं तु गुरुमेरुवत्
+
+*pluto jñeyo gurusthāne śeṣaṃ tu gurumeruvat*
+
+> ⚠ source numbering anomaly: found 354, expected 270
+
 **1** · _patakshara_
 
 इति प्लुतमेरुः
@@ -2107,3 +2879,433 @@ Verses: **275**
 *iti plutameruḥ*
 
 > ⚠ patakshara entry, numbered in a local series
+
+**355**
+
+इति प्लुतमेरुकोष्ठकम्  
+इति प्लुतमेरुः  
+संयोगमेरावूर्ध्वाः स्युश्चतस्रः कोष्ठपङ्क्तयः  
+इष्टतालद्रुतमितैः कोष्ठैर्युक्तास्ततः परे
+
+*iti plutamerukoṣṭhakam iti plutameruḥ saṃyogamerāvūrdhvāḥ syuścatasraḥ koṣṭhapaṅktayaḥ iṣṭatāladrutamitaiḥ koṣṭhairyuktāstataḥ*
+
+> svara illustration: `परे`
+
+> ⚠ source numbering anomaly: found 355, expected 270
+
+**356**
+
+द्वे पङ्क्ती स्वस्वपूर्वातो द्विद्विकोष्ठोनिते ततः  
+द्वे षष्ठ्या एककोष्ठोने ततस्तिस्रोऽष्टमावलेः
+
+*dve paṅktī svasvapūrvāto dvidvikoṣṭhonite tataḥ dve ṣaṣṭhyā ekakoṣṭhone tatastisro'ṣṭamāvaleḥ*
+
+> ⚠ source numbering anomaly: found 356, expected 270
+
+**357**
+
+एककोष्ठोनिताः पश्चाद्द्विद्विकोष्ठोनिते परे  
+पङ्क्तिभ्यां स्वस्वपूर्वाभ्यां तथैकैकोनिते परे
+
+*ekakoṣṭhonitāḥ paścāddvidvikoṣṭhonite pare paṅktibhyāṃ svasvapūrvābhyāṃ tathaikaikonite*
+
+> svara illustration: `परे`
+
+> ⚠ source numbering anomaly: found 357, expected 270
+
+**358**
+
+आद्यासु चतसृष्वासां क्रमेण सकलद्रुताः  
+समस्तलघवः सर्वगुरवः सकलप्लुताः
+
+*ādyāsu catasṛṣvāsāṃ krameṇa sakaladrutāḥ samastalaghavaḥ sarvaguravaḥ sakalaplutāḥ*
+
+> ⚠ source numbering anomaly: found 358, expected 270
+
+**359**
+
+एकाङ्कयुक्तनिःशेषकोष्ठाऽऽद्या स्यात्परा पुनः  
+खयुक्तैर्विषमैः कोष्ठैः समैस्त्वेकाङ्कसंयुतैः
+
+*ekāṅkayuktaniḥśeṣakoṣṭhā''dyā syātparā punaḥ khayuktairviṣamaiḥ koṣṭhaiḥ samaistvekāṅkasaṃyutaiḥ*
+
+> ⚠ source numbering anomaly: found 359, expected 270
+
+**360**
+
+कर्तव्या गुरुपङ्क्तेस्तु त्रयः कोष्ठा न भोन्विताः  
+तुर्य एकाङ्कवानेवं चतुष्कोष्ठ्योः परा अपि
+
+*kartavyā gurupaṅktestu trayaḥ koṣṭhā na bhonvitāḥ turya ekāṅkavānevaṃ catuṣkoṣṭhyoḥ parā api*
+
+> ⚠ source numbering anomaly: found 360, expected 270
+
+**361**
+
+प्लुतपङ्क्तौ सशून्याः स्युः पञ्च षष्ठस्तु रूपवान्  
+षट्कोष्ठ्यस्तद्वदन्याः स्युः षट्सु पङ्क्तिष्वनन्तरम्
+
+*plutapaṅktau saśūnyāḥ syuḥ pañca ṣaṣṭhastu rūpavān ṣaṭkoṣṭhyastadvadanyāḥ syuḥ ṣaṭsu paṅktiṣvanantaram*
+
+> ⚠ source numbering anomaly: found 361, expected 270
+
+**362**
+
+द्वियोगजाः क्रमाद्भेदादलघू दगुरू दपौ  
+लगौ लपौ गपौ चेति तदङ्क्तप्रक्रिया त्वियम्
+
+*dviyogajāḥ kramādbhedādalaghū dagurū dapau lagau lapau gapau ceti tadaṅktaprakriyā tviyam*
+
+> ⚠ source numbering anomaly: found 362, expected 270
+
+**363**
+
+अत्रोपरिष्टादारभ्य स्यादधोऽधोऽङ्कलेखनम्  
+अन्त्यपूर्वद्वितीयाङ्कतुर्यषष्ठास्तथा क्रमात्
+
+*atropariṣṭādārabhya syādadho'dho'ṅkalekhanam antyapūrvadvitīyāṅkaturyaṣaṣṭhāstathā kramāt*
+
+> ⚠ source numbering anomaly: found 363, expected 270
+
+**364**
+
+योज्या दलगपेषु स्युस्तेषु यद्योगजा भिदाः  
+पङ्क्तौ तदङ्कयोगाङ्कं तत्कोष्ठे संभवाल्लिँखेत्
+
+*yojyā dalagapeṣu syusteṣu yadyogajā bhidāḥ paṅktau tadaṅkayogāṅkaṃ tatkoṣṭhe saṃbhavālli~khet*
+
+> ⚠ source numbering anomaly: found 364, expected 270
+
+**365**
+
+लेख्यपङ्क्त्युपरिश्रेणी या तिरश्ची तदाश्रिताः
+
+*lekhyapaṅktyupariśreṇī yā tiraścī tadāśritāḥ*
+
+> ⚠ source numbering anomaly: found 365, expected 270
+
+**366**
+
+अङ्का दलगपानां स्युराद्यपङ्क्तिचतुष्टये  
+तेषु प्रस्तुतभेदस्थद्रुतादिव्यक्तिसंश्रितान्
+
+*aṅkā dalagapānāṃ syurādyapaṅkticatuṣṭaye teṣu prastutabhedasthadrutādivyaktisaṃśritān*
+
+> ⚠ source numbering anomaly: found 366, expected 270
+
+**367**
+
+अङ्कान्गृह्णीत तेऽप्यन्त्यद्वितीयाद्या द्रुतादिषु  
+प्रस्तुतेषु विपर्यस्ताः स्युरङ्कासंभवे तु खम्
+
+*aṅkāngṛhṇīta te'pyantyadvitīyādyā drutādiṣu prastuteṣu viparyastāḥ syuraṅkāsaṃbhave tu kham*
+
+> ⚠ source numbering anomaly: found 367, expected 270
+
+**368**
+
+त्रियोगजाश्च ये भेदाश्चतुर्योगभवश्च यः  
+तत्पङ्क्तीनामपि ज्ञेयमेवमेवाङ्कपूरणम्
+
+*triyogajāśca ye bhedāścaturyogabhavaśca yaḥ tatpaṅktīnāmapi jñeyamevamevāṅkapūraṇam*
+
+> ⚠ source numbering anomaly: found 368, expected 270
+
+**369**
+
+किंतु त्रियोगजे भेदे ये त्रयः स्युर्द्वियोगजाः  
+तेषां संनिहिताद्यानां प्रागुक्तोऽङ्कविपर्ययः
+
+*kiṃtu triyogaje bhede ye trayaḥ syurdviyogajāḥ teṣāṃ saṃnihitādyānāṃ prāgukto'ṅkaviparyayaḥ*
+
+> ⚠ source numbering anomaly: found 369, expected 270
+
+**370**
+
+चतुर्योगे तु चत्वारो ये स्युर्भेदास्त्रियोगजाः  
+तदङ्केष्वेव पूर्वोक्तं स्याद्विपर्यासयोजनम्
+
+*caturyoge tu catvāro ye syurbhedāstriyogajāḥ tadaṅkeṣveva pūrvoktaṃ syādviparyāsayojanam*
+
+> ⚠ source numbering anomaly: found 370, expected 270
+
+**371**
+
+ये चत्वारस्त्रियोगोत्थाश्चतुर्योगोत्थपञ्चमाः  
+भेदास्ते पङ्क्तिषु ज्ञेयाः क्रमादन्त्यासु पङ्क्तिषु
+
+*ye catvārastriyogotthāścaturyogotthapañcamāḥ bhedāste paṅktiṣu jñeyāḥ kramādantyāsu paṅktiṣu*
+
+> ⚠ source numbering anomaly: found 371, expected 270
+
+**372**
+
+दलगा दलपाश्चैव दगपा लगपाः क्रमात्  
+त्रियोगजाश्चतुर्योगोद्भवा दलगपा इति
+
+*dalagā dalapāścaiva dagapā lagapāḥ kramāt triyogajāścaturyogodbhavā dalagapā iti*
+
+> ⚠ source numbering anomaly: found 372, expected 270
+
+**374**
+
+तिर्यक्पङ्क्तिस्थकोष्ठाङ्कैस्तैस्तैः सर्वद्रुतादयः  
+ऊर्ध्वपङ्क्तिगता मेयास्तदभावस्तु शून्यतः
+
+*tiryakpaṅktisthakoṣṭhāṅkaistaistaiḥ sarvadrutādayaḥ ūrdhvapaṅktigatā meyāstadabhāvastu śūnyataḥ*
+
+> ⚠ source numbering anomaly: found 374, expected 270
+
+**375**
+
+तावद्द्रुतोऽत्र तालः स्यात्पङ्क्तिर्यावतिथी तिरः  
+उपरिष्ठात्समारभ्य संख्या पङ्क्त्यङ्कसंगतेः
+
+*tāvaddruto'tra tālaḥ syātpaṅktiryāvatithī tiraḥ upariṣṭhātsamārabhya saṃkhyā paṅktyaṅkasaṃgateḥ*
+
+> ⚠ source numbering anomaly: found 375, expected 270
+
+**376**
+
+इति संयोगमेरुः  
+द्रुतहीनादयो भेदोद्धारा ये मेरुबोधिताः  
+सर्वप्रस्तारवत्तेषां प्रस्तारः किं तु तेषु यः  
+द्रुतादिनियमः सोऽत्र न भङ्क्तव्यः प्रयत्नतः
+
+*iti saṃyogameruḥ drutahīnādayo bhedoddhārā ye merubodhitāḥ sarvaprastāravatteṣāṃ prastāraḥ kiṃ tu teṣu yaḥ drutādiniyamaḥ so'tra na bhaṅktavyaḥ prayatnataḥ*
+
+> ⚠ source numbering anomaly: found 376, expected 270
+
+**377**
+
+इति खण्डप्रस्तारः  
+संख्यैषा मेरुकोष्ठाङ्काद्यस्मात्पूर्वोक्तरीतितः
+
+*iti khaṇḍaprastāraḥ saṃkhyaiṣā merukoṣṭhāṅkādyasmātpūrvoktarītitaḥ*
+
+> ⚠ source numbering anomaly: found 377, expected 270
+
+**378**
+
+लभ्यते तत्र नष्टाङ्कं पातयेदथ शेषतः  
+तृतीयपञ्चमोपान्त्यावपाते लभ्यते लघुः
+
+*labhyate tatra naṣṭāṅkaṃ pātayedatha śeṣataḥ tṛtīyapañcamopāntyāvapāte labhyate laghuḥ*
+
+> ⚠ source numbering anomaly: found 378, expected 270
+
+**379**
+
+परो यद्यकृतार्थः स्यात्सह तेनाथ चेदुभौ  
+अकृतार्थौ ततस्ताभ्यां स्वं विनैवैष लभ्यते  
+परे कृतार्थे ग्राह्यः स्यादकृतार्थः पुरातनः
+
+*paro yadyakṛtārthaḥ syātsaha tenātha cedubhau akṛtārthau tatastābhyāṃ svaṃ vinaivaiṣa labhyate pare kṛtārthe grāhyaḥ syādakṛtārthaḥ purātanaḥ*
+
+> ⚠ source numbering anomaly: found 379, expected 270
+
+**380**
+
+पतिताद्गुरुलाभः स्यात्सह प्राचा तदा परा  
+चतुरङ्की निवर्तेत पतिते पञ्चमेऽप्यथ  
+गुरुः प्लुती भवेत्प्राचा सह चैषा निवर्तते
+
+*patitādgurulābhaḥ syātsaha prācā tadā parā caturaṅkī nivarteta patite pañcame'pyatha guruḥ plutī bhavetprācā saha caiṣā nivartate*
+
+> ⚠ source numbering anomaly: found 380, expected 270
+
+**381**
+
+रूपाप्तौ प्रापकाङ्केभ्यः शेषेष्वेष पुनर्विधिः  
+गुरुलाभे त्वपातार्हः पञ्चमः शेषतां व्रजेत्
+
+*rūpāptau prāpakāṅkebhyaḥ śeṣeṣveṣa punarvidhiḥ gurulābhe tvapātārhaḥ pañcamaḥ śeṣatāṃ vrajet*
+
+> ⚠ source numbering anomaly: found 381, expected 270
+
+**383**
+
+इति नष्टम्  
+इति मेरोरधःपङ्क्तिसमकोष्ठनष्टम् ।  
+उद्दिष्टे तु गुरोर्लभ्यस्तृतीयोऽन्त्यात्पुरातनः  
+प्राग्वच्चतुर्निवृत्तिः स्यात्तृतीयः पञ्चमस्तथा
+
+*iti naṣṭam iti meroradhaḥpaṅktisamakoṣṭhanaṣṭam | uddiṣṭe tu gurorlabhyastṛtīyo'ntyātpurātanaḥ prāgvaccaturnivṛttiḥ syāttṛtīyaḥ pañcamastathā*
+
+> ⚠ source numbering anomaly: found 383, expected 270
+
+**384**
+
+प्लुतालाप्यो निवृत्तिस्तु षण्णामथ पुनर्विधिः  
+लघोरङ्को न लभ्येत निवृत्तिस्त्वङ्कयोर्द्वयोः  
+लब्धाङ्कयोगहीनेऽन्त्ये शेषादुद्दिष्टबोधनम्
+
+*plutālāpyo nivṛttistu ṣaṇṇāmatha punarvidhiḥ laghoraṅko na labhyeta nivṛttistvaṅkayordvayoḥ labdhāṅkayogahīne'ntye śeṣāduddiṣṭabodhanam*
+
+> ⚠ source numbering anomaly: found 384, expected 270
+
+**387**
+
+इत्युद्दिष्टम्  
+इति द्रुतमेर्वधःपङ्क्तिसमकोष्ठोद्दिष्टम्  
+समस्तनष्टवन्नष्टं विषमे कोष्ठके भवेत्  
+द्रुते लब्धे ततः पूर्वैरङ्कैः स्यात्समकोष्ठनष्टम् ।  
+इति द्रुतमेर्वधःपङ्क्तिविषमकोष्ठनष्टम् ।  
+कोष्ठे समोर्ध्वपङ्क्तिस्थे परासामधिको भवेत्  
+द्वितीयाधस्तनः पात्यस्तत्र त्वपतिता द्रुताः  
+पतिताल्लः पात्यपातानन्तर्योऽल्पो महान्भवेत्
+
+*ityuddiṣṭam iti drutamervadhaḥpaṅktisamakoṣṭhoddiṣṭam samastanaṣṭavannaṣṭaṃ viṣame koṣṭhake bhavet drute labdhe tataḥ pūrvairaṅkaiḥ syātsamakoṣṭhanaṣṭam | iti drutamervadhaḥpaṅktiviṣamakoṣṭhanaṣṭam | koṣṭhe samordhvapaṅktisthe parāsāmadhiko bhavet dvitīyādhastanaḥ pātyastatra tvapatitā drutāḥ patitāllaḥ pātyapātānantaryo'lpo mahānbhavet*
+
+> ⚠ source numbering anomaly: found 387, expected 270
+
+**389**
+
+अधःसमवदन्यत्स्यान्निवृत्तौ तु पुनर्विधिः  
+यस्मात्स यस्यामूर्ध्वायां पङ्क्तौ सा विषमा यदि
+
+*adhaḥsamavadanyatsyānnivṛttau tu punarvidhiḥ yasmātsa yasyāmūrdhvāyāṃ paṅktau sā viṣamā yadi*
+
+> ⚠ source numbering anomaly: found 389, expected 270
+
+**390**
+
+विधिर्विषमकोष्ठोक्तः समा चेत्तदयं मतः  
+विषमोर्ध्वश्रेणिसंस्थे कोष्ठेऽधोविषमोदितः
+
+*vidhirviṣamakoṣṭhoktaḥ samā cettadayaṃ mataḥ viṣamordhvaśreṇisaṃsthe koṣṭhe'dhoviṣamoditaḥ*
+
+> ⚠ source numbering anomaly: found 390, expected 270
+
+**391**
+
+इति परपङ्क्तिनष्टम्  
+इति द्रुतमेरुपरपङ्क्तिनष्टम् ।  
+यैरङ्कैः पतितैर्नष्टं लभ्यन्ते ये प्लुतादयः  
+तेभ्य उद्दिष्टसंस्थेभ्यस्तदङ्कावाप्तिरिष्यते
+
+*iti parapaṅktinaṣṭam iti drutameruparapaṅktinaṣṭam | yairaṅkaiḥ patitairnaṣṭaṃ labhyante ye plutādayaḥ tebhya uddiṣṭasaṃsthebhyastadaṅkāvāptiriṣyate*
+
+> ⚠ source numbering anomaly: found 391, expected 270
+
+**392**
+
+द्रुतहीनाद्यकोष्ठासु पङ्क्तिषूर्ध्वासु यो लघुः  
+तस्मादुद्दिष्टरूपस्थान्नाङ्कः कश्चिदवाप्यते  
+लब्धाङ्कन्यूनितान्त्याङ्कशेषादुद्दिष्टवेदनम्
+
+*drutahīnādyakoṣṭhāsu paṅktiṣūrdhvāsu yo laghuḥ tasmāduddiṣṭarūpasthānnāṅkaḥ kaścidavāpyate labdhāṅkanyūnitāntyāṅkaśeṣāduddiṣṭavedanam*
+
+> ⚠ source numbering anomaly: found 392, expected 270
+
+**393**
+
+इति परपङ्क्त्युद्दिष्टम्  
+इति द्रुतमेरुपरपङ्क्त्युद्दिष्टम्  
+लघुमेरावधःपङ्क्तेर्नष्टाङ्केनान्त्यशेषतः  
+पूर्वेषां पात्यमानानामपाते पूर्ववद्द्रुतः
+
+*iti parapaṅktyuddiṣṭam iti drutameruparapaṅktyuddiṣṭam laghumerāvadhaḥpaṅkternaṣṭāṅkenāntyaśeṣataḥ pūrveṣāṃ pātyamānānāmapāte pūrvavaddrutaḥ*
+
+> ⚠ source numbering anomaly: found 393, expected 270
+
+**394**
+
+पतितात्सह पूर्वाभ्यां परेण च गुरुर्भवेत्  
+पतिते वृत्तगुर्वङ्कानन्तरे गः प्लुती भवेत्  
+एवं नष्टस्य बोधः स्यादित्युक्तं सूरिशार्ङ्गिणा
+
+*patitātsaha pūrvābhyāṃ pareṇa ca gururbhavet patite vṛttagurvaṅkānantare gaḥ plutī bhavet evaṃ naṣṭasya bodhaḥ syādityuktaṃ sūriśārṅgiṇā*
+
+> ⚠ source numbering anomaly: found 394, expected 270
+
+**395**
+
+इति लघुमेर्वधःपङ्क्तिनष्टम्  
+नष्टे तु परपङ्क्तीनां पातयेत्प्रातिलोम्यतः  
+द्वितीयं च तृतीयाधस्तनमङ्कं च पञ्चमम्
+
+*iti laghumervadhaḥpaṅktinaṣṭam naṣṭe tu parapaṅktīnāṃ pātayetprātilomyataḥ dvitīyaṃ ca tṛtīyādhastanamaṅkaṃ ca pañcamam*
+
+> ⚠ source numbering anomaly: found 395, expected 270
+
+**396**
+
+परेषु च निवृत्तेषु शेषेष्वेष पुनर्विधिः  
+समस्तनष्टवच्चात्र द्रुतादेः प्राप्तिरिष्यते
+
+*pareṣu ca nivṛtteṣu śeṣeṣveṣa punarvidhiḥ samastanaṣṭavaccātra drutādeḥ prāptiriṣyate*
+
+> ⚠ source numbering anomaly: found 396, expected 270
+
+**397**
+
+किं तु लब्धे लघौ शेषेष्वाद्याधस्तनतः क्रिया  
+सोऽधस्तनः स्वपङ्किस्थविधिमेवं प्रवर्तयेत्
+
+*kiṃ tu labdhe laghau śeṣeṣvādyādhastanataḥ kriyā so'dhastanaḥ svapaṅkisthavidhimevaṃ pravartayet*
+
+> ⚠ source numbering anomaly: found 397, expected 270
+
+**298**
+
+शेषाङ्काश्रितपङ्क्त्यङ्काभावे तु लघवो मताः  
+अधस्तनश्रेणिसंख्या नष्टस्यैष विधिः स्मृतः
+
+*śeṣāṅkāśritapaṅktyaṅkābhāve tu laghavo matāḥ adhastanaśreṇisaṃkhyā naṣṭasyaiṣa vidhiḥ smṛtaḥ*
+
+> ⚠ source numbering anomaly: found 298, expected 270
+
+**400**
+
+इति लघुमेर्नष्टम् ।  
+इति लघुमेरुपरपङ्क्तिनष्टम्  
+गुरुमेरोरधःपङ्क्तौ नष्टं सकलनष्टवत्  
+प्लुतलाभस्तु गुरुवत्  
+तृतीयाधस्तनस्थाने तृतीयोऽङ्कोऽत्र पात्यते  
+स्थाने तु पञ्चमस्याधः पञ्चमो लघुवद्गुरौ  
+लब्धेऽधोव्रजनं शेषाल्लघुवद्गुरुलम्भनम्
+
+*iti laghumernaṣṭam | iti laghumeruparapaṅktinaṣṭam gurumeroradhaḥpaṅktau naṣṭaṃ sakalanaṣṭavat plutalābhastu guruvat tṛtīyādhastanasthāne tṛtīyo'ṅko'tra pātyate sthāne tu pañcamasyādhaḥ pañcamo laghuvadgurau labdhe'dhovrajanaṃ śeṣāllaghuvadgurulambhanam*
+
+> ⚠ source numbering anomaly: found 400, expected 270
+
+**402**
+
+इति गुरुमेरुनष्टम्  
+इति गुरुमेरुपरपङ्क्तिनष्टम्  
+समस्तनष्टवन्नष्टं प्लुतमेरावुदाहृतम्  
+विशेषः कथ्यते त्वेष द्वितीयादिषु पङ्क्तिषु
+
+*iti gurumerunaṣṭam iti gurumeruparapaṅktinaṣṭam samastanaṣṭavannaṣṭaṃ plutamerāvudāhṛtam viśeṣaḥ kathyate tveṣa dvitīyādiṣu paṅktiṣu*
+
+> ⚠ source numbering anomaly: found 402, expected 270
+
+**403**
+
+अधो गच्छेत्प्लुते पूर्णे गुरुमेरौ गुराविव  
+द्रुतो लघुर्गुरुर्वाऽन्त्यैरङ्कैर्लब्धः प्लुती भवेत्
+
+*adho gacchetplute pūrṇe gurumerau gurāviva druto laghurgururvā'ntyairaṅkairlabdhaḥ plutī bhavet*
+
+> ⚠ source numbering anomaly: found 403, expected 270
+
+**404**
+
+तदङ्काधस्तनैः सार्धमङ्कषट्कमतीत्य च  
+अधःपङ्क्तौ स्थितैरङ्कैः शेषैरेष पुनर्विधिः  
+पङ्क्तौ तु प्लुतहीनायां नान्तिमः प्लुततां व्रजेत्
+
+*tadaṅkādhastanaiḥ sārdhamaṅkaṣaṭkamatītya ca adhaḥpaṅktau sthitairaṅkaiḥ śeṣaireṣa punarvidhiḥ paṅktau tu plutahīnāyāṃ nāntimaḥ plutatāṃ vrajet*
+
+> ⚠ source numbering anomaly: found 404, expected 270
+
+**405**
+
+इति प्लुतमेरुनष्टम् ।  
+इति प्लुतमेरुपर्पङ्क्तिनष्टम्  
+सर्वोद्दिष्टवदुद्दिष्टं लघुमेर्वादिषु त्रिषु
+
+*iti plutamerunaṣṭam | iti plutameruparpaṅktinaṣṭam sarvoddiṣṭavaduddiṣṭaṃ laghumervādiṣu triṣu*
+
+> ⚠ source numbering anomaly: found 405, expected 270

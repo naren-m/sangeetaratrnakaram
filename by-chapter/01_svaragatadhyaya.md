@@ -2,7 +2,7 @@
 
 *Sāṅgītaratnākara of Śārṅgadeva — Sanskrit Wikisource (CC-BY-SA), retrieved 2026-08-17.*
 
-Verses: **575**
+Verses: **604**
 
 ---
 
@@ -1655,7 +1655,9 @@ Verses: **575**
 एकश्रुत्यपकृष्टाः स्युरेवमन्याऽपि सारणा ।  
 श्रुतिद्वयलयादस्यां चलवीणागतौ गनी
 
-*ekaśrutyapakṛṣṭāḥ syurevamanyā'pi sāraṇā | śrutidvayalayādasyāṃ calavīṇāgatau ganī*
+*ekaśrutyapakṛṣṭāḥ syurevamanyā'pi sāraṇā | śrutidvayalayādasyāṃ calavīṇāgatau*
+
+> svara illustration: `गनी`
 
 **20**
 
@@ -2779,6 +2781,15 @@ Verses: **575**
 
 *niṣkarṣasyaiva bhedau dvau kecidetau babhāṣire | plutaṃ hrasvaṃ plutaṃ hrasvaṃ plutaṃ hrasvaṃ plutaṃ svaram*
 
+**3**
+
+कुर्वन्क्रमाद्यदारोहेत्तदा विन्दुरर्यं मतः ।  
+स
+
+*kurvankramādyadārohettadā vinduraryaṃ mataḥ | sa*
+
+> ⚠ source numbering anomaly: found 3, expected 19
+
 **19**
 
 एकान्तरस्वरारोहमाहुरभ्युच्चयं बुधाः
@@ -2813,11 +2824,34 @@ Verses: **575**
 
 *trisvarādyā kalānye ca pūrvapūrvānitmādime | kale stastrisvare yatra sandhipracchādanastu saḥ*
 
+**9**
+
+यदाद्याद्यस्त्रिरावृत्तः कलयोस्त्रिस्वरात्मनोः ।  
+तदोद्गीतः  
+सससरिग मममपध ।
+
+*yadādyādyastrirāvṛttaḥ kalayostrisvarātmanoḥ | tadodgītaḥ*
+
+> svara illustration: `सससरिग मममपध`
+
+> ⚠ source numbering anomaly: found 9, expected 24
+
 **24**
 
 मध्यमेन तादृशोद्वाहितो मतः
 
 *madhyamena tādṛśodvāhito mataḥ*
+
+**11**
+
+अन्त्यस्य तु त्रिरावृत्तौ त्रिवर्णं वर्णयन्त्यमुम् ।  
+सरिगगग मपधधध ।
+
+*antyasya tu trirāvṛttau trivarṇaṃ varṇayantyamum*
+
+> svara illustration: `सरिगगग मपधधध`
+
+> ⚠ source numbering anomaly: found 11, expected 25
 
 **25**
 
@@ -2913,6 +2947,17 @@ Verses: **575**
 
 *trisvarāścetkalāḥ pūrvapūrvatyāgordhvasaṃkraiḥ | tadā''kṣepaḥ atha binduḥ sa yatra plutamadhaḥ svaram*
 
+**3**
+
+कृत्वाग्निवत्परं स्पृष्ट्वाधः स्पर्शेनाखिलाः कलाः ।  
+स
+
+*kṛtvāgnivatparaṃ spṛṣṭvādhaḥ sparśenākhilāḥ kalāḥ*
+
+> svara illustration: `स`
+
+> ⚠ source numbering anomaly: found 3, expected 38
+
 **38**
 
 कलायां त्रीन्स्वरान्गीत्वाऽवरुह्यैकं पराः कलाः
@@ -2924,6 +2969,18 @@ Verses: **575**
 मूर्च्छनादेः स्वरात्तुर्यं प्लुतीकृत्याद्यमेत्य च
 
 *mūrcchanādeḥ svarātturyaṃ plutīkṛtyādyametya ca*
+
+**3**
+
+तुर्यगाने कलैकैकहानाद्यत्रापरास्तथा ।  
+स ऊर्मिः स्यात्  
+सम
+
+*turyagāne kalaikaikahānādyatrāparāstathā | sa ūrmiḥ syāt*
+
+> svara illustration: `सम`
+
+> ⚠ source numbering anomaly: found 3, expected 40
 
 **41**
 
@@ -3524,6 +3581,17 @@ Verses: **575**
 
 *māgadhī saṃbhāvitā ca pṛthuleti kramādimāḥ | naiṣkrāmikadhruvāyāṃ ca prathame prekṣaṇe smṛtaḥ*
 
+**1**
+
+विनियोगो द्वादशात्र कला अष्टलघुः कला ।  
+अस्यां षाड्ज्यां षड्जो न्यासः । गान्धारपञ्चमावपन्यासौ ।  
+वराटी दृश्यते । अस्याः प्रस्तारः  
+षाड्जी
+
+*viniyogo dvādaśātra kalā aṣṭalaghuḥ kalā | asyāṃ ṣāḍjyāṃ ṣaḍjo nyāsaḥ | gāndhārapañcamāvapanyāsau | varāṭī dṛśyate | asyāḥ prastāraḥ ṣāḍjī*
+
+> ⚠ source numbering anomaly: found 1, expected 64
+
 **64**
 
 तं भवललाटनयनाम्बुजाधिकं नगसूनुप्रणयकेलिसमुद्भवम् ।  
@@ -3545,6 +3613,15 @@ Verses: **575**
 अष्टौ कला भवन्तीह विनियोगस्तु पूर्ववत्
 
 *mūrcchanā pañcamādiśca tālaścaccatpuṭo mataḥ | aṣṭau kalā bhavantīha viniyogastu pūrvavat*
+
+**2**
+
+अस्यामार्षभ्यामृषभो न्यासः । अंशा एवापन्यासाः । देशोमधुकयौ  
+दृश्येते । अस्याः प्रस्तारः
+
+*asyāmārṣabhyāmṛṣabho nyāsaḥ | aṃśā evāpanyāsāḥ | deśomadhukayau dṛśyete | asyāḥ prastāraḥ*
+
+> ⚠ source numbering anomaly: found 2, expected 67
 
 **67**
 
@@ -3570,6 +3647,17 @@ Verses: **575**
 
 *aṃśā dviṣantyauḍuvitaṃ kalāḥ ṣoḍaśa kīrtitāḥ | mūrcchanā dhaivatādiḥ syāttālaścaccatpuṭo mataḥ*
 
+**3**
+
+विनियोगो ध्रुवागाने तृतीयप्रेक्षणे भवेत् ।  
+अस्यां गान्धार्यां गान्धारो न्यासः । पड्जपञ्चमावपन्यासौ ।  
+गान्धारपञ्चमदेशीवेलावल्यो दृश्यन्ते । अस्याः प्रस्तारः --  
+गान्धारी
+
+*viniyogo dhruvāgāne tṛtīyaprekṣaṇe bhavet | asyāṃ gāndhāryāṃ gāndhāro nyāsaḥ | paḍjapañcamāvapanyāsau | gāndhārapañcamadeśīvelāvalyo dṛśyante | asyāḥ prastāraḥ -- gāndhārī*
+
+> ⚠ source numbering anomaly: found 3, expected 70
+
 **70**
 
 एतं रजनिवधूमुखविभ्रमदं निशामय वरोरु  
@@ -3594,6 +3682,25 @@ Verses: **575**
 
 *ṛṣabhādirmūrcchanā syāttālaścaccatpuṭo mataḥ | viniyogo dhruvāgāne dvitīyaprekṣaṇe bhavet*
 
+**4**
+
+अस्यां मध्यमायां मध्यमो न्यासः । अंशा एवापन्यासाः ।  
+चोक्षषाडवदेश्यान्धाल्यो दृश्यन्ते । अस्याः प्रस्तारः--  
+मध्यमा
+
+*asyāṃ madhyamāyāṃ madhyamo nyāsaḥ | aṃśā evāpanyāsāḥ | cokṣaṣāḍavadeśyāndhālyo dṛśyante | asyāḥ prastāraḥ-- madhyamā*
+
+> ⚠ source numbering anomaly: found 4, expected 73
+
+**4**
+
+पातु भवमूर्धजाननकिरीटमणिदर्पणम् ।  
+गौरीकरपल्लवाङ्गुलिसुतेजितं सुकिरनम्
+
+*pātu bhavamūrdhajānanakirīṭamaṇidarpaṇam | gaurīkarapallavāṅgulisutejitaṃ sukiranam*
+
+> ⚠ source numbering anomaly: found 4, expected 73
+
 **73**
 
 रिपावंशौ तु पञ्चम्यां सगमाः स्वल्पका मताः ।  
@@ -3607,6 +3714,17 @@ Verses: **575**
 ऋषभॐऽशस्त्वौडुवितं द्वेष्ट्यष्टौ च कला मताः
 
 *kramādgena nigābhyāṃ ca ṣāḍavauḍuvatā matā | ṛṣabhaoṃ'śastvauḍuvitaṃ dveṣṭyaṣṭau ca kalā matāḥ*
+
+**5**
+
+मुर्च्छनादि तु पूर्वावत्प्रेक्षणं तु तृतीयकम् ।  
+अस्यां पञ्चम्यां पञ्चमो न्यासः । ऋषभपञ्चममिषादा  
+अपन्पासाः । चोक्षपञ्चमदेश्यान्षाल्यो दृश्यन्ते । अस्याः प्रस्तारः--  
+पञ्चमी
+
+*murcchanādi tu pūrvāvatprekṣaṇaṃ tu tṛtīyakam | asyāṃ pañcamyāṃ pañcamo nyāsaḥ | ṛṣabhapañcamamiṣādā apanpāsāḥ | cokṣapañcamadeśyānṣālyo dṛśyante | asyāḥ prastāraḥ-- pañcamī*
+
+> ⚠ source numbering anomaly: found 5, expected 75
 
 **75**
 
@@ -3622,6 +3740,17 @@ Verses: **575**
 ऋषभादिर्मूर्च्छना स्यात्तालो मार्गश्च गीतयः
 
 *palopātṣāḍavaṃ proktamauḍuvaṃ sapalopataḥ | ṛṣabhādirmūrcchanā syāttālo mārgaśca gītayaḥ*
+
+**6**
+
+विनियोगश्च षाड्जीवत्कला द्वादश कीर्तिताः ।  
+अस्यां धैवत्यां धैवतो न्यासः । ऋषभमध्यमधैवता अपन्यासाः ।  
+चोक्षकैशिकदेशीसिंहल्यो दृश्यन्ते । अस्याः प्रस्तारः--  
+धैवती
+
+*viniyogaśca ṣāḍjīvatkalā dvādaśa kīrtitāḥ | asyāṃ dhaivatyāṃ dhaivato nyāsaḥ | ṛṣabhamadhyamadhaivatā apanyāsāḥ | cokṣakaiśikadeśīsiṃhalyo dṛśyante | asyāḥ prastāraḥ-- dhaivatī*
+
+> ⚠ source numbering anomaly: found 6, expected 77
 
 **77**
 
@@ -3640,6 +3769,27 @@ Verses: **575**
 
 *ṣāḍavauḍuvalaṅghyāḥ syuḥ pūrvāvadviniyojanam | caccatpuṭaḥ ṣoḍaśātra kalā gādiśca mūrcchanā*
 
+**7**
+
+अस्यां नैषाद्यां निषादो न्यासः । अंशा एवापन्यासाः । चोक्ष-  
+साधारितदेशीवेलावल्यो दृश्यन्ते । अस्याः प्रस्तारः--  
+नैषादी
+
+*asyāṃ naiṣādyāṃ niṣādo nyāsaḥ | aṃśā evāpanyāsāḥ | cokṣa- sādhāritadeśīvelāvalyo dṛśyante | asyāḥ prastāraḥ-- naiṣādī*
+
+> ⚠ source numbering anomaly: found 7, expected 79
+
+**7**
+
+तं सुरवन्दितमहिषमहासुरमथनमुमापतिं भोगयुतं  
+नगसुतकामिनीदिव्यविशेषकसूचकशुभनखदर्पणकम् ।  
+अहिमुखमणिखचितोज्ज्वलनूपुरबालभुजंगमरवकलितं  
+द्रुतमभिव्रजामि शरणमनिन्दितपादयुगपङ्कजविलासम्
+
+*taṃ suravanditamahiṣamahāsuramathanamumāpatiṃ bhogayutaṃ nagasutakāminīdivyaviśeṣakasūcakaśubhanakhadarpaṇakam | ahimukhamaṇikhacitojjvalanūpurabālabhujaṃgamaravakalitaṃ drutamabhivrajāmi śaraṇamaninditapādayugapaṅkajavilāsam*
+
+> ⚠ source numbering anomaly: found 7, expected 79
+
 **79**
 
 अंशाः स्युः षड्जकैशिक्यां षड्जगान्धारपञ्चमाः ।  
@@ -3653,6 +3803,18 @@ Verses: **575**
 प्रावेशिक्यां ध्रुवायां स्यात्प्रेक्षणे तु द्वितीयके
 
 *caccatpuṭaḥ ṣoḍaśāsyāṃ kalāḥ syurviniyojanam | prāveśikyāṃ dhruvāyāṃ syātprekṣaṇe tu dvitīyake*
+
+**0**
+
+अस्यां षड्जकैशिक्यां गान्धारो न्यासः । षड्जनिषादपञ्चमा  
+अपन्यासाः । प्रागुक्ता गान्धारपञ्चमहिन्दोलकदेशीवेलावल्यो दृश्यन्ते ।  
+अस्याः प्रस्तारः --  
+षड्जकैशिकी  
+दे
+
+*asyāṃ ṣaḍjakaiśikyāṃ gāndhāro nyāsaḥ | ṣaḍjaniṣādapañcamā apanyāsāḥ | prāguktā gāndhārapañcamahindolakadeśīvelāvalyo dṛśyante | asyāḥ prastāraḥ -- ṣaḍjakaiśikī de*
+
+> ⚠ source numbering anomaly: found 0, expected 81
 
 **81**
 
@@ -3678,6 +3840,16 @@ Verses: **575**
 द्वितीये प्रेक्षणे गाने ध्रुवायां विनियोजनम्
 
 *ṣāḍjīvadgītitālādi gāndhārādiśca mūrcchanā | dvitīye prekṣaṇe gāne dhruvāyāṃ viniyojanam*
+
+**9**
+
+अस्यां षड्जोदीच्यवायां मध्यमो न्यासः । षड्जधैवतावपन्यासौ ।  
+अस्याः प्रस्तारः--  
+षड्जोदीच्यवा
+
+*asyāṃ ṣaḍjodīcyavāyāṃ madhyamo nyāsaḥ | ṣaḍjadhaivatāvapanyāsau | asyāḥ prastāraḥ-- ṣaḍjodīcyavā*
+
+> ⚠ source numbering anomaly: found 9, expected 84
 
 **84**
 
@@ -3710,6 +3882,25 @@ Verses: **575**
 
 *ṣāḍavauḍuvayoḥ syātāṃ diśrutī tu virodhinau | gītitālakalā''dīni ṣāḍjīvanmūrcchanā punaḥ*
 
+**10**
+
+मध्यमादिरिह ज्ञेया पूर्वावद्विनियोजनम् ।  
+अस्यां षड्जमध्यमायां षड्जमध्यमौ न्यासौ । सप्त स्वरा  
+अपन्यासाः । अस्याः प्रस्तारः--  
+षड्जमघ्यमा
+
+*madhyamādiriha jñeyā pūrvāvadviniyojanam | asyāṃ ṣaḍjamadhyamāyāṃ ṣaḍjamadhyamau nyāsau | sapta svarā apanyāsāḥ | asyāḥ prastāraḥ-- ṣaḍjamaghyamā*
+
+> ⚠ source numbering anomaly: found 10, expected 88
+
+**7**
+
+मां मां मंगंमं मंधं धंपं पंधं पंमं गंमंगं
+
+*māṃ māṃ maṃgaṃmaṃ maṃdhaṃ dhaṃpaṃ paṃdhaṃ paṃmaṃ gaṃmaṃgaṃ*
+
+> ⚠ source numbering anomaly: found 7, expected 88
+
 **88**
 
 रजनिवधूमुखविलासलोचनं  
@@ -3733,6 +3924,17 @@ Verses: **575**
 तालश्चच्चत्पुटो ज्ञेयः कलाः षोडश कीर्तिताः
 
 *ridhayoḥ saṃgatirjñeyā dhaivatādiśca mūrcchanā | tālaścaccatpuṭo jñeyaḥ kalāḥ ṣoḍaśa kīrtitāḥ*
+
+**11**
+
+विनियोगो ध्रुवागाने चतुर्थप्रेक्षणे मतः ।  
+अस्यां गान्धारोदीच्यवायां मध्यमो न्यासः । षड्जधैवताव-  
+पन्यासौ । अस्याः प्रस्तारः--  
+गान्धारोदीच्यवा
+
+*viniyogo dhruvāgāne caturthaprekṣaṇe mataḥ | asyāṃ gāndhārodīcyavāyāṃ madhyamo nyāsaḥ | ṣaḍjadhaivatāva- panyāsau | asyāḥ prastāraḥ-- gāndhārodīcyavā*
+
+> ⚠ source numbering anomaly: found 11, expected 91
 
 **91**
 
@@ -3765,6 +3967,16 @@ Verses: **575**
 
 *pañcapāṇyādi ṣāḍjīvadṛṣabhādistu mūrcchanā | tṛtīyaprekṣaṇagatadhruvāyāṃ viniyojanam*
 
+**12**
+
+अस्यां रक्तगान्धार्यां गान्धारो न्यासः । मध्यमोऽपन्यासः । अस्याः  
+प्रस्तारः  
+रक्तगान्धारी
+
+*asyāṃ raktagāndhāryāṃ gāndhāro nyāsaḥ | madhyamo'panyāsaḥ | asyāḥ prastāraḥ raktagāndhārī*
+
+> ⚠ source numbering anomaly: found 12, expected 95
+
 **95**
 
 तं बालरजनिकरतिलकभूषणविभूतिम् ।  
@@ -3795,6 +4007,16 @@ Verses: **575**
 
 *ṣāḍjīvatpañcapāṇyādi gāndhārādistu murcchanā | pañcamaprekṣaṇagatadhruvāyāṃ viniyojanam*
 
+**13**
+
+अस्यां कैशिक्यां गान्धारपञ्चमनिषादा न्यासाः । रिवर्ज्याः षट्  
+सप्त वा स्वरा अपन्यासाः । अस्याः प्रस्तारः--  
+कैशिकी
+
+*asyāṃ kaiśikyāṃ gāndhārapañcamaniṣādā nyāsāḥ | rivarjyāḥ ṣaṭ sapta vā svarā apanyāsāḥ | asyāḥ prastāraḥ-- kaiśikī*
+
+> ⚠ source numbering anomaly: found 13, expected 99
+
 **99**
 
 केलीहतकामतनुविभ्रमविलासं तिलकयुतं मूर्धोर्ध्वबालसोमनिभम् ।  
@@ -3810,6 +4032,15 @@ Verses: **575**
 चतुर्थस्य प्रेक्षणस्य ध्रुवायां विनियोजनम्
 
 *mūrcchanā madhyamādiḥ syāttālaścaccatpuṭo mataḥ | caturthasya prekṣaṇasya dhruvāyāṃ viniyojanam*
+
+**14**
+
+अस्यां मध्यमोदीच्यवायां मध्यमो न्यासः । अस्याः प्रस्तारः --  
+मध्यमोदीच्यवा
+
+*asyāṃ madhyamodīcyavāyāṃ madhyamo nyāsaḥ | asyāḥ prastāraḥ -- madhyamodīcyavā*
+
+> ⚠ source numbering anomaly: found 14, expected 101
 
 **101**
 
@@ -3829,6 +4060,17 @@ Verses: **575**
 
 *gāndhāro'tyantabahulaḥ sarvāṃśasvarasaṃgatiḥ | caccatpuṭaḥ ṣoḍaśātra kalāḥ ṣaḍjādimūrcchanā*
 
+**15**
+
+पञ्चमस्य प्रेक्षणस्य ध्रुवायां विनियोजनम् ।  
+अस्यां कार्मारव्यां पञ्चमो न्यासः । अंशा एवापन्यासाः । अस्याः  
+प्रस्तारः--  
+कार्मारवी
+
+*pañcamasya prekṣaṇasya dhruvāyāṃ viniyojanam | asyāṃ kārmāravyāṃ pañcamo nyāsaḥ | aṃśā evāpanyāsāḥ | asyāḥ prastāraḥ-- kārmāravī*
+
+> ⚠ source numbering anomaly: found 15, expected 103
+
 **103**
 
 तं स्थाणुललितवामाङ्गसक्तमतितेजः-प्रसरसौधांशुकान्ति-फणिपति-  
@@ -3846,6 +4088,17 @@ Verses: **575**
 
 *kartavyā'trāpi gāndhārīpañcamyoriva bhūribhiḥ | caccatpuṭaḥ ṣoḍaśātra kalā gādiśca mūrcchanā*
 
+**16**
+
+तुर्यप्रेक्षणसम्बन्धिध्रुवागाने नियोजनम् ।  
+अस्यां गान्धारपञ्चम्यां गान्धारो न्यासः । ऋषभपञ्चमावपन्यासौ ।  
+अस्याः प्रस्तारः--  
+गान्धारपञ्चमी
+
+*turyaprekṣaṇasambandhidhruvāgāne niyojanam | asyāṃ gāndhārapañcamyāṃ gāndhāro nyāsaḥ | ṛṣabhapañcamāvapanyāsau | asyāḥ prastāraḥ-- gāndhārapañcamī*
+
+> ⚠ source numbering anomaly: found 16, expected 105
+
 **105**
 
 कान्तं वामैकदेशप्रएङ्खोलमानकमलनिभं वरसुरभिकुसुमगन्धाधि-  
@@ -3861,6 +4114,17 @@ Verses: **575**
 षाडवं षड्जलोपेन मध्यमादिस्तु मूर्च्छना
 
 *saṃgatirnyāsaparyantamaṃśānukramato vrajet | ṣāḍavaṃ ṣaḍjalopena madhyamādistu mūrcchanā*
+
+**17**
+
+पूर्वावत्तु कलातालविनियोगाः प्रकीर्तिताः ।  
+अस्यामान्ध्र्यां गान्धारो न्यासः । अंशा एवापन्यासाः । अस्याः  
+प्रस्तारः--  
+आन्ध्री
+
+*pūrvāvattu kalātālaviniyogāḥ prakīrtitāḥ | asyāmāndhryāṃ gāndhāro nyāsaḥ | aṃśā evāpanyāsāḥ | asyāḥ prastāraḥ-- āndhrī*
+
+> ⚠ source numbering anomaly: found 17, expected 107
 
 **107**
 
@@ -3885,6 +4149,16 @@ Verses: **575**
 विनियोगो ध्रुवागाने प्रथमप्रेक्षणे भवेत्
 
 *hṛṣyakā mūrcchanā tālaḥ pūrvāvad dviguṇāḥ kalāḥ | viniyogo dhruvāgāne prathamaprekṣaṇe bhavet*
+
+**18**
+
+अस्यां नन्दयन्त्यां गान्धारो न्यासः । मध्यमपञ्चमावपन्यासौ  
+अस्याः प्रस्तारः--  
+नन्दयन्ती
+
+*asyāṃ nandayantyāṃ gāndhāro nyāsaḥ | madhyamapañcamāvapanyāsau asyāḥ prastāraḥ-- nandayantī*
+
+> ⚠ source numbering anomaly: found 18, expected 110
 
 **110**
 
@@ -4022,6 +4296,15 @@ Verses: **575**
 
 *prītaḥ kambalagānena kambalāya varaṃ dadau | purā purāriradyāpi prīyate tairataḥ śivaḥ*
 
+**1**
+
+कपालानां क्रमाद्ब्रूमो ब्रह्मप्रोक्तां पदावलीम् ।  
+झण्टुं झण्टुं
+
+*kapālānāṃ kramādbrūmo brahmaproktāṃ padāvalīm | jhaṇṭuṃ jhaṇṭuṃ*
+
+> ⚠ source numbering anomaly: found 1, expected 14
+
 **14**
 
 इति सप्त कपालपदानि ॥  
@@ -4050,6 +4333,16 @@ Verses: **575**
 
 *dvitīyāyāṃ madhyalayaṃ tatpadāntarasaṃyutam | satṛtīyapade te ca tṛtīyasyāṃ drute laye*
 
+**0**
+
+इति त्रिरावृत्तपदां मागधॐ जगदुर्बुधाः ।  
+यथा-  
+दे
+
+*iti trirāvṛttapadāṃ māgadhaoṃ jagadurbudhāḥ | yathā- de*
+
+> ⚠ source numbering anomaly: found 0, expected 18
+
 **18**
 
 पूर्वयोः पदयोरर्धे चरमे द्विर्यदोदिते
@@ -4061,6 +4354,16 @@ Verses: **575**
 संक्षेपितपदा भूरिगुरुः संभाविता मता
 
 *saṃkṣepitapadā bhūriguruḥ saṃbhāvitā matā*
+
+**0**
+
+भूरिलघ्वक्षरपदा पृथुला संमता सताम् ।  
+यथा--  
+यु ग लं
+
+*bhūrilaghvakṣarapadā pṛthulā saṃmatā satām | yathā-- yu ga laṃ*
+
+> ⚠ source numbering anomaly: found 0, expected 20
 
 **20**
 

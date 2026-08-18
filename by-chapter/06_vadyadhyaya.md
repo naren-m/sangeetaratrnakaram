@@ -2,7 +2,7 @@
 
 *Sāṅgītaratnākara of Śārṅgadeva — Sanskrit Wikisource (CC-BY-SA), retrieved 2026-08-17.*
 
-Verses: **875**
+Verses: **1252**
 
 ---
 
@@ -692,6 +692,16 @@ Verses: **875**
 
 *iti kaikuṭī sphuritairmūrchanāsaṃjñaiḥ kartarītritayena ca yuktaṃ karaiḥ kramādebhiḥ kaṅkālaṃ kathitaṃ budhaiḥ*
 
+**93**
+
+इति कङ्कालम्  
+स्पृष्टतारमुपेतं यत्कर्तर्या खसितेन च  
+कुहरेणाथ तद्वाद्यं वस्तु वस्तुविदो विदुः
+
+*iti kaṅkālam spṛṣṭatāramupetaṃ yatkartaryā khasitena ca kuhareṇātha tadvādyaṃ vastu vastuvido viduḥ*
+
+> ⚠ source numbering anomaly: found 93, expected 94
+
 **94**
 
 इति वस्तु  
@@ -699,6 +709,16 @@ Verses: **875**
 रेफभ्रमरघोषाश्च तद्द्रुतं ब्रुवते बुधाः
 
 *iti vastu kartarīkhasitau yatra krameṇa kuharaḥ karaḥ rephabhramaraghoṣāśca taddrutaṃ bruvate budhāḥ*
+
+**15**
+
+इति द्रुतम्  
+बहुधा मूर्छना हस्ताः स्फुरिताः कर्तरी ततः  
+खसितो यत्र तत्प्राहुर्गजलीलं कलाविदः
+
+*iti drutam bahudhā mūrchanā hastāḥ sphuritāḥ kartarī tataḥ khasito yatra tatprāhurgajalīlaṃ kalāvidaḥ*
+
+> ⚠ source numbering anomaly: found 15, expected 95
 
 **96**
 
@@ -994,6 +1014,15 @@ Verses: **875**
 भेदास्तेऽन्वर्थनामानस्तल्लक्ष्मोक्तिरनर्थिका
 
 *saṃghāteja ye catvārastathā'ṣṭau samavāyaje bhedāste'nvarthanāmānastallakṣmoktiranarthikā*
+
+**126**
+
+तथाऽपि वालबोधाय तान्वयं विवृणीमहे  
+मन्द्रस्वरद्विरुच्चाराद्धातुरत्र द्विरुत्तरः
+
+*tathā'pi vālabodhāya tānvayaṃ vivṛṇīmahe mandrasvaradviruccārāddhāturatra dviruttaraḥ*
+
+> ⚠ source numbering anomaly: found 126, expected 136
 
 **137**
 
@@ -1291,6 +1320,15 @@ Verses: **875**
 
 *ityoghaḥ ekaviṃśatitantrīsthametaddhātvādivādanam ekatantryādivīṇāsu yathāyogaṃ pravartayet*
 
+**173**
+
+एकतन्त्र्यां च यत्प्रोक्तं तज्ज्ञेयं नकुलादिषु  
+वेणावपि तदिच्छन्ति वेणुप्रावीण्यशालिनः
+
+*ekatantryāṃ ca yatproktaṃ tajjñeyaṃ nakulādiṣu veṇāvapi tadicchanti veṇuprāvīṇyaśālinaḥ*
+
+> ⚠ source numbering anomaly: found 173, expected 174
+
 **175**
 
 इति गीतानुगे वाद्यम्  
@@ -1417,7 +1455,9 @@ Verses: **875**
 पञ्चमी शम्पातालाभ्यां षष्ठी स्यात्पञ्चपाणिना  
 चच्चत्पुटा सप्तमी स्यात्तास्तिस्रो मन्वते परे
 
-*pañcamī śampātālābhyāṃ ṣaṣṭhī syātpañcapāṇinā caccatpuṭā saptamī syāttāstisro manvate pare*
+*pañcamī śampātālābhyāṃ ṣaṣṭhī syātpañcapāṇinā caccatpuṭā saptamī syāttāstisro manvate*
+
+> svara illustration: `परे`
 
 **193**
 
@@ -1488,7 +1528,9 @@ Verses: **875**
 गश्चेत्येकोनविंशत्या वर्णैः खण्डं द्वितीयकम्  
 यस्यास्तृतीयखण्डेऽष्टौ ला गोऽन्ते स्याद्ध्रुवाऽत्र सा
 
-*gaścetyekonaviṃśatyā varṇaiḥ khaṇḍaṃ dvitīyakam yasyāstṛtīyakhaṇḍe'ṣṭau lā go'nte syāddhruvā'tra sā*
+*gaścetyekonaviṃśatyā varṇaiḥ khaṇḍaṃ dvitīyakam yasyāstṛtīyakhaṇḍe'ṣṭau lā go'nte syāddhruvā'tra*
+
+> svara illustration: `सा`
 
 **203**
 
@@ -1614,7 +1656,9 @@ Verses: **875**
 गुरूण्यष्टौ च लघवः स्युश्चतुर्विंशतिर्गुरू  
 द्वौ षोडश लघून्यन्ते गुरुर्यत्र ध्रुवाऽत्र सा
 
-*gurūṇyaṣṭau ca laghavaḥ syuścaturviṃśatirgurū dvau ṣoḍaśa laghūnyante gururyatra dhruvā'tra sā*
+*gurūṇyaṣṭau ca laghavaḥ syuścaturviṃśatirgurū dvau ṣoḍaśa laghūnyante gururyatra dhruvā'tra*
+
+> svara illustration: `सा`
 
 **221**
 
@@ -2370,6 +2414,15 @@ Verses: **875**
 
 *sthāyinaṃ madhyamaṃ mandraṃ madhyaṃ vā sthāyatatparān āruhya panisānpañcāvaroha kramataḥ svarān*
 
+**327**
+
+षड्जतः स्थायिपर्यन्ताद्यथा हन्यात्तु धैवतम्  
+आरुह्य पनिसान्पञ्चावरोह क्रमतः स्वरान्
+
+*ṣaḍjataḥ sthāyiparyantādyathā hanyāttu dhaivatam āruhya panisānpañcāvaroha kramataḥ svarān*
+
+> ⚠ source numbering anomaly: found 327, expected 328
+
 **328**
 
 षड्जतः स्थायिपर्यन्ताद्यथा हन्यात्तु धैवतम्  
@@ -2382,7 +2435,9 @@ Verses: **875**
 द्व्यर्धमर्धस्थितं तद्वदारुह्य द्विगुणं स्वरम्  
 आद्यं स्वस्थानमातिष्ठेत्स्वस्थानं त्रितये परे
 
-*dvyardhamardhasthitaṃ tadvadāruhya dviguṇaṃ svaram ādyaṃ svasthānamātiṣṭhetsvasthānaṃ tritaye pare*
+*dvyardhamardhasthitaṃ tadvadāruhya dviguṇaṃ svaram ādyaṃ svasthānamātiṣṭhetsvasthānaṃ tritaye*
+
+> svara illustration: `परे`
 
 **330**
 
@@ -2438,6 +2493,14 @@ Verses: **875**
 किंतु स्थायिनमारभ्य ये स्युस्तुर्यादयः स्वराः
 
 *niḥśaṅko'tra samādhatte gāndhārādyaprayojakam kiṃtu sthāyinamārabhya ye syusturyādayaḥ svarāḥ*
+
+**337**
+
+रागाभिव्यक्तिशक्ताः ये स्युस्तुर्यादयः स्वराः
+
+*rāgābhivyaktiśaktāḥ ye syusturyādayaḥ svarāḥ*
+
+> ⚠ source numbering anomaly: found 337, expected 338
 
 **338**
 
@@ -2999,6 +3062,15 @@ Verses: **875**
 
 *vāmorumūlākrāntāgraṃ jaṅghāyāṃ kuñcitākṛtau bhūlagnabāhyapārśvāyāṃ vāmāyāṃ nyasya jaṅghayā*
 
+**315**
+
+आक्रम्य वामेतरया पिनाक्यामिव वादनम्  
+धनुषा वामहस्तस्थतुम्बकेन च सारणा
+
+*ākramya vāmetarayā pinākyāmiva vādanam dhanuṣā vāmahastasthatumbakena ca sāraṇā*
+
+> ⚠ source numbering anomaly: found 315, expected 415
+
 **416**
 
 आर्द्रचर्मकृतां शुष्कां पेशीं कोणान्वितां खराम्  
@@ -3121,6 +3193,42 @@ Verses: **875**
 अष्टादशाङ्गुलाद्वंशादेतदङ्गुलवर्धनम्
 
 *vaṃśasya mukharandhrasya tārarandhrasya cāntare ekaikāṅgulavṛddhyā syuranye vaṃśāścaturdaśa aṣṭādaśāṅgulādvaṃśādetadaṅgulavardhanam*
+
+**428**
+
+अर्धाङ्गुलान्तराणि स्यू रन्ध्राण्यन्यानि सप्त च  
+तान्यष्टौ बदरीबीजसंकाशानि प्रचक्षते
+
+*ardhāṅgulāntarāṇi syū randhrāṇyanyāni sapta ca tānyaṣṭau badarībījasaṃkāśāni pracakṣate*
+
+> ⚠ source numbering anomaly: found 428, expected 433
+
+**429**
+
+वंशोऽधः सर्वरन्ध्रेभ्यः परिशेष्योऽङ्गुलद्वयम्स्वरविभागाय सप्त रन्ध्राणि मन्वते
+
+*vaṃśo'dhaḥ sarvarandhrebhyaḥ pariśeṣyo'ṅguladvayamsvaravibhāgāya sapta randhrāṇi manvate*
+
+> ⚠ source numbering anomaly: found 429, expected 433
+
+**430**
+
+नादहेतोर्मारुतस्य निर्गमायाष्टमं मतम्  
+फूत्कारप्रभवो वायुः पूर्यते मुखरन्ध्रतः
+
+*nādahetormārutasya nirgamāyāṣṭamaṃ matam phūtkāraprabhavo vāyuḥ pūryate mukharandhrataḥ*
+
+> ⚠ source numbering anomaly: found 430, expected 433
+
+**432**
+
+वंशस्य मुखरन्ध्रस्य ताररन्ध्रस्य चान्तरे  
+एकैकाङ्गुलवृद्ध्या स्युरन्ये वंशाश्चतुर्दश  
+अष्टादशाङ्गुलाद्वंशादेतदङ्गुलवर्धनम्
+
+*vaṃśasya mukharandhrasya tārarandhrasya cāntare ekaikāṅgulavṛddhyā syuranye vaṃśāścaturdaśa aṣṭādaśāṅgulādvaṃśādetadaṅgulavardhanam*
+
+> ⚠ source numbering anomaly: found 432, expected 433
 
 **433**
 
@@ -3367,6 +3475,15 @@ Verses: **875**
 चतुर्दशादिवंशेषु सार्धपञ्चयवं त्विदम्
 
 *prākcaturdaśavaṃśānte'ṅgulaṃ pañcayavaṃ jaguḥ caturdaśādivaṃśeṣu sārdhapañcayavaṃ tvidam*
+
+**368**
+
+चतुर्दशाङ्गुलं दण्डमेकवीरे प्रचक्षते  
+सार्धाङ्गुलौ शिरःप्रान्तौ पृथग्जातिमुखेऽङ्गुलम्
+
+*caturdaśāṅgulaṃ daṇḍamekavīre pracakṣate sārdhāṅgulau śiraḥprāntau pṛthagjātimukhe'ṅgulam*
+
+> ⚠ source numbering anomaly: found 368, expected 468
 
 **469**
 
@@ -4697,7 +4814,9 @@ Verses: **875**
 कपिलस्तुम्बकी काकी संदष्टश्चाव्यवस्थितः  
 पञ्चेति फूत्कृतेर्दोषानपरानूचिरे परे
 
-*kapilastumbakī kākī saṃdaṣṭaścāvyavasthitaḥ pañceti phūtkṛterdoṣānaparānūcire pare*
+*kapilastumbakī kākī saṃdaṣṭaścāvyavasthitaḥ pañceti phūtkṛterdoṣānaparānūcire*
+
+> svara illustration: `परे`
 
 **659**
 
@@ -5401,6 +5520,15 @@ Verses: **875**
 
 *punaruccārya taṃ kṛtvā dhaivataṃ sakṛdāhatam vādayitvā niṣādaṃ ca grahanyāsena jāyate*
 
+**656**
+
+नाट्यरामकृतेराद्यं स्वस्थानमिति तद्विदः  
+अथवा मध्यमं कृत्वा ग्रहमाहत्य पञ्चमम्
+
+*nāṭyarāmakṛterādyaṃ svasthānamiti tadvidaḥ athavā madhyamaṃ kṛtvā grahamāhatya pañcamam*
+
+> ⚠ source numbering anomaly: found 656, expected 756
+
 **757**
 
 द्विस्त्रिर्वाऽप्यवरोहेण धात्क्रमादृषभं द्रुतम्  
@@ -5688,6 +5816,15 @@ Verses: **875**
 यमलं तुण्डकिन्योश्च वाद्यं वाद्यविदो विदुः
 
 *iti kāhalālakṣaṇam hastadvayakṛtā yā sā saiva tuṇḍakinī matā turuturyapi sā loke tittirī ca nigadyate yamalaṃ tuṇḍakinyośca vādyaṃ vādyavido viduḥ*
+
+**975**
+
+इति तुण्डकिनीलक्षणम्  
+तुण्डकिन्येव चुक्का स्याद्दैर्घ्ये हस्तचतुष्टया
+
+*iti tuṇḍakinīlakṣaṇam tuṇḍakinyeva cukkā syāddairghye hastacatuṣṭayā*
+
+> ⚠ source numbering anomaly: found 975, expected 795
 
 **796**
 
@@ -6121,6 +6258,15 @@ Verses: **875**
 
 *pūrvalakṣmaviparyāsādbhavedardhasamo yathā*
 
+**4**
+
+ददगिद गिगिरिकिटदगि थॐ थॐ गिदथॐगिद  
+इत्यर्धसमः
+
+*dadagida gigirikiṭadagi thaoṃ thaoṃ gidathaoṃgida ityardhasamaḥ*
+
+> ⚠ source numbering anomaly: found 4, expected 853
+
 **853**
 
 उत्फुल्लो नखराघातादलपद्मस्य जायते
@@ -6136,11 +6282,30 @@ Verses: **875**
 
 *katheṃ katheṃ ityutphullaḥ*
 
+**854**
+
+यदा प्रसारिताङ्गुष्ठः शुकतुण्डस्य हन्यते  
+विरलाङ्गुलिभिर्वाद्यं क्रमेण खलकस्तदा
+
+*yadā prasāritāṅguṣṭhaḥ śukatuṇḍasya hanyate viralāṅgulibhirvādyaṃ krameṇa khalakastadā*
+
+> ⚠ source numbering anomaly: found 854, expected 2
+
 **2** · _patakshara_
 
 दांगिड गिडदगिदा इति खलकः
 
 *dāṃgiḍa giḍadagidā iti khalakaḥ*
+
+**855**
+
+यस्तु दक्षिणहस्तस्य तर्जन्यङ्गुष्ठघाततः  
+क्रमव्युत्क्रमघातात्तु वामहस्तेन रेफवत्  
+जायते शार्ङ्गिणोक्तोऽसौ पाण्यन्तरनिकुट्टकः
+
+*yastu dakṣiṇahastasya tarjanyaṅguṣṭhaghātataḥ kramavyutkramaghātāttu vāmahastena rephavat jāyate śārṅgiṇokto'sau pāṇyantaranikuṭṭakaḥ*
+
+> ⚠ source numbering anomaly: found 855, expected 3
 
 **3** · _patakshara_
 
@@ -6148,6 +6313,15 @@ Verses: **875**
 इति पाण्यन्तरनिकुट्टकः
 
 *dagiḍadāṃ kharikkadāṃ kharikka kharikkadāṃdāṃ kharikharidāṃ giḍadāṃ iti pāṇyantaranikuṭṭakaḥ*
+
+**856**
+
+ऊर्ध्वघातं पताकेन कृत्वैकमथ रेफतः  
+कृतौ यत्रोर्ध्वघातौ द्वौ दण्डहस्तो भवेदसौ
+
+*ūrdhvaghātaṃ patākena kṛtvaikamatha rephataḥ kṛtau yatrordhvaghātau dvau daṇḍahasto bhavedasau*
+
+> ⚠ source numbering anomaly: found 856, expected 4
 
 **4** · _patakshara_
 
@@ -6162,6 +6336,14 @@ Verses: **875**
 
 *kramādrepho'rdhahastābhyāṃ piṇḍahastaḥ prajāyate tharikaṭajheṃ tharikaṭajheṃ iti piṇḍahastaḥ*
 
+**857**
+
+रेफात्मभ्यां कराभ्यां चेदूर्ध्वघातद्वयं पृथक्
+
+*rephātmabhyāṃ karābhyāṃ cedūrdhvaghātadvayaṃ pṛthak*
+
+> ⚠ source numbering anomaly: found 857, expected 6
+
 **6**
 
 क्रियते पाटनिष्पत्त्यै युगहस्तस्तदा भवेत्  
@@ -6174,6 +6356,15 @@ Verses: **875**
 दरगिड दांदां इत्यूर्ध्वहस्तः
 
 *daragiḍa dāṃdāṃ ityūrdhvahastaḥ*
+
+**859**
+
+ऊर्ध्वघातद्वयं कृत्वा तलहस्तेन हन्यते  
+यदा वाद्यपुटद्वंद्वं स्थूलहस्तस्तदोदितः
+
+*ūrdhvaghātadvayaṃ kṛtvā talahastena hanyate yadā vādyapuṭadvaṃdvaṃ sthūlahastastadoditaḥ*
+
+> ⚠ source numbering anomaly: found 859, expected 8
 
 **8** · _patakshara_
 
@@ -6218,11 +6409,29 @@ Verses: **875**
 
 *ṭiri ṭiri thaoṃ digida ṭiri ṭiri kida iti viṣamakartarī*
 
+**863**
+
+अङ्गुष्ठाङ्गुलिसंघातौ हस्तयोर्युतपद्यदा  
+पीडयेतां पुटद्वंद्वं समपाणिस्तदा भवेत्
+
+*aṅguṣṭhāṅgulisaṃghātau hastayoryutapadyadā pīḍayetāṃ puṭadvaṃdvaṃ samapāṇistadā bhavet*
+
+> ⚠ source numbering anomaly: found 863, expected 15
+
 **15** · _patakshara_
 
 दां गिड गिड दांदां इति समपाणिः
 
 *dāṃ giḍa giḍa dāṃdāṃ iti samapāṇiḥ*
+
+**864**
+
+व्यत्ययाद्व्यापृतौ हस्तौ साङ्गुष्ठाङ्गुलिभिः क्रमात्  
+यस्मिन्विषमपाणिं तं ब्रूते शंकरवल्लभः
+
+*vyatyayādvyāpṛtau hastau sāṅguṣṭhāṅgulibhiḥ kramāt yasminviṣamapāṇiṃ taṃ brūte śaṃkaravallabhaḥ*
+
+> ⚠ source numbering anomaly: found 864, expected 16
 
 **16** · _patakshara_
 
@@ -6236,6 +6445,24 @@ Verses: **875**
 
 *taragiḍa daragiḍa iti pāṇihastakaḥ*
 
+**866**
+
+नागबन्धो विपर्यासात्पुटयोः करघाततः  
+प्रत्येकं वा पुटद्वंद्वे कराभ्यां ताडनादयम्
+
+*nāgabandho viparyāsātpuṭayoḥ karaghātataḥ pratyekaṃ vā puṭadvaṃdve karābhyāṃ tāḍanādayam*
+
+> ⚠ source numbering anomaly: found 866, expected 18
+
+**867**
+
+तलेन हत्वा प्रहरेत्साङ्गुष्ठाङ्गुलिभिः क्रमात्  
+पुटमेकैकपाणिश्चेद्भवेदवघटस्तदा
+
+*talena hatvā praharetsāṅguṣṭhāṅgulibhiḥ kramāt puṭamekaikapāṇiścedbhavedavaghaṭastadā*
+
+> ⚠ source numbering anomaly: found 867, expected 18
+
 **19**
 
 ततगिड गिड दगिटन गिनगिननगि इत्यवघटः
@@ -6244,17 +6471,82 @@ Verses: **875**
 
 > ⚠ numbering jumped 18->19
 
+**868**
+
+पुटमेकं निहन्यातां स्वस्तिके स्वस्तिकौ करौ
+
+*puṭamekaṃ nihanyātāṃ svastike svastikau karau*
+
+> ⚠ source numbering anomaly: found 868, expected 20
+
 **20** · _patakshara_
 
 तकिट तकिटतकि इति स्वस्तिकः
 
 *takiṭa takiṭataki iti svastikaḥ*
 
+**869**
+
+समं करतलाभ्यां तु पुटघातात्समग्रहः  
+तले केचिदिह प्राहुरङ्गुष्ठाङ्गुलिवर्जिते
+
+*samaṃ karatalābhyāṃ tu puṭaghātātsamagrahaḥ tale kecidiha prāhuraṅguṣṭhāṅgulivarjite*
+
+> ⚠ source numbering anomaly: found 869, expected 21
+
 **21** · _patakshara_
 
 तकिट किटतक इति समग्रहः
 
 *takiṭa kiṭataka iti samagrahaḥ*
+
+**870**
+
+इत्येकविंशतिर्हस्तपाटाः  
+लोलो व्यवहिताङ्गुष्ठो दक्षिणो यस्य साधकः  
+वामश्चेच्छ्वसितो हस्तमुल्लोलं तं प्रचक्षते
+
+*ityekaviṃśatirhastapāṭāḥ lolo vyavahitāṅguṣṭho dakṣiṇo yasya sādhakaḥ vāmaścecchvasito hastamullolaṃ taṃ pracakṣate*
+
+> ⚠ source numbering anomaly: found 870, expected 22
+
+**871**
+
+अङ्गुष्ठमध्यमन्येऽत्र ब्रुवते दक्षिणं करम्  
+पुटमध्ये दक्षिणेन साङ्गुष्ठेन हतिं परे
+
+*aṅguṣṭhamadhyamanye'tra bruvate dakṣiṇaṃ karam puṭamadhye dakṣiṇena sāṅguṣṭhena hatiṃ*
+
+> svara illustration: `परे`
+
+> ⚠ source numbering anomaly: found 871, expected 22
+
+**872**
+
+व्यङ्गुष्ठो दक्षिणो हस्तः पुटे चेन्मुहुरुल्लसेत्  
+स्वपुटं पीडयेद्वामस्तदा पाण्यन्तरो भवेत्
+
+*vyaṅguṣṭho dakṣiṇo hastaḥ puṭe cenmuhurullaset svapuṭaṃ pīḍayedvāmastadā pāṇyantaro bhavet*
+
+> ⚠ source numbering anomaly: found 872, expected 22
+
+**873**
+
+विश्लिष्टाङ्गुलिसंचारमङ्गुष्ठार्धार्धताडनम्  
+पाण्यन्तरस्य जनकं केचिदाचक्षते बुधाः
+
+*viśliṣṭāṅgulisaṃcāramaṅguṣṭhārdhārdhatāḍanam pāṇyantarasya janakaṃ kecidācakṣate budhāḥ*
+
+> ⚠ source numbering anomaly: found 873, expected 22
+
+**874**
+
+अन्ये पाण्यन्तरं प्राहुर्व्यङ्गुष्ठाद्युक्तलक्षणम्  
+हस्तान्तरं ततो न्निं विश्लिष्टादिकलक्षणम्
+
+*anye pāṇyantaraṃ prāhurvyaṅguṣṭhādyuktalakṣaṇam hastāntaraṃ tato nniṃ viśliṣṭādikalakṣaṇam*
+
+> ⚠ source numbering anomaly: found 874, expected 22
 
 **1** · _patakshara_
 
@@ -6272,6 +6564,15 @@ Verses: **875**
 
 > ⚠ patakshara entry, numbered in a local series
 
+**876**
+
+घाताद्दक्षिणहस्तेन विरलाङ्गुलिना ततः  
+अङ्गुष्ठघातैर्वामेन पीडनात्खण्डकर्तरी
+
+*ghātāddakṣiṇahastena viralāṅgulinā tataḥ aṅguṣṭhaghātairvāmena pīḍanātkhaṇḍakartarī*
+
+> ⚠ source numbering anomaly: found 876, expected 22
+
 **4** · _patakshara_
 
 खुखुग थॐटझेंदें झेंदॐ गिथॐटे इति खण्डकर्तरी
@@ -6279,6 +6580,15 @@ Verses: **875**
 *khukhuga thaoṃṭajheṃdeṃ jheṃdaoṃ githaoṃṭe iti khaṇḍakartarī*
 
 > ⚠ patakshara entry, numbered in a local series
+
+**877**
+
+अङ्गुल्यग्रैः पीडयित्वाऽङ्गुष्ठेन परिघट्टनात्  
+वामेन पीडनाद्वाद्य दण्डहस्तोऽभिजायते
+
+*aṅgulyagraiḥ pīḍayitvā'ṅguṣṭhena parighaṭṭanāt vāmena pīḍanādvādya daṇḍahasto'bhijāyate*
+
+> ⚠ source numbering anomaly: found 877, expected 22
 
 **5** · _patakshara_
 
@@ -6288,6 +6598,15 @@ Verses: **875**
 
 > ⚠ patakshara entry, numbered in a local series
 
+**878**
+
+समत्वं पाटवर्णानामङ्गुलीनखराहते  
+दृश्यते यत्र तं प्राहुः पाटं समनखाभिधम्
+
+*samatvaṃ pāṭavarṇānāmaṅgulīnakharāhate dṛśyate yatra taṃ prāhuḥ pāṭaṃ samanakhābhidham*
+
+> ⚠ source numbering anomaly: found 878, expected 22
+
 **6** · _patakshara_
 
 रह रह तरकिट किकिट तकिधकि टेंहेंटहेंत्रः इति समनखः
@@ -6295,6 +6614,24 @@ Verses: **875**
 *raha raha tarakiṭa kikiṭa takidhaki ṭeṃheṃṭaheṃtraḥ iti samanakhaḥ*
 
 > ⚠ patakshara entry, numbered in a local series
+
+**879**
+
+अवष्टभ्य पुटं वामपाणिना तर्जनीहते  
+बिन्दुरुत्पद्यते प्रोक्तमिति सोढलसूनुना
+
+*avaṣṭabhya puṭaṃ vāmapāṇinā tarjanīhate bindurutpadyate proktamiti soḍhalasūnunā*
+
+> ⚠ source numbering anomaly: found 879, expected 22
+
+**880**
+
+समवष्टभ्य वामेन पुटं दक्षिणपाणिना  
+संपीडनं वादयेच्चेत्तदा यमलहस्तकः
+
+*samavaṣṭabhya vāmena puṭaṃ dakṣiṇapāṇinā saṃpīḍanaṃ vādayeccettadā yamalahastakaḥ*
+
+> ⚠ source numbering anomaly: found 880, expected 22
 
 **8** · _patakshara_
 
@@ -6304,6 +6641,15 @@ Verses: **875**
 
 > ⚠ patakshara entry, numbered in a local series
 
+**881**
+
+उत्तुङ्गीकरणं वाद्ये स्कन्धस्य स्फुरणं तथा  
+अङ्गुष्ठतर्जनीघातः पाटं कुर्वन्ति रेचितम्
+
+*uttuṅgīkaraṇaṃ vādye skandhasya sphuraṇaṃ tathā aṅguṣṭhatarjanīghātaḥ pāṭaṃ kurvanti recitam*
+
+> ⚠ source numbering anomaly: found 881, expected 22
+
 **9** · _patakshara_
 
 नहनझें इति रेचितः
@@ -6312,6 +6658,15 @@ Verses: **875**
 
 > ⚠ patakshara entry, numbered in a local series
 
+**883**
+
+अङ्गुष्ठतर्जनीघाताद्वलितार्धार्धहस्तकः  
+विद्युद्विलासो भणितो विद्युद्विलसितोऽथवा
+
+*aṅguṣṭhatarjanīghātādvalitārdhārdhahastakaḥ vidyudvilāso bhaṇito vidyudvilasito'thavā*
+
+> ⚠ source numbering anomaly: found 883, expected 22
+
 **11** · _patakshara_
 
 त्रां इति विद्युद्विलासः
@@ -6319,6 +6674,24 @@ Verses: **875**
 *trāṃ iti vidyudvilāsaḥ*
 
 > ⚠ patakshara entry, numbered in a local series
+
+**884**
+
+तर्जनीमध्यमानामा विरलाः प्रहरन्ति चेत्  
+श्रीश्रीकरणनाथेन तदा प्रोक्ताऽर्धकर्तरी
+
+*tarjanīmadhyamānāmā viralāḥ praharanti cet śrīśrīkaraṇanāthena tadā proktā'rdhakartarī*
+
+> ⚠ source numbering anomaly: found 884, expected 22
+
+**2**
+
+हस्तौ न कुण्डलीलग्नौ यत्रालग्नं तमूचिरे  
+खुंखुं
+
+*hastau na kuṇḍalīlagnau yatrālagnaṃ tamūcire khuṃkhuṃ*
+
+> ⚠ source numbering anomaly: found 2, expected 22
 
 **14** · _patakshara_
 
@@ -6336,6 +6709,16 @@ Verses: **875**
 
 > ⚠ patakshara entry, numbered in a local series
 
+**887**
+
+इति षोडश प्रायिकहौडुक्कहस्तपाटाः ।  
+तलप्रहारहेतुः स्याद्वामस्कन्धप्रचालनम्  
+मध्येवामपुटं वामपाणिना च निपीडनम्
+
+*iti ṣoḍaśa prāyikahauḍukkahastapāṭāḥ | talaprahārahetuḥ syādvāmaskandhapracālanam madhyevāmapuṭaṃ vāmapāṇinā ca nipīḍanam*
+
+> ⚠ source numbering anomaly: found 887, expected 22
+
 **1** · _patakshara_
 
 त्रा इति तलप्रहारः
@@ -6343,6 +6726,33 @@ Verses: **875**
 *trā iti talaprahāraḥ*
 
 > ⚠ patakshara entry, numbered in a local series
+
+**2**
+
+तलाङ्गुष्ठप्रहारेण प्रहरोऽभिहितो बुधैः  
+झेदां थॐ गिदिगिद
+
+*talāṅguṣṭhaprahāreṇa praharo'bhihito budhaiḥ jhedāṃ thaoṃ gidigida*
+
+> ⚠ source numbering anomaly: found 2, expected 22
+
+**888**
+
+ऊर्ध्वाग्रे पटहादौ तु तर्जन्यङ्गुष्ठधारिते  
+वादनेन समुद्भूतमपाटं वलितं विदुः
+
+*ūrdhvāgre paṭahādau tu tarjanyaṅguṣṭhadhārite vādanena samudbhūtamapāṭaṃ valitaṃ viduḥ*
+
+> ⚠ source numbering anomaly: found 888, expected 22
+
+**889**
+
+अङ्गुष्ठानामिकाभ्यस्तवलनाद्दक्षिणे पुटे  
+उच्छ्वासाद्वामपाणेश्च जायते गुरुगुञ्जितः
+
+*aṅguṣṭhānāmikābhyastavalanāddakṣiṇe puṭe ucchvāsādvāmapāṇeśca jāyate guruguñjitaḥ*
+
+> ⚠ source numbering anomaly: found 889, expected 22
 
 **4** · _patakshara_
 
@@ -6352,6 +6762,23 @@ Verses: **875**
 
 > ⚠ patakshara entry, numbered in a local series
 
+**890**
+
+कम्पनं वामपादस्य नितम्बचलनं तथा  
+उच्छ्वासनं करतलस्यार्धसञ्चप्रपञ्चकम्
+
+*kampanaṃ vāmapādasya nitambacalanaṃ tathā ucchvāsanaṃ karatalasyārdhasañcaprapañcakam*
+
+> ⚠ source numbering anomaly: found 890, expected 22
+
+**891**
+
+त्रिकस्य चलनाद्वामागुष्ठस्य परिघट्टनात्स्कन्धसञ्चाच्च संजातं त्रिसञ्चं परिचक्षते
+
+*trikasya calanādvāmāguṣṭhasya parighaṭṭanātskandhasañcācca saṃjātaṃ trisañcaṃ paricakṣate*
+
+> ⚠ source numbering anomaly: found 891, expected 22
+
 **6** · _patakshara_
 
 खेंद खें खें दखेंद इति त्रिसञ्चः
@@ -6360,6 +6787,34 @@ Verses: **875**
 
 > ⚠ patakshara entry, numbered in a local series
 
+**2**
+
+हस्तवैषम्यसंजातो विषमः संमतः सताम् ॥  
+खेंदंधरि
+
+*hastavaiṣamyasaṃjāto viṣamaḥ saṃmataḥ satām || kheṃdaṃdhari*
+
+> ⚠ source numbering anomaly: found 2, expected 22
+
+**2**
+
+इत्यष्टावपाटाख्या हस्तपाटाः ।  
+अर्धाङ्गुल्यग्रघातोत्थं सञ्चमाचक्षते यथा  
+थुकर
+
+*ityaṣṭāvapāṭākhyā hastapāṭāḥ | ardhāṅgulyagraghātotthaṃ sañcamācakṣate yathā thukara*
+
+> ⚠ source numbering anomaly: found 2, expected 22
+
+**893**
+
+करसञ्चेन शुद्धेनाङ्गुष्ठधातेन च क्रमात्  
+उत्पन्नोऽलगपाटः स्यान्नाम्ना विच्छुरितो यथा
+
+*karasañcena śuddhenāṅguṣṭhadhātena ca kramāt utpanno'lagapāṭaḥ syānnāmnā vicchurito yathā*
+
+> ⚠ source numbering anomaly: found 893, expected 22
+
 **2** · _patakshara_
 
 झेंगिरि गिडिदा नगिरि गिडनम् इति विच्छुरितः
@@ -6367,3 +6822,3106 @@ Verses: **875**
 *jheṃgiri giḍidā nagiri giḍanam iti vicchuritaḥ*
 
 > ⚠ patakshara entry, numbered in a local series
+
+**1**
+
+इत्यलगपाटद्वयम्  
+तलप्रहारो वलितभेदितो भ्रमरो यथा  
+खुंखुंधरि दथॐगिं इति भ्रमरः
+
+*ityalagapāṭadvayam talaprahāro valitabhedito bhramaro yathā khuṃkhuṃdhari dathaoṃgiṃ iti bhramaraḥ*
+
+> ⚠ source numbering anomaly: found 1, expected 22
+
+**895**
+
+इति चित्रपाटद्वयम्  
+पटहस्य हुडुक्कायाः पञ्च सञ्चान्ब्रुवेऽधुना  
+स्कन्दकूर्परयोस्तदुदङ्गुष्ठमणिबन्धयोः
+
+*iti citrapāṭadvayam paṭahasya huḍukkāyāḥ pañca sañcānbruve'dhunā skandakūrparayostadudaṅguṣṭhamaṇibandhayoḥ*
+
+> ⚠ source numbering anomaly: found 895, expected 22
+
+**896**
+
+वामस्य चरणस्यापि कम्पः सञ्चोऽभिधीयते  
+श्रेष्ठः पाटहिकः सञ्चादङ्गुष्ठमणिबन्धयोः
+
+*vāmasya caraṇasyāpi kampaḥ sañco'bhidhīyate śreṣṭhaḥ pāṭahikaḥ sañcādaṅguṣṭhamaṇibandhayoḥ*
+
+> ⚠ source numbering anomaly: found 896, expected 22
+
+**897**
+
+स्कन्धकूर्परसञ्चात्तु नीचः पटहवादकः  
+वरो हौडुक्किकोऽङ्गुष्ठकूर्परस्कन्धसञ्चतः
+
+*skandhakūrparasañcāttu nīcaḥ paṭahavādakaḥ varo hauḍukkiko'ṅguṣṭhakūrparaskandhasañcataḥ*
+
+> ⚠ source numbering anomaly: found 897, expected 22
+
+**898**
+
+सञ्चाभ्यां मणिबन्धोत्थकौर्पराभ्यां तु मध्यमः  
+असौ वामाङ्घ्रिसञ्चेन वादनादधमो भवेत्
+
+*sañcābhyāṃ maṇibandhotthakaurparābhyāṃ tu madhyamaḥ asau vāmāṅghrisañcena vādanādadhamo bhavet*
+
+> ⚠ source numbering anomaly: found 898, expected 22
+
+**899**
+
+इति पञ्चसञ्चलक्षणम्  
+पाटविन्यासभेदाः स्युर्वाद्यानि पटहादिषु
+
+*iti pañcasañcalakṣaṇam pāṭavinyāsabhedāḥ syurvādyāni paṭahādiṣu*
+
+> ⚠ source numbering anomaly: found 899, expected 22
+
+**900**
+
+वोल्लावणी च चल्लावण्युडुबश्च कुचुम्बिणी  
+चारुश्रवणिकाऽलग्नपरिश्रवणिका ततः
+
+*vollāvaṇī ca callāvaṇyuḍubaśca kucumbiṇī cāruśravaṇikā'lagnapariśravaṇikā tataḥ*
+
+> ⚠ source numbering anomaly: found 900, expected 22
+
+**901**
+
+समप्रहारः कुडुपवारणा करवारणा  
+दण्डहस्तो घनरवस्तानीति द्वादशावदन्
+
+*samaprahāraḥ kuḍupavāraṇā karavāraṇā daṇḍahasto ghanaravastānīti dvādaśāvadan*
+
+> ⚠ source numbering anomaly: found 901, expected 22
+
+**902**
+
+वल्लिश्च वल्लिपाटः स्याद्घत्ताभेदौ झडप्पणी  
+अनुश्रवणिका हस्तो जोडणी त्रिगुणा ततः
+
+*valliśca vallipāṭaḥ syādghattābhedau jhaḍappaṇī anuśravaṇikā hasto joḍaṇī triguṇā tataḥ*
+
+> ⚠ source numbering anomaly: found 902, expected 22
+
+**903**
+
+पञ्चहस्तः पञ्चपाणिर्वाद्यं स्यात्पञ्चकर्तरी  
+ततश्चन्द्रकला प्राहुर्वाद्यानीति त्रयोदश
+
+*pañcahastaḥ pañcapāṇirvādyaṃ syātpañcakartarī tataścandrakalā prāhurvādyānīti trayodaśa*
+
+> ⚠ source numbering anomaly: found 903, expected 22
+
+**904**
+
+प्रायेणैतानि दृश्यन्ते हुडुक्कावाद्यगोचरे  
+वाद्यानामुभयेषां स्यात्पञ्चविंशतिरित्यसौ
+
+*prāyeṇaitāni dṛśyante huḍukkāvādyagocare vādyānāmubhayeṣāṃ syātpañcaviṃśatirityasau*
+
+> ⚠ source numbering anomaly: found 904, expected 22
+
+**905**
+
+आदिमध्यावसानेषु देंकारबहुलं भवेत्  
+आद्यखण्डं द्वितीयं च तादृशं वाद्यते पृथक्  
+यत्र वोल्लावणी सोक्ता पटहे वाद्यवेदिभिः
+
+*ādimadhyāvasāneṣu deṃkārabahulaṃ bhavet ādyakhaṇḍaṃ dvitīyaṃ ca tādṛśaṃ vādyate pṛthak yatra vollāvaṇī soktā paṭahe vādyavedibhiḥ*
+
+> ⚠ source numbering anomaly: found 905, expected 22
+
+**906**
+
+अस्याः खण्डद्वयं वाद्यान्तरे स्याद्योजनान्वितम्
+
+*asyāḥ khaṇḍadvayaṃ vādyāntare syādyojanānvitam*
+
+> ⚠ source numbering anomaly: found 906, expected 22
+
+**907**
+
+झेंकृतिर्देंकृतिस्थाने हुडुक्कायां भवेदिह  
+डक्कायां मर्दले चैव थॐ त्रिवल्ल्यां तु दॐ भवेत्
+
+*jheṃkṛtirdeṃkṛtisthāne huḍukkāyāṃ bhavediha ḍakkāyāṃ mardale caiva thaoṃ trivallyāṃ tu daoṃ bhavet*
+
+> ⚠ source numbering anomaly: found 907, expected 22
+
+**908**
+
+करटायां तु टेमेव प्रधानाक्षरयोजना  
+वाद्यान्तरेष्वपि प्राज्ञैः प्रोह्यतामनया दिशा
+
+*karaṭāyāṃ tu ṭemeva pradhānākṣarayojanā vādyāntareṣvapi prājñaiḥ prohyatāmanayā diśā*
+
+> ⚠ source numbering anomaly: found 908, expected 22
+
+**909**
+
+इति वोल्लावणी  
+मण्डले चाल्यते यत्र प्रोचुश्चल्लावणीममूम्  
+इति चल्लावणी  
+वामेन तलहस्तेन दक्षिणेन तु पाणिना  
+लुलितेन सकोणेन वादनादुडुवो भवेत्
+
+*iti vollāvaṇī maṇḍale cālyate yatra procuścallāvaṇīmamūm iti callāvaṇī vāmena talahastena dakṣiṇena tu pāṇinā lulitena sakoṇena vādanāduḍuvo bhavet*
+
+> ⚠ source numbering anomaly: found 909, expected 22
+
+**910**
+
+इत्युडुवः  
+उद्दलीपिहिते वक्त्रे हस्तस्वस्तिकताडनात्  
+खुकारबहुलं वाद्यं कीर्तयन्ति कुचुम्बिणीम्
+
+*ityuḍuvaḥ uddalīpihite vaktre hastasvastikatāḍanāt khukārabahulaṃ vādyaṃ kīrtayanti kucumbiṇīm*
+
+> ⚠ source numbering anomaly: found 910, expected 22
+
+**911**
+
+इति कुचुम्बिणी  
+वोल्लावण्येव पाणिभ्यां क्रमाद्वा युगपत्कृतैः  
+भूरिभिः संभृता पाटैश्चारुश्रवणिका भवेत्  
+शुद्धैश्चित्रैः क्रमात्पाटैः शुद्धा चित्रेति सा द्विधा
+
+*iti kucumbiṇī vollāvaṇyeva pāṇibhyāṃ kramādvā yugapatkṛtaiḥ bhūribhiḥ saṃbhṛtā pāṭaiścāruśravaṇikā bhavet śuddhaiścitraiḥ kramātpāṭaiḥ śuddhā citreti sā dvidhā*
+
+> ⚠ source numbering anomaly: found 911, expected 22
+
+**912**
+
+इति चारुश्रवणिका  
+अलग्नः कुण्डलीस्पर्शं विना कोणप्रहारतः
+
+*iti cāruśravaṇikā alagnaḥ kuṇḍalīsparśaṃ vinā koṇaprahārataḥ*
+
+> ⚠ source numbering anomaly: found 912, expected 22
+
+**913**
+
+इत्यलग्नः  
+कर्तरी समपाणिश्चावघटो यत्र तु क्रमात्  
+सोक्ता परिश्रवणिका श्रीयज्ञपुरसूरिणा
+
+*ityalagnaḥ kartarī samapāṇiścāvaghaṭo yatra tu kramāt soktā pariśravaṇikā śrīyajñapurasūriṇā*
+
+> ⚠ source numbering anomaly: found 913, expected 22
+
+**914**
+
+इति परिश्रवणिका  
+समप्रहारो युगपत्करद्वंद्वेन घाततः  
+इति सयप्रहारः  
+कुडुपोद्भवपाटाख्यं वाद्यं कुडुपवारणा  
+उच्यते वादनो दण्डः कोणः कुडुप इत्यपि
+
+*iti pariśravaṇikā samaprahāro yugapatkaradvaṃdvena ghātataḥ iti sayaprahāraḥ kuḍupodbhavapāṭākhyaṃ vādyaṃ kuḍupavāraṇā ucyate vādano daṇḍaḥ koṇaḥ kuḍupa ityapi*
+
+> ⚠ source numbering anomaly: found 914, expected 22
+
+**915**
+
+इति कुडुपवारणा  
+जाता हस्तजपाटैस्तु केवलैः करवारणा
+
+*iti kuḍupavāraṇā jātā hastajapāṭaistu kevalaiḥ karavāraṇā*
+
+> ⚠ source numbering anomaly: found 915, expected 22
+
+**916**
+
+इति करवारणा  
+अकैको यः करद्वंद्वान्मृदुदक्षिणपाणिकात्  
+जायते तादृशैः पाटैर्दण्डहस्तोऽभिधीयते
+
+*iti karavāraṇā akaiko yaḥ karadvaṃdvānmṛdudakṣiṇapāṇikāt jāyate tādṛśaiḥ pāṭairdaṇḍahasto'bhidhīyate*
+
+> ⚠ source numbering anomaly: found 916, expected 22
+
+**917**
+
+इति दण्डहस्तः  
+यः करेण कराभ्यां वा कृतैः पाटैर्निरन्तरैः  
+निरन्तरघनध्वानः स स्याद्घनरवाभिधः
+
+*iti daṇḍahastaḥ yaḥ kareṇa karābhyāṃ vā kṛtaiḥ pāṭairnirantaraiḥ nirantaraghanadhvānaḥ sa syādghanaravābhidhaḥ*
+
+> ⚠ source numbering anomaly: found 917, expected 22
+
+**918**
+
+इति घनरवः  
+स्कन्धेन मणिबन्धेन कुडुपेन च चालनात्  
+सोल्लासाज्जायते वल्लिस्त्रिविधा पटहादिषु
+
+*iti ghanaravaḥ skandhena maṇibandhena kuḍupena ca cālanāt sollāsājjāyate vallistrividhā paṭahādiṣu*
+
+> ⚠ source numbering anomaly: found 918, expected 22
+
+**919**
+
+इति वल्लिः  
+अर्धं वाऽर्धद्वयं वल्ल्यां स्वैः स्वैः पाटैरयोजनम्  
+कृतसंयोजनं वा चेद्वल्लिपाटस्तदा भवेत्
+
+*iti valliḥ ardhaṃ vā'rdhadvayaṃ vallyāṃ svaiḥ svaiḥ pāṭairayojanam kṛtasaṃyojanaṃ vā cedvallipāṭastadā bhavet*
+
+> ⚠ source numbering anomaly: found 919, expected 22
+
+**920**
+
+इति वल्लिपाटः  
+निबद्धं वादयेदर्धं झेंकाराद्यं पुरातनम्  
+अनिबद्धं स्वबुद्ध्याऽर्धं कराभ्यां वादयेदथ
+
+*iti vallipāṭaḥ nibaddhaṃ vādayedardhaṃ jheṃkārādyaṃ purātanam anibaddhaṃ svabuddhyā'rdhaṃ karābhyāṃ vādayedatha*
+
+> ⚠ source numbering anomaly: found 920, expected 22
+
+**921**
+
+वाद्येनाऽऽद्यं निबद्धं चेत्पुनर्धत्ता तदोच्यते  
+इति धत्ता  
+योनेनैकेन निष्पन्नस्तदुपाङ्गभवोऽपरः
+
+*vādyenā''dyaṃ nibaddhaṃ cetpunardhattā tadocyate iti dhattā yonenaikena niṣpannastadupāṅgabhavo'paraḥ*
+
+> ⚠ source numbering anomaly: found 921, expected 22
+
+**922**
+
+पाटोऽन्योन्याङ्गयोगस्तैः संमिश्रैः पादपूरणैः  
+नानावाद्योद्भवैः पाटैर्भेदस्त्रेधा लयत्रयात्
+
+*pāṭo'nyonyāṅgayogastaiḥ saṃmiśraiḥ pādapūraṇaiḥ nānāvādyodbhavaiḥ pāṭairbhedastredhā layatrayāt*
+
+> ⚠ source numbering anomaly: found 922, expected 22
+
+**923**
+
+इति भेदः  
+यस्यामुपक्रमे मध्येऽन्येऽथ वाद्यैरनेकधा  
+सर्ववाद्यानि वाद्यन्ते जगदुस्तां झडप्पणीम्
+
+*iti bhedaḥ yasyāmupakrame madhye'nye'tha vādyairanekadhā sarvavādyāni vādyante jagadustāṃ jhaḍappaṇīm*
+
+> ⚠ source numbering anomaly: found 923, expected 22
+
+**924**
+
+इति झडप्पणी  
+पाटः पाटाक्षरं यद्वा श्रूयते चेत्पुनः पुनः  
+अनुश्रवणिकां प्राहं शंकरानुचरस्तदा
+
+*iti jhaḍappaṇī pāṭaḥ pāṭākṣaraṃ yadvā śrūyate cetpunaḥ punaḥ anuśravaṇikāṃ prāhaṃ śaṃkarānucarastadā*
+
+> ⚠ source numbering anomaly: found 924, expected 22
+
+**925**
+
+इत्यनुश्रवणिका  
+द्वे चत्वारि भवन्त्यष्टौ यद्वा खण्डानि षोडश  
+देंकारादीनि यत्रासौ हस्तः स तु चतुर्विधः
+
+*ityanuśravaṇikā dve catvāri bhavantyaṣṭau yadvā khaṇḍāni ṣoḍaśa deṃkārādīni yatrāsau hastaḥ sa tu caturvidhaḥ*
+
+> ⚠ source numbering anomaly: found 925, expected 22
+
+**926**
+
+चतुरस्रत्र्यस्रमिश्रखण्डतालप्रयोगतः  
+इति हस्तः  
+तदर्धार्धादिभेदेन क्रमेण व्युत्क्रमेण वा  
+अखण्डतालाः पाटाश्चेद्युज्यन्ते जोडणी तदा
+
+*caturasratryasramiśrakhaṇḍatālaprayogataḥ iti hastaḥ tadardhārdhādibhedena krameṇa vyutkrameṇa vā akhaṇḍatālāḥ pāṭāścedyujyante joḍaṇī tadā*
+
+> ⚠ source numbering anomaly: found 926, expected 22
+
+**927**
+
+इति जोडणी  
+खण्डानि त्रीणि यत्र स्युरेकैकं त्रिगुणं तथा  
+वाद्यते यत्र सा प्रोक्ता त्रिगुणा त्रिविधा च सा
+
+*iti joḍaṇī khaṇḍāni trīṇi yatra syurekaikaṃ triguṇaṃ tathā vādyate yatra sā proktā triguṇā trividhā ca*
+
+> svara illustration: `सा`
+
+> ⚠ source numbering anomaly: found 927, expected 22
+
+**928**
+
+आदिमध्यान्तखण्डाणां त्रैगुण्यात्सा पुनर्द्विआ!  
+क्रमव्युत्क्रमतोऽथास्यास्तत्त्रैगुण्यमुदाहरेत्
+
+*ādimadhyāntakhaṇḍāṇāṃ traiguṇyātsā punardviā! kramavyutkramato'thāsyāstattraiguṇyamudāharet*
+
+> ⚠ source numbering anomaly: found 928, expected 22
+
+**929**
+
+प्रयुज्य त्रीणि खण्डानि प्रयुञ्जीताऽऽदिमद्वयम्  
+ततश्चाऽऽद्यमिति प्रोक्तं खण्डे त्रैगुण्यमादिमे
+
+*prayujya trīṇi khaṇḍāni prayuñjītā''dimadvayam tataścā''dyamiti proktaṃ khaṇḍe traiguṇyamādime*
+
+> ⚠ source numbering anomaly: found 929, expected 22
+
+**930**
+
+इत्यादित्रिगुणा मध्ये त्रिगुणा तु द्विधा भवेत्  
+त्रैगुण्यान्मध्यखण्डस्य द्विःप्रकारात्तदुच्यते
+
+*ityāditriguṇā madhye triguṇā tu dvidhā bhavet traiguṇyānmadhyakhaṇḍasya dviḥprakārāttaducyate*
+
+> ⚠ source numbering anomaly: found 930, expected 22
+
+**931**
+
+खण्डत्रयं ततः खण्डद्वयमाद्यं प्रयुज्यते  
+ततो मध्यममित्येवं यद्वा खण्डद्वयात्परम्
+
+*khaṇḍatrayaṃ tataḥ khaṇḍadvayamādyaṃ prayujyate tato madhyamamityevaṃ yadvā khaṇḍadvayātparam*
+
+> ⚠ source numbering anomaly: found 931, expected 22
+
+**932**
+
+अन्त्यद्वयं वादयित्वा प्रयोज्यं मध्यमं दलम्  
+अथान्तत्रिगुणायां प्राक्खण्डत्रितयवादनम्
+
+*antyadvayaṃ vādayitvā prayojyaṃ madhyamaṃ dalam athāntatriguṇāyāṃ prākkhaṇḍatritayavādanam*
+
+> ⚠ source numbering anomaly: found 932, expected 22
+
+**933**
+
+ततोऽन्तिमद्वयं खण्डमन्तिमं वादयेत्तथा  
+एवमष्टविधामाह त्रिगुणां भववल्लभः
+
+*tato'ntimadvayaṃ khaṇḍamantimaṃ vādayettathā evamaṣṭavidhāmāha triguṇāṃ bhavavallabhaḥ*
+
+> ⚠ source numbering anomaly: found 933, expected 22
+
+**934**
+
+अथवा चतुरस्रादौ क्वापि ताले दलत्रयम्  
+प्रयुज्यैकस्य खण्डस्य मानेनाथ दलद्वयम्
+
+*athavā caturasrādau kvāpi tāle dalatrayam prayujyaikasya khaṇḍasya mānenātha daladvayam*
+
+> ⚠ source numbering anomaly: found 934, expected 22
+
+**935**
+
+कुर्याद्दलत्रयं तावद्यत्र सा त्रिगुणा भवेत्  
+चतुरस्रत्र्यस्रमिश्रयुक्तैर्वैषा क्रमाद्दलैः
+
+*kuryāddalatrayaṃ tāvadyatra sā triguṇā bhavet caturasratryasramiśrayuktairvaiṣā kramāddalaiḥ*
+
+> ⚠ source numbering anomaly: found 935, expected 22
+
+**936**
+
+अन्ये त्वेककले ताले द्विकलेऽथ चतुष्कले  
+क्रमाद्विरचितैः खण्डैस्त्रिगुणामभणन्बुधाः
+
+*anye tvekakale tāle dvikale'tha catuṣkale kramādviracitaiḥ khaṇḍaistriguṇāmabhaṇanbudhāḥ*
+
+> ⚠ source numbering anomaly: found 936, expected 22
+
+**937**
+
+एकं चच्चत्पुटे खण्डद्वयं चाचपुटे ततः  
+मिश्रे खण्डत्रयं यत्र त्रिगुणां तां जगुः परे
+
+*ekaṃ caccatpuṭe khaṇḍadvayaṃ cācapuṭe tataḥ miśre khaṇḍatrayaṃ yatra triguṇāṃ tāṃ jaguḥ*
+
+> svara illustration: `परे`
+
+> ⚠ source numbering anomaly: found 937, expected 22
+
+**938**
+
+पदैश्चतुर्भिरस्यां स्यात्खण्डमेकं पदं पुनः  
+मितं कलाभिरष्टाभिरित्युक्तं सूरिशार्ङ्गिणा
+
+*padaiścaturbhirasyāṃ syātkhaṇḍamekaṃ padaṃ punaḥ mitaṃ kalābhiraṣṭābhirityuktaṃ sūriśārṅgiṇā*
+
+> ⚠ source numbering anomaly: found 938, expected 22
+
+**939**
+
+इति त्रिगुणा  
+पञ्चहस्तो हस्तपाटैर्हस्तशब्दान्विताभिधैः  
+इति पञ्चहस्तः  
+पञ्चपाणिस्तु पाटैः स्यात्पाणिशब्दयुताभिधैः
+
+*iti triguṇā pañcahasto hastapāṭairhastaśabdānvitābhidhaiḥ iti pañcahastaḥ pañcapāṇistu pāṭaiḥ syātpāṇiśabdayutābhidhaiḥ*
+
+> ⚠ source numbering anomaly: found 939, expected 22
+
+**940**
+
+इति पञ्चपाणिः  
+कर्तरीपदवत्संज्ञैः पाटैः स्यात्पञ्चकर्तरी
+
+*iti pañcapāṇiḥ kartarīpadavatsaṃjñaiḥ pāṭaiḥ syātpañcakartarī*
+
+> ⚠ source numbering anomaly: found 940, expected 22
+
+**941**
+
+इति पञ्चकर्तरी  
+वर्धन्ते च ह्रसन्ते चेन्मात्राश्चन्द्रकला इव  
+तालश्चन्द्रकलाख्यश्च तदा चन्द्रकला भवेत्
+
+*iti pañcakartarī vardhante ca hrasante cenmātrāścandrakalā iva tālaścandrakalākhyaśca tadā candrakalā bhavet*
+
+> ⚠ source numbering anomaly: found 941, expected 22
+
+**942**
+
+द्वात्रिंशन्मात्रिकामन्ये प्राहुश्चन्द्रकलामिमाम्  
+द्विमात्राः षोडशकला वृद्धिह्रासयुजो विदुः  
+तादृक्चतुःषष्टिकलां तामाहुर्दक्षिणे पथि
+
+*dvātriṃśanmātrikāmanye prāhuścandrakalāmimām dvimātrāḥ ṣoḍaśakalā vṛddhihrāsayujo viduḥ tādṛkcatuḥṣaṣṭikalāṃ tāmāhurdakṣiṇe pathi*
+
+> ⚠ source numbering anomaly: found 942, expected 22
+
+**943**
+
+इति चन्द्रकला  
+उद्ग्राहादिनिबद्धाः स्युरत्र गीतप्रबन्धवत्  
+वाद्यप्रबन्धास्तद्भेदलक्ष्माण्यभिदधेऽधुना
+
+*iti candrakalā udgrāhādinibaddhāḥ syuratra gītaprabandhavat vādyaprabandhāstadbhedalakṣmāṇyabhidadhe'dhunā*
+
+> ⚠ source numbering anomaly: found 943, expected 22
+
+**944**
+
+यतिरोता च गजरो रिगोणी कवितं पदम्  
+मेलापकश्चोपशमोद्ग्राहप्रकरणान्यथ
+
+*yatirotā ca gajaro rigoṇī kavitaṃ padam melāpakaścopaśamodgrāhaprakaraṇānyatha*
+
+> ⚠ source numbering anomaly: found 944, expected 22
+
+**945**
+
+अवत्सकश्छण्डणश्च तुडुका मलपं ततः  
+मलपाङ्गं च मलपपाटश्छेदोऽथ रूपकम्
+
+*avatsakaśchaṇḍaṇaśca tuḍukā malapaṃ tataḥ malapāṅgaṃ ca malapapāṭaśchedo'tha rūpakam*
+
+> ⚠ source numbering anomaly: found 945, expected 22
+
+**946**
+
+अन्तरोऽन्तरपाटश्च खोजः खण्डयतिस्ततः  
+खण्डच्छेदोऽप्यवयतिः खण्डपाटश्च खण्डकः
+
+*antaro'ntarapāṭaśca khojaḥ khaṇḍayatistataḥ khaṇḍacchedo'pyavayatiḥ khaṇḍapāṭaśca khaṇḍakaḥ*
+
+> ⚠ source numbering anomaly: found 946, expected 22
+
+**947**
+
+खण्डहुल्लः समः पाटो ध्रुवकोऽङ्गाङ्गरूपके  
+तालो वितालः खलकः समुदायश्च जोडणी
+
+*khaṇḍahullaḥ samaḥ pāṭo dhruvako'ṅgāṅgarūpake tālo vitālaḥ khalakaḥ samudāyaśca joḍaṇī*
+
+> ⚠ source numbering anomaly: found 947, expected 22
+
+**948**
+
+उदवस्तलपाटश्चोट्टवणी तुण्डकस्ततः  
+अङ्गपाटश्च पैसारस्त्रिचत्वारिंशदित्यमी
+
+*udavastalapāṭaścoṭṭavaṇī tuṇḍakastataḥ aṅgapāṭaśca paisārastricatvāriṃśadityamī*
+
+> ⚠ source numbering anomaly: found 948, expected 22
+
+**949**
+
+उक्ताः श्रीकरणाग्रण्या प्रबन्धा वाद्यसंश्रयाः  
+शीतोदकास्तथा स्नानगर्वोऽन्यो गर्वनिर्णयः
+
+*uktāḥ śrīkaraṇāgraṇyā prabandhā vādyasaṃśrayāḥ śītodakāstathā snānagarvo'nyo garvanirṇayaḥ*
+
+> ⚠ source numbering anomaly: found 949, expected 22
+
+**950**
+
+उत्प्रेक्षामात्रजा लक्ष्महीनास्तेऽस्मदुपेक्षिताः  
+प्रायो वाद्यप्रबन्धानां देंकारोऽन्ते निधीयते
+
+*utprekṣāmātrajā lakṣmahīnāste'smadupekṣitāḥ prāyo vādyaprabandhānāṃ deṃkāro'nte nidhīyate*
+
+> ⚠ source numbering anomaly: found 950, expected 22
+
+**952**
+
+यो वाद्यते वाद्यखण्डो विरामैर्बहुभिर्मुहुः  
+यतिर्जक्का च सा तज्ज्ञैर्वाद्या मण्ठादिसालगे
+
+*yo vādyate vādyakhaṇḍo virāmairbahubhirmuhuḥ yatirjakkā ca sā tajjñairvādyā maṇṭhādisālage*
+
+> ⚠ source numbering anomaly: found 952, expected 22
+
+**953**
+
+आदौ वाद्यप्रबन्धस्य कस्याप्यङ्गतया यदा  
+तद्विदो वादयन्त्येतां वदन्त्युटवणं तदा
+
+*ādau vādyaprabandhasya kasyāpyaṅgatayā yadā tadvido vādayantyetāṃ vadantyuṭavaṇaṃ tadā*
+
+> ⚠ source numbering anomaly: found 953, expected 22
+
+**954**
+
+गड्दगथॐ गक्कयॐटें गड्दगथॐ गक्कथॐटें गड्दगथॐ गक्कथॐटें ।  
+पाटानां रचनां केचिदत्र नेच्छन्ति सूरयः
+
+*gaḍdagathaoṃ gakkayaoṃṭeṃ gaḍdagathaoṃ gakkathaoṃṭeṃ gaḍdagathaoṃ gakkathaoṃṭeṃ | pāṭānāṃ racanāṃ kecidatra necchanti sūrayaḥ*
+
+> ⚠ source numbering anomaly: found 954, expected 22
+
+**955**
+
+इति यतिः  
+द्विरुद्ग्राहस्ततः खण्डः यस्यां द्विर्भूरिदेंकृति  
+तत्किंचिदधिकं वारे द्वितीयेऽथ तृतीयकम्
+
+*iti yatiḥ dvirudgrāhastataḥ khaṇḍaḥ yasyāṃ dvirbhūrideṃkṛti tatkiṃcidadhikaṃ vāre dvitīye'tha tṛtīyakam*
+
+> ⚠ source numbering anomaly: found 955, expected 22
+
+**956**
+
+कियद्दीर्धं शुद्धकूटखण्डैः पाटैर्विमिश्रितैः  
+व्यस्तैः समस्तै रचितं ततो देंकृतिमत्पुनः
+
+*kiyaddīrdhaṃ śuddhakūṭakhaṇḍaiḥ pāṭairvimiśritaiḥ vyastaiḥ samastai racitaṃ tato deṃkṛtimatpunaḥ*
+
+> ⚠ source numbering anomaly: found 956, expected 22
+
+**957**
+
+सकृत्तच्च प्रयोक्तव्यमथ वर्णसरात्मकम्  
+दीर्घं खण्डं ततोऽल्पं च प्राच्यं शुद्धादिनिर्मितम्  
+ओता सोक्ता छण्डणान्ता कैश्चिद्देंकृतिमुक्तिका
+
+*sakṛttacca prayoktavyamatha varṇasarātmakam dīrghaṃ khaṇḍaṃ tato'lpaṃ ca prācyaṃ śuddhādinirmitam otā soktā chaṇḍaṇāntā kaiściddeṃkṛtimuktikā*
+
+> ⚠ source numbering anomaly: found 957, expected 22
+
+**958**
+
+एषैककलयुग्मे स्यान्निःसारौ छण्डणो भवेत्  
+उद्धतो ध्वनिरत्र स्यात्प्रायो मानं विलम्बितम्
+
+*eṣaikakalayugme syānniḥsārau chaṇḍaṇo bhavet uddhato dhvaniratra syātprāyo mānaṃ vilambitam*
+
+> ⚠ source numbering anomaly: found 958, expected 22
+
+**959**
+
+दीप्तं नृत्तं च तामाहुः केचित्केदार इत्यपि  
+इमामावहनीं प्राहुरेकेऽन्ये त्वन्यथा जगुः
+
+*dīptaṃ nṛttaṃ ca tāmāhuḥ kecitkedāra ityapi imāmāvahanīṃ prāhureke'nye tvanyathā jaguḥ*
+
+> ⚠ source numbering anomaly: found 959, expected 22
+
+**960**
+
+पाटैर्बहुलदेंकारैस्तालैश्च निखिलैः कृता  
+बहुधा स्थापना यस्यामाहुराहवनीं बुधाः
+
+*pāṭairbahuladeṃkāraistālaiśca nikhilaiḥ kṛtā bahudhā sthāpanā yasyāmāhurāhavanīṃ budhāḥ*
+
+> ⚠ source numbering anomaly: found 960, expected 22
+
+**2**
+
+इत्युद्ग्राहो द्विवारं कर्तव्यः । तड्दगदे  
+गिनदेंगक् तु थं हं देंगक् देंगनथ गनतदिगि नत्तत्तेक्कटदेंदेंगिन-  
+तक्कट खुखुघंघं देंगक् । इति देंकारखण्डं द्विः ।  
+द्वितीयवारे त्वधिकं कथ्यते यथा--गड्पक् देंगक् गडड्दक् देंगक् इति । तदेंगडदक्टें थॐकदथॐगक् तटे कटदकट् दरे हॐकथोरे-  
+हेटैतक्कें धिकथॐटैं थॐ टैं थॐ टैं इति तृतीयखण्डे शुद्धादिपाटरचितम् ।  
+ततः पुनः प्राचीनदेंकारखण्डं सकृत् । ततः--गड्दक् दग्निन-  
+धिकाधिक तकदेंगि कथन हकदक दडक् दरगड धिरिगिड  
+धरगड्दक् । दरगरदग धिरगडदग
+
+*ityudgrāho dvivāraṃ kartavyaḥ | taḍdagade ginadeṃgak tu thaṃ haṃ deṃgak deṃganatha ganatadigi nattattekkaṭadeṃdeṃgina- takkaṭa khukhughaṃghaṃ deṃgak | iti deṃkārakhaṇḍaṃ dviḥ | dvitīyavāre tvadhikaṃ kathyate yathā--gaḍpak deṃgak gaḍaḍdak deṃgak iti | tadeṃgaḍadakṭeṃ thaoṃkadathaoṃgak taṭe kaṭadakaṭ dare haoṃkathore- heṭaitakkeṃ dhikathaoṃṭaiṃ thaoṃ ṭaiṃ thaoṃ ṭaiṃ iti tṛtīyakhaṇḍe śuddhādipāṭaracitam | tataḥ punaḥ prācīnadeṃkārakhaṇḍaṃ sakṛt | tataḥ--gaḍdak dagnina- dhikādhika takadeṃgi kathana hakadaka daḍak daragaḍa dhirigiḍa dharagaḍdak | daragaradaga dhiragaḍadaga*
+
+> ⚠ source numbering anomaly: found 2, expected 22
+
+**2**
+
+तकधिंगथॐगटे धिकथॐ-  
+गटै थिक थोडिं खुं खुततक् थोरगड
+
+*takadhiṃgathaoṃgaṭe dhikathaoṃ- gaṭai thika thoḍiṃ khuṃ khutatak thoragaḍa*
+
+> ⚠ source numbering anomaly: found 2, expected 22
+
+**2**
+
+तक् थोरगडतक् थोतक्  
+थोतक् थोरगड थोरगड तक् धिकथॐगटें । इति वर्णसरात्मकं  
+खण्डम् ।  
+ततः प्राचीनं शुद्धादिनिर्मितं स्वल्पम् । एतावत्पर्यन्तं चच्चत्पुटे ।  
+गड्दग् टेंद्रग् थोहटें हेते दहं थो
+
+*tak thoragaḍatak thotak thotak thoragaḍa thoragaḍa tak dhikathaoṃgaṭeṃ | iti varṇasarātmakaṃ khaṇḍam | tataḥ prācīnaṃ śuddhādinirmitaṃ svalpam | etāvatparyantaṃ caccatpuṭe | gaḍdag ṭeṃdrag thohaṭeṃ hete dahaṃ tho*
+
+> ⚠ source numbering anomaly: found 2, expected 22
+
+**962**
+
+थॐ तथॐ तकथॐ धिकथॐटें । इति निःसारौ छण्डणः । टेंकारस्थाने  
+टेंकार इत्यन्ये ।  
+कृत्वैकवारमुद्ग्राहं नातिदीर्घो न चाल्पकः  
+वादकोद्घोषगम्भीरध्वनिमुच्चतरं दधत्
+
+*thaoṃ tathaoṃ takathaoṃ dhikathaoṃṭeṃ | iti niḥsārau chaṇḍaṇaḥ | ṭeṃkārasthāne ṭeṃkāra ityanye | kṛtvaikavāramudgrāhaṃ nātidīrgho na cālpakaḥ vādakodghoṣagambhīradhvanimuccataraṃ dadhat*
+
+> ⚠ source numbering anomaly: found 962, expected 22
+
+**963**
+
+त्रिः खण्डोभ्यस्यते कूटैर्बद्धो वर्णसरेण वा  
+मुहुर्विधायोपशमं छण्डणो यत्र रज्यते
+
+*triḥ khaṇḍobhyasyate kūṭairbaddho varṇasareṇa vā muhurvidhāyopaśamaṃ chaṇḍaṇo yatra rajyate*
+
+> ⚠ source numbering anomaly: found 963, expected 22
+
+**964**
+
+गजरोऽसावुट्टवणं स्यादस्याऽऽदौ पुनः पुनः  
+एकताल्यामुट्टवणं तस्यां निःसारुकेऽथवा
+
+*gajaro'sāvuṭṭavaṇaṃ syādasyā''dau punaḥ punaḥ ekatālyāmuṭṭavaṇaṃ tasyāṃ niḥsāruke'thavā*
+
+> ⚠ source numbering anomaly: found 964, expected 22
+
+**965**
+
+भवेदुपशमोऽन्यत्र नास्य तालो नियम्यते  
+गजरावयवाः सर्वे वाद्यन्ते ते निरन्तराः
+
+*bhavedupaśamo'nyatra nāsya tālo niyamyate gajarāvayavāḥ sarve vādyante te nirantarāḥ*
+
+> ⚠ source numbering anomaly: found 965, expected 22
+
+**3**
+
+हटे । थॐहदग थोहट । इत्युट्टवणमेकताल्यां पुनः पुनः । थॐटें दंदगेन थॐगटें गें धिकतक । इत्युद्ग्राहः । प्रतिग्राहेण वोच्यते । अयं किलैकताल्यां कृतः ।  
+गड्दगत देंगगनग्दिहिक् । कथॐगतकधिक थॐगटेंहें थोदगक् ।  
+गिड्दक्थॐगक्कथॐ
+
+*haṭe | thaoṃhadaga thohaṭa | ityuṭṭavaṇamekatālyāṃ punaḥ punaḥ | thaoṃṭeṃ daṃdagena thaoṃgaṭeṃ geṃ dhikataka | ityudgrāhaḥ | pratigrāheṇa vocyate | ayaṃ kilaikatālyāṃ kṛtaḥ | gaḍdagata deṃgaganagdihik | kathaoṃgatakadhika thaoṃgaṭeṃheṃ thodagak | giḍdakthaoṃgakkathaoṃ*
+
+> ⚠ source numbering anomaly: found 3, expected 22
+
+**966**
+
+दें इति त्रिरेकताल्यां  
+खण्डः । केवलोऽप्ययं खण्डो गजर इत्युच्यते । गड्दक्थॐगक्थॐ-  
+गक्कथोहरघट थरे । इत्येकताल्यां पुनः पुनरुपशमः । थोहटें । इति च्छण्डणः । एतत्सर्वं नैरन्तर्येण वाद्यते । इति गजरः ।  
+प्रत्येकं द्विः प्रयुक्तेनोपशमेनान्तयोगिना  
+युक्तं खण्डत्रयं शुद्धैः कूटैः खण्डैश्च निर्मितम्  
+पाटैर्व्यस्तैः समस्तैश्च बद्धं वर्णसरेण वा
+
+*deṃ iti trirekatālyāṃ khaṇḍaḥ | kevalo'pyayaṃ khaṇḍo gajara ityucyate | gaḍdakthaoṃgakthaoṃ- gakkathoharaghaṭa thare | ityekatālyāṃ punaḥ punarupaśamaḥ | thohaṭeṃ | iti cchaṇḍaṇaḥ | etatsarvaṃ nairantaryeṇa vādyate | iti gajaraḥ | pratyekaṃ dviḥ prayuktenopaśamenāntayoginā yuktaṃ khaṇḍatrayaṃ śuddhaiḥ kūṭaiḥ khaṇḍaiśca nirmitam pāṭairvyastaiḥ samastaiśca baddhaṃ varṇasareṇa vā*
+
+> ⚠ source numbering anomaly: found 966, expected 22
+
+**967**
+
+यस्यां स्याद्वादकस्थूलमिलत्कोलाहलाकुलम्  
+छण्डनान्ता रिगोणी सा दधती ध्वनिमुत्तमम्
+
+*yasyāṃ syādvādakasthūlamilatkolāhalākulam chaṇḍanāntā rigoṇī sā dadhatī dhvanimuttamam*
+
+> ⚠ source numbering anomaly: found 967, expected 22
+
+**968**
+
+अस्यामुट्टवणं कार्यं वैकल्पिकमुपक्रमे  
+दीप्तनृत्ते भवेदेषोपशमा ललिता मता
+
+*asyāmuṭṭavaṇaṃ kāryaṃ vaikalpikamupakrame dīptanṛtte bhavedeṣopaśamā lalitā matā*
+
+> ⚠ source numbering anomaly: found 968, expected 22
+
+**969**
+
+ललितं यद्युट्टवणं तदा तल्ललिते भवेत्  
+अन्त्यखण्डात्सोपशमच्छण्डणाद्दीप्तनर्तनम्
+
+*lalitaṃ yadyuṭṭavaṇaṃ tadā tallalite bhavet antyakhaṇḍātsopaśamacchaṇḍaṇāddīptanartanam*
+
+> ⚠ source numbering anomaly: found 969, expected 22
+
+**2**
+
+इति प्रथमखण्डम् ।  
+टैथोटेंगें त्थॐधिथॐहधिहटें । इत्युपशमो द्विः । तर्क्कर्ग दड-  
+रद कुथिकुर्गदडधिक्क दक्कर्ग दडग्दक्थॐगत्तकधिक कधिकत धिक-  
+कधि टेंगेंनथॐग
+
+*iti prathamakhaṇḍam | ṭaithoṭeṃgeṃ tthaoṃdhithaoṃhadhihaṭeṃ | ityupaśamo dviḥ | tarkkarga daḍa- rada kuthikurgadaḍadhikka dakkarga daḍagdakthaoṃgattakadhika kadhikata dhika- kadhi ṭeṃgeṃnathaoṃga*
+
+> ⚠ source numbering anomaly: found 2, expected 22
+
+**970**
+
+थॐगक्कथॐ इति द्वितीयखण्डम् ।  
+टैं थॐ हटगें थॐटें । इत्युपशमो द्विः । थॐगटं दरगड धिरगड धित्थाः थॐकट तकथॐ कटधिक्कक् । थॐधिक तद्धितक् । इति तृतीयखण्डम् ।  
+कत्थॐटक्क थॐहकटगे धिकटै थौ हटगें थॐ हटें इत्युपशमो द्विः । तथॐ गिड्दक् दिगनदिगन दिगनक थॐगतद्धितक् । थॐहटें । इति च्छण्डणः ।  
+इत्येकताल्यामुदाहरणम् । इति रिगोणी ।  
+नातिदीर्घं द्विराद्यं स्यात्खण्डं शुद्धादिनिर्मितम्  
+यद्वा वर्णसरेणाथ तादृक्खण्डं सकृद्भवेत्
+
+*thaoṃgakkathaoṃ iti dvitīyakhaṇḍam | ṭaiṃ thaoṃ haṭageṃ thaoṃṭeṃ | ityupaśamo dviḥ | thaoṃgaṭaṃ daragaḍa dhiragaḍa dhitthāḥ thaoṃkaṭa takathaoṃ kaṭadhikkak | thaoṃdhika taddhitak | iti tṛtīyakhaṇḍam | katthaoṃṭakka thaoṃhakaṭage dhikaṭai thau haṭageṃ thaoṃ haṭeṃ ityupaśamo dviḥ | tathaoṃ giḍdak diganadigana diganaka thaoṃgataddhitak | thaoṃhaṭeṃ | iti cchaṇḍaṇaḥ | ityekatālyāmudāharaṇam | iti rigoṇī | nātidīrghaṃ dvirādyaṃ syātkhaṇḍaṃ śuddhādinirmitam yadvā varṇasareṇātha tādṛkkhaṇḍaṃ sakṛdbhavet*
+
+> ⚠ source numbering anomaly: found 970, expected 22
+
+**971**
+
+इत्युद्ग्राहध्रुवौ कृत्वा स्वोद्ग्राहान्त्यदलेऽथवा  
+स्वोद्ग्राहे यत्र मुक्तिस्तत्कवितं कवयो विदुः
+
+*ityudgrāhadhruvau kṛtvā svodgrāhāntyadale'thavā svodgrāhe yatra muktistatkavitaṃ kavayo viduḥ*
+
+> ⚠ source numbering anomaly: found 971, expected 22
+
+**972**
+
+अस्य नामान्तरं प्राहुरन्येऽवच्छेद इत्यपि  
+भवेदिह द्रुतं मानं वर्णाः प्रायः स्युरुद्धताः  
+बाहुल्यान्नर्तनं दीप्तं निःशङ्केनेति कीर्तितम्
+
+*asya nāmāntaraṃ prāhuranye'vaccheda ityapi bhavediha drutaṃ mānaṃ varṇāḥ prāyaḥ syuruddhatāḥ bāhulyānnartanaṃ dīptaṃ niḥśaṅkeneti kīrtitam*
+
+> ⚠ source numbering anomaly: found 972, expected 22
+
+**2**
+
+यथा--गड्दक्दगिनदंदं गिनथॐग धिक्कट नकाधितक देंहकदर गडदरिक्थ रिक्थ रिदरगड थरिक थॐ गंडके । धिक्थॐटें
+
+*yathā--gaḍdakdaginadaṃdaṃ ginathaoṃga dhikkaṭa nakādhitaka deṃhakadara gaḍadariktha riktha ridaragaḍa tharika thaoṃ gaṃḍake | dhikthaoṃṭeṃ*
+
+> ⚠ source numbering anomaly: found 2, expected 22
+
+**973**
+
+तहें हके नखखिनथॐ । इति ध्रुवाख्यं खण्डम्  
+ततो देंहकडरगडेत्यादिनोद्ग्राहान्त्यखण्डेनोद्ग्राहेण वा सकलेन गड्गतित्यादिना त्यागः । निःसारुताले चेदमुदाहरणम् ।  
+इति कवितम्  
+उद्ग्राहोऽल्पो ध्रुवो नातिदीर्घः शुद्धादिनिर्मितः  
+स्याद्वर्णसरबद्धो वा छण्डणोऽन्ते यदा तदा  
+पदं वदन्ति वाद्यज्ञाः प्रायस्तद्दीप्तनर्तने
+
+*taheṃ hake nakhakhinathaoṃ | iti dhruvākhyaṃ khaṇḍam tato deṃhakaḍaragaḍetyādinodgrāhāntyakhaṇḍenodgrāheṇa vā sakalena gaḍgatityādinā tyāgaḥ | niḥsārutāle cedamudāharaṇam | iti kavitam udgrāho'lpo dhruvo nātidīrghaḥ śuddhādinirmitaḥ syādvarṇasarabaddho vā chaṇḍaṇo'nte yadā tadā padaṃ vadanti vādyajñāḥ prāyastaddīptanartane*
+
+> ⚠ source numbering anomaly: found 973, expected 22
+
+**974**
+
+यथा--तद्देहें तद्दें ततक्तद्दै । इत्युद्ग्राहः । तकट धिकट धिधिकिट धिकिटर्गाड्दगधिकतक धिकथॐगटें । इति ध्रुवः ।  
+गत कटधिधि कटधिक्किडदगधिधिकट धिक्किरडाडगधिगक्कि-  
+ग्डाहगथॐटैं हंधिक्कथॐगटें । इति च्छण्डणः । इदमुदाहरणं वर्णताले ।  
+वादयित्वा यतिं मध्ये प्रबन्धस्य विमुच्यते  
+पाटेन यत्र तत्प्रोक्तमपरैः सूरिभिः पदम्
+
+*yathā--taddeheṃ taddeṃ tataktaddai | ityudgrāhaḥ | takaṭa dhikaṭa dhidhikiṭa dhikiṭargāḍdagadhikataka dhikathaoṃgaṭeṃ | iti dhruvaḥ | gata kaṭadhidhi kaṭadhikkiḍadagadhidhikaṭa dhikkiraḍāḍagadhigakki- gḍāhagathaoṃṭaiṃ haṃdhikkathaoṃgaṭeṃ | iti cchaṇḍaṇaḥ | idamudāharaṇaṃ varṇatāle | vādayitvā yatiṃ madhye prabandhasya vimucyate pāṭena yatra tatproktamaparaiḥ sūribhiḥ padam*
+
+> ⚠ source numbering anomaly: found 974, expected 22
+
+**975**
+
+इति पदम्  
+एकताल्यां द्रुते माने नर्तनारम्भगोचरे  
+समं च करटाटीपिकाहलावादने सति
+
+*iti padam ekatālyāṃ drute māne nartanārambhagocare samaṃ ca karaṭāṭīpikāhalāvādane sati*
+
+> ⚠ source numbering anomaly: found 975, expected 22
+
+**976**
+
+अभ्यस्तो वाद्यखण्डोऽल्ल्पः कूटेनैकेन निर्मितः  
+तद्धीमितिच्छण्डणान्तः स्मृतो मेलापको बुधैः
+
+*abhyasto vādyakhaṇḍo'llpaḥ kūṭenaikena nirmitaḥ taddhīmiticchaṇḍaṇāntaḥ smṛto melāpako budhaiḥ*
+
+> ⚠ source numbering anomaly: found 976, expected 22
+
+**977**
+
+विद्यावन्तः स्वसमये प्राहुर्मेलापनीमिमाम्  
+वर्णानां टिरिकीत्येषामावृत्तिष्टीपिरुच्यते
+
+*vidyāvantaḥ svasamaye prāhurmelāpanīmimām varṇānāṃ ṭirikītyeṣāmāvṛttiṣṭīpirucyate*
+
+> ⚠ source numbering anomaly: found 977, expected 22
+
+**978**
+
+यथा--थॐगटें गड्दग्नं थॐगटें । इति यावत्प्रबन्धपूर्ति पुनः पुनर्वादनीयम् । तद्धीमिति । इति च्छण्डणः । इति मेलापकः ।  
+खण्डं शुद्धादिभिः पाटैर्बद्धं वर्णसरेण वा  
+अल्पं कोमलनादं च सुकुमाराक्षरान्वितम्  
+अभ्यस्तं कोमले नृत्ते भवेदुपशमाभिधम्
+
+*yathā--thaoṃgaṭeṃ gaḍdagnaṃ thaoṃgaṭeṃ | iti yāvatprabandhapūrti punaḥ punarvādanīyam | taddhīmiti | iti cchaṇḍaṇaḥ | iti melāpakaḥ | khaṇḍaṃ śuddhādibhiḥ pāṭairbaddhaṃ varṇasareṇa vā alpaṃ komalanādaṃ ca sukumārākṣarānvitam abhyastaṃ komale nṛtte bhavedupaśamābhidham*
+
+> ⚠ source numbering anomaly: found 978, expected 22
+
+**979**
+
+यथाक्--टेंथॐक्कगे थोटेटे थॐहटगे थाथें थॐटे । इत्युपशमः ।  
+आदौ वाद्यप्रबन्धानां शुद्धकूटादिनिर्मितः  
+यः खण्डो वाद्यते प्राहुरुद्ग्राहं तं महत्तमाः
+
+*yathāk--ṭeṃthaoṃkkage thoṭeṭe thaoṃhaṭage thātheṃ thaoṃṭe | ityupaśamaḥ | ādau vādyaprabandhānāṃ śuddhakūṭādinirmitaḥ yaḥ khaṇḍo vādyate prāhurudgrāhaṃ taṃ mahattamāḥ*
+
+> ⚠ source numbering anomaly: found 979, expected 22
+
+**980**
+
+उद्ग्राहोपशमादीनां यद्यप्यन्याङ्गतोदिता  
+यावत्पूरणमावृत्तेस्तथाऽपि स्यात्प्रबन्धता
+
+*udgrāhopaśamādīnāṃ yadyapyanyāṅgatoditā yāvatpūraṇamāvṛttestathā'pi syātprabandhatā*
+
+> ⚠ source numbering anomaly: found 980, expected 22
+
+**982**
+
+तें टें है तट्टें तक्कतटे इति यावत्प्रबन्धपूरणमभ्यासादुद्ग्राह-  
+प्रबन्धः । अङ्गत्वं तु द्विः सकृद्वा । प्राक्प्रयोगस्त्वङ्गप्रबन्धयोस्तुल्यः । इत्युद्ग्राहः ।  
+उद्धतं ध्वनितं कूटबद्धं खण्डं मुहुर्मुहुः  
+प्रयुक्तं स्यात्प्रहरणं ध्रुवाद्याभोगगोचरे  
+नृत्ते प्रायः प्रयोक्तव्यमन्यत्रापीच्छया भवेत्
+
+*teṃ ṭeṃ hai taṭṭeṃ takkataṭe iti yāvatprabandhapūraṇamabhyāsādudgrāha- prabandhaḥ | aṅgatvaṃ tu dviḥ sakṛdvā | prākprayogastvaṅgaprabandhayostulyaḥ | ityudgrāhaḥ | uddhataṃ dhvanitaṃ kūṭabaddhaṃ khaṇḍaṃ muhurmuhuḥ prayuktaṃ syātpraharaṇaṃ dhruvādyābhogagocare nṛtte prāyaḥ prayoktavyamanyatrāpīcchayā bhavet*
+
+> ⚠ source numbering anomaly: found 982, expected 22
+
+**983**
+
+यथा--कथॐगक्क थॐगत्थॐगटथॐगक्क थोग थोगथोक् कथोगक् थॐकट योगक्थोकटं थोगक् । गड्दक्काधिक थॐगक् । टगें दंथॐह । दिङ्-निकुकुधित्थो हधिक्कं धिटैं इति पुनः पुनः प्रयोज्यम् । एकताल्यामिदमुदाहरणम् । इति प्रहरणम् ।  
+उद्ग्राहः स्यात्ततः खण्डं शुद्धकूटादिनिर्मितम्
+
+*yathā--kathaoṃgakka thaoṃgatthaoṃgaṭathaoṃgakka thoga thogathok kathogak thaoṃkaṭa yogakthokaṭaṃ thogak | gaḍdakkādhika thaoṃgak | ṭageṃ daṃthaoṃha | diṅ-nikukudhittho hadhikkaṃ dhiṭaiṃ iti punaḥ punaḥ prayojyam | ekatālyāmidamudāharaṇam | iti praharaṇam | udgrāhaḥ syāttataḥ khaṇḍaṃ śuddhakūṭādinirmitam*
+
+> ⚠ source numbering anomaly: found 983, expected 22
+
+**984**
+
+तद्वर्णसरबद्धं वा प्रयुज्य द्विरिदं द्वयम्  
+ततः प्राक्खण्डसहितं तादृक्कूटमयं दलम्
+
+*tadvarṇasarabaddhaṃ vā prayujya dviridaṃ dvayam tataḥ prākkhaṇḍasahitaṃ tādṛkkūṭamayaṃ dalam*
+
+> ⚠ source numbering anomaly: found 984, expected 22
+
+**985**
+
+वाद्यते छण्डणोऽन्ते च यत्र सोऽवत्सको भवेत्  
+प्रयोज्य नर्तने दीप्ते शार्ङ्गदेवेन कीर्तितः
+
+*vādyate chaṇḍaṇo'nte ca yatra so'vatsako bhavet prayojya nartane dīpte śārṅgadevena kīrtitaḥ*
+
+> ⚠ source numbering anomaly: found 985, expected 22
+
+**986**
+
+यथा-- गड्दग्दंदं गड्दक्थिक्कट तकधिक्कट तक्धिक्तक् । इत्युद्ग्राहः ।  
+खडि खडि खखनख खिदक् झेंखखनख खिदक्तदक्क धिक्कक-  
+कगिणनग थॐगदिहिकिं थोगदिहिक्कितक धिकथॐगटे गडक् ।  
+तकधिक थॐगटें । इति द्वितीयं खण्डम् । एतच्च सहोद्ग्राहेण पुनः पुनर्वादयेत् । झक झखिखिन्नखनखखित ह्रें खखनखझें खन खरिब तुडि हिदिहि । कथॐगक् । इति तृतीयखण्डं पूर्वखण्डेन  
+सह वादयेत् । तकधिक तक्करे घटथथॐगक्क थॐगक्कटें । इति छण्डणः । इदमुदाहरणं रङ्गविद्याधरताले ।  
+इत्यवत्सकः ।  
+कूटादिबद्धः खण्डः स्याच्छण्डणो वाद्यमोक्षकः
+
+*yathā-- gaḍdagdaṃdaṃ gaḍdakthikkaṭa takadhikkaṭa takdhiktak | ityudgrāhaḥ | khaḍi khaḍi khakhanakha khidak jheṃkhakhanakha khidaktadakka dhikkaka- kagiṇanaga thaoṃgadihikiṃ thogadihikkitaka dhikathaoṃgaṭe gaḍak | takadhika thaoṃgaṭeṃ | iti dvitīyaṃ khaṇḍam | etacca sahodgrāheṇa punaḥ punarvādayet | jhaka jhakhikhinnakhanakhakhita hreṃ khakhanakhajheṃ khana khariba tuḍi hidihi | kathaoṃgak | iti tṛtīyakhaṇḍaṃ pūrvakhaṇḍena saha vādayet | takadhika takkare ghaṭathathaoṃgakka thaoṃgakkaṭeṃ | iti chaṇḍaṇaḥ | idamudāharaṇaṃ raṅgavidyādharatāle | ityavatsakaḥ | kūṭādibaddhaḥ khaṇḍaḥ syācchaṇḍaṇo vādyamokṣakaḥ*
+
+> ⚠ source numbering anomaly: found 986, expected 22
+
+**987**
+
+इति च्छण्डणः  
+शुद्धकूटादिभिर्बद्धः खण्डो वर्नसरेण वा  
+अभ्यस्तः स्याद्द्रुते माने तुडुका दीप्तनर्तने  
+द्रुताद्रुततरं मानमत्र लक्ष्येषु दृश्यते
+
+*iti cchaṇḍaṇaḥ śuddhakūṭādibhirbaddhaḥ khaṇḍo varnasareṇa vā abhyastaḥ syāddrute māne tuḍukā dīptanartane drutādrutataraṃ mānamatra lakṣyeṣu dṛśyate*
+
+> ⚠ source numbering anomaly: found 987, expected 22
+
+**988**
+
+यथा--टें दंदगि तथॐगटेंधिकतः रघटे हे कथोः टेगेधिक तटथॐगः गण नगिः थॐगतक धिकथॐगटें । एकताल्यामिदमुदाहरणम् ।  
+उद्ग्राहध्रुवकाभोगे यत्रान्यतमखण्डकम्
+
+*yathā--ṭeṃ daṃdagi tathaoṃgaṭeṃdhikataḥ raghaṭe he kathoḥ ṭegedhika taṭathaoṃgaḥ gaṇa nagiḥ thaoṃgataka dhikathaoṃgaṭeṃ | ekatālyāmidamudāharaṇam | udgrāhadhruvakābhoge yatrānyatamakhaṇḍakam*
+
+> ⚠ source numbering anomaly: found 988, expected 22
+
+**989**
+
+वादनीयं म्परे प्राहुरन्ये तु तुडुकां जगुः  
+उद्ग्राहध्रुवकाभोगोद्ग्राहाणां वादनं क्रमात्
+
+*vādanīyaṃ mpare prāhuranye tu tuḍukāṃ jaguḥ udgrāhadhruvakābhogodgrāhāṇāṃ vādanaṃ kramāt*
+
+> ⚠ source numbering anomaly: found 989, expected 22
+
+**990**
+
+इति तुडुका  
+यत्र शुद्धादिभिर्बद्धः खण्डो वर्णसरेन वा  
+विशालः स्याद्द्रुतलयः पर्यन्ते तु विलम्बितः
+
+*iti tuḍukā yatra śuddhādibhirbaddhaḥ khaṇḍo varṇasarena vā viśālaḥ syāddrutalayaḥ paryante tu vilambitaḥ*
+
+> ⚠ source numbering anomaly: found 990, expected 22
+
+**991**
+
+दीप्तैर्वर्णैः क्वचित्क्वापि कोमलैश्चारुगुम्फितः  
+यत्रासौ मलपः प्रोक्तः प्रायिको दीप्तनर्तने
+
+*dīptairvarṇaiḥ kvacitkvāpi komalaiścārugumphitaḥ yatrāsau malapaḥ proktaḥ prāyiko dīptanartane*
+
+> ⚠ source numbering anomaly: found 991, expected 22
+
+**3**
+
+यथा--गड्दक् तद्धित्थॐ हथॐहरे घटैं गणनगतक धिकक थौं हटें हैं थोदगक् । तक्क तहधिक थोकथोहक थो
+
+*yathā--gaḍdak taddhitthaoṃ hathaoṃhare ghaṭaiṃ gaṇanagataka dhikaka thauṃ haṭeṃ haiṃ thodagak | takka tahadhika thokathohaka tho*
+
+> ⚠ source numbering anomaly: found 3, expected 22
+
+**2**
+
+हट्टै डिं खिखरखिखिखेरथटैं हैं थोहगक् । दिहं कटदहं कटगड्द गथरिकटं
+
+*haṭṭai ḍiṃ khikharakhikhikherathaṭaiṃ haiṃ thohagak | dihaṃ kaṭadahaṃ kaṭagaḍda gatharikaṭaṃ*
+
+> ⚠ source numbering anomaly: found 2, expected 22
+
+**992**
+
+ततक धिधिक थोऽथॐदटें । इदमुदाहरणं मुद्रितमण्ठताले ।  
+यत्रोद्ग्राहः सकृद्द्विर्वा ध्रुवकोऽथ सकृद्भवेत्  
+व्यापकाक्षरमिश्रैस्तद्धिथॐटेंदेंभिरक्षरैः  
+बद्धं निरन्तरयतिं प्राहुस्तं मलपं परे
+
+*tataka dhidhika tho'thaoṃdaṭeṃ | idamudāharaṇaṃ mudritamaṇṭhatāle | yatrodgrāhaḥ sakṛddvirvā dhruvako'tha sakṛdbhavet vyāpakākṣaramiśraistaddhithaoṃṭeṃdeṃbhirakṣaraiḥ baddhaṃ nirantarayatiṃ prāhustaṃ malapaṃ*
+
+> svara illustration: `परे`
+
+> ⚠ source numbering anomaly: found 992, expected 22
+
+**993**
+
+इति मलपम्  
+सोदाहरणलक्ष्माणि वालबोधार्थमभ्यधाम्  
+लक्ष्ममात्रमथो वक्ष्ये विस्तरत्रस्तमानसः
+
+*iti malapam sodāharaṇalakṣmāṇi vālabodhārthamabhyadhām lakṣmamātramatho vakṣye vistaratrastamānasaḥ*
+
+> ⚠ source numbering anomaly: found 993, expected 22
+
+**994**
+
+मलपाङ्गं तु मलपेनाङ्गेन मलपेन च  
+इति मलपाङ्गम्  
+पाटैर्मलपपाटः स्याद्विषमैर्मलपोपमः
+
+*malapāṅgaṃ tu malapenāṅgena malapena ca iti malapāṅgam pāṭairmalapapāṭaḥ syādviṣamairmalapopamaḥ*
+
+> ⚠ source numbering anomaly: found 994, expected 22
+
+**996**
+
+इति मलपपाटः  
+द्रुतैः करतलाघातैविंकृतैर्यत्र वाद्यते  
+वाद्यं विच्छिद्य विच्छिद्य च्छेदमिच्छन्ति तं बुधाः  
+ओतां कृत्वा द्विरुद्ग्राहः सकृद्वा व्यापकाक्षरैः  
+सपाटैर्विहितो यत्र प्रान्ते रचितदेंकृतिः  
+मध्ये लये छण्डणः स्याद्रूपकं तन्निरूपितम्
+
+*iti malapapāṭaḥ drutaiḥ karatalāghātaiviṃkṛtairyatra vādyate vādyaṃ vicchidya vicchidya cchedamicchanti taṃ budhāḥ otāṃ kṛtvā dvirudgrāhaḥ sakṛdvā vyāpakākṣaraiḥ sapāṭairvihito yatra prānte racitadeṃkṛtiḥ madhye laye chaṇḍaṇaḥ syādrūpakaṃ tannirūpitam*
+
+> ⚠ source numbering anomaly: found 996, expected 22
+
+**997**
+
+इति रूपकम्  
+निबद्धो वादितो गीतवाद्यसंधौ मतोऽन्तरः
+
+*iti rūpakam nibaddho vādito gītavādyasaṃdhau mato'ntaraḥ*
+
+> ⚠ source numbering anomaly: found 997, expected 22
+
+**998**
+
+इत्यन्तरः  
+अन्तरं वादयित्वा चेदनिबद्धस्य वादनम्  
+क्रियतेऽन्तरपाटः स्यात्तदा निःशङ्कसंमतः
+
+*ityantaraḥ antaraṃ vādayitvā cedanibaddhasya vādanam kriyate'ntarapāṭaḥ syāttadā niḥśaṅkasaṃmataḥ*
+
+> ⚠ source numbering anomaly: found 998, expected 22
+
+**999**
+
+इत्यन्तरपाटः  
+समुश्लिष्टघनश्लक्ष्णपाटवर्णविनिर्मितः  
+हस्तलाघवसंपन्नः खोजः संजल्पितो बुधैः
+
+*ityantarapāṭaḥ samuśliṣṭaghanaślakṣṇapāṭavarṇavinirmitaḥ hastalāghavasaṃpannaḥ khojaḥ saṃjalpito budhaiḥ*
+
+> ⚠ source numbering anomaly: found 999, expected 22
+
+**1000**
+
+इति खोजः  
+कृत्वा खण्डं पाटबद्धं यतिवद्वादनं भवेत्  
+एवमावृत्तिकरणादाहुः खण्डयतिं बुधाः
+
+*iti khojaḥ kṛtvā khaṇḍaṃ pāṭabaddhaṃ yativadvādanaṃ bhavet evamāvṛttikaraṇādāhuḥ khaṇḍayatiṃ budhāḥ*
+
+> ⚠ source numbering anomaly: found 1000, expected 22
+
+**1001**
+
+इति खण्डयतिः  
+खण्डच्छेदसमायोगात्खण्डच्छेदप्रबन्धयोः  
+छेदैर्व्यक्तैः समायुक्तं खण्डच्छेदं परे जगुः
+
+*iti khaṇḍayatiḥ khaṇḍacchedasamāyogātkhaṇḍacchedaprabandhayoḥ chedairvyaktaiḥ samāyuktaṃ khaṇḍacchedaṃ pare jaguḥ*
+
+> ⚠ source numbering anomaly: found 1001, expected 22
+
+**1002**
+
+इति खण्डच्छेदः  
+यस्यां विरतिरन्ते च तालस्य व्यापकाक्षरैः  
+सपाटैर्बद्धखण्डा या साऽऽख्याताऽवयतिर्बुधैः
+
+*iti khaṇḍacchedaḥ yasyāṃ viratirante ca tālasya vyāpakākṣaraiḥ sapāṭairbaddhakhaṇḍā yā sā''khyātā'vayatirbudhaiḥ*
+
+> ⚠ source numbering anomaly: found 1002, expected 22
+
+**1003**
+
+इत्यवयतिः  
+पाटस्य खण्डनाद्वाद्य खण्डपाटोऽभिधीयते  
+इति खण्डपाटः  
+खण्डः स्यात्खण्डमध्येऽपि खण्डशो वादने सति
+
+*ityavayatiḥ pāṭasya khaṇḍanādvādya khaṇḍapāṭo'bhidhīyate iti khaṇḍapāṭaḥ khaṇḍaḥ syātkhaṇḍamadhye'pi khaṇḍaśo vādane sati*
+
+> ⚠ source numbering anomaly: found 1003, expected 22
+
+**1004**
+
+इति खण्डकः  
+श्रोतोगताख्यया यत्या खण्डडुल्लोऽभिधीयते  
+इति खण्डहुल्लः  
+गीतनृत्तसमो माने प्रबन्धः प्रोच्यते समः
+
+*iti khaṇḍakaḥ śrotogatākhyayā yatyā khaṇḍaḍullo'bhidhīyate iti khaṇḍahullaḥ gītanṛttasamo māne prabandhaḥ procyate samaḥ*
+
+> ⚠ source numbering anomaly: found 1004, expected 22
+
+**1005**
+
+इति समः  
+निष्पन्नः केवलैः पाटैः पाट इत्यभिधीयते  
+इति पाटः  
+ध्रुवको भूरिवाद्येषु स्यादावृत्तोऽन्तरेऽन्तरे
+
+*iti samaḥ niṣpannaḥ kevalaiḥ pāṭaiḥ pāṭa ityabhidhīyate iti pāṭaḥ dhruvako bhūrivādyeṣu syādāvṛtto'ntare'ntare*
+
+> ⚠ source numbering anomaly: found 1005, expected 22
+
+**1006**
+
+इति ध्रुवकः  
+अङ्गमङ्गीकृतं सान्द्रैरपाटैर्व्यापकाक्षरैः  
+इत्यङ्गम्  
+द्विरुद्ग्राहो ध्रुवाभोग ध्रुवाख्यः क्रमशस्ततः  
+यत्राङ्गरूपकं प्राह तत्तेजोन्वयदीपकम्
+
+*iti dhruvakaḥ aṅgamaṅgīkṛtaṃ sāndrairapāṭairvyāpakākṣaraiḥ ityaṅgam dvirudgrāho dhruvābhoga dhruvākhyaḥ kramaśastataḥ yatrāṅgarūpakaṃ prāha tattejonvayadīpakam*
+
+> ⚠ source numbering anomaly: found 1006, expected 22
+
+**1007**
+
+इत्यङ्गरूपकम्  
+तालश्चतुःषष्टिकलो युग्मे मार्गे च दक्षिणे  
+इति तालः  
+वितालस्त्वादिमध्यान्तविकृतस्ताल इष्यते
+
+*ityaṅgarūpakam tālaścatuḥṣaṣṭikalo yugme mārge ca dakṣiṇe iti tālaḥ vitālastvādimadhyāntavikṛtastāla iṣyate*
+
+> ⚠ source numbering anomaly: found 1007, expected 22
+
+**1008**
+
+इति वितालः  
+हस्तेन वितताङ्गुष्ठविरलाङ्गुलिना क्रमात्  
+पताकेन हतैर्जातैः पाटैः स्यात्खलकाभिधः
+
+*iti vitālaḥ hastena vitatāṅguṣṭhaviralāṅgulinā kramāt patākena hatairjātaiḥ pāṭaiḥ syātkhalakābhidhaḥ*
+
+> ⚠ source numbering anomaly: found 1008, expected 22
+
+**1009**
+
+इति खलकः  
+समुदायो निजैः पापैः समस्तातोद्यवादनात्  
+इति समुदायः  
+पाटानां पृथगुक्तानां मिश्रणाज्जोडणी मता
+
+*iti khalakaḥ samudāyo nijaiḥ pāpaiḥ samastātodyavādanāt iti samudāyaḥ pāṭānāṃ pṛthaguktānāṃ miśraṇājjoḍaṇī matā*
+
+> ⚠ source numbering anomaly: found 1009, expected 22
+
+**1010**
+
+इति जोडणी  
+उडवः सलयात्तालाद्द्वितालाच्च लयोज्झितात्  
+इत्युडवः  
+तलपाटस्तु मलपोन्मिश्रपाटप्रबन्धजः
+
+*iti joḍaṇī uḍavaḥ salayāttālāddvitālācca layojjhitāt ityuḍavaḥ talapāṭastu malaponmiśrapāṭaprabandhajaḥ*
+
+> ⚠ source numbering anomaly: found 1010, expected 22
+
+**1011**
+
+इति तलपाटः  
+निजैर्या तद्धिथॐटेभिर्व्यापकैरक्षरैस्तथा
+
+*iti talapāṭaḥ nijairyā taddhithaoṃṭebhirvyāpakairakṣaraistathā*
+
+> ⚠ source numbering anomaly: found 1011, expected 22
+
+**1012**
+
+पाटैर्वा रचिता किंचिद्विलम्बितलयाश्रया  
+देकारालंकृताद्यन्ता वदन्त्युट्टवणीममूम्
+
+*pāṭairvā racitā kiṃcidvilambitalayāśrayā dekārālaṃkṛtādyantā vadantyuṭṭavaṇīmamūm*
+
+> ⚠ source numbering anomaly: found 1012, expected 22
+
+**1013**
+
+इत्युट्टवणी  
+वाद्यैकदेशं वर्गान्तमयं वाद्यादिमध्ययोः  
+वादयेल्लघुहस्तत्वाद्यं तमाख्याति तुण्डकम्
+
+*ityuṭṭavaṇī vādyaikadeśaṃ vargāntamayaṃ vādyādimadhyayoḥ vādayellaghuhastatvādyaṃ tamākhyāti tuṇḍakam*
+
+> ⚠ source numbering anomaly: found 1013, expected 22
+
+**1014**
+
+इति तुण्डकः  
+पाटैरेव यतिः सान्द्रैः प्राञ्जलैरङ्गपाटकः  
+इत्यङ्गपाटकः  
+खण्डः स्यात्पृथगातोद्यवाद्यैः पैसारसंज्ञकः
+
+*iti tuṇḍakaḥ pāṭaireva yatiḥ sāndraiḥ prāñjalairaṅgapāṭakaḥ ityaṅgapāṭakaḥ khaṇḍaḥ syātpṛthagātodyavādyaiḥ paisārasaṃjñakaḥ*
+
+> ⚠ source numbering anomaly: found 1014, expected 22
+
+**1015**
+
+इति पैसारः  
+प्रदर्शनार्थमित्युक्ताः प्रबन्धाः कतिचिन्मया  
+अन्यानपि पथाऽनेन विदांकुर्वन्तु तद्विदः
+
+*iti paisāraḥ pradarśanārthamityuktāḥ prabandhāḥ katicinmayā anyānapi pathā'nena vidāṃkurvantu tadvidaḥ*
+
+> ⚠ source numbering anomaly: found 1015, expected 22
+
+**1016**
+
+पाटभेदाश्च वाद्यानि प्रबन्धा वाद्यसंश्रयाः  
+यथायोगं मर्दलादिसर्ववाद्येष्विमे मताः
+
+*pāṭabhedāśca vādyāni prabandhā vādyasaṃśrayāḥ yathāyogaṃ mardalādisarvavādyeṣvime matāḥ*
+
+> ⚠ source numbering anomaly: found 1016, expected 22
+
+**1017**
+
+इति वाद्यप्रबन्धलक्षणम्  
+निर्दोषबीजवृक्षोत्थः पिण्डेऽर्धाङ्गुलसंमितः  
+एकविंशत्यङ्गुलः स्याद्दैर्घ्ये वामे मुखे पुनः
+
+*iti vādyaprabandhalakṣaṇam nirdoṣabījavṛkṣotthaḥ piṇḍe'rdhāṅgulasaṃmitaḥ ekaviṃśatyaṅgulaḥ syāddairghye vāme mukhe punaḥ*
+
+> ⚠ source numbering anomaly: found 1017, expected 22
+
+**1018**
+
+चतुर्दशाङ्गुलानि स्युर्दक्षिणे तु त्रयोदश  
+मानं यस्य मनाङ्मध्यः पृथुरेकाङ्गुलाधिके
+
+*caturdaśāṅgulāni syurdakṣiṇe tu trayodaśa mānaṃ yasya manāṅmadhyaḥ pṛthurekāṅgulādhike*
+
+> ⚠ source numbering anomaly: found 1018, expected 22
+
+**1019**
+
+वक्त्राभ्यां चर्मणी वृत्ते घने ये प्रान्तयोस्तयोः  
+चत्वारिंशत्पृथग्रन्ध्राण्यङ्गुलान्तरवन्ति च
+
+*vaktrābhyāṃ carmaṇī vṛtte ghane ye prāntayostayoḥ catvāriṃśatpṛthagrandhrāṇyaṅgulāntaravanti ca*
+
+> ⚠ source numbering anomaly: found 1019, expected 22
+
+**1020**
+
+वध्रे तद्रन्ध्रविन्यस्ते सीवनप्रक्रियावति  
+प्रोतोर्ध्वाधःस्थिता दृष्टोदरपृष्ठा च विग्निका
+
+*vadhre tadrandhravinyaste sīvanaprakriyāvati protordhvādhaḥsthitā dṛṣṭodarapṛṣṭhā ca vignikā*
+
+> ⚠ source numbering anomaly: found 1020, expected 22
+
+**1021**
+
+क्रियते वेष्ट्यते मध्ये त्रिभिर्बन्धैर्दृढं तथा  
+कार्यो गोमूत्रिकाबन्धस्तत्र वध्रद्वयेन च
+
+*kriyate veṣṭyate madhye tribhirbandhairdṛḍhaṃ tathā kāryo gomūtrikābandhastatra vadhradvayena ca*
+
+> ⚠ source numbering anomaly: found 1021, expected 22
+
+**1022**
+
+तथा यथा पिनद्धास्ये भवेतां चर्मणी दृढे  
+कुण्डल्योः प्रान्तयोर्वामकुण्डल्यां संनिवेश्य च
+
+*tathā yathā pinaddhāsye bhavetāṃ carmaṇī dṛḍhe kuṇḍalyoḥ prāntayorvāmakuṇḍalyāṃ saṃniveśya ca*
+
+> ⚠ source numbering anomaly: found 1022, expected 22
+
+**1023**
+
+कच्छां क्षिप्त्वा दक्षिणस्यां कृष्ट्वा द्विगुणतां नयेत्  
+साञ्चलद्वितयां पट्टमयीमष्टाङ्गुलायताम्
+
+*kacchāṃ kṣiptvā dakṣiṇasyāṃ kṛṣṭvā dviguṇatāṃ nayet sāñcaladvitayāṃ paṭṭamayīmaṣṭāṅgulāyatām*
+
+> ⚠ source numbering anomaly: found 1023, expected 22
+
+**1024**
+
+यद्वाऽन्यवस्त्रजां शोभानुगां न्यस्येत्कटीतटे  
+निगदन्ति मृदङ्गं तं मर्दलं मुरजं तथा
+
+*yadvā'nyavastrajāṃ śobhānugāṃ nyasyetkaṭītaṭe nigadanti mṛdaṅgaṃ taṃ mardalaṃ murajaṃ tathā*
+
+> ⚠ source numbering anomaly: found 1024, expected 22
+
+**1025**
+
+प्रोक्तं मृदङ्गशब्देन मुनिना पुष्करत्रयम्  
+अत्यन्ताव्यवहार्यत्वान्निःशङ्को न तनोति तत्
+
+*proktaṃ mṛdaṅgaśabdena muninā puṣkaratrayam atyantāvyavahāryatvānniḥśaṅko na tanoti tat*
+
+> ⚠ source numbering anomaly: found 1025, expected 22
+
+**1026**
+
+भूरिमिश्रेण भक्तेन चिक्कणेनातिमर्दनात्  
+पिण्डिकां पूरिकाकारां वामवक्त्रे निवेशयेत्
+
+*bhūrimiśreṇa bhaktena cikkaṇenātimardanāt piṇḍikāṃ pūrikākārāṃ vāmavaktre niveśayet*
+
+> ⚠ source numbering anomaly: found 1026, expected 22
+
+**1027**
+
+बोहणाख्येन तेनाऽऽस्यं लिम्पेदल्पेन दक्षिणम्  
+एवं जलधरध्वानगम्भीरो भवति ध्वनिः
+
+*bohaṇākhyena tenā''syaṃ limpedalpena dakṣiṇam evaṃ jaladharadhvānagambhīro bhavati dhvaniḥ*
+
+> ⚠ source numbering anomaly: found 1027, expected 22
+
+**1028**
+
+निःशङ्केनात्र च प्रोक्ता देवता नन्दिकेश्वरः  
+रक्तचन्दनजो यद्वा खादिरोऽन्यैरयं मतः
+
+*niḥśaṅkenātra ca proktā devatā nandikeśvaraḥ raktacandanajo yadvā khādiro'nyairayaṃ mataḥ*
+
+> ⚠ source numbering anomaly: found 1028, expected 22
+
+**1029**
+
+त्रिंशदङ्गुलदैर्घ्यश्च पिण्डे त्वङ्गुलसंमितः  
+एतस्य वामं वदनं द्वादशाङ्गुलसंमितम्
+
+*triṃśadaṅguladairghyaśca piṇḍe tvaṅgulasaṃmitaḥ etasya vāmaṃ vadanaṃ dvādaśāṅgulasaṃmitam*
+
+> ⚠ source numbering anomaly: found 1029, expected 22
+
+**1030**
+
+दक्षिणं तु मितं सार्धैरेकादशभिरङ्गुलैः  
+पाटाश्च तद्धिथोटेंहेंनंदेमित्यत्र कीर्तिताः
+
+*dakṣiṇaṃ tu mitaṃ sārdhairekādaśabhiraṅgulaiḥ pāṭāśca taddhithoṭeṃheṃnaṃdemityatra kīrtitāḥ*
+
+> ⚠ source numbering anomaly: found 1030, expected 22
+
+**1031**
+
+तटहा दधलाश्चेति पाटानन्यत्र मन्वते  
+इह स्युः पटहोक्ताश्च वर्णाः षोडश कादयः
+
+*taṭahā dadhalāśceti pāṭānanyatra manvate iha syuḥ paṭahoktāśca varṇāḥ ṣoḍaśa kādayaḥ*
+
+> ⚠ source numbering anomaly: found 1031, expected 22
+
+**1032**
+
+अधिकान्भझमान्वर्णान्वर्णयन्त्यपरे त्विह  
+तेषु तद्ध्यादयः सप्त केवलाः शुद्धसंज्ञकाः
+
+*adhikānbhajhamānvarṇānvarṇayantyapare tviha teṣu taddhyādayaḥ sapta kevalāḥ śuddhasaṃjñakāḥ*
+
+> ⚠ source numbering anomaly: found 1032, expected 22
+
+**1033**
+
+सस्वरैरस्वरैर्युक्तैरयुक्तैर्वा कखादिभिः  
+व्यापकाख्यैः षोडशभिर्मिश्रास्ते कूटसंज्ञकाः  
+कूटमिश्रास्तु ते शुद्धा बुधैः खण्डाभिधा मताः
+
+*sasvarairasvarairyuktairayuktairvā kakhādibhiḥ vyāpakākhyaiḥ ṣoḍaśabhirmiśrāste kūṭasaṃjñakāḥ kūṭamiśrāstu te śuddhā budhaiḥ khaṇḍābhidhā matāḥ*
+
+> ⚠ source numbering anomaly: found 1033, expected 22
+
+**1035**
+
+कविः कवयति श्लोकं श्रवणोत्सवदैः पदैः  
+यथा तथा क्वचित्ताले वर्णाल्लँ यमनोहरान्
+
+*kaviḥ kavayati ślokaṃ śravaṇotsavadaiḥ padaiḥ yathā tathā kvacittāle varṇālla~ yamanoharān*
+
+> ⚠ source numbering anomaly: found 1035, expected 22
+
+**1036**
+
+विधाय वादको वाद्यप्रबन्धान्बद्धुमर्हति  
+एमं कवितकाराख्यं वादकं ब्रुवते मनाः
+
+*vidhāya vādako vādyaprabandhānbaddhumarhati emaṃ kavitakārākhyaṃ vādakaṃ bruvate manāḥ*
+
+> ⚠ source numbering anomaly: found 1036, expected 22
+
+**1037**
+
+इति मर्दललक्षणम्  
+चतुर्विधो मार्दलिको वादिको मुखरी तथा  
+ततः प्रतिमुखर्याख्यस्तुर्यो गीतानुगो मतः
+
+*iti mardalalakṣaṇam caturvidho mārdaliko vādiko mukharī tathā tataḥ pratimukharyākhyasturyo gītānugo mataḥ*
+
+> ⚠ source numbering anomaly: found 1037, expected 22
+
+**1038**
+
+वादिको वादकर्ता स्याद्वादः पक्षपरिग्रहः  
+स्वपक्षसाधनं तद्वत्परपक्षस्य दूषणम्
+
+*vādiko vādakartā syādvādaḥ pakṣaparigrahaḥ svapakṣasādhanaṃ tadvatparapakṣasya dūṣaṇam*
+
+> ⚠ source numbering anomaly: found 1038, expected 22
+
+**1039**
+
+येऽन्ये जल्पवितण्डाद्या वादभेदाः सलक्षणाः  
+न तान्ब्रवीम्यहं ग्रन्थप्रपञ्चभयभङ्गुरः  
+वादे च वादनं कार्यं प्रथमं त्राटनाभिधम्
+
+*ye'nye jalpavitaṇḍādyā vādabhedāḥ salakṣaṇāḥ na tānbravīmyahaṃ granthaprapañcabhayabhaṅguraḥ vāde ca vādanaṃ kāryaṃ prathamaṃ trāṭanābhidham*
+
+> ⚠ source numbering anomaly: found 1039, expected 22
+
+**1040**
+
+मर्दले तालरहिते वोहणेन विना ध्वनिः  
+यो देहडडगित्यादि कृतोऽसौ त्राटनं मतम्
+
+*mardale tālarahite vohaṇena vinā dhvaniḥ yo dehaḍaḍagityādi kṛto'sau trāṭanaṃ matam*
+
+> ⚠ source numbering anomaly: found 1040, expected 22
+
+**1041**
+
+वोडवाडं घनरवं हस्तावत्यर्थमाचरेत्  
+मुक्तशब्दात्मकं रेहदडादप्रमुखं ततः  
+उधार स्थापनं पश्चाद्वादयेत्तदथोच्यते
+
+*voḍavāḍaṃ ghanaravaṃ hastāvatyarthamācaret muktaśabdātmakaṃ rehadaḍādapramukhaṃ tataḥ udhāra sthāpanaṃ paścādvādayettadathocyate*
+
+> ⚠ source numbering anomaly: found 1041, expected 22
+
+**1042**
+
+मुखयोर्बोहणं दत्त्वा वादयेद्वाममाननम्  
+गड्दग्नेमिति वक्त्रं तु गड्दग्नामिति दक्षिणम्
+
+*mukhayorbohaṇaṃ dattvā vādayedvāmamānanam gaḍdagnemiti vaktraṃ tu gaḍdagnāmiti dakṣiṇam*
+
+> ⚠ source numbering anomaly: found 1042, expected 22
+
+**1043**
+
+ततो मध्यलये ताले द्वितीये मुखयोर्द्वयोः  
+कुर्यान्नादसमायोग्मथोच्चोच्चं दलत्रयम्
+
+*tato madhyalaye tāle dvitīye mukhayordvayoḥ kuryānnādasamāyogmathoccoccaṃ dalatrayam*
+
+> ⚠ source numbering anomaly: found 1043, expected 22
+
+**1044**
+
+पृथग्विलम्बिते मध्ये द्रुते चैव लये क्रमात्  
+तथैकद्वित्रिथॐकाररचितं ग्रहमोक्षभाक्
+
+*pṛthagvilambite madhye drute caiva laye kramāt tathaikadvitrithaoṃkāraracitaṃ grahamokṣabhāk*
+
+> ⚠ source numbering anomaly: found 1044, expected 22
+
+**1045**
+
+आलप्तिवच्च त्रिस्थानशुद्धं हस्तद्वयेन यत्  
+मधुरं वाद्यते तज्ज्ञैःस्थापनं तदुदाहृतम्
+
+*ālaptivacca tristhānaśuddhaṃ hastadvayena yat madhuraṃ vādyate tajjñaiḥsthāpanaṃ tadudāhṛtam*
+
+> ⚠ source numbering anomaly: found 1045, expected 22
+
+**1046**
+
+ततस्थॐकारबहुलग्रहमोक्षोऽन्तरो भवेत्  
+चतुरस्रत्र्यस्रमिश्रखण्डेष्वेकेन केनचित्
+
+*tatasthaoṃkārabahulagrahamokṣo'ntaro bhavet caturasratryasramiśrakhaṇḍeṣvekena kenacit*
+
+> ⚠ source numbering anomaly: found 1046, expected 22
+
+**1047**
+
+तालेन टाकणीवादौ कर्तव्यौ तदनन्तरम्  
+तयोरेकसरो जोडा चेति भेदद्वयं मतम्
+
+*tālena ṭākaṇīvādau kartavyau tadanantaram tayorekasaro joḍā ceti bhedadvayaṃ matam*
+
+> ⚠ source numbering anomaly: found 1047, expected 22
+
+**1048**
+
+कृत्वा श्रमस्य वहनीं यस्तालेऽष्टकलादिके  
+वाद्यखण्डस्तालकलाप्रस्तारानुगतः कृतः  
+अखण्डितष्टाकिणी सैकसरत्वं सकृत्कृतेः
+
+*kṛtvā śramasya vahanīṃ yastāle'ṣṭakalādike vādyakhaṇḍastālakalāprastārānugataḥ kṛtaḥ akhaṇḍitaṣṭākiṇī saikasaratvaṃ sakṛtkṛteḥ*
+
+> ⚠ source numbering anomaly: found 1048, expected 22
+
+**1049**
+
+एकद्वित्रिचतुर्वारं शुद्धाभ्यसनतो भवेत्  
+इह श्रमवहन्याख्यः प्रकारो वादने यथा
+
+*ekadvitricaturvāraṃ śuddhābhyasanato bhavet iha śramavahanyākhyaḥ prakāro vādane yathā*
+
+> ⚠ source numbering anomaly: found 1049, expected 22
+
+**1050**
+
+इत्यष्टौ वाद्यखण्डस्य खण्डा अष्टासु कलासु । सैव द्विवारं जोडा ।  
+टाकणीवत्समस्तं प्राक्खण्डं कृत्वा ततः परम्
+
+*ityaṣṭau vādyakhaṇḍasya khaṇḍā aṣṭāsu kalāsu | saiva dvivāraṃ joḍā | ṭākaṇīvatsamastaṃ prākkhaṇḍaṃ kṛtvā tataḥ param*
+
+> ⚠ source numbering anomaly: found 1050, expected 22
+
+**1051**
+
+खण्डं खण्डं द्विर्द्विवारं वाद्यते वाद्यसंज्ञके  
+तत्रैकसरजोडात्वं टाकिणीवदुदाहृतम्
+
+*khaṇḍaṃ khaṇḍaṃ dvirdvivāraṃ vādyate vādyasaṃjñake tatraikasarajoḍātvaṃ ṭākiṇīvadudāhṛtam*
+
+> ⚠ source numbering anomaly: found 1051, expected 22
+
+**1052**
+
+गणधरि । गणगणधरि । दथरि गडदग । दथरिगडदग । दथरिगडदग । दथरि दथरितर्गड्दक्थरिक्कटतत्तक् । इति षोडशकले ताले षोडशकलासु षोडशखण्डकं वाद्यं कृत्वा तान्षोडश खण्डान्द्विर्द्विः कुर्यात्  
+इत्येकसरवादः  
+तकारेण च सर्वेषामेतेषां त्याग इष्यते  
+कुर्यात्ततो दिगिदिगिं ताटवादादिकं तथा
+
+*gaṇadhari | gaṇagaṇadhari | dathari gaḍadaga | datharigaḍadaga | datharigaḍadaga | dathari datharitargaḍdaktharikkaṭatattak | iti ṣoḍaśakale tāle ṣoḍaśakalāsu ṣoḍaśakhaṇḍakaṃ vādyaṃ kṛtvā tānṣoḍaśa khaṇḍāndvirdviḥ kuryāt ityekasaravādaḥ takāreṇa ca sarveṣāmeteṣāṃ tyāga iṣyate kuryāttato digidigiṃ tāṭavādādikaṃ tathā*
+
+> ⚠ source numbering anomaly: found 1052, expected 22
+
+**1053**
+
+वर्णा दिगिदिगीत्येते प्रोक्ता दिगिदिगे बुधैः  
+यः खण्डोऽतिद्रुते माने ताटवादः स कथ्यते
+
+*varṇā digidigītyete proktā digidige budhaiḥ yaḥ khaṇḍo'tidrute māne tāṭavādaḥ sa kathyate*
+
+> ⚠ source numbering anomaly: found 1053, expected 22
+
+**1054**
+
+अन्येऽपि वादविधयोऽभ्यूह्यन्तामध्वनाऽमुना  
+इति वादप्रकाराणां सम्यक्त्वे विजयो भवेत्
+
+*anye'pi vādavidhayo'bhyūhyantāmadhvanā'munā iti vādaprakārāṇāṃ samyaktve vijayo bhavet*
+
+> ⚠ source numbering anomaly: found 1054, expected 22
+
+**1055**
+
+इति वादकः  
+कर्ता वाद्यप्रबन्धानां नृत्तशिक्षाविचक्षणः  
+गीतवादननिष्णातः सुरेखोऽन्तर्मुखश्च यः
+
+*iti vādakaḥ kartā vādyaprabandhānāṃ nṛttaśikṣāvicakṣaṇaḥ gītavādananiṣṇātaḥ surekho'ntarmukhaśca yaḥ*
+
+> ⚠ source numbering anomaly: found 1055, expected 22
+
+**1056**
+
+अर्धाङ्गमिव नर्तक्या वादयेद्रङ्गभूमिगः  
+वादकैः प्रेक्षितमुखो वादनार्थं मुखर्यसौ
+
+*ardhāṅgamiva nartakyā vādayedraṅgabhūmigaḥ vādakaiḥ prekṣitamukho vādanārthaṃ mukharyasau*
+
+> ⚠ source numbering anomaly: found 1056, expected 22
+
+**1057**
+
+इति मुखरी  
+किंचिद्धीनो मुखरिणः प्रोक्तः प्रतिमुखर्यसौ
+
+*iti mukharī kiṃciddhīno mukhariṇaḥ proktaḥ pratimukharyasau*
+
+> ⚠ source numbering anomaly: found 1057, expected 22
+
+**1058**
+
+इति प्रतिमुखरी  
+शुद्धसालगगीतानां वर्णान्कठिनकोमलान्  
+समांश्च विषमान्नादं मन्द्रं मध्यं च तारकम्
+
+*iti pratimukharī śuddhasālagagītānāṃ varṇānkaṭhinakomalān samāṃśca viṣamānnādaṃ mandraṃ madhyaṃ ca tārakam*
+
+> ⚠ source numbering anomaly: found 1058, expected 22
+
+**1059**
+
+प्रौढं वा मधुरं सम्यगनुगच्छति वादनात्  
+पूर्वभागे तथाऽऽभोगे जक्काप्रहरणे क्रमात्
+
+*prauḍhaṃ vā madhuraṃ samyaganugacchati vādanāt pūrvabhāge tathā''bhoge jakkāpraharaṇe kramāt*
+
+> ⚠ source numbering anomaly: found 1059, expected 22
+
+**1060**
+
+कुर्याद्वैकल्पिके यद्वा समग्रं गीतमाश्रिते  
+समुत्थिते वाऽऽनुलोम्याद्वैलोम्याद्वोभयेन वा
+
+*kuryādvaikalpike yadvā samagraṃ gītamāśrite samutthite vā''nulomyādvailomyādvobhayena vā*
+
+> ⚠ source numbering anomaly: found 1060, expected 22
+
+**1061**
+
+निःसारो सालगे गीते यस्तं गीतानुगं विदुः  
+क्रमात्तकारथॐकारौ स कुर्याद्ग्रहमोक्षयोः
+
+*niḥsāro sālage gīte yastaṃ gītānugaṃ viduḥ kramāttakārathaoṃkārau sa kuryādgrahamokṣayoḥ*
+
+> ⚠ source numbering anomaly: found 1061, expected 22
+
+**1062**
+
+इति गीतानुगः  
+इति चतुर्विधमार्दलिकलक्षणम्  
+वर्णव्यक्तिः सुरेखत्वमनुयायप्रवीणता  
+मधुरोद्धतवाद्येषु विज्ञता हस्तलाघवम्
+
+*iti gītānugaḥ iti caturvidhamārdalikalakṣaṇam varṇavyaktiḥ surekhatvamanuyāyapravīṇatā madhuroddhatavādyeṣu vijñatā hastalāghavam*
+
+> ⚠ source numbering anomaly: found 1062, expected 22
+
+**1063**
+
+अवधानं श्रमजयो मुखवाद्येषु पाटवम्  
+रक्तिरावर्जिकस्यानुवृत्तिर्बहुलता तथा
+
+*avadhānaṃ śramajayo mukhavādyeṣu pāṭavam raktirāvarjikasyānuvṛttirbahulatā tathā*
+
+> ⚠ source numbering anomaly: found 1063, expected 22
+
+**1064**
+
+यतिताललयज्ञत्वं गीतानुगमनं तथा  
+गुणा मार्दलिकस्यैते दोषः स्यात्तद्विपर्ययः
+
+*yatitālalayajñatvaṃ gītānugamanaṃ tathā guṇā mārdalikasyaite doṣaḥ syāttadviparyayaḥ*
+
+> ⚠ source numbering anomaly: found 1064, expected 22
+
+**1065**
+
+इति मार्दलिकगुणदोषाः  
+तद्वृन्दं द्वित्रिचतुरैस्तज्ज्ञैर्मर्दलधारिभिः  
+प्राधान्येन विधातव्यं तैर्मुखर्यनुवर्तनम्
+
+*iti mārdalikaguṇadoṣāḥ tadvṛndaṃ dvitricaturaistajjñairmardaladhāribhiḥ prādhānyena vidhātavyaṃ tairmukharyanuvartanam*
+
+> ⚠ source numbering anomaly: found 1065, expected 22
+
+**1066**
+
+या हस्तसंमिता दैर्घ्येऽष्टाविंशत्यङ्गुला पुनः  
+परिधावङ्गुलमिता पिण्डे सप्ताङ्गुले मुखे
+
+*yā hastasaṃmitā dairghye'ṣṭāviṃśatyaṅgulā punaḥ paridhāvaṅgulamitā piṇḍe saptāṅgule mukhe*
+
+> ⚠ source numbering anomaly: found 1066, expected 22
+
+**1067**
+
+मण्डल्यौ वक्त्रयोर्वल्लीमध्यावेकादशाङ्गुले  
+सपादाङ्गुलकस्थौल्ये उद्दलीकृतबन्धने
+
+*maṇḍalyau vaktrayorvallīmadhyāvekādaśāṅgule sapādāṅgulakasthaulye uddalīkṛtabandhane*
+
+> ⚠ source numbering anomaly: found 1067, expected 22
+
+**1068**
+
+वदनाभ्यां सह स्यातां कुर्याद्रन्ध्राणि षट्तयोः  
+बद्धरज्जुनिवेशार्थं पुरोभागेऽर्गलात्रयम्
+
+*vadanābhyāṃ saha syātāṃ kuryādrandhrāṇi ṣaṭtayoḥ baddharajjuniveśārthaṃ purobhāge'rgalātrayam*
+
+> ⚠ source numbering anomaly: found 1068, expected 22
+
+**1069**
+
+कलशाकलितद्व्यन्तं पश्चाद्भागेऽर्गलाद्वयम्  
+बन्धसूत्रान्तरे मध्ये भवेदुदरपट्टिका
+
+*kalaśākalitadvyantaṃ paścādbhāge'rgalādvayam bandhasūtrāntare madhye bhavedudarapaṭṭikā*
+
+> ⚠ source numbering anomaly: found 1069, expected 22
+
+**1070**
+
+अङ्गुलत्रयविस्तारा श्लक्ष्णा हृदयहारिणी  
+द्वात्रिंशत्तन्तुसंजातरज्ज्वा पक्षद्वयं दृढम्
+
+*aṅgulatrayavistārā ślakṣṇā hṛdayahāriṇī dvātriṃśattantusaṃjātarajjvā pakṣadvayaṃ dṛḍham*
+
+> ⚠ source numbering anomaly: found 1070, expected 22
+
+**1071**
+
+बद्ध्वा तत्रोत्कक्षकौ च विधाय स्कन्धपट्टिकाम्  
+तयोर्द्विगुणतां न्यस्येदङ्गुलार्धार्धसंमितम्
+
+*baddhvā tatrotkakṣakau ca vidhāya skandhapaṭṭikām tayordviguṇatāṃ nyasyedaṅgulārdhārdhasaṃmitam*
+
+> ⚠ source numbering anomaly: found 1071, expected 22
+
+**1072**
+
+छिद्रं यस्याश्चतुर्थांशे नादोद्बोधविधायकम्  
+हुडुक्का सा बुधैः प्रोक्ता तस्याश्च स्कन्धपट्टिकाम्
+
+*chidraṃ yasyāścaturthāṃśe nādodbodhavidhāyakam huḍukkā sā budhaiḥ proktā tasyāśca skandhapaṭṭikām*
+
+> ⚠ source numbering anomaly: found 1072, expected 22
+
+**1073**
+
+न्यस्य स्कन्धे दक्ष्णेन पाणिना वादनं भवेत्  
+उदरे पट्टिका योक्ता तस्यां वामं निवेशयेत्
+
+*nyasya skandhe dakṣṇena pāṇinā vādanaṃ bhavet udare paṭṭikā yoktā tasyāṃ vāmaṃ niveśayet*
+
+> ⚠ source numbering anomaly: found 1073, expected 22
+
+**1074**
+
+देवता मातरः सप्त शार्ङ्गदेवेन कीर्तिताः  
+कुर्वीत पाटहान्वर्णानिह देंकारवर्जितान्
+
+*devatā mātaraḥ sapta śārṅgadevena kīrtitāḥ kurvīta pāṭahānvarṇāniha deṃkāravarjitān*
+
+> ⚠ source numbering anomaly: found 1074, expected 22
+
+**1075**
+
+अत्रान्यैरधिकावुक्तौ मझेंकारौ मनीषिभिः  
+लक्षज्ञास्त्वावजं प्राहुरिमां स्कन्धावजं तथा
+
+*atrānyairadhikāvuktau majheṃkārau manīṣibhiḥ lakṣajñāstvāvajaṃ prāhurimāṃ skandhāvajaṃ tathā*
+
+> ⚠ source numbering anomaly: found 1075, expected 22
+
+**1076**
+
+इति हुडुक्कालक्षणम्  
+बीजवृक्षोद्भवा पिण्डेऽङ्गुलतुर्यांशसंमिता  
+एकविंशत्यङ्गुला स्याद्दैर्घ्ये हस्तमिताऽथवा
+
+*iti huḍukkālakṣaṇam bījavṛkṣodbhavā piṇḍe'ṅgulaturyāṃśasaṃmitā ekaviṃśatyaṅgulā syāddairghye hastamitā'thavā*
+
+> ⚠ source numbering anomaly: found 1076, expected 22
+
+**1077**
+
+परिधौ दधते मानं या चत्वारिंशदङ्गुलम्  
+चतुर्दशाङ्गुले वक्त्रे केषांचिद्द्वादशाङ्गुले
+
+*paridhau dadhate mānaṃ yā catvāriṃśadaṅgulam caturdaśāṅgule vaktre keṣāṃciddvādaśāṅgule*
+
+> ⚠ source numbering anomaly: found 1077, expected 22
+
+**1078**
+
+मण्डल्यु लोहजे सूत्रवेष्टिते चर्मबन्धने  
+परिधौ संमिते ते च द्वाचत्वारिंशताऽङ्गुलैः
+
+*maṇḍalyu lohaje sūtraveṣṭite carmabandhane paridhau saṃmite te ca dvācatvāriṃśatā'ṅgulaiḥ*
+
+> ⚠ source numbering anomaly: found 1078, expected 22
+
+**1079**
+
+तिस्रस्तिस्रस्तथा तन्त्रीर्मुखयोर्वलयद्वयम्  
+दधते केवलं व्याप्तं चतुर्दशभिरन्वितम्
+
+*tisrastisrastathā tantrīrmukhayorvalayadvayam dadhate kevalaṃ vyāptaṃ caturdaśabhiranvitam*
+
+> ⚠ source numbering anomaly: found 1079, expected 22
+
+**1080**
+
+रन्ध्रैस्तेष्वेकान्तरेषु विग्निकास्तावतीः क्षिपेत्  
+द्वाभ्यां द्वाभ्यां विग्निकाभ्यां बन्धो मत्स्याकृतिर्भवेत्
+
+*randhraisteṣvekāntareṣu vignikāstāvatīḥ kṣipet dvābhyāṃ dvābhyāṃ vignikābhyāṃ bandho matsyākṛtirbhavet*
+
+> ⚠ source numbering anomaly: found 1080, expected 22
+
+**1081**
+
+यस्यास्तां करटामाहुः प्रान्तयोः प्रान्तबद्धया  
+कच्छया स्कन्धदेशे तां कट्यां वा वादने वहेत्
+
+*yasyāstāṃ karaṭāmāhuḥ prāntayoḥ prāntabaddhayā kacchayā skandhadeśe tāṃ kaṭyāṃ vā vādane vahet*
+
+> ⚠ source numbering anomaly: found 1081, expected 22
+
+**1082**
+
+चर्चिका देवता चास्यां पाटास्तु करटेत्यमी
+
+*carcikā devatā cāsyāṃ pāṭāstu karaṭetyamī*
+
+> ⚠ source numbering anomaly: found 1082, expected 22
+
+**1083**
+
+वादनं कुडुपाभ्यां तु शार्ङ्गदेवेन कीर्तितम्  
+तिरिकितिरिकिरीति प्रायः पाटद्वयं मतम्
+
+*vādanaṃ kuḍupābhyāṃ tu śārṅgadevena kīrtitam tirikitirikirīti prāyaḥ pāṭadvayaṃ matam*
+
+> ⚠ source numbering anomaly: found 1083, expected 22
+
+**1084**
+
+इति करटालक्षणम्  
+धनः श्लक्ष्णः सुपक्वश्च स्तोकवक्रो महोदरः  
+पाणिभ्यां वाद्यते तज्ज्ञैश्चर्मनद्धाननो घटः  
+कथिताः पाटवर्णा ये मर्दले ते घटे मताः
+
+*iti karaṭālakṣaṇam dhanaḥ ślakṣṇaḥ supakvaśca stokavakro mahodaraḥ pāṇibhyāṃ vādyate tajjñaiścarmanaddhānano ghaṭaḥ kathitāḥ pāṭavarṇā ye mardale te ghaṭe matāḥ*
+
+> ⚠ source numbering anomaly: found 1084, expected 22
+
+**1086**
+
+दक्षिणस्योद्दलीबद्धा वामा रज्ज्वा नियन्त्रिता  
+औदर्यां पट्टिकायां च वामोऽत्र न निवेश्यते
+
+*dakṣiṇasyoddalībaddhā vāmā rajjvā niyantritā audaryāṃ paṭṭikāyāṃ ca vāmo'tra na niveśyate*
+
+> ⚠ source numbering anomaly: found 1086, expected 22
+
+**1087**
+
+गॐकारबहुलं चामुं वादयेदिति तद्विदः  
+अङ्गुष्ठमध्यमाङ्गुल्यौ मदनाक्ताग्रभागतः
+
+*gaoṃkārabahulaṃ cāmuṃ vādayediti tadvidaḥ aṅguṣṭhamadhyamāṅgulyau madanāktāgrabhāgataḥ*
+
+> ⚠ source numbering anomaly: found 1087, expected 22
+
+**1088**
+
+दक्षिणेन करेणाऽऽस्ये घर्षणाद्गॐकृतिर्भवेत्  
+घातोऽङ्गुलीभिर्वामस्य वामाङ्गुष्ठेन पीडनम्
+
+*dakṣiṇena kareṇā''sye gharṣaṇādgaoṃkṛtirbhavet ghāto'ṅgulībhirvāmasya vāmāṅguṣṭhena pīḍanam*
+
+> ⚠ source numbering anomaly: found 1088, expected 22
+
+**1089**
+
+इति घडसलक्षणम्  
+स्याद्धस्तदैर्घ्यः परिधौ सनवत्रिंशदङ्गुलः  
+द्वादशाङ्गुलके वक्त्रे वल्लीवलयसंयुते
+
+*iti ghaḍasalakṣaṇam syāddhastadairghyaḥ paridhau sanavatriṃśadaṅgulaḥ dvādaśāṅgulake vaktre vallīvalayasaṃyute*
+
+> ⚠ source numbering anomaly: found 1089, expected 22
+
+**1090**
+
+यो धत्ते सप्त सप्तापि रन्ध्राणि वलयद्वये  
+तथा कवलयोस्ताभ्यां तुण्डे वलयसंयुते
+
+*yo dhatte sapta saptāpi randhrāṇi valayadvaye tathā kavalayostābhyāṃ tuṇḍe valayasaṃyute*
+
+> ⚠ source numbering anomaly: found 1090, expected 22
+
+**1091**
+
+पिधाय गाढं बध्येते रन्ध्रविन्यस्तदोरकैः  
+यस्यासौ ढवसः प्रोक्तः शार्ङ्गदेवेन सूरिणा
+
+*pidhāya gāḍhaṃ badhyete randhravinyastadorakaiḥ yasyāsau ḍhavasaḥ proktaḥ śārṅgadevena sūriṇā*
+
+> ⚠ source numbering anomaly: found 1091, expected 22
+
+**1092**
+
+स्कन्धे निक्षिप्य कच्छान्तं वामहस्तेन वादयेत्  
+वामास्ये दक्षिणस्थेन कुडुपेन तु दक्षिणे  
+ढेंकारपाटवसते रूढोऽयं ढवसो जने
+
+*skandhe nikṣipya kacchāntaṃ vāmahastena vādayet vāmāsye dakṣiṇasthena kuḍupena tu dakṣiṇe ḍheṃkārapāṭavasate rūḍho'yaṃ ḍhavaso jane*
+
+> ⚠ source numbering anomaly: found 1092, expected 22
+
+**1093**
+
+इति ढवसलक्षणम्  
+व्याख्याता ढवसेनैव ढक्का किंतु मुखद्वयम्  
+त्रयोदशाङ्गुलं तस्या धृत्वा तां वामपाणिना
+
+*iti ḍhavasalakṣaṇam vyākhyātā ḍhavasenaiva ḍhakkā kiṃtu mukhadvayam trayodaśāṅgulaṃ tasyā dhṛtvā tāṃ vāmapāṇinā*
+
+> ⚠ source numbering anomaly: found 1093, expected 22
+
+**1094**
+
+तज्ज्ञो दक्षिणहस्तस्थकोणघातेन वादयेत्  
+ढेंकारः पाटवर्णाः स्युर्निशङ्केनेति कीर्तितम्
+
+*tajjño dakṣiṇahastasthakoṇaghātena vādayet ḍheṃkāraḥ pāṭavarṇāḥ syurniśaṅkeneti kīrtitam*
+
+> ⚠ source numbering anomaly: found 1094, expected 22
+
+**1095**
+
+इति ढक्कालक्षणम्  
+हुडुक्कैवार्गलाहीना कुडुक्का किंतु वादनम्  
+अस्याः करेण कोणेन क्षेत्रपालस्तु देवता
+
+*iti ḍhakkālakṣaṇam huḍukkaivārgalāhīnā kuḍukkā kiṃtu vādanam asyāḥ kareṇa koṇena kṣetrapālastu devatā*
+
+> ⚠ source numbering anomaly: found 1095, expected 22
+
+**1096**
+
+इति कुडुक्कालक्षणम्  
+बीजदारुमयी सप्ताङ्गुलगर्भमुखद्वया  
+एकविंशत्यङ्गुला च यस्या दैर्घ्ये समाकृतिः
+
+*iti kuḍukkālakṣaṇam bījadārumayī saptāṅgulagarbhamukhadvayā ekaviṃśatyaṅgulā ca yasyā dairghye samākṛtiḥ*
+
+> ⚠ source numbering anomaly: found 1096, expected 22
+
+**1097**
+
+संहताग्नित्रयाकारत्र्यङ्गुलस्थूलतायुते  
+वृत्ते नवाङ्गुले गर्भे वलये वल्लिनिर्मिते
+
+*saṃhatāgnitrayākāratryaṅgulasthūlatāyute vṛtte navāṅgule garbhe valaye vallinirmite*
+
+> ⚠ source numbering anomaly: found 1097, expected 22
+
+**1098**
+
+सप्तसप्तच्छिद्रयुते यस्याः स्यातां मुखद्वये  
+कवलाभ्यां पिनह्येते मुखे च वलयान्विते
+
+*saptasaptacchidrayute yasyāḥ syātāṃ mukhadvaye kavalābhyāṃ pinahyete mukhe ca valayānvite*
+
+> ⚠ source numbering anomaly: found 1098, expected 22
+
+**1099**
+
+सरन्ध्रे कवले रन्ध्रन्यस्ततन्त्रीसुयन्त्रिते  
+कुडुवा सा हुडुक्कोक्तवर्णात्क्रेंकारभूयसी
+
+*sarandhre kavale randhranyastatantrīsuyantrite kuḍuvā sā huḍukkoktavarṇātkreṃkārabhūyasī*
+
+> ⚠ source numbering anomaly: found 1099, expected 22
+
+**1100**
+
+कोणाभ्यां मदनाक्ताभ्यां वाद्यते त्यक्तझेंकृतिः
+
+*koṇābhyāṃ madanāktābhyāṃ vādyate tyaktajheṃkṛtiḥ*
+
+> ⚠ source numbering anomaly: found 1100, expected 22
+
+**1101**
+
+इति कुडुवालक्षणम्  
+अष्टादशाङ्गुला दैर्घ्ये दृढा रुञ्जा समाकृतिः  
+एकादशाङ्गुले तस्या वदने कुण्डलीयुते
+
+*iti kuḍuvālakṣaṇam aṣṭādaśāṅgulā dairghye dṛḍhā ruñjā samākṛtiḥ ekādaśāṅgule tasyā vadane kuṇḍalīyute*
+
+> ⚠ source numbering anomaly: found 1101, expected 22
+
+**1102**
+
+तद्वद्ये चर्मणा वामवक्त्रान्तःकुण्डलीद्वयम्  
+तत्रैका वक्त्रमात्रा स्यादपरा चतुरङ्गुला
+
+*tadvadye carmaṇā vāmavaktrāntaḥkuṇḍalīdvayam tatraikā vaktramātrā syādaparā caturaṅgulā*
+
+> ⚠ source numbering anomaly: found 1102, expected 22
+
+**1103**
+
+कुण्डल्योरन्तराले स्याज्जालिका स्नायुनिर्मिता  
+सैकच्छिद्रं वामवक्त्रं सूत्रतत्त्वञ्चनीयुतम्
+
+*kuṇḍalyorantarāle syājjālikā snāyunirmitā saikacchidraṃ vāmavaktraṃ sūtratattvañcanīyutam*
+
+> ⚠ source numbering anomaly: found 1103, expected 22
+
+**1104**
+
+पूर्ववद्विग्निकाः कार्या वक्त्रयोः सप्त सप्त च  
+पादोनहस्तमात्रां च नागपाशवतीं दृढाम्
+
+*pūrvavadvignikāḥ kāryā vaktrayoḥ sapta sapta ca pādonahastamātrāṃ ca nāgapāśavatīṃ dṛḍhām*
+
+> ⚠ source numbering anomaly: found 1104, expected 22
+
+**1105**
+
+कच्छां स्कन्धे निवेश्यास्या वादनं वेदितं बुधैः  
+रुंकारजननाद्रुञ्जा सा भवेद्भृङ्गिदैवता
+
+*kacchāṃ skandhe niveśyāsyā vādanaṃ veditaṃ budhaiḥ ruṃkārajananādruñjā sā bhavedbhṛṅgidaivatā*
+
+> ⚠ source numbering anomaly: found 1105, expected 22
+
+**1106**
+
+मतङ्गोक्तास्त्विमे वर्णाः करगा धटनाः खहौ  
+विग्निका वाद्यशास्त्रेऽस्मिन्कर्कराः परिकीर्तिताः
+
+*mataṅgoktāstvime varṇāḥ karagā dhaṭanāḥ khahau vignikā vādyaśāstre'sminkarkarāḥ parikīrtitāḥ*
+
+> ⚠ source numbering anomaly: found 1106, expected 22
+
+**1107**
+
+इति रुञ्जालक्षणम्  
+वितस्तिमात्रदैर्घ्यः स्यादष्टाङ्गुलमुखद्वयः  
+योगस्य मण्डलीयुक्ते मुखे बद्धे च चर्मणा
+
+*iti ruñjālakṣaṇam vitastimātradairghyaḥ syādaṣṭāṅgulamukhadvayaḥ yogasya maṇḍalīyukte mukhe baddhe ca carmaṇā*
+
+> ⚠ source numbering anomaly: found 1107, expected 22
+
+**1108**
+
+त्रिवलीवत्क्षाममध्यो निबद्धः सूत्रदोरकैः  
+मध्ये च गाढतां नीते रञ्चन्यौ वादनाय च
+
+*trivalīvatkṣāmamadhyo nibaddhaḥ sūtradorakaiḥ madhye ca gāḍhatāṃ nīte rañcanyau vādanāya ca*
+
+> ⚠ source numbering anomaly: found 1108, expected 22
+
+**1109**
+
+भवेतां प्रान्तसंलग्नसम्यङ्मदनगोलकैः  
+असौ डमरुको मध्ये धृत्वा हस्तद्वयेन च
+
+*bhavetāṃ prāntasaṃlagnasamyaṅmadanagolakaiḥ asau ḍamaruko madhye dhṛtvā hastadvayena ca*
+
+> ⚠ source numbering anomaly: found 1109, expected 22
+
+**1110**
+
+डघवर्णो वादनीयः प्रोक्तो निःशङ्कसूरिणा  
+अन्यैः कखरटा वर्णाः प्रोक्ता डमरुकऽधिकाः
+
+*ḍaghavarṇo vādanīyaḥ prokto niḥśaṅkasūriṇā anyaiḥ kakharaṭā varṇāḥ proktā ḍamaruka'dhikāḥ*
+
+> ⚠ source numbering anomaly: found 1110, expected 22
+
+**1111**
+
+इति डमरुकलक्षणम्  
+वितस्तिमात्रं दैर्घ्यं स्यान्मध्यः किंचित्कृशो भवेत्  
+मुखे त्वष्टाङ्गुलैः पिण्डोऽर्धाङ्गुलस्तन्त्रिकाद्वयम्
+
+*iti ḍamarukalakṣaṇam vitastimātraṃ dairghyaṃ syānmadhyaḥ kiṃcitkṛśo bhavet mukhe tvaṣṭāṅgulaiḥ piṇḍo'rdhāṅgulastantrikādvayam*
+
+> ⚠ source numbering anomaly: found 1111, expected 22
+
+**1112**
+
+मुखे मुखे शङ्कवश्च चत्वारस्ताम्रनिर्मिताः  
+तेषामधोऽधावूर्ध्वं द्वौ तन्त्रीबन्धनसिद्धये
+
+*mukhe mukhe śaṅkavaśca catvārastāmranirmitāḥ teṣāmadho'dhāvūrdhvaṃ dvau tantrībandhanasiddhaye*
+
+> ⚠ source numbering anomaly: found 1112, expected 22
+
+**1113**
+
+तन्त्र्योस्तृणशलाकां च निदध्याद् ध्वनिपुष्टये  
+अन्यल्लक्ष्म हुडुक्कावद्यस्याः पाटाक्षराण्यपि
+
+*tantryostṛṇaśalākāṃ ca nidadhyād dhvanipuṣṭaye anyallakṣma huḍukkāvadyasyāḥ pāṭākṣarāṇyapi*
+
+> ⚠ source numbering anomaly: found 1113, expected 22
+
+**1114**
+
+स्याद्दशाङ्गुलदैर्घ्येण कुडुपेन तु वादनम्  
+निःशङ्कशार्ङ्गदेवेन डक्का सा परिकीर्तिता
+
+*syāddaśāṅguladairghyeṇa kuḍupena tu vādanam niḥśaṅkaśārṅgadevena ḍakkā sā parikīrtitā*
+
+> ⚠ source numbering anomaly: found 1114, expected 22
+
+**1115**
+
+अन्येऽस्या वादनं प्राहुः करेण कुडुपेन च  
+हस्तघातेन डंकारो वादने कुडुपेन तु
+
+*anye'syā vādanaṃ prāhuḥ kareṇa kuḍupena ca hastaghātena ḍaṃkāro vādane kuḍupena tu*
+
+> ⚠ source numbering anomaly: found 1115, expected 22
+
+**1116**
+
+घटस्ततो डगिश्चेति मुखान्पाटान्वदन्त्यमी  
+नगौ खकरटा वर्णा मुख्याः प्रोक्ताः परैरिह
+
+*ghaṭastato ḍagiśceti mukhānpāṭānvadantyamī nagau khakaraṭā varṇā mukhyāḥ proktāḥ parairiha*
+
+> ⚠ source numbering anomaly: found 1116, expected 22
+
+**1117**
+
+अस्यां च सूरयः प्राहुर्देवतां विन्ध्यवासिनीम्  
+अङ्गुलोना मध्यमा सा द्व्यङ्गुलोना कनीयसी
+
+*asyāṃ ca sūrayaḥ prāhurdevatāṃ vindhyavāsinīm aṅgulonā madhyamā sā dvyaṅgulonā kanīyasī*
+
+> ⚠ source numbering anomaly: found 1117, expected 22
+
+**1118**
+
+इति डक्कालक्षणम्  
+डक्कैव मण्डिडक्का स्यात्किं त्वस्याः षोडशाङ्गुलम्  
+दैर्घ्यमष्टाङ्गुलौ गर्भौ स्यातां वदनयोर्द्वयोः
+
+*iti ḍakkālakṣaṇam ḍakkaiva maṇḍiḍakkā syātkiṃ tvasyāḥ ṣoḍaśāṅgulam dairghyamaṣṭāṅgulau garbhau syātāṃ vadanayordvayoḥ*
+
+> ⚠ source numbering anomaly: found 1118, expected 22
+
+**1119**
+
+षोडशाङ्गुलको मध्यपरिधिर्नात्र चार्गला  
+न च कच्छोत्कक्षकस्तु मध्ये स्यादञ्चनीद्वयम्
+
+*ṣoḍaśāṅgulako madhyaparidhirnātra cārgalā na ca kacchotkakṣakastu madhye syādañcanīdvayam*
+
+> ⚠ source numbering anomaly: found 1119, expected 22
+
+**1120**
+
+उत्कक्षं चाञ्चनीद्वंद्वं वामाङ्गुष्ठाङ्गुलित्रयात्  
+धृत्वा संपीड्य तर्जन्या मण्डलीप्रान्तमाननम्
+
+*utkakṣaṃ cāñcanīdvaṃdvaṃ vāmāṅguṣṭhāṅgulitrayāt dhṛtvā saṃpīḍya tarjanyā maṇḍalīprāntamānanam*
+
+> ⚠ source numbering anomaly: found 1120, expected 22
+
+**1121**
+
+अस्या दक्षिणजानुस्थं हन्याद्दक्षिणपाणिना  
+उत्कक्षं मणिबन्धोर्ध्वं यद्वाऽन्यस्याञ्चनीद्वयम्
+
+*asyā dakṣiṇajānusthaṃ hanyāddakṣiṇapāṇinā utkakṣaṃ maṇibandhordhvaṃ yadvā'nyasyāñcanīdvayam*
+
+> ⚠ source numbering anomaly: found 1121, expected 22
+
+**1122**
+
+कनिष्ठानामिकाङ्गुष्ठैः संयुज्याऽऽपीड्य मण्डलीम्  
+तर्जन्या मध्यया वाऽथ हस्तेनान्येन वादयेत्
+
+*kaniṣṭhānāmikāṅguṣṭhaiḥ saṃyujyā''pīḍya maṇḍalīm tarjanyā madhyayā vā'tha hastenānyena vādayet*
+
+> ⚠ source numbering anomaly: found 1122, expected 22
+
+**1123**
+
+वदन्ति वादनं तस्याः करेण कुडुपेन वा  
+चर्यागाने च पूजायां शक्तेः सा विनियुज्यते
+
+*vadanti vādanaṃ tasyāḥ kareṇa kuḍupena vā caryāgāne ca pūjāyāṃ śakteḥ sā viniyujyate*
+
+> ⚠ source numbering anomaly: found 1123, expected 22
+
+**1124**
+
+इति मण्डिडक्कालक्षणम्  
+कांस्याद्गोशृङ्गतो दन्त्रिदन्ताद्वा डद्दुली भवेत्  
+दैर्घ्ये पञ्चाङ्गुला वक्त्रे तस्याश्च चतुरङ्गुले
+
+*iti maṇḍiḍakkālakṣaṇam kāṃsyādgośṛṅgato dantridantādvā ḍaddulī bhavet dairghye pañcāṅgulā vaktre tasyāśca caturaṅgule*
+
+> ⚠ source numbering anomaly: found 1124, expected 22
+
+**1125**
+
+मेषपार्युद्दलीबद्धे स्वस्वचक्रसमन्विते  
+चक्रे च कांस्यजे ताम्रमये वा लोहजे पृथक्
+
+*meṣapāryuddalībaddhe svasvacakrasamanvite cakre ca kāṃsyaje tāmramaye vā lohaje pṛthak*
+
+> ⚠ source numbering anomaly: found 1125, expected 22
+
+**1126**
+
+पञ्चरन्ध्रे तथोद्दल्यौ रन्ध्रविन्यस्तदोरकैः  
+सौत्रैर्गाढं निबध्येते मध्ये सूत्रेण वेष्टितम्
+
+*pañcarandhre tathoddalyau randhravinyastadorakaiḥ sautrairgāḍhaṃ nibadhyete madhye sūtreṇa veṣṭitam*
+
+> ⚠ source numbering anomaly: found 1126, expected 22
+
+**1127**
+
+नातिश्लथं नातिगाढं मध्यं सूत्रे त्वनामिकाम्  
+निधाय मध्यतर्जन्यौ विवृते चक्रसंयुते
+
+*nātiślathaṃ nātigāḍhaṃ madhyaṃ sūtre tvanāmikām nidhāya madhyatarjanyau vivṛte cakrasaṃyute*
+
+> ⚠ source numbering anomaly: found 1127, expected 22
+
+**1128**
+
+कृत्वाऽङ्गुष्ठं त्वन्यचक्रे न्यस्याथ मदनाञ्चिताम्  
+विधायाञ्चनिकामेकां तां दुंदुमिति वादयेत्
+
+*kṛtvā'ṅguṣṭhaṃ tvanyacakre nyasyātha madanāñcitām vidhāyāñcanikāmekāṃ tāṃ duṃdumiti vādayet*
+
+> ⚠ source numbering anomaly: found 1128, expected 22
+
+**1129**
+
+तुंतुमित्यपरे प्राहुः पाटा मर्दलसंभवाः  
+यथासंभवमेतस्यां शार्ङ्गदेवेन कीर्तिताः
+
+*tuṃtumityapare prāhuḥ pāṭā mardalasaṃbhavāḥ yathāsaṃbhavametasyāṃ śārṅgadevena kīrtitāḥ*
+
+> ⚠ source numbering anomaly: found 1129, expected 22
+
+**1130**
+
+इति डक्कुलीलक्षणम्  
+षड्विंशत्यङ्गुला दैर्घ्ये परिधौ त्रिंशदङ्गुला  
+समकाया सेल्लुका स्याद्बीजकाष्ठेन निर्मिता
+
+*iti ḍakkulīlakṣaṇam ṣaḍviṃśatyaṅgulā dairghye paridhau triṃśadaṅgulā samakāyā sellukā syādbījakāṣṭhena nirmitā*
+
+> ⚠ source numbering anomaly: found 1130, expected 22
+
+**1131**
+
+दशाङ्गुले मुखे तस्याः मरैस्त्वेकादशाङ्गुले  
+उक्ते न बन्धनोद्दल्यौ ताभ्यामेकाङ्गुलाधिके
+
+*daśāṅgule mukhe tasyāḥ maraistvekādaśāṅgule ukte na bandhanoddalyau tābhyāmekāṅgulādhike*
+
+> ⚠ source numbering anomaly: found 1131, expected 22
+
+**1132**
+
+वल्लीजं तर्जनीस्थौल्यं मुखयोर्वलयद्वयम्  
+सरन्ध्रषट्कं रन्ध्रस्थरज्जुभिर्गाढयन्त्रितम्
+
+*vallījaṃ tarjanīsthaulyaṃ mukhayorvalayadvayam sarandhraṣaṭkaṃ randhrastharajjubhirgāḍhayantritam*
+
+> ⚠ source numbering anomaly: found 1132, expected 22
+
+**1133**
+
+एकाङ्गुलाधिकं तच्च वक्त्राभ्यां वदनं पुनः  
+तन्त्रिकागर्भितं वामं वामहस्तेन वादयेत्
+
+*ekāṅgulādhikaṃ tacca vaktrābhyāṃ vadanaṃ punaḥ tantrikāgarbhitaṃ vāmaṃ vāmahastena vādayet*
+
+> ⚠ source numbering anomaly: found 1133, expected 22
+
+**1134**
+
+मुखं दक्षिणपाणिस्थकुडुपेन तु दक्षिणम्  
+मुखे वामे तु झेंकारो धिंकारो दक्षिणे मुखे
+
+*mukhaṃ dakṣiṇapāṇisthakuḍupena tu dakṣiṇam mukhe vāme tu jheṃkāro dhiṃkāro dakṣiṇe mukhe*
+
+> ⚠ source numbering anomaly: found 1134, expected 22
+
+**1135**
+
+इति सेल्लुकालक्षणम्  
+पलैः स्यात्पञ्चविंशत्या दैर्घ्ये तु द्वादशाङ्गुला
+
+*iti sellukālakṣaṇam palaiḥ syātpañcaviṃśatyā dairghye tu dvādaśāṅgulā*
+
+> ⚠ source numbering anomaly: found 1135, expected 22
+
+**1136**
+
+अष्टादशाङ्गुलमिता परिधौ समविग्रहा  
+ससूत्रकटकं रन्ध्रद्वयं कण्ठे च बिभ्रती
+
+*aṣṭādaśāṅgulamitā paridhau samavigrahā sasūtrakaṭakaṃ randhradvayaṃ kaṇṭhe ca bibhratī*
+
+> ⚠ source numbering anomaly: found 1136, expected 22
+
+**1137**
+
+चर्मणाऽऽनद्धवदना झल्लरी परिकीर्तिता  
+वामहस्तधृता सा च वाद्या दक्षिणपाणिना
+
+*carmaṇā''naddhavadanā jhallarī parikīrtitā vāmahastadhṛtā sā ca vādyā dakṣiṇapāṇinā*
+
+> ⚠ source numbering anomaly: found 1137, expected 22
+
+**1138**
+
+इति झल्लरीलक्षणम्  
+स्यात्तदर्धपलो भाणः परिधौ द्वादशाङ्गुलः  
+अन्यत्तु झल्लरीलक्ष्म तस्य श्रीशार्ङ्गिणोदितम्
+
+*iti jhallarīlakṣaṇam syāttadardhapalo bhāṇaḥ paridhau dvādaśāṅgulaḥ anyattu jhallarīlakṣma tasya śrīśārṅgiṇoditam*
+
+> ⚠ source numbering anomaly: found 1138, expected 22
+
+**1139**
+
+इति भाणलक्षणम्  
+सप्ताङ्गुलमुखद्वंद्वात्त्रिवली हस्तदैर्घ्यभाक्  
+मुष्टिग्राह्यश्च मध्योऽस्या वदने कवलावृते
+
+*iti bhāṇalakṣaṇam saptāṅgulamukhadvaṃdvāttrivalī hastadairghyabhāk muṣṭigrāhyaśca madhyo'syā vadane kavalāvṛte*
+
+> ⚠ source numbering anomaly: found 1139, expected 22
+
+**1140**
+
+कवले लोहमण्डल्यौ सप्तरन्ध्रे पृथक्पृथक्  
+रन्ध्रन्यस्तैर्गुणैर्बद्धो मध्ये गाढं च वेष्टनम्
+
+*kavale lohamaṇḍalyau saptarandhre pṛthakpṛthak randhranyastairguṇairbaddho madhye gāḍhaṃ ca veṣṭanam*
+
+> ⚠ source numbering anomaly: found 1140, expected 22
+
+**1141**
+
+सूत्ररज्ज्वा हस्तमात्रा कच्छा स्कन्धावलम्बिनी  
+वादनं करयुग्मेण शार्ङ्गदेवेन कीर्तितम्
+
+*sūtrarajjvā hastamātrā kacchā skandhāvalambinī vādanaṃ karayugmeṇa śārṅgadevena kīrtitam*
+
+> ⚠ source numbering anomaly: found 1141, expected 22
+
+**1142**
+
+तदांदॐदेति वर्णाः स्युस्त्रिपुरा चात्र देवता  
+एकादशाङ्गुलमुखी विंशत्यङ्गुलदैर्घ्यभाक्
+
+*tadāṃdaoṃdeti varṇāḥ syustripurā cātra devatā ekādaśāṅgulamukhī viṃśatyaṅguladairghyabhāk*
+
+> ⚠ source numbering anomaly: found 1142, expected 22
+
+**1143**
+
+मुखार्धमानमध्याऽसौ मध्ये चाञ्चनिकायुता  
+तदर्धवर्णसंयुक्ता त्रिकुल्या चोच्यते बुधैः
+
+*mukhārdhamānamadhyā'sau madhye cāñcanikāyutā tadardhavarṇasaṃyuktā trikulyā cocyate budhaiḥ*
+
+> ⚠ source numbering anomaly: found 1143, expected 22
+
+**1144**
+
+इति त्रिवलीलक्षणम्  
+आम्रद्रुमसमुद्भूतो महागात्रो महाध्वनिः  
+कांस्यभाजनसंभारगर्भो वलयवर्जितः
+
+*iti trivalīlakṣaṇam āmradrumasamudbhūto mahāgātro mahādhvaniḥ kāṃsyabhājanasaṃbhāragarbho valayavarjitaḥ*
+
+> ⚠ source numbering anomaly: found 1144, expected 22
+
+**1145**
+
+चर्मनद्धाननो बद्धो वध्रैर्गाढं समन्ततः  
+दृढवर्णेन कोणेन वाद्यः प्राणेन दुन्दुभिः
+
+*carmanaddhānano baddho vadhrairgāḍhaṃ samantataḥ dṛḍhavarṇena koṇena vādyaḥ prāṇena dundubhiḥ*
+
+> ⚠ source numbering anomaly: found 1145, expected 22
+
+**1146**
+
+मेघनिर्घोषगम्भीरघॐकारस्यात्र मुख्यता  
+मङ्गले विजये चैव बाद्यते देवतालये
+
+*meghanirghoṣagambhīraghaoṃkārasyātra mukhyatā maṅgale vijaye caiva bādyate devatālaye*
+
+> ⚠ source numbering anomaly: found 1146, expected 22
+
+**1147**
+
+इति दुन्दुभिलक्षणम्  
+वितस्तित्रयदैर्घ्या स्याद्भेरी ताम्रेण निर्मिता
+
+*iti dundubhilakṣaṇam vitastitrayadairghyā syādbherī tāmreṇa nirmitā*
+
+> ⚠ source numbering anomaly: found 1147, expected 22
+
+**1148**
+
+चतुर्विंशत्यङ्गुले च वदने वलयान्विते  
+तस्याः सवलये चर्मच्छन्ने छिद्रसमन्विते
+
+*caturviṃśatyaṅgule ca vadane valayānvite tasyāḥ savalaye carmacchanne chidrasamanvite*
+
+> ⚠ source numbering anomaly: found 1148, expected 22
+
+**1449**
+
+रज्ज्वा नियन्त्रिते गाढं मध्ये सूत्रेण बन्धनम्  
+दक्षिणस्थेन कोणेन वामहस्तेन ताडनात्
+
+*rajjvā niyantrite gāḍhaṃ madhye sūtreṇa bandhanam dakṣiṇasthena koṇena vāmahastena tāḍanāt*
+
+> ⚠ source numbering anomaly: found 1449, expected 22
+
+**1150**
+
+उद्भटो भवति ध्वानो गम्भीरोऽरिभयंकरः  
+तकारः पाटवर्णोऽस्यां मुख्यो निःशङ्ककीर्तितः
+
+*udbhaṭo bhavati dhvāno gambhīro'ribhayaṃkaraḥ takāraḥ pāṭavarṇo'syāṃ mukhyo niḥśaṅkakīrtitaḥ*
+
+> ⚠ source numbering anomaly: found 1150, expected 22
+
+**1151**
+
+इति भेरीलक्षणम्  
+कांस्यजस्ताम्रजो लौहो वोत्तमो मध्यमोऽधमः  
+एकवक्त्रो महान्वक्त्रे स्वल्पोऽधोऽर्धयवाकृतिः
+
+*iti bherīlakṣaṇam kāṃsyajastāmrajo lauho vottamo madhyamo'dhamaḥ ekavaktro mahānvaktre svalpo'dho'rdhayavākṛtiḥ*
+
+> ⚠ source numbering anomaly: found 1151, expected 22
+
+**1152**
+
+भृतगर्भः कांस्यपात्रभारैर्महिषचर्मणा  
+छन्नाननो बद्धचर्मा तद्रन्ध्रन्यस्तवध्रकैः
+
+*bhṛtagarbhaḥ kāṃsyapātrabhārairmahiṣacarmaṇā channānano baddhacarmā tadrandhranyastavadhrakaiḥ*
+
+> ⚠ source numbering anomaly: found 1152, expected 22
+
+**1153**
+
+क्षिप्तोऽधो वध्रवलये निवेश्याऽऽवर्तितैर्मुहुः  
+द्विषद्वित्रासजननो निःसाणः शार्ङ्गिणोदितः
+
+*kṣipto'dho vadhravalaye niveśyā''vartitairmuhuḥ dviṣadvitrāsajanano niḥsāṇaḥ śārṅgiṇoditaḥ*
+
+> ⚠ source numbering anomaly: found 1153, expected 22
+
+**1154**
+
+चार्मणेनास्य कोणेन सद्वितीयस्य वादनम्  
+दृढशब्देन भीरूणां भिनत्ति हृदयान्ययम्  
+स्यादस्माद्युद्धवीराणां रोमाञ्चोपचितं वपुः
+
+*cārmaṇenāsya koṇena sadvitīyasya vādanam dṛḍhaśabdena bhīrūṇāṃ bhinatti hṛdayānyayam syādasmādyuddhavīrāṇāṃ romāñcopacitaṃ vapuḥ*
+
+> ⚠ source numbering anomaly: found 1154, expected 22
+
+**1155**
+
+इति निःसाणलक्षणम्  
+निःसाणवत्तम्बकी स्यात्ततोऽल्पा गात्रनादयोः
+
+*iti niḥsāṇalakṣaṇam niḥsāṇavattambakī syāttato'lpā gātranādayoḥ*
+
+> ⚠ source numbering anomaly: found 1155, expected 22
+
+**1156**
+
+इति तम्बकीलक्षणम्  
+उक्तौ प्रकृतिदारूणामनुक्तौ वा विकल्पतः  
+ज्ञेयो दारववाद्यानां खदिरो रक्तचन्दनः
+
+*iti tambakīlakṣaṇam uktau prakṛtidārūṇāmanuktau vā vikalpataḥ jñeyo dāravavādyānāṃ khadiro raktacandanaḥ*
+
+> ⚠ source numbering anomaly: found 1156, expected 22
+
+**1157**
+
+सर्वेषु स्युर्यथायोगं पाटाः पाटहमार्दलाः
+
+*sarveṣu syuryathāyogaṃ pāṭāḥ pāṭahamārdalāḥ*
+
+> ⚠ source numbering anomaly: found 1157, expected 22
+
+**1159**
+
+निर्भिद्योत्सारिते गर्भे शेषाद्वाद्यानि कारयेत्  
+पूर्वप्ररोहे छिन्नेऽन्यो यः प्ररोहः प्ररोहति
+
+*nirbhidyotsārite garbhe śeṣādvādyāni kārayet pūrvaprarohe chinne'nyo yaḥ prarohaḥ prarohati*
+
+> ⚠ source numbering anomaly: found 1159, expected 22
+
+**1160**
+
+तदुद्भवद्रुमोद्भूतं वाद्यं सर्वं प्रशस्यते  
+गर्भस्योत्सारणं त्वेतद्वेणोरन्यत्र पादपे
+
+*tadudbhavadrumodbhūtaṃ vādyaṃ sarvaṃ praśasyate garbhasyotsāraṇaṃ tvetadveṇoranyatra pādape*
+
+> ⚠ source numbering anomaly: found 1160, expected 22
+
+**1161**
+
+तरूणां जातयस्तिस्रः पित्तला वातला तथा  
+श्लेष्मला चेति तत्र स्यात्पित्तला नीरसक्षितौ
+
+*tarūṇāṃ jātayastisraḥ pittalā vātalā tathā śleṣmalā ceti tatra syātpittalā nīrasakṣitau*
+
+> ⚠ source numbering anomaly: found 1161, expected 22
+
+**1162**
+
+अत्यल्परसभूजाता वातला श्लेष्मला पुनः  
+जलाशयसमीपस्थरससंप्लुतभूमिजा
+
+*atyalparasabhūjātā vātalā śleṣmalā punaḥ jalāśayasamīpastharasasaṃplutabhūmijā*
+
+> ⚠ source numbering anomaly: found 1162, expected 22
+
+**1163**
+
+पित्तलाऽत्युत्तमा जातिर्वातला त्वधमा भवेत्  
+श्लेष्मला वर्ज्यते शुष्के वृक्षेऽपि च्छेदनात्पुरा
+
+*pittalā'tyuttamā jātirvātalā tvadhamā bhavet śleṣmalā varjyate śuṣke vṛkṣe'pi cchedanātpurā*
+
+> ⚠ source numbering anomaly: found 1163, expected 22
+
+**1164**
+
+इति काष्ठलक्षणम्कोमलत्वं व्रणग्रन्थिभेदान्दारुषु वर्जयेत्
+
+*iti kāṣṭhalakṣaṇamkomalatvaṃ vraṇagranthibhedāndāruṣu varjayet*
+
+> ⚠ source numbering anomaly: found 1164, expected 22
+
+**1165**
+
+इति काष्ठदोषाः  
+षाण्मासिकस्य वत्सस्य चर्म स्यात्पुटबन्धने  
+अन्ये द्विवत्सरस्याऽऽहुस्तन्न लक्ष्येषु दृश्यते
+
+*iti kāṣṭhadoṣāḥ ṣāṇmāsikasya vatsasya carma syātpuṭabandhane anye dvivatsarasyā''hustanna lakṣyeṣu dṛśyate*
+
+> ⚠ source numbering anomaly: found 1165, expected 22
+
+**1166**
+
+वृद्धस्य वृषभस्यास्य चर्मणा वध्रकल्पना  
+कुन्देन्दुहिमसंकाशमाम्रपल्लवसंनिभम्
+
+*vṛddhasya vṛṣabhasyāsya carmaṇā vadhrakalpanā kundenduhimasaṃkāśamāmrapallavasaṃnibham*
+
+> ⚠ source numbering anomaly: found 1166, expected 22
+
+**1167**
+
+स्नायुमांसविहीनं च चर्म गोसंभवं च यत्  
+शीतोदके निशामेकां वासयित्वा समुद्धृतम्  
+वाद्यावनहनार्थं तद्ग्राह्यं श्रीशार्ङ्गिणोदितम्
+
+*snāyumāṃsavihīnaṃ ca carma gosaṃbhavaṃ ca yat śītodake niśāmekāṃ vāsayitvā samuddhṛtam vādyāvanahanārthaṃ tadgrāhyaṃ śrīśārṅgiṇoditam*
+
+> ⚠ source numbering anomaly: found 1167, expected 22
+
+**1168**
+
+इति चर्मगुणाः  
+मेदोदुष्टं जराक्रान्तं क्लिन्नं काकमुखाहतम्  
+अग्निधूमहतं जीर्णं न वाद्ये चर्म कर्मकृत्
+
+*iti carmaguṇāḥ medoduṣṭaṃ jarākrāntaṃ klinnaṃ kākamukhāhatam agnidhūmahataṃ jīrṇaṃ na vādye carma karmakṛt*
+
+> ⚠ source numbering anomaly: found 1168, expected 22
+
+**1169**
+
+इति चर्मदोषाः  
+गुणैर्भूरितरोदारैर्यस्य नद्धं जगत्त्रयम्  
+अवनद्धमिदं तेन शार्ङ्गिदेवेन कीर्तितम्
+
+*iti carmadoṣāḥ guṇairbhūritarodārairyasya naddhaṃ jagattrayam avanaddhamidaṃ tena śārṅgidevena kīrtitam*
+
+> ⚠ source numbering anomaly: found 1169, expected 22
+
+**1170**
+
+अथ घववाद्यम्  
+कांस्यजे घनवाद्ये स्यात्कांस्यमग्नौ सुशोधितम्
+
+*atha ghavavādyam kāṃsyaje ghanavādye syātkāṃsyamagnau suśodhitam*
+
+> ⚠ source numbering anomaly: found 1170, expected 22
+
+**1171**
+
+कांस्यजो वर्तुलस्तालः सपादद्व्यङ्गुलाननः  
+मध्येऽस्याङ्गुलविस्तारो निम्नो रन्ध्रं च निम्नगम्
+
+*kāṃsyajo vartulastālaḥ sapādadvyaṅgulānanaḥ madhye'syāṅgulavistāro nimno randhraṃ ca nimnagam*
+
+> ⚠ source numbering anomaly: found 1171, expected 22
+
+**1172**
+
+पादोनगुञ्जामात्रं स्यात्पिण्डस्तु यवमात्रकः  
+सार्धाङ्गुलः स्यादुत्सेधः समा श्लक्ष्णशुभाऽऽकृतिः
+
+*pādonaguñjāmātraṃ syātpiṇḍastu yavamātrakaḥ sārdhāṅgulaḥ syādutsedhaḥ samā ślakṣṇaśubhā''kṛtiḥ*
+
+> ⚠ source numbering anomaly: found 1172, expected 22
+
+**1173**
+
+कार्या तथा यथा नादो भवेच्छ्रुतिमनोहरः  
+नेत्रवस्त्रांञ्चलाग्राणि रज्जूकृत्य निवेशयेत्
+
+*kāryā tathā yathā nādo bhavecchrutimanoharaḥ netravastrāṃñcalāgrāṇi rajjūkṛtya niveśayet*
+
+> ⚠ source numbering anomaly: found 1173, expected 22
+
+**1174**
+
+रन्ध्रेऽग्राणाम्ननिर्गत्यै ग्रन्थिं च रचयेद्दृढम्  
+ईदृक्तालयुगं कृत्वा तालमेकमथाञ्चलैः
+
+*randhre'grāṇāmnanirgatyai granthiṃ ca racayeddṛḍham īdṛktālayugaṃ kṛtvā tālamekamathāñcalaiḥ*
+
+> ⚠ source numbering anomaly: found 1174, expected 22
+
+**1175**
+
+आवेष्ट्य तर्जनीं वामामङ्गुष्ठेन च वेष्टनम्  
+आक्रम्य तलमध्यस्थं धृत्वा तिर्यङ्मुखीकृतम्
+
+*āveṣṭya tarjanīṃ vāmāmaṅguṣṭhena ca veṣṭanam ākramya talamadhyasthaṃ dhṛtvā tiryaṅmukhīkṛtam*
+
+> ⚠ source numbering anomaly: found 1175, expected 22
+
+**1176**
+
+शेषाङ्गुलीः प्रसार्योर्ध्वाद्दक्षिणेन तु पाणिना  
+तालमन्यतरस्यान्तलम्बमानाचलावलिम्
+
+*śeṣāṅgulīḥ prasāryordhvāddakṣiṇena tu pāṇinā tālamanyatarasyāntalambamānācalāvalim*
+
+> ⚠ source numbering anomaly: found 1176, expected 22
+
+**1177**
+
+तर्जन्यङ्गुष्ठयोरग्रभागतस्तिर्यगाननम्  
+धृत्वा तस्याग्रभागेण मध्यमन्यस्य ताडयेत्
+
+*tarjanyaṅguṣṭhayoragrabhāgatastiryagānanam dhṛtvā tasyāgrabhāgeṇa madhyamanyasya tāḍayet*
+
+> ⚠ source numbering anomaly: found 1177, expected 22
+
+**1178**
+
+अल्पनादो भवेच्छक्तिर्भूरिनादः शिवो भवेत्  
+शिवे स्निग्धे घनो नादः शक्तौ स्यात्तद्विपर्ययः
+
+*alpanādo bhavecchaktirbhūrinādaḥ śivo bhavet śive snigdhe ghano nādaḥ śaktau syāttadviparyayaḥ*
+
+> ⚠ source numbering anomaly: found 1178, expected 22
+
+**1179**
+
+वामेन धारयेच्छक्तिं शिवं दक्षिणपाणिना  
+अश्वमेधफलं चैव प्राप्नुयाद्दोषमन्यथा
+
+*vāmena dhārayecchaktiṃ śivaṃ dakṣiṇapāṇinā aśvamedhaphalaṃ caiva prāpnuyāddoṣamanyathā*
+
+> ⚠ source numbering anomaly: found 1179, expected 22
+
+**1180**
+
+देवता तुम्बरुर्युग्मे शक्तिः शक्तौ शिवे शिवः  
+द्रुतादिसिद्ध्यै तन्नादधृतिरूर्ध्वाङ्गुलीकृता
+
+*devatā tumbaruryugme śaktiḥ śaktau śive śivaḥ drutādisiddhyai tannādadhṛtirūrdhvāṅgulīkṛtā*
+
+> ⚠ source numbering anomaly: found 1180, expected 22
+
+**1181**
+
+कल्पनेत्युच्यते कार्यमस्य स्यात्तालधारणम्  
+निःशङ्कशार्ङ्गदेवेन पाटाः सर्वेऽत्र कीर्तिताः
+
+*kalpanetyucyate kāryamasya syāttāladhāraṇam niḥśaṅkaśārṅgadevena pāṭāḥ sarve'tra kīrtitāḥ*
+
+> ⚠ source numbering anomaly: found 1181, expected 22
+
+**1182**
+
+इति ताललक्षणम्  
+नलिनीदलसंकाशौ कांस्यतालौ समाकृती  
+त्रयोदशाङ्गुलौ वक्त्रे कांस्यजे द्व्यङ्गुलौ तले
+
+*iti tālalakṣaṇam nalinīdalasaṃkāśau kāṃsyatālau samākṛtī trayodaśāṅgulau vaktre kāṃsyaje dvyaṅgulau tale*
+
+> ⚠ source numbering anomaly: found 1182, expected 22
+
+**1183**
+
+मध्येऽङ्गुलमितौ निम्नौ तयोरन्यत्तु तालवत्
+
+*madhye'ṅgulamitau nimnau tayoranyattu tālavat*
+
+> ⚠ source numbering anomaly: found 1183, expected 22
+
+**1184**
+
+पाटा झनकटा मुख्याः सन्ति पाटान्तराण्यपि  
+नारदो देवता चात्रेत्युक्तं सोढलसूनुना
+
+*pāṭā jhanakaṭā mukhyāḥ santi pāṭāntarāṇyapi nārado devatā cātretyuktaṃ soḍhalasūnunā*
+
+> ⚠ source numbering anomaly: found 1184, expected 22
+
+**1185**
+
+इति कांस्यताललक्षणम्  
+अर्धाङ्गुलमिता पिण्डे घण्टा कांस्यमयी भवेत्  
+उच्छ्रायेऽष्टाङ्गुला वक्त्रे विशाला मूलतोऽल्पिका
+
+*iti kāṃsyatālalakṣaṇam ardhāṅgulamitā piṇḍe ghaṇṭā kāṃsyamayī bhavet ucchrāye'ṣṭāṅgulā vaktre viśālā mūlato'lpikā*
+
+> ⚠ source numbering anomaly: found 1185, expected 22
+
+**1186**
+
+सा च प्रासादसंबद्धा शलाकाकारधारिणी  
+मूले दण्डं त्रिशृङ्गाग्रं दधती मूलसंयुता
+
+*sā ca prāsādasaṃbaddhā śalākākāradhāriṇī mūle daṇḍaṃ triśṛṅgāgraṃ dadhatī mūlasaṃyutā*
+
+> ⚠ source numbering anomaly: found 1186, expected 22
+
+**1187**
+
+षडङ्गुलायतं सार्धाङ्गुलपिण्डं च लम्बितम्  
+लोहजं लालकं गर्भे दधानां तामधोमुखीम्
+
+*ṣaḍaṅgulāyataṃ sārdhāṅgulapiṇḍaṃ ca lambitam lohajaṃ lālakaṃ garbhe dadhānāṃ tāmadhomukhīm*
+
+> ⚠ source numbering anomaly: found 1187, expected 22
+
+**1188**
+
+दण्डे धृत्वा टणत्कारबहुलं वादयेत्सुधीः  
+सा सर्वदेवता तज्ज्ञैर्वाद्यते देवतार्चने
+
+*daṇḍe dhṛtvā ṭaṇatkārabahulaṃ vādayetsudhīḥ sā sarvadevatā tajjñairvādyate devatārcane*
+
+> ⚠ source numbering anomaly: found 1188, expected 22
+
+**1189**
+
+इति घण्टालक्षणम्  
+तैक्ष्णगोलकगर्भाः स्युः कांस्योद्भवपुटद्वयाः
+
+*iti ghaṇṭālakṣaṇam taikṣṇagolakagarbhāḥ syuḥ kāṃsyodbhavapuṭadvayāḥ*
+
+> ⚠ source numbering anomaly: found 1189, expected 22
+
+**1190**
+
+सघनाः सूक्ष्मजातीयबदरीबीजसंमिताः  
+शिरःसुषिरविन्यस्तरज्जवः क्षुद्रघण्टिकाः
+
+*saghanāḥ sūkṣmajātīyabadarībījasaṃmitāḥ śiraḥsuṣiravinyastarajjavaḥ kṣudraghaṇṭikāḥ*
+
+> ⚠ source numbering anomaly: found 1190, expected 22
+
+**1191**
+
+ताश्च घर्घरिका लोके भाष्यन्ते घर्घरास्तथा  
+ताभिर्घर्घरभेदानां कृतिः पराणि नर्तने
+
+*tāśca ghargharikā loke bhāṣyante ghargharāstathā tābhirghargharabhedānāṃ kṛtiḥ parāṇi nartane*
+
+> ⚠ source numbering anomaly: found 1191, expected 22
+
+**1192**
+
+इति क्षुद्रघण्टिकालक्षणम्  
+कांस्यजा हस्तमात्रा स्यात्पिण्डे त्वर्धाङ्गुला घना
+
+*iti kṣudraghaṇṭikālakṣaṇam kāṃsyajā hastamātrā syātpiṇḍe tvardhāṅgulā ghanā*
+
+> ⚠ source numbering anomaly: found 1192, expected 22
+
+**1193**
+
+जयघण्टा समा श्लक्ष्णा वृत्ता प्रान्ते द्विरन्ध्रभाक्  
+धृत्वा तद्रन्ध्रविन्यस्तरज्जौ तां वामपाणिना
+
+*jayaghaṇṭā samā ślakṣṇā vṛttā prānte dvirandhrabhāk dhṛtvā tadrandhravinyastarajjau tāṃ vāmapāṇinā*
+
+> ⚠ source numbering anomaly: found 1193, expected 22
+
+**1193**
+
+दक्षिणो दक्षिणस्थेन दृढकोणेन वादयेत्  
+डेंकारबहुलाः पाटाः सर्वेऽस्याः शार्ङ्गिणोदिताः
+
+*dakṣiṇo dakṣiṇasthena dṛḍhakoṇena vādayet ḍeṃkārabahulāḥ pāṭāḥ sarve'syāḥ śārṅgiṇoditāḥ*
+
+> ⚠ source numbering anomaly: found 1193, expected 22
+
+**1194**
+
+इति जयघण्टालक्षणम्  
+खादिरं घनवेणूत्थं यद्वा कम्राचतुष्टयम्
+
+*iti jayaghaṇṭālakṣaṇam khādiraṃ ghanaveṇūtthaṃ yadvā kamrācatuṣṭayam*
+
+> ⚠ source numbering anomaly: found 1194, expected 22
+
+**1195**
+
+श्लक्ष्णद्वय्ङ्गुलविस्तारं द्वादशाङ्गुलदैर्घ्यकम्  
+मध्ये पिण्डो यथाशोभं किंचिन्न्यूनस्ततोऽन्तयोः
+
+*ślakṣṇadvayṅgulavistāraṃ dvādaśāṅguladairghyakam madhye piṇḍo yathāśobhaṃ kiṃcinnyūnastato'ntayoḥ*
+
+> ⚠ source numbering anomaly: found 1195, expected 22
+
+**1196**
+
+यस्य तत्कम्रिकावाद्यं तत्र द्वे द्वे तु कम्रिके  
+एकैकहस्तन्यस्ते ये तयोरेकैककम्रिकाम्
+
+*yasya tatkamrikāvādyaṃ tatra dve dve tu kamrike ekaikahastanyaste ye tayorekaikakamrikām*
+
+> ⚠ source numbering anomaly: found 1196, expected 22
+
+**1197**
+
+मध्यमाङ्गुष्ठयोर्मूले धृत्वा प्रान्ते तयोः पुनः  
+अपरामपरां धृत्वा शिथिलां वादयेद्धिया
+
+*madhyamāṅguṣṭhayormūle dhṛtvā prānte tayoḥ punaḥ aparāmaparāṃ dhṛtvā śithilāṃ vādayeddhiyā*
+
+> ⚠ source numbering anomaly: found 1197, expected 22
+
+**1198**
+
+कम्पेन मणिबन्धस्य कम्रिकावादनं मतम्  
+पाटाः किटकिटामुख्यास्तत्र पाटान्तराण्यपि
+
+*kampena maṇibandhasya kamrikāvādanaṃ matam pāṭāḥ kiṭakiṭāmukhyāstatra pāṭāntarāṇyapi*
+
+> ⚠ source numbering anomaly: found 1198, expected 22
+
+**1199**
+
+कम्राणामन्तरं कृत्वाऽनामया दक्षिणस्थया  
+तलघाताङ्गुष्ठघृष्टी वामस्येत्यपरे जगुः
+
+*kamrāṇāmantaraṃ kṛtvā'nāmayā dakṣiṇasthayā talaghātāṅguṣṭhaghṛṣṭī vāmasyetyapare jaguḥ*
+
+> ⚠ source numbering anomaly: found 1199, expected 22
+
+**1200**
+
+इति कम्रालक्षणम्  
+सर्पाकृतिरथो निम्ना कांस्यजा लोहजाऽथवा  
+शुक्तिस्त्र्यङ्गुलविस्तारा सार्धहस्तद्वया मता
+
+*iti kamrālakṣaṇam sarpākṛtiratho nimnā kāṃsyajā lohajā'thavā śuktistryaṅgulavistārā sārdhahastadvayā matā*
+
+> ⚠ source numbering anomaly: found 1200, expected 22
+
+**1201**
+
+तिर्यग्रेखाराजिता च मृगशृङ्गोपमेन सा  
+ऋजुणा लोहकोणेन सरोषेण विघर्षणात्
+
+*tiryagrekhārājitā ca mṛgaśṛṅgopamena sā ṛjuṇā lohakoṇena saroṣeṇa vigharṣaṇāt*
+
+> ⚠ source numbering anomaly: found 1201, expected 22
+
+**1202**
+
+वाद्यते किरिकिट्टेति पाठा यक्षास्तु देवताः  
+यतिमात्रावबोधेऽत्रेत्युक्तं निःशङ्कसूरिणा  
+किरिकिट्टकमित्युक्तं तल्लोके रुद्रवल्लभम्
+
+*vādyate kirikiṭṭeti pāṭhā yakṣāstu devatāḥ yatimātrāvabodhe'tretyuktaṃ niḥśaṅkasūriṇā kirikiṭṭakamityuktaṃ talloke rudravallabham*
+
+> ⚠ source numbering anomaly: found 1202, expected 22
+
+**1203**
+
+इति शुक्तिवाद्यम्  
+श्रीपर्णीदारुजः पट्टश्चतुरस्रायतो भवेत्
+
+*iti śuktivādyam śrīparṇīdārujaḥ paṭṭaścaturasrāyato bhavet*
+
+> ⚠ source numbering anomaly: found 1203, expected 22
+
+**1204**
+
+द्वात्रिंशदङ्गुलो दैर्घ्येऽन्यैरुक्तस्त्रिंशदङ्गुलः  
+विस्तारे हस्तमात्रः स्यादूर्ध्वाधःस्थितयोर्द्वयोः
+
+*dvātriṃśadaṅgulo dairghye'nyairuktastriṃśadaṅgulaḥ vistāre hastamātraḥ syādūrdhvādhaḥsthitayordvayoḥ*
+
+> ⚠ source numbering anomaly: found 1204, expected 22
+
+**1206**
+
+वक्षोग्रे जानुनोर्मध्ये यद्वा संधार्य वाद्यते  
+अयं च करशाखाग्रै रालालिप्तो विघृष्यते
+
+*vakṣogre jānunormadhye yadvā saṃdhārya vādyate ayaṃ ca karaśākhāgrai rālālipto vighṛṣyate*
+
+> ⚠ source numbering anomaly: found 1206, expected 22
+
+**1207**
+
+करवौ थडरटाः पाटाः पाटहाश्चेह संमताः  
+सप्तात्र देवमुनयो देवताः शार्ङ्गिणोदिताः
+
+*karavau thaḍaraṭāḥ pāṭāḥ pāṭahāśceha saṃmatāḥ saptātra devamunayo devatāḥ śārṅgiṇoditāḥ*
+
+> ⚠ source numbering anomaly: found 1207, expected 22
+
+**1208**
+
+इति पट्टवाद्यम्  
+सन्त्यन्यान्यपि वाद्यानि लोके भूयांसि यानि च  
+तेषु विस्तारसंत्रासादुदास्ते सोढलात्मजः
+
+*iti paṭṭavādyam santyanyānyapi vādyāni loke bhūyāṃsi yāni ca teṣu vistārasaṃtrāsādudāste soḍhalātmajaḥ*
+
+> ⚠ source numbering anomaly: found 1208, expected 22
+
+**1209**
+
+इति घनवाद्यलक्षणम्  
+रक्तं विरक्तं मधुरं समं शुद्धं कलं घनम्  
+स्फुटप्रहारं सुलभं वुघुष्टं च गुणैरिति
+
+*iti ghanavādyalakṣaṇam raktaṃ viraktaṃ madhuraṃ samaṃ śuddhaṃ kalaṃ ghanam sphuṭaprahāraṃ sulabhaṃ vughuṣṭaṃ ca guṇairiti*
+
+> ⚠ source numbering anomaly: found 1209, expected 22
+
+**1210**
+
+दशभिः संयुतं वाद्यमुक्तं सोढलसूनुना  
+अन्वर्थान्यत्र नामानि समं त्वष्टविधं मतम्
+
+*daśabhiḥ saṃyutaṃ vādyamuktaṃ soḍhalasūnunā anvarthānyatra nāmāni samaṃ tvaṣṭavidhaṃ matam*
+
+> ⚠ source numbering anomaly: found 1210, expected 22
+
+**1211**
+
+अक्षराद्यङ्गपूर्वं च तालादि यतिपूर्वकम्  
+लयादि न्यासापन्यासपूर्वैः पाणिसमं तथा
+
+*akṣarādyaṅgapūrvaṃ ca tālādi yatipūrvakam layādi nyāsāpanyāsapūrvaiḥ pāṇisamaṃ tathā*
+
+> ⚠ source numbering anomaly: found 1211, expected 22
+
+**1212**
+
+स्यादक्षरसमं गीतगुरुलघ्वक्षरानुगम्  
+गीतस्य ग्रहमोक्षादीन्यङ्गान्यत्रेति यत्पुनः
+
+*syādakṣarasamaṃ gītagurulaghvakṣarānugam gītasya grahamokṣādīnyaṅgānyatreti yatpunaḥ*
+
+> ⚠ source numbering anomaly: found 1212, expected 22
+
+**1213**
+
+स्यात्तदङ्गसमं तालानुगं तालसमं मतम्  
+यतिर्लयस्य न्यासः स्यात्सन्यासस्य च साम्यतः  
+यत्यादिपूर्वकं ज्ञेयं क्रमात्समचतुष्टयम्
+
+*syāttadaṅgasamaṃ tālānugaṃ tālasamaṃ matam yatirlayasya nyāsaḥ syātsanyāsasya ca sāmyataḥ yatyādipūrvakaṃ jñeyaṃ kramātsamacatuṣṭayam*
+
+> ⚠ source numbering anomaly: found 1213, expected 22
+
+**1214**
+
+गीतग्रहैः पाणिसंज्ञैः समं पाणिसमं मतम्  
+वाद्यस्यैते गुणाः प्रोक्ता दोषः स्यात्तद्विपर्ययः
+
+*gītagrahaiḥ pāṇisaṃjñaiḥ samaṃ pāṇisamaṃ matam vādyasyaite guṇāḥ proktā doṣaḥ syāttadviparyayaḥ*
+
+> ⚠ source numbering anomaly: found 1214, expected 22
+
+**1215**
+
+इति वाद्यगुणदोषाः  
+हस्तकोणप्रहारज्ञो गीतवादनकोविदः  
+यतिताललयाभिज्ञः पाटज्ञः पञ्चसञ्चवित्
+
+*iti vādyaguṇadoṣāḥ hastakoṇaprahārajño gītavādanakovidaḥ yatitālalayābhijñaḥ pāṭajñaḥ pañcasañcavit*
+
+> ⚠ source numbering anomaly: found 1215, expected 22
+
+**1216**
+
+दशहस्तगुणोपेतः पात्राभिप्रेतवादकः  
+आतोद्यध्वनितत्त्वज्ञः समादिग्रहवेदिता
+
+*daśahastaguṇopetaḥ pātrābhipretavādakaḥ ātodyadhvanitattvajñaḥ samādigrahaveditā*
+
+> ⚠ source numbering anomaly: found 1216, expected 22
+
+**1218**
+
+वाद्ये समस्तभेदज्ञो रूपरेखान्वितस्तथा  
+उद्घट्टनपटुः सर्ववाद्यभेदविवेचकः
+
+*vādye samastabhedajño rūparekhānvitastathā udghaṭṭanapaṭuḥ sarvavādyabhedavivecakaḥ*
+
+> ⚠ source numbering anomaly: found 1218, expected 22
+
+**1219**
+
+नादवृद्धिक्षयापत्तिकोविदो वादको विदः  
+गुणैः कतिपयैर्हीनः सर्वैर्वा वादकोऽधमः
+
+*nādavṛddhikṣayāpattikovido vādako vidaḥ guṇaiḥ katipayairhīnaḥ sarvairvā vādako'dhamaḥ*
+
+> ⚠ source numbering anomaly: found 1219, expected 22
+
+**1220**
+
+वाञ्छानुगौ दृढौ व्यक्तौ स्निग्धौ दृढनखौ लघू
+
+*vāñchānugau dṛḍhau vyaktau snigdhau dṛḍhanakhau laghū*
+
+> ⚠ source numbering anomaly: found 1220, expected 22
+
+**1221**
+
+विधायाङ्गुलिसंचारौ स्वदहीनौ जितश्रमौ  
+युक्तप्रहारौ च करौ प्रोक्तौ दशगुणाविति
+
+*vidhāyāṅgulisaṃcārau svadahīnau jitaśramau yuktaprahārau ca karau proktau daśaguṇāviti*
+
+> ⚠ source numbering anomaly: found 1221, expected 22

@@ -2,7 +2,7 @@
 
 *Sāṅgītaratnākara of Śārṅgadeva — Sanskrit Wikisource (CC-BY-SA), retrieved 2026-08-17.*
 
-Verses: **1667**
+Verses: **1680**
 
 ---
 
@@ -1494,7 +1494,9 @@ Verses: **1667**
 आकुञ्चत्कूर्परौ स्कन्धदेशस्थौ सर्पशीर्षकौ  
 अन्योन्याभिमुखौ लक्ष्म गजदन्ते जगुः परे
 
-*ākuñcatkūrparau skandhadeśasthau sarpaśīrṣakau anyonyābhimukhau lakṣma gajadante jaguḥ pare*
+*ākuñcatkūrparau skandhadeśasthau sarpaśīrṣakau anyonyābhimukhau lakṣma gajadante jaguḥ*
+
+> svara illustration: `परे`
 
 **207**
 
@@ -1609,7 +1611,9 @@ Verses: **1667**
 प्राङ्मुखौ हंसपक्षाख्यौ व्यावृत्तपरिवर्तितौ  
 जयशब्दे प्रयोक्तव्यावुद्वृत्तौ मेनिरे परे
 
-*prāṅmukhau haṃsapakṣākhyau vyāvṛttaparivartitau jayaśabde prayoktavyāvudvṛttau menire pare*
+*prāṅmukhau haṃsapakṣākhyau vyāvṛttaparivartitau jayaśabde prayoktavyāvudvṛttau menire*
+
+> svara illustration: `परे`
 
 **223**
 
@@ -1634,7 +1638,9 @@ Verses: **1667**
 नीचाग्रावुन्नताग्रौ वा कुचाभ्यां पुरतः स्थितौ  
 पराङ्मुखौ हंसपक्षौ विप्रकीर्णौ जगुः परे
 
-*iti svastikau viprakīrṇau tu tāveva sahasā svastike cyute nīcāgrāvunnatāgrau vā kucābhyāṃ purataḥ sthitau parāṅmukhau haṃsapakṣau viprakīrṇau jaguḥ pare*
+*iti svastikau viprakīrṇau tu tāveva sahasā svastike cyute nīcāgrāvunnatāgrau vā kucābhyāṃ purataḥ sthitau parāṅmukhau haṃsapakṣau viprakīrṇau jaguḥ*
+
+> svara illustration: `परे`
 
 **226**
 
@@ -1792,7 +1798,9 @@ Verses: **1667**
 क्षणं भूत्वा प्रचलितौ ज्ञेयावुत्तानवञ्चितौ  
 अंसकूर्परयोः किंचित्पतनं मन्वते परे
 
-*kṣaṇaṃ bhūtvā pracalitau jñeyāvuttānavañcitau aṃsakūrparayoḥ kiṃcitpatanaṃ manvate pare*
+*kṣaṇaṃ bhūtvā pracalitau jñeyāvuttānavañcitau aṃsakūrparayoḥ kiṃcitpatanaṃ manvate*
+
+> svara illustration: `परे`
 
 **247**
 
@@ -2631,7 +2639,9 @@ Verses: **1667**
 तदन्तखण्डेऽन्यत्रापि प्रोद्धते तुण्डकैशिके  
 कवितेऽपि प्रयोज्यास्ते नान्यत्रेत्यूचिरे परे
 
-*tadantakhaṇḍe'nyatrāpi proddhate tuṇḍakaiśike kavite'pi prayojyāste nānyatretyūcire pare*
+*tadantakhaṇḍe'nyatrāpi proddhate tuṇḍakaiśike kavite'pi prayojyāste nānyatretyūcire*
+
+> svara illustration: `परे`
 
 
 ## Prakaraṇa 3 — इति दृष्टिप्रकरणम्
@@ -2710,7 +2720,9 @@ Verses: **1667**
 निःसृता च परावृत्ता तिरश्चीना बहिर्गता  
 कम्पितेत्यपराः पञ्च जङ्घाः संचक्षते परे
 
-*niḥsṛtā ca parāvṛttā tiraścīnā bahirgatā kampitetyaparāḥ pañca jaṅghāḥ saṃcakṣate pare*
+*niḥsṛtā ca parāvṛttā tiraścīnā bahirgatā kampitetyaparāḥ pañca jaṅghāḥ saṃcakṣate*
+
+> svara illustration: `परे`
 
 **365**
 
@@ -2726,7 +2738,9 @@ Verses: **1667**
 इति नता  
 बहिर्विक्षेपतः क्षिप्ता व्यायामे ताण्डवे च सा
 
-*ityāvartitā namajjānurnatā jaṅghā sthānāsanagatādiṣu iti natā bahirvikṣepataḥ kṣiptā vyāyāme tāṇḍave ca sā*
+*ityāvartitā namajjānurnatā jaṅghā sthānāsanagatādiṣu iti natā bahirvikṣepataḥ kṣiptā vyāyāme tāṇḍave ca*
+
+> svara illustration: `सा`
 
 **368**
 
@@ -2825,6 +2839,15 @@ Verses: **1667**
 
 *iti natam stanakṣetrāgataṃ jānūnnataṃ śailādirohaṇe ityunnatam gajārohe tu vivṛtaṃ jānudvaṃdvaṃ bahirgatam iti vivṛtam samaṃ svābhāvikaṃ jānu svabhāvāvasthitau bhavet*
 
+**372**
+
+इति समम्  
+तत्तद्वेशजुषो भूषा भूषणानीति मन्वते
+
+*iti samam tattadveśajuṣo bhūṣā bhūṣaṇānīti manvate*
+
+> ⚠ source numbering anomaly: found 372, expected 379
+
 **380**
 
 इति नव प्रत्यङ्गानि  
@@ -2900,6 +2923,16 @@ Verses: **1667**
 
 *iti hāsyā patitordhvapuṭā sāsrā śokamantharatārakā nāsāgramevānugatā karuṇādṛṣṭirucyate*
 
+**389**
+
+इति करुणा  
+चकितद्विपुटा स्तभ्दतारकाऽत्यन्तलोहिता  
+रूक्षा भ्रुकुटिभीमोग्रा रौद्री दृष्टिरुदाहृता
+
+*iti karuṇā cakitadvipuṭā stabhdatārakā'tyantalohitā rūkṣā bhrukuṭibhīmogrā raudrī dṛṣṭirudāhṛtā*
+
+> ⚠ source numbering anomaly: found 389, expected 390
+
 **391**
 
 इति रौद्री  
@@ -2926,6 +2959,16 @@ Verses: **1667**
 *iti vīrā stabdhodvṛttapuṭā'tyantacañcalodvṛttatārakā dṛśyātpalāyamāne ca bhītyā dṛṣṭirbhayānakā*
 
 > ⚠ numbering jumped 393->394
+
+**394**
+
+इति भयानका  
+बीभत्सा स्यान्मिलल्लोलपक्ष्मा तरलतारका  
+दृश्योद्वेगादपाङ्गौ च निकुञ्चितपुटौ श्रिता
+
+*iti bhayānakā bībhatsā syānmilallolapakṣmā taralatārakā dṛśyodvegādapāṅgau ca nikuñcitapuṭau śritā*
+
+> ⚠ source numbering anomaly: found 394, expected 395
 
 **395**
 
@@ -3105,7 +3148,9 @@ Verses: **1667**
 सम्यक्च कुञ्चिता तारा तदा दृक्कुञ्चितोच्यते  
 अनिष्टे सूचिते तेजो दुष्प्रेक्ष्येऽक्षिव्यथासु सा
 
-*iti jihmā kiṃciccetkuñcitāni syuḥ pakṣmāgrāṇi puṭāvapi samyakca kuñcitā tārā tadā dṛkkuñcitocyate aniṣṭe sūcite tejo duṣprekṣye'kṣivyathāsu sā*
+*iti jihmā kiṃciccetkuñcitāni syuḥ pakṣmāgrāṇi puṭāvapi samyakca kuñcitā tārā tadā dṛkkuñcitocyate aniṣṭe sūcite tejo duṣprekṣye'kṣivyathāsu*
+
+> svara illustration: `सा`
 
 **418**
 
@@ -3293,7 +3338,9 @@ Verses: **1667**
 सद्वितीयाऽल्पकस्यन्दादायता मन्थरा भवेत्  
 चतुरा रुचिरे स्पर्शे शृङ्गारे ललिते च सा
 
-*iti bhrukuṭī sadvitīyā'lpakasyandādāyatā mantharā bhavet caturā rucire sparśe śṛṅgāre lalite ca sā*
+*iti bhrukuṭī sadvitīyā'lpakasyandādāyatā mantharā bhavet caturā rucire sparśe śṛṅgāre lalite ca*
+
+> svara illustration: `सा`
 
 **442**
 
@@ -3394,6 +3441,24 @@ Verses: **1667**
 प्रवेशनं तु बीभत्से हास्ये तु स्याद्विवर्तनम्
 
 *pātastu karuṇe kāryaścalanaṃ tu bhayānake praveśanaṃ tu bībhatse hāsye tu syādvivartanam*
+
+**454**
+
+शृङ्गारे स्यात्तु निष्क्रामो वीरे रौद्रे भयानके  
+अद्भुते च प्राकृतं तु भावेनाऽऽवेशभागिनि
+
+*śṛṅgāre syāttu niṣkrāmo vīre raudre bhayānake adbhute ca prākṛtaṃ tu bhāvenā''veśabhāgini*
+
+> ⚠ source numbering anomaly: found 454, expected 455
+
+**356**
+
+इति नव स्वनिष्ठानि ताराकर्माणि  
+विषयाभिमुखान्यष्टौ ताराकर्माण्यथ ब्रुवे
+
+*iti nava svaniṣṭhāni tārākarmāṇi viṣayābhimukhānyaṣṭau tārākarmāṇyatha bruve*
+
+> ⚠ source numbering anomaly: found 356, expected 455
 
 **457**
 
@@ -3878,6 +3943,15 @@ Verses: **1667**
 विनिवृत्तमिति प्राज्ञाः षड्विधं वदनं जगुः
 
 *iti lolam vyābhugnaṃ bhugnamudvāhi vidhutaṃ vivṛtaṃ tathā vinivṛttamiti prājñāḥ ṣaḍvidhaṃ vadanaṃ jaguḥ*
+
+**158**
+
+किंचिदायामिवक्रं च व्याभुग्नं मुखमुच्यते  
+निर्वेदौत्सुक्यचिन्तादौ तदुक्तं पूर्वसूरिभिः
+
+*kiṃcidāyāmivakraṃ ca vyābhugnaṃ mukhamucyate nirvedautsukyacintādau taduktaṃ pūrvasūribhiḥ*
+
+> ⚠ source numbering anomaly: found 158, expected 518
 
 **519**
 
@@ -5513,6 +5587,16 @@ Verses: **1667**
 
 *kaṭisthaṃ dakṣiṇaṃ hastaṃ vāmaṃ recitamācaret anukampāvidhāne syāttalasaṃghaṭṭitaṃ tadā*
 
+**837**
+
+इति तलसंघट्टितम्  
+यत्रापसारितानीतं हस्तपादं विधीयते  
+गात्रमुद्वृत्तचारीकं तदुद्वृत्तं विदुर्बुधाः
+
+*iti talasaṃghaṭṭitam yatrāpasāritānītaṃ hastapādaṃ vidhīyate gātramudvṛttacārīkaṃ tadudvṛttaṃ vidurbudhāḥ*
+
+> ⚠ source numbering anomaly: found 837, expected 737
+
 **738**
 
 इत्युद्वृत्तम्  
@@ -5522,6 +5606,17 @@ Verses: **1667**
 *ityudvṛttam kuñcitaḥ prasaratyaṅghriragre yatrodgamonmukhaḥ karau ca recitau viṣṇukrāntaṃ tatkramaṇe hareḥ*
 
 > ⚠ numbering jumped 737->738
+
+**749**
+
+इति विष्णुक्रान्तम्  
+रेचितः पाणिरेकः स्याद्वक्षस्यन्योऽलपल्लवः  
+लोलितं शीर्षमुभयोर्विश्रान्तं पार्श्वयोरपि  
+वैष्णवं स्थानकं यत्र तदाहुर्लोलितं बुधाः
+
+*iti viṣṇukrāntam recitaḥ pāṇirekaḥ syādvakṣasyanyo'lapallavaḥ lolitaṃ śīrṣamubhayorviśrāntaṃ pārśvayorapi vaiṣṇavaṃ sthānakaṃ yatra tadāhurlolitaṃ budhāḥ*
+
+> ⚠ source numbering anomaly: found 749, expected 739
 
 **740**
 
@@ -7988,6 +8083,16 @@ Verses: **1667**
 
 *sthānaṃ cikīrṣitāsu syātkṣatāsu ca gatiṣvidam ābhāṣaṇe ca kartavye sakhīpriyatamādibhiḥ*
 
+**1970**
+
+रङ्गावतरणारम्भे पुष्पाञ्जलिविसर्जने  
+अमर्षे प्रतिषेधे च कार्यं मानावलम्बने  
+गर्वगाम्भीर्यमौने स्यादावाहनविसर्जने
+
+*raṅgāvataraṇārambhe puṣpāñjalivisarjane amarṣe pratiṣedhe ca kāryaṃ mānāvalambane garvagāmbhīryamaune syādāvāhanavisarjane*
+
+> ⚠ source numbering anomaly: found 1970, expected 1069
+
 **1071**
 
 पूर्वरङ्गे स्त्रीभिरेव प्रयोज्यं केचिदूचिरे  
@@ -8619,6 +8724,15 @@ Verses: **1667**
 समोसरितमध्यर्धमेलकाक्रीडितं ततः
 
 *bhramarāskanditāvartaśakaṭāsyāni cāḍḍitam samosaritamadhyardhamelakākrīḍitaṃ tataḥ*
+
+**1144**
+
+पिष्टकुट्टं चाषगतं भौमानीति दशावदन्  
+अतिक्रान्तं दण्डपादं क्रान्तं ललितसंचरम्
+
+*piṣṭakuṭṭaṃ cāṣagataṃ bhaumānīti daśāvadan atikrāntaṃ daṇḍapādaṃ krāntaṃ lalitasaṃcaram*
+
+> ⚠ source numbering anomaly: found 1144, expected 1154
 
 **1155**
 
@@ -10136,6 +10250,16 @@ Verses: **1667**
 
 *ato nirantarāyatvātparāṃ viśrāntimāśritā pratibhānubhavasmṛtyādyanyabodhavilakṣaṇā*
 
+**1266**
+
+ब्रह्मसंविद्विसदृशी नानारत्यादिसंगमात्  
+सुखरूपा स्वसंवेद्या संविदास्वादनाभिधा  
+रसः स्यादथवा स्थायी रसस्तद्गोचरीभवन्
+
+*brahmasaṃvidvisadṛśī nānāratyādisaṃgamāt sukharūpā svasaṃvedyā saṃvidāsvādanābhidhā rasaḥ syādathavā sthāyī rasastadgocarībhavan*
+
+> ⚠ source numbering anomaly: found 1266, expected 1366
+
 **1367**
 
 दध्यादिव्यञ्जनैश्चैव हरिद्रादिभिरौषधैः  
@@ -10876,6 +11000,15 @@ Verses: **1667**
 गुरावव्यक्तचेष्टः स्यात्क्रोधो विनययन्त्रितः
 
 *gurau priye ripau bhṛtye bhavetkrodhaścaturvidhaḥ gurāvavyaktaceṣṭaḥ syātkrodho vinayayantritaḥ*
+
+**1472**
+
+अपाङ्गनिर्गताल्पास्रो भ्रुकुटीकुटिलाननः  
+स्फुरितोष्ठो मृगाक्षीणां कोपः प्रणयजः प्रिये
+
+*apāṅganirgatālpāsro bhrukuṭīkuṭilānanaḥ sphuritoṣṭho mṛgākṣīṇāṃ kopaḥ praṇayajaḥ priye*
+
+> ⚠ source numbering anomaly: found 1472, expected 1473
 
 **1474**
 
@@ -11962,6 +12095,15 @@ Verses: **1667**
 कुलरूपबलैश्वर्यविद्याद्रविणयौवनैः
 
 *ityunmādaḥ kularūpabalaiśvaryavidyādraviṇayauvanaiḥ*
+
+**1525**
+
+नीचानां जायते गर्वः प्राधान्येन मुहुर्मुहुः  
+विद्युद्वदुत्तमानां तु बाहुल्यात्त्वेष योषिताम्
+
+*nīcānāṃ jāyate garvaḥ prādhānyena muhurmuhuḥ vidyudvaduttamānāṃ tu bāhulyāttveṣa yoṣitām*
+
+> ⚠ source numbering anomaly: found 1525, expected 1625
 
 **1626**
 

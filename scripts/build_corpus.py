@@ -36,6 +36,18 @@ SLUGS = {
     'नर्तनाध्यायः': 'nartanadhyaya', 'परिशिष्ट १': 'parishishta_1',
 }
 
+# Cache filenames are ASCII slugs, not Devanagari, so raw/ stays greppable and
+# portable across filesystems with different Unicode normalisation.
+INDEX_SLUG = 'sangitaratnakara_index'
+
+
+def cache_slug(title: str) -> str:
+    if title == PREFIX:
+        return INDEX_SLUG
+    sub = title.split('/', 1)[1] if '/' in title else title
+    return 'sangitaratnakara__' + SLUGS.get(sub, sub.replace(' ', '_'))
+
+
 DEV_DIGITS = str.maketrans('०१२३४५६७८९', '0123456789')
 RE_TRAIL_NUM = re.compile(r'([०-९]+)\s*$')
 RE_SECTION = re.compile(r"^'''\s*(अथ|इति)")
@@ -58,7 +70,7 @@ def fetch_all():
                                'format': 'json'}).json()['query']['allpages']
     titles = [p['title'] for p in pages]
     for t in titles:
-        slug = t.replace('/', '__')
+        slug = cache_slug(t)
         wt = RAW / f'{slug}.wikitext'
         if wt.exists():
             continue
@@ -125,6 +137,47 @@ MIN_VERSE_TOKENS = 3
 MIN_VERSE_CHARS = 25
 STRUCTURAL_LABELS = {'वस्तु', 'शीर्षकम्', 'तालिका', 'प्रतिशाखा', 'शाखा',
                      'प्रस्तारः', 'संता', 'उपोहनम्'}
+
+
+# Svara names form a closed alphabet, so a token built only from them is
+# notation. Ordinary Sanskrit breaks the pattern on its first foreign
+# consonant ("matah" fails at "ta"), which makes the verse/notation seam
+# findable inside a single line.
+RE_SVARA_TOKEN = re.compile(r'(?:स|रि|ग|म|प|ध|नि|रे|सा|री|गा|मा|पा|धा|नी)+ँ?ं?$')
+
+
+def split_verse_notation(text):
+    """Split "<sloka> <svara illustration>" into its two halves.
+
+    Returns (verse, notation_or_None). Anchored on a RUN of svara tokens at
+    the end of the line: a lone short token like "gama" is also a real word,
+    so a single token only counts if it is long enough to be unambiguous.
+    """
+    toks = text.split()
+    i = len(toks)
+    while i > 0 and (toks[i - 1] in ('।', '॥') or RE_SVARA_TOKEN.fullmatch(toks[i - 1])):
+        i -= 1
+    head, tail = toks[:i], toks[i:]
+    svara = [t for t in tail if t not in ('।', '॥')]
+    if not head or not svara:
+        return text, None
+    verse = ' '.join(head).strip(' ।॥')
+    if len(verse) < MIN_VERSE_CHARS:
+        return text, None
+    # A lone short svara token is ambiguous ("gama" is also a word), so it only
+    # counts as notation when what precedes it is unmistakably a verse.
+    if len(svara) < 2 and len(svara[0]) < 5 and not is_verse_substance(verse):
+        return text, None
+    return verse, ' '.join(tail).strip(' ।॥')
+
+
+def is_verse_substance(text: str) -> bool:
+    """Real metrical Sanskrit, as opposed to notation or a stray label."""
+    toks = [t for t in text.split() if t not in ('।', '॥')]
+    if len(toks) < 4 or len(text) < 40:
+        return False
+    svara = sum(bool(RE_SVARA_TOKEN.fullmatch(t)) for t in toks)
+    return svara / len(toks) < 0.5
 
 
 RE_BEAT_TOKEN = re.compile(r'ऽ[ऽए!]*')      # beat mark, not the avagraha in a word
@@ -404,11 +457,33 @@ def parse_chapter(title, wikitext, chap_num, chap_name):
                 'chapter': chap_name, 'chapter_num': chap_num,
                 'prakarana': prak_name, 'prakarana_num': prak_num,
                 'verse_num': n, 'devanagari': text, 'content_type': 'patakshara',
-                'lines': lead + ([body] if body else []),
+                'lines': lead + ([body] if body else []), 'notation': None,
                 'slp1': sanscript.transliterate(text, sanscript.DEVANAGARI, sanscript.SLP1),
                 'iast': sanscript.transliterate(text, sanscript.DEVANAGARI, sanscript.IAST),
                 'note': 'patakshara entry, numbered in a local series',
                 'source_url': url, 'retrieved_date': RETRIEVED,
+            })
+            continue
+        elif is_verse_substance(text):
+            # The source itself repeats and skips verse numbers (Vadyadhyaya
+            # numbers two different slokas 93). Dropping the text to protect a
+            # counter loses real verses, so it is kept and flagged instead, and
+            # is not allowed to move `expected`.
+            note = f'source numbering anomaly: found {n}, expected {expected}'
+            log_review(chap_name, 'numbering anomaly (verse KEPT)',
+                       f'Source line ~{lineno}, prakarana {prak_num}: numbered {n} '
+                       f'where {expected} was expected. The text is a genuine verse, '
+                       f'so it is kept with the source number and flagged. Verify '
+                       f'the numbering against a print edition.', text)
+            vtext, notation = split_verse_notation(text)
+            verses.append({
+                'chapter': chap_name, 'chapter_num': chap_num,
+                'prakarana': prak_name, 'prakarana_num': prak_num,
+                'verse_num': n, 'devanagari': vtext, 'lines': lead + ([body] if body else []),
+                'content_type': 'sloka', 'notation': notation,
+                'slp1': sanscript.transliterate(vtext, sanscript.DEVANAGARI, sanscript.SLP1),
+                'iast': sanscript.transliterate(vtext, sanscript.DEVANAGARI, sanscript.IAST),
+                'note': note, 'source_url': url, 'retrieved_date': RETRIEVED,
             })
             continue
         else:
@@ -421,6 +496,14 @@ def parse_chapter(title, wikitext, chap_num, chap_name):
 
         if not text:
             continue
+        text, notation = split_verse_notation(text)
+        if notation:
+            log_review(chap_name, 'verse split from its svara illustration',
+                       f'Source line ~{lineno}, prakarana {prak_num} verse {n}: the '
+                       f'line carried a sloka followed by its svara illustration. '
+                       f'The verse is in devanagari/slp1/iast; the illustration is '
+                       f'preserved verbatim in the "notation" field.',
+                       f'VERSE: {text}\nNOTATION: {notation}')
         if len(text) > 250:
             log_review(chap_name, 'unusually long verse record',
                        f'Prakarana {prak_num} verse {n} is {len(text)} characters '
@@ -433,6 +516,7 @@ def parse_chapter(title, wikitext, chap_num, chap_name):
             'verse_num': n, 'devanagari': text,
             'lines': lead + ([body] if body else []),
             'content_type': 'patakshara' if is_patakshara(text) else 'sloka',
+            'notation': notation,
             'slp1': sanscript.transliterate(text, sanscript.DEVANAGARI, sanscript.SLP1),
             'iast': sanscript.transliterate(text, sanscript.DEVANAGARI, sanscript.IAST),
             'note': note, 'source_url': url, 'retrieved_date': RETRIEVED,
@@ -460,6 +544,9 @@ def write_chapter_md(path, chap_num, chap_name, verses):
         lines.append('  \n'.join(v.get('lines') or [v['devanagari']]))
         lines.append('')
         lines.append(f"*{v['iast']}*")
+        if v.get('notation'):
+            lines.append('')
+            lines.append(f"> svara illustration: `{v['notation']}`")
         if v['note']:
             lines.append('')
             lines.append(f"> ⚠ {v['note']}")
@@ -497,7 +584,7 @@ def main():
     all_verses, summary = [], []
     for idx, chap in enumerate(CHAPTER_ORDER, 1):
         title = f'{PREFIX}/{chap}'
-        wt = RAW / f"{title.replace('/', '__')}.wikitext"
+        wt = RAW / f'{cache_slug(title)}.wikitext'
         if not wt.exists():
             print(f'  !! missing cache for {title}')
             continue

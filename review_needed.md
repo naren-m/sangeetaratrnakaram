@@ -8,23 +8,36 @@ Every item below is something the parser could not resolve with confidence. Noth
 
 - स्वरगताध्यायः prak.3: missing [51]
 - स्वरगताध्यायः prak.6: missing [40, 43]
+- स्वरगताध्यायः prak.6: duplicate verse numbers [3, 9, 11]
+- स्वरगताध्यायः prak.7: starts at 0, not 1
+- स्वरगताध्यायः prak.7: duplicate verse numbers [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+- स्वरगताध्यायः prak.8: starts at 0, not 1
+- स्वरगताध्यायः prak.8: duplicate verse numbers [0, 1]
+- रागविवेकाध्यायः prak.2: starts at 0, not 1
 - रागविवेकाध्यायः prak.2: missing [44, 84, 157]
-- प्रबन्धाध्यायः prak.1: missing [191, 212, 242, 301, 310, 378]
-- तालाध्यायः prak.2: starts at 57, not 1
-- तालाध्यायः prak.2: missing [65, 91, 190, 204, 207, 260, 262, 264, 265, 268]
+- रागविवेकाध्यायः prak.2: duplicate verse numbers [0, 4, 17, 20, 21]
+- प्रबन्धाध्यायः prak.1: missing [191, 212, 242, 301, 310, 378, 380, 381, 382, 383, 384, 385, 386]
+- प्रबन्धाध्यायः prak.1: duplicate verse numbers [101, 110, 142]
+- तालाध्यायः prak.2: starts at 0, not 1
+- तालाध्यायः prak.2: missing [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21] ...
+- तालाध्यायः prak.2: duplicate verse numbers [0, 1, 104, 108, 136, 144, 298, 316, 317]
 - वाद्याध्यायः prak.1: missing [95, 131, 136, 146, 149, 174, 212, 415, 468, 615, 662, 679, 756]
-- वाद्याध्यायः prak.2: starts at 781, not 1
-- वाद्याध्यायः prak.2: missing [795]
-- वाद्याध्यायः prak.3: missing [2, 3, 4, 8, 10, 12, 14, 15, 16, 17, 18]
+- वाद्याध्यायः prak.1: duplicate verse numbers [15, 93, 126, 173, 315, 327, 337, 368, 428, 429, 430, 432, 656]
+- वाद्याध्यायः prak.2: starts at 4, not 1
+- वाद्याध्यायः prak.2: missing [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24] ...
+- वाद्याध्यायः prak.3: missing [4, 8, 10, 12, 14, 15, 16, 17, 18, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30] ...
+- वाद्याध्यायः prak.3: duplicate verse numbers [1, 2, 3, 1193]
 - नर्तनाध्यायः prak.1: missing [140]
 - नर्तनाध्यायः prak.2: starts at 298, not 1
 - नर्तनाध्यायः prak.3: starts at 356, not 1
 - नर्तनाध्यायः prak.3: missing [367, 376, 379, 390, 393, 423]
-- नर्तनाध्यायः prak.4: starts at 435, not 1
-- नर्तनाध्यायः prak.4: missing [455, 456, 465, 518, 737, 739, 825, 1069, 1070, 1154, 1242, 1366, 1466, 1473, 1614, 1625]
+- नर्तनाध्यायः prak.3: duplicate verse numbers [372, 389, 394]
+- नर्तनाध्यायः prak.4: starts at 158, not 1
+- नर्तनाध्यायः prak.4: missing [159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178] ...
+- नर्तनाध्यायः prak.4: duplicate verse numbers [454, 749, 837, 1144, 1266, 1472, 1525]
 - परिशिष्ट १ prak.1: starts at 8, not 1
 
-## Parser ambiguities (4778)
+## Parser ambiguities (4796)
 
 ### स्वरगताध्यायः — embedded notation / table row
 
@@ -72,6 +85,15 @@ Source line ~703, prakarana 3. Trailing numeral -1 is a row index in a matra/sva
 
 ```
 द्वे वीणे सदृशौ कार्ये यथा नादः समो भवेत् ।
+```
+
+### स्वरगताध्यायः — verse split from its svara illustration
+
+Source line ~728, prakarana 3 verse 19: the line carried a sloka followed by its svara illustration. The verse is in devanagari/slp1/iast; the illustration is preserved verbatim in the "notation" field.
+
+```
+VERSE: एकश्रुत्यपकृष्टाः स्युरेवमन्याऽपि सारणा । श्रुतिद्वयलयादस्यां चलवीणागतौ
+NOTATION: गनी
 ```
 
 ### स्वरगताध्यायः — numbering gap
@@ -194,9 +216,9 @@ Source line ~1230, prakarana 6: trailing numeral 2 where 18 was expected, and it
 सससस रिरिरिरि गगगग मममम पपपप धधधध निनिनिनि ।
 ```
 
-### स्वरगताध्यायः — out-of-sequence number
+### स्वरगताध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~1236, prakarana 6: trailing numeral 3 where 19 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~1236, prakarana 6: numbered 3 where 19 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 कुर्वन्क्रमाद्यदारोहेत्तदा विन्दुरर्यं मतः । स
@@ -274,9 +296,9 @@ Source line ~1268, prakarana 6. Trailing numeral -1 is a row index in a matra/sv
 सरिग गमप पधनि ।
 ```
 
-### स्वरगताध्यायः — out-of-sequence number
+### स्वरगताध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~1271, prakarana 6: trailing numeral 9 where 24 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~1271, prakarana 6: numbered 9 where 24 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 यदाद्याद्यस्त्रिरावृत्तः कलयोस्त्रिस्वरात्मनोः । तदोद्गीतः सससरिग मममपध ।
@@ -290,9 +312,9 @@ Source line ~1275, prakarana 6: trailing numeral 10 where 25 was expected, and i
 सरिरिरिग मपपपध ।
 ```
 
-### स्वरगताध्यायः — out-of-sequence number
+### स्वरगताध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~1278, prakarana 6: trailing numeral 11 where 25 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~1278, prakarana 6: numbered 11 where 25 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अन्त्यस्य तु त्रिरावृत्तौ त्रिवर्णं वर्णयन्त्यमुम् । सरिगगग मपधधध ।
@@ -370,9 +392,9 @@ Source line ~1336, prakarana 6. Trailing numeral -1 is a row index in a matra/sv
 सरिग रिगम गमप मपद्य पद्यनि ।
 ```
 
-### स्वरगताध्यायः — out-of-sequence number
+### स्वरगताध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~1340, prakarana 6: trailing numeral 3 where 38 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~1340, prakarana 6: numbered 3 where 38 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 कृत्वाग्निवत्परं स्पृष्ट्वाधः स्पर्शेनाखिलाः कलाः । स
@@ -434,9 +456,9 @@ Source line ~1357, prakarana 6: trailing numeral 11 where 39 was expected, and i
 यत्रैकैकोज्झिता गीतास्तद्वदुद्वाहितस्तु सः । सरिगरि रिगमग गमपम मपधप पधनि ।
 ```
 
-### स्वरगताध्यायः — out-of-sequence number
+### स्वरगताध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~1363, prakarana 6: trailing numeral 3 where 40 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~1363, prakarana 6: numbered 3 where 40 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 तुर्यगाने कलैकैकहानाद्यत्रापरास्तथा । स ऊर्मिः स्यात् सम
@@ -666,9 +688,9 @@ Source line ~1498, prakarana 6. No verse number found; excluded from verses.json
 इति प्रयोजनान्याहुरलङ्कारनिरूपणे ।
 ```
 
-### स्वरगताध्यायः — out-of-sequence number
+### स्वरगताध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~1696, prakarana 7: trailing numeral 1 where 64 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~1696, prakarana 7: numbered 1 where 64 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 विनियोगो द्वादशात्र कला अष्टलघुः कला । अस्यां षाड्ज्यां षड्जो न्यासः । गान्धारपञ्चमावपन्यासौ । वराटी दृश्यते । अस्याः प्रस्तारः षाड्जी
@@ -746,9 +768,9 @@ Source line ~1724, prakarana 7. Trailing numeral 12 is a row index in a matra/sv
 
 ```
 
-### स्वरगताध्यायः — out-of-sequence number
+### स्वरगताध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~1740, prakarana 7: trailing numeral 2 where 67 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~1740, prakarana 7: numbered 2 where 67 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अस्यामार्षभ्यामृषभो न्यासः । अंशा एवापन्यासाः । देशोमधुकयौ दृश्येते । अस्याः प्रस्तारः
@@ -1002,9 +1024,9 @@ Source line ~1806, prakarana 7. Trailing numeral 0 is a row index in a matra/sva
 
 ```
 
-### स्वरगताध्यायः — out-of-sequence number
+### स्वरगताध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~1823, prakarana 7: trailing numeral 3 where 70 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~1823, prakarana 7: numbered 3 where 70 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 विनियोगो ध्रुवागाने तृतीयप्रेक्षणे भवेत् । अस्यां गान्धार्यां गान्धारो न्यासः । पड्जपञ्चमावपन्यासौ । गान्धारपञ्चमदेशीवेलावल्यो दृश्यन्ते । अस्याः प्रस्तारः -- गान्धारी
@@ -1474,9 +1496,9 @@ Source line ~1939, prakarana 7. Trailing numeral 0 is a row index in a matra/sva
 
 ```
 
-### स्वरगताध्यायः — out-of-sequence number
+### स्वरगताध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~1955, prakarana 7: trailing numeral 4 where 73 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~1955, prakarana 7: numbered 4 where 73 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अस्यां मध्यमायां मध्यमो न्यासः । अंशा एवापन्यासाः । चोक्षषाडवदेश्यान्धाल्यो दृश्यन्ते । अस्याः प्रस्तारः-- मध्यमा
@@ -1778,17 +1800,17 @@ Source line ~2028, prakarana 7. Trailing numeral 0 is a row index in a matra/sva
 
 ```
 
-### स्वरगताध्यायः — out-of-sequence number
+### स्वरगताध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2031, prakarana 7: trailing numeral 4 where 73 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2031, prakarana 7: numbered 4 where 73 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 पातु भवमूर्धजाननकिरीटमणिदर्पणम् । गौरीकरपल्लवाङ्गुलिसुतेजितं सुकिरनम्
 ```
 
-### स्वरगताध्यायः — out-of-sequence number
+### स्वरगताध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2042, prakarana 7: trailing numeral 5 where 75 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2042, prakarana 7: numbered 5 where 75 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 मुर्च्छनादि तु पूर्वावत्प्रेक्षणं तु तृतीयकम् । अस्यां पञ्चम्यां पञ्चमो न्यासः । ऋषभपञ्चममिषादा अपन्पासाः । चोक्षपञ्चमदेश्यान्षाल्यो दृश्यन्ते । अस्याः प्रस्तारः-- पञ्चमी
@@ -2018,9 +2040,9 @@ Source line ~2098, prakarana 7. Trailing numeral 0 is a row index in a matra/sva
 
 ```
 
-### स्वरगताध्यायः — out-of-sequence number
+### स्वरगताध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2110, prakarana 7: trailing numeral 6 where 77 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2110, prakarana 7: numbered 6 where 77 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 विनियोगश्च षाड्जीवत्कला द्वादश कीर्तिताः । अस्यां धैवत्यां धैवतो न्यासः । ऋषभमध्यमधैवता अपन्यासाः । चोक्षकैशिकदेशीसिंहल्यो दृश्यन्ते । अस्याः प्रस्तारः-- धैवती
@@ -2394,9 +2416,9 @@ Source line ~2207, prakarana 7. Trailing numeral 0 is a row index in a matra/sva
 ष्टं
 ```
 
-### स्वरगताध्यायः — out-of-sequence number
+### स्वरगताध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2220, prakarana 7: trailing numeral 7 where 79 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2220, prakarana 7: numbered 7 where 79 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अस्यां नैषाद्यां निषादो न्यासः । अंशा एवापन्यासाः । चोक्ष- साधारितदेशीवेलावल्यो दृश्यन्ते । अस्याः प्रस्तारः-- नैषादी
@@ -2778,9 +2800,9 @@ Source line ~2317, prakarana 7. Trailing numeral 0 is a row index in a matra/sva
 
 ```
 
-### स्वरगताध्यायः — out-of-sequence number
+### स्वरगताध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2322, prakarana 7: trailing numeral 7 where 79 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2322, prakarana 7: numbered 7 where 79 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 तं सुरवन्दितमहिषमहासुरमथनमुमापतिं भोगयुतं नगसुतकामिनीदिव्यविशेषकसूचकशुभनखदर्पणकम् । अहिमुखमणिखचितोज्ज्वलनूपुरबालभुजंगमरवकलितं द्रुतमभिव्रजामि शरणमनिन्दितपादयुगपङ्कजविलासम्
@@ -2794,9 +2816,9 @@ Source line ~2334, prakarana 7. Trailing numeral 1 is a row index in a matra/sva
 सा सा मां पां गरि मग मा मा
 ```
 
-### स्वरगताध्यायः — out-of-sequence number
+### स्वरगताध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2336, prakarana 7: trailing numeral 0 where 81 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2336, prakarana 7: numbered 0 where 81 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अस्यां षड्जकैशिक्यां गान्धारो न्यासः । षड्जनिषादपञ्चमा अपन्यासाः । प्रागुक्ता गान्धारपञ्चमहिन्दोलकदेशीवेलावल्यो दृश्यन्ते । अस्याः प्रस्तारः -- षड्जकैशिकी दे
@@ -3370,9 +3392,9 @@ Source line ~2480, prakarana 7. Trailing numeral 0 is a row index in a matra/sva
 
 ```
 
-### स्वरगताध्यायः — out-of-sequence number
+### स्वरगताध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2497, prakarana 7: trailing numeral 9 where 84 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2497, prakarana 7: numbered 9 where 84 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अस्यां षड्जोदीच्यवायां मध्यमो न्यासः । षड्जधैवतावपन्यासौ । अस्याः प्रस्तारः-- षड्जोदीच्यवा
@@ -3794,9 +3816,9 @@ Source line ~2609, prakarana 7. Trailing numeral -1 is a row index in a matra/sv
 त व रु चि रं
 ```
 
-### स्वरगताध्यायः — out-of-sequence number
+### स्वरगताध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2627, prakarana 7: trailing numeral 10 where 88 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2627, prakarana 7: numbered 10 where 88 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 मध्यमादिरिह ज्ञेया पूर्वावद्विनियोजनम् । अस्यां षड्जमध्यमायां षड्जमध्यमौ न्यासौ । सप्त स्वरा अपन्यासाः । अस्याः प्रस्तारः-- षड्जमघ्यमा
@@ -4018,9 +4040,9 @@ Source line ~2682, prakarana 7. Trailing numeral 0 is a row index in a matra/sva
 
 ```
 
-### स्वरगताध्यायः — out-of-sequence number
+### स्वरगताध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2684, prakarana 7: trailing numeral 7 where 88 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2684, prakarana 7: numbered 7 where 88 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 मां मां मंगंमं मंधं धंपं पंधं पंमं गंमंगं
@@ -4242,9 +4264,9 @@ Source line ~2739, prakarana 7. Trailing numeral 0 is a row index in a matra/sva
 
 ```
 
-### स्वरगताध्यायः — out-of-sequence number
+### स्वरगताध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2756, prakarana 7: trailing numeral 11 where 91 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2756, prakarana 7: numbered 11 where 91 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 विनियोगो ध्रुवागाने चतुर्थप्रेक्षणे मतः । अस्यां गान्धारोदीच्यवायां मध्यमो न्यासः । षड्जधैवताव- पन्यासौ । अस्याः प्रस्तारः-- गान्धारोदीच्यवा
@@ -4738,9 +4760,9 @@ Source line ~2882, prakarana 7. Trailing numeral 0 is a row index in a matra/sva
 
 ```
 
-### स्वरगताध्यायः — out-of-sequence number
+### स्वरगताध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2901, prakarana 7: trailing numeral 12 where 95 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2901, prakarana 7: numbered 12 where 95 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अस्यां रक्तगान्धार्यां गान्धारो न्यासः । मध्यमोऽपन्यासः । अस्याः प्रस्तारः रक्तगान्धारी
@@ -5074,9 +5096,9 @@ Source line ~2982, prakarana 7. Trailing numeral 0 is a row index in a matra/sva
 
 ```
 
-### स्वरगताध्यायः — out-of-sequence number
+### स्वरगताध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3000, prakarana 7: trailing numeral 13 where 99 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3000, prakarana 7: numbered 13 where 99 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अस्यां कैशिक्यां गान्धारपञ्चमनिषादा न्यासाः । रिवर्ज्याः षट् सप्त वा स्वरा अपन्यासाः । अस्याः प्रस्तारः-- कैशिकी
@@ -5490,9 +5512,9 @@ Source line ~3104, prakarana 7. Trailing numeral 0 is a row index in a matra/sva
 
 ```
 
-### स्वरगताध्यायः — out-of-sequence number
+### स्वरगताध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3115, prakarana 7: trailing numeral 14 where 101 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3115, prakarana 7: numbered 14 where 101 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अस्यां मध्यमोदीच्यवायां मध्यमो न्यासः । अस्याः प्रस्तारः -- मध्यमोदीच्यवा
@@ -5954,9 +5976,9 @@ Prakarana 7 verse 101 is 259 characters against a corpus median near 83. Probabl
 देहार्धरूपमतिकान्तिममलममलेन्दुकुन्दकुमुदनिभं चामीकराम्बुरुहदिव्यकान्तिप्रवरगणपूजितमजेयम् । सुराभिष्टुतमनिलमनोजवमम्बुदोदधिनिनादमतिहासं शिवं शान्तमसुरचमूमथनं वन्दे त्रैलोक्यनतचरणम् ॥ कार्मारव्यां भवन्त्यंशा निषादरिपधैवताः । बहवोऽन्तरमार्गत्वादनंशाः परिकीर्तिताः
 ```
 
-### स्वरगताध्यायः — out-of-sequence number
+### स्वरगताध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3243, prakarana 7: trailing numeral 15 where 103 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3243, prakarana 7: numbered 15 where 103 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 पञ्चमस्य प्रेक्षणस्य ध्रुवायां विनियोजनम् । अस्यां कार्मारव्यां पञ्चमो न्यासः । अंशा एवापन्यासाः । अस्याः प्रस्तारः-- कार्मारवी
@@ -6458,9 +6480,9 @@ Source line ~3372, prakarana 7. Trailing numeral 0 is a row index in a matra/sva
 
 ```
 
-### स्वरगताध्यायः — out-of-sequence number
+### स्वरगताध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3386, prakarana 7: trailing numeral 16 where 105 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3386, prakarana 7: numbered 16 where 105 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 तुर्यप्रेक्षणसम्बन्धिध्रुवागाने नियोजनम् । अस्यां गान्धारपञ्चम्यां गान्धारो न्यासः । ऋषभपञ्चमावपन्यासौ । अस्याः प्रस्तारः-- गान्धारपञ्चमी
@@ -7026,9 +7048,9 @@ Source line ~3531, prakarana 7. Trailing numeral 0 is a row index in a matra/sva
 
 ```
 
-### स्वरगताध्यायः — out-of-sequence number
+### स्वरगताध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3544, prakarana 7: trailing numeral 17 where 107 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3544, prakarana 7: numbered 17 where 107 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 पूर्वावत्तु कलातालविनियोगाः प्रकीर्तिताः । अस्यामान्ध्र्यां गान्धारो न्यासः । अंशा एवापन्यासाः । अस्याः प्रस्तारः-- आन्ध्री
@@ -7506,9 +7528,9 @@ Source line ~3655, prakarana 7. Trailing numeral 0 is a row index in a matra/sva
 
 ```
 
-### स्वरगताध्यायः — out-of-sequence number
+### स्वरगताध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3672, prakarana 7: trailing numeral 18 where 110 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3672, prakarana 7: numbered 18 where 110 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अस्यां नन्दयन्त्यां गान्धारो न्यासः । मध्यमपञ्चमावपन्यासौ अस्याः प्रस्तारः-- नन्दयन्ती
@@ -8618,9 +8640,9 @@ Source line ~3978, prakarana 7. No verse number found; excluded from verses.json
 तथा सामसमुद्भूता जातयो वेदसंमिताः ।
 ```
 
-### स्वरगताध्यायः — out-of-sequence number
+### स्वरगताध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4022, prakarana 8: trailing numeral 1 where 14 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4022, prakarana 8: numbered 1 where 14 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 कपालानां क्रमाद्ब्रूमो ब्रह्मप्रोक्तां पदावलीम् । झण्टुं झण्टुं
@@ -9154,9 +9176,9 @@ Source line ~4173, prakarana 8. Trailing numeral -1 is a row index in a matra/sv
 मा गा मा धा
 ```
 
-### स्वरगताध्यायः — out-of-sequence number
+### स्वरगताध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4174, prakarana 8: trailing numeral 0 where 18 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4174, prakarana 8: numbered 0 where 18 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति त्रिरावृत्तपदां मागधॐ जगदुर्बुधाः । यथा- दे
@@ -9458,9 +9480,9 @@ Source line ~4239, prakarana 8. Trailing numeral -1 is a row index in a matra/sv
 धा सा धा नी
 ```
 
-### स्वरगताध्यायः — out-of-sequence number
+### स्वरगताध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4240, prakarana 8: trailing numeral 0 where 20 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4240, prakarana 8: numbered 0 where 20 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 भूरिलघ्वक्षरपदा पृथुला संमता सताम् । यथा-- यु ग लं
@@ -9546,9 +9568,9 @@ Source line ~239, prakarana 2. Trailing numeral -1 is a row index in a matra/sva
 धा धा नी नी रीं रीं पा पा
 ```
 
-### रागविवेकाध्यायः — out-of-sequence number
+### रागविवेकाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~240, prakarana 2: trailing numeral 0 where 28 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~240, prakarana 2: numbered 0 where 28 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 धारीपाधापाधासासा सारीगामाधापानीधापानी धापा सीं सीं--इत्यालापः । शे ख
@@ -9794,9 +9816,9 @@ Source line ~305, prakarana 2. Trailing numeral 0 is a row index in a matra/svar
 स ज य तु भू
 ```
 
-### रागविवेकाध्यायः — out-of-sequence number
+### रागविवेकाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~307, prakarana 2: trailing numeral 0 where 31 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~307, prakarana 2: numbered 0 where 31 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 षड्जमध्यमया सृष्ट इत्यादिना । स्पष्टोऽर्थः । समा सा । सगरि गप निधप मामा--इत्यालापः । रींरीं गाधा गरि सासा नींधपापा । रींरीं गधा गरीं सांसांसां संसांगांनिंधारीं रींगंधां गारीं सांसां निधापापा । रीरी पापा निधानि सांसां सांसां रिसरि पांधानिधपामांमांमांमां--इति करणम् ता
@@ -12162,9 +12184,9 @@ Source line ~920, prakarana 2. Trailing numeral 8 is a row index in a matra/svar
 
 ```
 
-### रागविवेकाध्यायः — out-of-sequence number
+### रागविवेकाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~923, prakarana 2: trailing numeral 4 where 44 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~923, prakarana 2: numbered 4 where 44 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इत्याक्षिप्तिका । इति गौडपञ्चमः ॥ उद्भूतः कैशिकीषड्जमध्यमाभ्यां ग्रहांशसः
@@ -15618,9 +15640,9 @@ Source line ~1838, prakarana 2. Trailing numeral 8 is a row index in a matra/sva
 
 ```
 
-### रागविवेकाध्यायः — out-of-sequence number
+### रागविवेकाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~1854, prakarana 2: trailing numeral 17 where 69 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~1854, prakarana 2: numbered 17 where 69 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 मध्यमग्रामरागोऽयं हास्यशृङ्गारकारकः ग्रीष्मेऽह्नः प्रथमे यामे ध्रुवप्रीत्यै सांनीधापांधांधरि । गांसां रिगानीसां । सगपांपपप निनि पनि सां सां गपसानिधनिनि निरिगासा । पां मं पं निधामा -- इत्यालापः ॥ निनिपपगंगंसंसंरिगं निंसंसासा । संसंगंगंपंपंधंधंनिसनिध पापापापा पनी पनी सांसांसांगागासागासनी धनीनीनिनिरिगांसांसांपापामापानिधपामामा-- इति करणम् ॥
@@ -16530,9 +16552,9 @@ Source line ~2123, prakarana 2. Trailing numeral -1 is a row index in a matra/sv
 मा । मग सां सां सग धम धधा धाध निध पम गा मामा--इति वर्तनी
 ```
 
-### रागविवेकाध्यायः — out-of-sequence number
+### रागविवेकाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2124, prakarana 2: trailing numeral 20 where 80 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2124, prakarana 2: numbered 20 where 80 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 हेमन्ते प्रथमे यामे बीभत्से सभयानके । सार्वभौमोत्सवे गेयः मामा--इत्यालापः । । मा मा
@@ -16978,9 +17000,9 @@ Source line ~2236, prakarana 2. Trailing numeral -1 is a row index in a matra/sv
 मगनी धा पञ्चम नी धा पां मागा मां पा पा--इति वर्तनी ।
 ```
 
-### रागविवेकाध्यायः — out-of-sequence number
+### रागविवेकाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2237, prakarana 2: trailing numeral 21 where 84 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2237, prakarana 2: numbered 21 where 84 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 भयानके सबीभत्से सूत्रधारप्रवेशने ग्रीष्मे प्राक्प्रहरे गेयः मा पा पा--इत्यालापः ।
@@ -21282,9 +21304,18 @@ Source line ~196, prakarana 1. Trailing numeral -1 is a row index in a matra/sva
 चगणः ऽ । इति तगणः ऽ इति दगणः इति पञ्च मात्रागणाः ।
 ```
 
-### प्रबन्धाध्यायः — out-of-sequence number
+### प्रबन्धाध्यायः — verse split from its svara illustration
 
-Source line ~611, prakarana 1: trailing numeral 101 where 191 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~537, prakarana 1 verse 170: the line carried a sloka followed by its svara illustration. The verse is in devanagari/slp1/iast; the illustration is preserved verbatim in the "notation" field.
+
+```
+VERSE: भागोऽस्मिञ्झोम्बडेऽप्यूर्ध्वं ध्रुवादुद्ग्राहसंनिभः ध्रुवाभोगध्रुवा गेयास्तत इत्यूचिरे
+NOTATION: परे
+```
+
+### प्रबन्धाध्यायः — numbering anomaly (verse KEPT)
+
+Source line ~611, prakarana 1: numbered 101 where 191 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 वेणी मिश्रमिति प्राहुरन्ये भेदद्वयं परम् वेणी सर्वैः कृता मिश्रं चूर्णकैर्वृत्तगन्धिभिः
@@ -21306,9 +21337,9 @@ Prakarana 1: expected 212, found 213. Verse kept and numbered as in the source; 
 इति नव तुरगलीलाः इति हयलीलालक्षणम् तालेन गजलीलेन गजलीला निगद्यते छन्दोहीनेतरल्लक्ष्म हयलीलागतं मतम् इति गजलीलालक्षणम् शुद्धा खण्डा च मात्रादिः संपूर्णेति चतुर्विधा द्विपदी करुणाख्येन तालेन परिगीयते
 ```
 
-### प्रबन्धाध्यायः — out-of-sequence number
+### प्रबन्धाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~785, prakarana 1: trailing numeral 142 where 242 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~785, prakarana 1: numbered 142 where 242 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति कलहंसः तोटकच्छन्दसा न्यस्तस्वरोऽङ्घ्र्यन्ते तु तोटकः ननु वृत्ते वक्ष्यमाणे पुनरुक्तोऽत्र तोटकः
@@ -21346,9 +21377,9 @@ Prakarana 1: expected 301, found 302. Verse kept and numbered as in the source; 
 विषमे डाच्च युग्मं चेत्तो वा दो वाऽधिकः समे तदा स्यात्कीर्तिधवलो विजये त्वाद्यतुर्ययोः प्रथमे चत्रयं दः स्यात्तृतीये दास्त्रयस्तु च तुर्यद्वितीययोश्चोऽन्तः पञ्चमे सप्तमे तथा
 ```
 
-### प्रबन्धाध्यायः — out-of-sequence number
+### प्रबन्धाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~1027, prakarana 1: trailing numeral 110 where 310 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~1027, prakarana 1: numbered 110 where 310 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति ढोल्लरी अनुप्रासप्रधानं चेत्खण्डत्रयसमन्वितम् दन्तीपदान्वितं प्रान्ते तदा दन्ती निगद्यते
@@ -21362,9 +21393,9 @@ Prakarana 1: expected 310, found 311. Verse kept and numbered as in the source; 
 इति दन्ती अनुक्ताभोगवस्तूनां पदैराभोगकल्पना ओव्यादयस्तु चत्वारो भवन्त्याभोगवर्जिताः
 ```
 
-### प्रबन्धाध्यायः — out-of-sequence number
+### प्रबन्धाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~1267, prakarana 1: trailing numeral 387 where 378 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~1267, prakarana 1: numbered 387 where 378 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 नीचोच्चद्रुतमध्यादौ श्लक्ष्णत्वे श्लक्ष्णमुच्यते उच्चैरुच्चारणादुक्तं विकृष्टं भरतादिभिः मधुरं धुर्यलावण्यपूर्णं जनमनोहरम्
@@ -21728,6 +21759,24 @@ Source line ~183, prakarana 1. Trailing numeral -1 is a row index in a matra/sva
 
 ```
 ऽ ऽ ऽ ऽ ऽ ऽ ऽ ऽ ऽ ऽ ऽ ऽ ऽ ऽ ऽ ऽ ऽ ऽ ऽ ऽ ऽ ऽ ऽ ऽ
+```
+
+### तालाध्यायः — verse split from its svara illustration
+
+Source line ~196, prakarana 1 verse 45: the line carried a sloka followed by its svara illustration. The verse is in devanagari/slp1/iast; the illustration is preserved verbatim in the "notation" field.
+
+```
+VERSE: तालाश्चत्वार इत्यन्ये चतुर्दशकलादिकाः चच्चत्पुटादिभेदास्तु सन्ति खण्डाभिधाः
+NOTATION: परे
+```
+
+### तालाध्यायः — verse split from its svara illustration
+
+Source line ~211, prakarana 1 verse 50: the line carried a sloka followed by its svara illustration. The verse is in devanagari/slp1/iast; the illustration is preserved verbatim in the "notation" field.
+
+```
+VERSE: लयप्रवृत्तिनियमो यतिरित्यभिधीयते समा स्रोतोगता चान्या गोपुच्छा त्रिविधेति
+NOTATION: सा
 ```
 
 ### तालाध्यायः — division does not start at 1
@@ -23770,9 +23819,9 @@ Source line ~732, prakarana 2. Trailing numeral -1 is a row index in a matra/sva
 निप्र निप्र निश निता ताश तासं ॥
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~733, prakarana 2: trailing numeral 1 where 104 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~733, prakarana 2: numbered 1 where 104 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 शीर्षकम् । इति पञ्चवस्तुकम् । एवं षड्वस्तुसप्तवस्तुके शाखां चतुर्थशाखान्त उपवर्तनं शाखान्ते पूर्ववत्तालिकां शीर्षकं च लिखित्वा वस्तुत्रयात्मकं शाखार्धरूपं प्रतिशाखितुर्यवस्त्वन्त उपवर्तनं तालिकां शीर्षकं च लिखेत् । एवमेव सप्तवस्तुत्रयात्मकं शाखार्धरूपां प्रतिशाखां तुर्यवस्त्वन्त उपवर्तनयुक्तां तालिकां शीर्षकं च लिखित्वा सार्धवस्तुत्रयात्मिकां तुर्यवस्त्वन्तोपवर्तनयुक्तां प्रतिशाखां तालिकां च शीर्षकं च लिखेत् । सर्ववस्तूनां प्रतिवस्तु शाखात्वपक्षे तत्तदर्धानां प्रतिशाखात्वे प्रस्तारः-- शाखा
@@ -24922,9 +24971,9 @@ Source line ~1005, prakarana 2. Trailing numeral -1 is a row index in a matra/sv
 संता शता शता ॥
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~1007, prakarana 2: trailing numeral 1 where 108 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~1007, prakarana 2: numbered 1 where 108 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 आनिविप्र आनिविप्र आनिविश आनिविता आनिविश तानिविसं ॥ एवं षड्वस्तु सप्तवस्तुकमपि ज्ञेयम् । सर्ववस्तूनां प्रतिशाखात्वपक्षे तदुत्तरार्धानां प्रतिशाखात्वे प्रस्तारः--शाखा
@@ -26234,9 +26283,9 @@ Source line ~1365, prakarana 2. Trailing numeral -1 is a row index in a matra/sv
 ऽ ऽ ऽ ऽ ऽ ऽ
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~1369, prakarana 2: trailing numeral 136 where 137 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~1369, prakarana 2: numbered 136 where 137 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 प्रस्तारः-- शता शता सं इत्येककलोल्लोप्यकमात्रा । इति द्विकलमात्रा । इति चतुष्कलमात्रा । इति मात्रामात्रमुल्लोप्यकम् । वैहायसा चतुष्कलमुल्लोप्यकम् । चतुर्मात्रामात्रप्रयोगशून्यचतुष्कला । चतुष्कलान्तमुल्लोप्यकम् । आनिविश आनिविता आशविता आनिविसं । निविश निविता निशता शतासं । इत्युल्लोप्यककला प्रयोगः । शून्यकलाचतुष्कलानन्तरवैहायसरूपम् । चतुष्कला मात्रा । आनिविश आनिविता आशविता आनिविसं । निविश निविता निशता शतासं । इत्यन्ताहरणान्तमुल्लोप्यकम् । अथ युग्मस्यान्तस्यायुग्मस्य च त्रयो भेदाः स्थितं प्रवृत्तं महाजनिकं चेति । तत्र युग्मस्थितान्तमुल्लोप्यकं यथा-- इदमेव वैहायसम् । चतुष्कलमात्रा । आनिविश आनिविता आशाविता आनिविसं । वैहायसम् । निविश निविता निशता शतासं । युग्मप्रवृत्तम् । युग्मस्थितम् । अथ युग्मप्रवृत्तान्तं महाजनस्थितान्तमुल्लोप्यकं यथा--युग्मप्रवृत्तान्तमुल्लोप्यकं यथा--चतुष्कलमात्रा । आनिविश आनिविता आशविता आनिविसं ॥ वैहायसम् । निविश निविता निशता शतासं ॥ युग्मस्थितमयुग्मस्थितान्तमुल्लोप्यकम् ॥ अथायुग्मप्रवृत्तकम् । चतुष्कलमात्रा ॥ आनिविश आनिविता आशविता आनिविसं ॥ वैहायसम् । निविश निविता निशता शतासं ॥ इति युग्मप्रवृत्तम् । अथायुग्मप्रवृत्तान्तमुल्लोप्यम् । चतुष्कलमात्रा यथा-- आनिविश आनिविता आशविता आनिविसं ॥ इति चतुष्कला मात्रा ॥ वैहायसम् । निविश निविता निशता शतासं ॥ स्थितप्रवृत्तयुग्ममहाजनिकम् । अथ मिश्रान्तस्य षड्भेदाः । तत्र युग्मस्थितप्रवृत्तायुग्ममहाजनिकमिश्रान्तान्तमुल्लोप्यकं यथा--चतुष्कला मात्रा । निविश निविता निशता शतासं । इति वैहायसम् । युग्मस्थितप्रवृत्ते युग्मस्य महाजनिकम् ॥ अथ युग्मस्थितप्रवृत्ते युग्ममहाजनिकमिश्रान्तान्तमुल्लोप्यकं यथा-- इत्ययुग्मस्थितप्रवृत्ते युग्मस्य महाजनिकम् । अथायुग्मस्थितायुग्मप्रवृत्तमहाजनिकमिश्रान्तमुल्लोप्यकं यथा--चतुष्कलमात्रा । वैहायसम् । निविश निविता निशता शतासं निशता शनिसं । युग्मस्य स्थितमयुग्मस्य प्रवृत्तमहाजनिकमिति । युग्मप्रवृत्तकं यथा--महाजनिकमिश्रान्तान्तमुल्लोप्यकं यथा-- चतुष्कलमात्रा । वैहायसम् । निविश निविता निशता शतासं । निशता प्रनिसं । इत्ययुग्मस्थितयुग्मस्य प्रवृत्तमहाजनिके । अथ युग्मस्थितायुग्मप्रवृत्तयुग्ममहाजनिकमिश्रान्तान्तमुल्लोप्यकं यथा-- इति युग्मस्य स्थितमयुग्मप्रवृत्तं महाजनिकम् । अथायुग्मस्थितं युग्मप्रवृत्तायुग्ममहाजनिकमिश्रान्तमुल्लोप्यकं यथा-- चतुष्कलमात्रा । निविश निविता निशता शतासं । वैहायसम् । निश निता शप्रनिसं । निश निता शप्रनिसं । निशता शनिसं । इति युग्मस्थितमयुग्मस्य प्रवृत्ताभ्यामेकाङ्गो महाजनिकेन । एते षण्मिश्रभेदाः । द्व्यङ्गो वा मिश्रः स्थितप्रवृत्ताभ्यामेकाङ्गो वा महाजनिकेन । इत्यन्तान्तमुल्लोप्यकम् । चतुष्कलानि चत्वारि प्रकर्यादीन्युदाहरन्
@@ -27194,9 +27243,9 @@ Prakarana 2: expected 190, found 191. Verse kept and numbered as in the source; 
 द्विसंख्यातं त्रिसंख्यातं द्वित्रिरुच्चारणे क्रमात् आवृत्तिद्वयमात्रास्यादर्धार्धलयमिष्यते
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~1766, prakarana 2: trailing numeral 104 where 204 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~1766, prakarana 2: numbered 104 where 204 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 उद्धट्टादिः सुनन्दायां भवेद्युग्मो यथाक्षरः स एव तालो द्विकलः सुमुख्याः स्यादुपोहने
@@ -27802,9 +27851,9 @@ Source line ~2102, prakarana 2. Trailing numeral 0 is a row index in a matra/sva
 
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2104, prakarana 2: trailing numeral 0 where 262 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2104, prakarana 2: numbered 0 where 262 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 गत्रयं लः पलगपाः लघ्वन्ते दत्रयं सिंहलीलो
@@ -27866,9 +27915,9 @@ Source line ~2117, prakarana 2. Trailing numeral 11 is a row index in a matra/sv
 । ऽ ऽ इति कन्दर्पः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2120, prakarana 2: trailing numeral 0 where 264 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2120, prakarana 2: numbered 0 where 264 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 लघुर्द्रुतद्वयं चान्ते गुरुः स्याद्वीरविक्रमः ॥ ।
@@ -27946,9 +27995,9 @@ Source line ~2139, prakarana 2. Trailing numeral 14 is a row index in a matra/sv
 । । ऽ । ऽए! इति श्रीरङ्गः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2142, prakarana 2: trailing numeral 0 where 264 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2142, prakarana 2: numbered 0 where 264 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 विरामान्तद्रुतद्वंद्वान्यष्टौ लघु च चच्चरी ॥
@@ -28274,9 +28323,9 @@ Source line ~2230, prakarana 2. Trailing numeral 0 is a row index in a matra/sva
 । ।
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2232, prakarana 2: trailing numeral 0 where 268 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2232, prakarana 2: numbered 0 where 268 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 त्र्यस्रो मिश्रो द्विधा वर्णस्त्र्यस्रो लौ दौ लघुद्वयम् ॥
@@ -28434,9 +28483,9 @@ Source line ~2269, prakarana 2. Trailing numeral 0 is a row index in a matra/sva
 ऽ ।
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2271, prakarana 2: trailing numeral 0 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2271, prakarana 2: numbered 0 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 चतुरस्रोऽपि दृश्यते ॥ गलौ द्रुतौ गुरुश्चेति
@@ -28930,9 +28979,9 @@ Source line ~2401, prakarana 2. Trailing numeral 0 is a row index in a matra/sva
 । ऽ
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2403, prakarana 2: trailing numeral 0 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2403, prakarana 2: numbered 0 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 ᳲ! इति मुद्रितमण्ठः ॥ मण्ठो न जौ लघुर्यद्वा मण्ठरूपकवेलायाम् गलपाः स्युः लघुर्गुरुर्द्रुतद्वंद्वं राजविद्याधरो भवेत् ॥
@@ -28962,9 +29011,9 @@ Source line ~2409, prakarana 2. Trailing numeral 42 is a row index in a matra/sv
 । । ऽ । । ऽ इति जयमङ्गलः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2412, prakarana 2: trailing numeral 0 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2412, prakarana 2: numbered 0 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 मल्लिकामोदताले तु लौ द्वौ द्रुतचतुष्टयम् । ।
@@ -29002,9 +29051,9 @@ Source line ~2420, prakarana 2. Trailing numeral 43 is a row index in a matra/sv
 इति मल्लिकामोदः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2422, prakarana 2: trailing numeral 279 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2422, prakarana 2: numbered 279 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 विजयानन्दसंज्ञे तु लघुद्वंद्वं गुरुत्रयम्
@@ -29018,9 +29067,9 @@ Source line ~2424, prakarana 2. Trailing numeral 44 is a row index in a matra/sv
 । । ऽ ऽ ऽ इति विजयानन्दः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2427, prakarana 2: trailing numeral 0 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2427, prakarana 2: numbered 0 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 क्रीडा द्रुतौ विरामान्तौ चण्डनिःसारुकश्च सः ॥
@@ -29106,9 +29155,9 @@ Source line ~2451, prakarana 2. Trailing numeral 0 is a row index in a matra/sva
 ।
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2453, prakarana 2: trailing numeral 0 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2453, prakarana 2: numbered 0 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 लषौ गलौ प्लुतः कीर्तिः लो द्रुतौ प्रतितालः स्यात्
@@ -29146,9 +29195,9 @@ Source line ~2462, prakarana 2. Trailing numeral 0 is a row index in a matra/sva
 ऽ
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2464, prakarana 2: trailing numeral 0 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2464, prakarana 2: numbered 0 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 गुर्वोर्मध्ये तु चत्वारो विन्दवो बिन्दुमालिनी ॥
@@ -29250,9 +29299,9 @@ Source line ~2492, prakarana 2. Trailing numeral -1 is a row index in a matra/sv
 अन्यैस्तु लद्वयम् ॥
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2493, prakarana 2: trailing numeral 283 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2493, prakarana 2: numbered 283 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 गुरुद्रुतप्लुताः प्रोक्ता मण्ठिका विरामादिद्रुतौ द्वौ च मण्ठिका परिकीर्तिता
@@ -29314,9 +29363,9 @@ Source line ~2508, prakarana 2. Trailing numeral 57 is a row index in a matra/sv
 । । ऽ इत्युदीक्षणः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2510, prakarana 2: trailing numeral 284 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2510, prakarana 2: numbered 284 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 रगणो ढेङ्क्तिका कैश्चिदेष प्रोक्तस्तु योजनः
@@ -29338,9 +29387,9 @@ Source line ~2515, prakarana 2. Trailing numeral 0 is a row index in a matra/sva
 
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2517, prakarana 2: trailing numeral 0 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2517, prakarana 2: numbered 0 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 द्विश्चत्वारो विरामान्ता द्रुतास्तु विषमे मताः ॥
@@ -29394,9 +29443,9 @@ Source line ~2529, prakarana 2. Trailing numeral 0 is a row index in a matra/sva
 
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2533, prakarana 2: trailing numeral 285 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2533, prakarana 2: numbered 285 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 द्वौ लौ द्वौ दौ लघुर्दौ द्वौ कीर्तिता वर्णमण्ठिका
@@ -29450,9 +29499,9 @@ Source line ~2546, prakarana 2. Trailing numeral 0 is a row index in a matra/sva
 । ।
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2548, prakarana 2: trailing numeral 0 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2548, prakarana 2: numbered 0 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अभिनन्दो लघुद्वंद्वं द्रुतयुग्मं गुरुस्तथा ॥
@@ -29522,9 +29571,9 @@ Source line ~2566, prakarana 2: trailing numeral 0 where 270 was expected, and i
 मल्लतालो विरामान्तद्विविन्द्वन्तं चतुर्लघु ॥
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2570, prakarana 2: trailing numeral 287 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2570, prakarana 2: numbered 287 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 उक्तश्चतुर्धा कङ्कालः पूर्णः खण्डः समोऽसमः
@@ -29874,17 +29923,17 @@ Source line ~2654, prakarana 2. Trailing numeral 0 is a row index in a matra/sva
 ऽए!
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2656, prakarana 2: trailing numeral 0 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2656, prakarana 2: numbered 0 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 वसन्तो न्मौ प्रतापशेखरो दीप्ताद्विरामान्तं द्रुतद्वयम् ॥
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2660, prakarana 2: trailing numeral 292 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2660, prakarana 2: numbered 292 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 झम्पातालो विरामान्तं द्रुतद्वंद्वं लघुस्तथा
@@ -29914,9 +29963,9 @@ Source line ~2669, prakarana 2. Trailing numeral 0 is a row index in a matra/sva
 ऽ
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2671, prakarana 2: trailing numeral 0 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2671, prakarana 2: numbered 0 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 गजझम्पो गुरोरूर्ध्वं विरामान्तं द्रुतत्रयम् ॥
@@ -29930,9 +29979,9 @@ Source line ~2673, prakarana 2. Trailing numeral 0 is a row index in a matra/sva
 
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2677, prakarana 2: trailing numeral 293 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2677, prakarana 2: numbered 293 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 चतुर्मुखो जप्लुताभ्यां स एवोन्मातृको मतः
@@ -30314,9 +30363,9 @@ Source line ~2773, prakarana 2. Trailing numeral 92 is a row index in a matra/sv
 । ऽए! इति वर्धनः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2775, prakarana 2: trailing numeral 298 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2775, prakarana 2: numbered 298 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 विरामान्तौ द्रुतौ बिन्दुस्त्रिमात्रो रागवर्धनः
@@ -30586,9 +30635,9 @@ Source line ~2841, prakarana 2. Trailing numeral 102 is a row index in a matra/s
 ऽ इति करुणः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2843, prakarana 2: trailing numeral 301 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2843, prakarana 2: numbered 301 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 लघुर्द्रुतानां त्रितयं लघू द्वौ सारसः स्मृतः
@@ -30634,9 +30683,9 @@ Source line ~2854, prakarana 2. Trailing numeral 0 is a row index in a matra/sva
 
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2856, prakarana 2: trailing numeral 0 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2856, prakarana 2: numbered 0 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 द्रुतत्रयं लघुद्वंद्वं चण्डताले बभाषिरे ॥
@@ -30682,9 +30731,9 @@ Source line ~2867, prakarana 2. Trailing numeral 0 is a row index in a matra/sva
 ऽ । ऽए! ऽए! ऽए! ऽ ऽए!
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2869, prakarana 2: trailing numeral 0 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2869, prakarana 2: numbered 0 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 गलौ प्लुतत्रयं वक्रः प्लुतो बिन्दुत्रयं लये ॥
@@ -30746,9 +30795,9 @@ Source line ~2885, prakarana 2. Trailing numeral 0 is a row index in a matra/sva
 
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2887, prakarana 2: trailing numeral 108 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2887, prakarana 2: numbered 108 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इममेवोचिरे तालं केचित्त्रिपुटसंज्ञया । । इत्यडताली
@@ -30810,9 +30859,9 @@ Source line ~2901, prakarana 2. Trailing numeral 0 is a row index in a matra/sva
 ।
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2903, prakarana 2: trailing numeral 0 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2903, prakarana 2: numbered 0 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 मुकुन्दे तु लघोर्बिन्दुचतुष्टयमथो गुरुः ॥
@@ -30842,9 +30891,9 @@ Source line ~2909, prakarana 2. Trailing numeral 111 is a row index in a matra/s
 ऽ इति मुकुन्दः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2911, prakarana 2: trailing numeral 305 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2911, prakarana 2: numbered 305 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 कुविन्दके लघुर्बिन्दुद्वयं गुरुरथ प्लुतः
@@ -30906,9 +30955,9 @@ Source line ~2928, prakarana 2. Trailing numeral 0 is a row index in a matra/sva
 ऽ ऽ । ।
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2930, prakarana 2: trailing numeral 0 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2930, prakarana 2: numbered 0 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 कलध्वनिर्लघुद्वंद्वं गुरुर्लघुरथ प्लुतः ॥ पञ्चभिर्लघुभिर्गौरी ताले सरस्वतीकण्ठाभरणे शार्ङ्गिसंमतौ ॥
@@ -30978,9 +31027,9 @@ Source line ~2947, prakarana 2. Trailing numeral 0 is a row index in a matra/sva
 
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2949, prakarana 2: trailing numeral 0 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2949, prakarana 2: numbered 0 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 ताले राजमृगाङ्के तु द्रुतौ लघुरथो गुरुः ॥
@@ -31026,9 +31075,9 @@ Source line ~2960, prakarana 2. Trailing numeral 119 is a row index in a matra/s
 । ऽ ऽ ऽए! ऽ ऽ ऽ । इति निःशङ्कः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2962, prakarana 2: trailing numeral 309 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2962, prakarana 2: numbered 309 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 निःशङ्कसंज्ञके ताले लगुरू पगुरू गलौ ॥ शार्ङ्गदेवे द्रुतद्वंद्वं गप्लुतौ गद्वयं लघुः
@@ -31066,33 +31115,33 @@ Source line ~2970, prakarana 2. Trailing numeral -1 is a row index in a matra/sv
 इति विंशत्युत्तरशतं देशीतालाः ॥
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2972, prakarana 2: trailing numeral 310 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2972, prakarana 2: numbered 310 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अन्येऽपि सन्ति भूयांसस्तालास्ते लक्ष्मवर्त्मनि प्रसिद्धिविधुरत्वेन शास्त्रेऽस्मिन्न प्रदर्शिताः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2975, prakarana 2: trailing numeral 311 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2975, prakarana 2: numbered 311 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 तद्भेदप्रत्ययार्थं तु लघूपाया भवन्त्यमी प्रस्तारसंख्ये नष्टं चोद्दिष्टं पातालकस्ततः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2978, prakarana 2: trailing numeral 312 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2978, prakarana 2: numbered 312 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 द्रुतमेरुर्लघोर्मेरुर्गुरुमेरुः प्लुतस्य च मेरुः संयोगमेरुश्च खण्डप्रस्तारकस्ततः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2981, prakarana 2: trailing numeral 313 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2981, prakarana 2: numbered 313 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 प्राचां चतुर्णां मेरूणां नष्टोद्दिष्टे पृथक्पृथक् एकोनविंशतिरिति प्रत्ययास्तान्ब्रुवेऽधुना
@@ -31106,49 +31155,49 @@ Source line ~2983, prakarana 2: trailing numeral 314 where 270 was expected, and
 न्यस्याल्पमाद्यान्महतोऽधस्ताच्छेषं यथोपरि
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2986, prakarana 2: trailing numeral 315 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2986, prakarana 2: numbered 315 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 प्रागूने वामसंस्थांस्तु संभवे महतो लिखेत् अल्पानसंभवे तालपूर्त्यै भूयोऽप्ययं विधिः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2989, prakarana 2: trailing numeral 316 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2989, prakarana 2: numbered 316 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 सर्वद्रुतावधिः कार्यः प्रस्तारोऽयं लघौ गुरौ प्लुते व्यस्ते समस्ते च न तु व्यस्ते द्रुतेऽस्ति सः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2993, prakarana 2: trailing numeral 317 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2993, prakarana 2: numbered 317 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति प्रस्तारः । एकद्व्यङ्कौ क्रमान्न्यस्य युञ्जीतान्त्यं पुरातनैः द्वितीयतुर्यषष्ठाङ्कैरभावे तुर्यषष्ठयोः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2996, prakarana 2: trailing numeral 316 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2996, prakarana 2: numbered 316 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 सर्वद्रुतावधिः कार्यः प्रस्तारोऽयं लघौ गुरौ प्लुते व्यस्ते समस्ते च न तु व्यस्ते द्रुतेऽस्ति सः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3000, prakarana 2: trailing numeral 317 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3000, prakarana 2: numbered 317 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति प्रस्तारः एकद्व्यङ्कौ क्रमान्न्यस्य युञ्जीतान्त्यं पुरातनैः द्वितीयतुर्यषष्ठाङ्कैरभावे तुर्यषष्ठयोः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3003, prakarana 2: trailing numeral 318 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3003, prakarana 2: numbered 318 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 तृतीयपञ्चमाङ्काभ्यां क्रमात्तं योगमग्रतः लिखेद्दक्षिणसंस्थैवमङ्कश्रेणी विधीयते
@@ -31162,185 +31211,185 @@ Source line ~3005, prakarana 2: trailing numeral 319 where 270 was expected, and
 सा चाङ्कैरिष्टतालस्थद्रुतसंख्यैः समाप्यते
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3009, prakarana 2: trailing numeral 320 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3009, prakarana 2: numbered 320 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 द्रुतो लघुः सार्धमात्रो गुरुः सार्धद्विमात्रिकः प्लुतः सार्धत्रिमात्रश्चेत्येकैकद्रुतवर्धितैः तालभेदाः क्रमादङ्कैः संख्यायन्ते स्थितैरिह
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3013, prakarana 2: trailing numeral 321 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3013, prakarana 2: numbered 321 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 यदङ्कयोगादन्त्योऽङ्को लब्धस्तैरन्ततः क्रमात् भेदा द्रुतान्तलघ्वन्तगुर्वन्ताश्च प्लुतान्तकाः संख्यायन्त इति प्रोक्ताः संख्या निःशङ्कसूरिणा
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3017, prakarana 2: trailing numeral 322 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3017, prakarana 2: numbered 322 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति संख्या । अत्रैतावतिथो भेदः किंरूप इति पृच्छति यत्र तन्नष्टमाख्यातं तस्योत्तरमिहोच्यते
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3021, prakarana 2: trailing numeral 323 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3021, prakarana 2: numbered 323 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 भेदानां यावतां मध्ये नष्टप्रश्नः कृतो भवेत् तावत्संख्याङ्कपर्यन्तां लिखेत्संख्याङ्कसंततिम् अन्त्याङ्के तत्र नष्टाङ्कं पातयेदथ शेषतः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3024, prakarana 2: trailing numeral 324 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3024, prakarana 2: numbered 324 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 पातयेत्पूर्वपूर्वाङ्कं तत्र त्वपतितो द्रुतः पूर्वश्चेत्पतितो न स्याल्लघुस्तु पतिताद्भवेत्
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3028, prakarana 2: trailing numeral 325 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3028, prakarana 2: numbered 325 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 उत्तरेणाकृतार्थेन सहितात्तदसंभवे अकृतार्थेन पूर्णेन सान्तरे पतिते पृथक् लघुर्निरन्तरे त्वस्मिल्लँघुरेव गुरुर्भवेत्
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3030, prakarana 2: trailing numeral 326 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3030, prakarana 2: numbered 326 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 गुरुहेतोस्तृतीये तु पतिते गः प्लुती भवेत्
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3033, prakarana 2: trailing numeral 327 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3033, prakarana 2: numbered 327 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अङ्काभावे द्रुता ग्राद्यास्तालपूरणहेतवः इति नष्टस्य विज्ञेयमुत्तरं रूपनिर्णयात्
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3037, prakarana 2: trailing numeral 328 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3037, prakarana 2: numbered 328 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति नष्टम् ईदृग्रूपोऽत्र कथितो भेदः प्रश्न इतीदृशः उद्दिष्टं तत्र संख्याङ्कसंततिं नष्टवल्लिखेत्
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3040, prakarana 2: trailing numeral 329 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3040, prakarana 2: numbered 329 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 यैरङ्कैः पतितैर्नष्टे लभ्यन्ते ये द्रुतादयः तानेवाङ्काल्लँभन्ते ते भेदमुद्दिष्टमाश्रिताः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3043, prakarana 2: trailing numeral 330 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3043, prakarana 2: numbered 330 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 यद्वा षट्प्लुतहेत्वङ्कमध्येऽन्त्यात्प्राचि सप्तमे तदभावे तु षष्ठाङ्के पातितेऽन्त्याङ्कमध्यतः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3046, prakarana 2: trailing numeral 331 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3046, prakarana 2: numbered 331 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 यः शेषः स प्लुताल्लभ्यो लब्धहीनान्त्यशेषतः ज्ञानं पूरणसंख्याया उद्दिष्टोत्तरमिष्यते
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3050, prakarana 2: trailing numeral 332 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3050, prakarana 2: numbered 332 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इत्युद्दिष्टम् आदौ रूपमथैकैकमङ्कसंख्याङ्कसंततेः क्रमादधोऽधो विन्यस्येदन्त्यादींश्चतुरस्तथा
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3053, prakarana 2: trailing numeral 333 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3053, prakarana 2: numbered 333 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 स्वपङ्क्तिस्थाल्लिँखेदङ्कानग्रे संख्याङ्कवद्युतान् किंतु प्रतिनिधिर्नात्र विद्यते तुर्यषष्ठयोः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3057, prakarana 2: trailing numeral 334 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3057, prakarana 2: numbered 334 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इष्टतालद्रुतमितेष्वङ्केषु लिखितेष्विति क्रमादन्त्योपान्त्यतुर्यषष्ठैर्यत्र द्रुतादयः मीयन्ते सर्वभेदस्थाः पातालः सोऽभिधीयते
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3062, prakarana 2: trailing numeral 335 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3062, prakarana 2: numbered 335 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति पातालः पङ्क्तिं कृत्वेष्टतालस्थद्रुतसंमितकोष्ठिकाम् तिरश्चीं तत्परामूनां कोष्ठेनाथ ततः पराः द्विद्विकोष्ठोनिताः स्वस्वपूर्वतोऽथाङ्कयोजना
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3064, prakarana 2: trailing numeral 336 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3064, prakarana 2: numbered 336 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 द्वौ द्वौ तासामाद्यकोष्ठौ स्यातामेकाङ्कसंयुतौ
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3067, prakarana 2: trailing numeral 337 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3067, prakarana 2: numbered 337 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अधस्तन्यास्तृतीयादौ विषमे कोष्ठके लिखेत् अन्त्याद्यङ्कचतुष्कस्य योगं संख्याङ्कसंघवत्
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3071, prakarana 2: trailing numeral 338 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3071, prakarana 2: numbered 338 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 समे त्वन्त्यं विनैतेषां योगं न्यस्याथ पङ्क्तिषु परासु शेषकोष्ठेषु चतुर्योगोऽयमिष्यते नास्ति प्रतिनिधिस्त्वासामङ्कयोस्तुर्यषष्ठयोः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3073, prakarana 2: trailing numeral 339 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3073, prakarana 2: numbered 339 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 तासु स्वभावतो यास्तु निष्पन्ना ऊर्ध्वपङ्क्तयः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3076, prakarana 2: trailing numeral 340 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3076, prakarana 2: numbered 340 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 तन्मध्ये तु समे कोष्ठेऽन्त्यस्थानेऽन्त्यादधस्तनः अङ्कः कार्योऽथ तैरङ्कैर्भेदसंख्याऽभिधीयते
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3080, prakarana 2: trailing numeral 341 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3080, prakarana 2: numbered 341 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 विषमायामूर्ध्वपङ्क्तौ स्थितैरङ्क्तैरधः क्रमात् एकद्रुताद्या विषमत्र्यादिसंख्या द्रुता भिदाः सर्वद्रुतान्ता मीयन्ते समपङ्क्तिस्थितैः पुनः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3083, prakarana 2: trailing numeral 342 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3083, prakarana 2: numbered 342 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 द्रुतहीनादयो द्व्यादिसमसंख्या द्रुता भिदाः सर्वद्रुतान्ता ज्ञायन्ते द्रुतमेरुरयं मतः
@@ -31682,17 +31731,17 @@ Source line ~3170, prakarana 2. Trailing numeral 0 is a row index in a matra/sva
 ऽए! ।ऽए!
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3177, prakarana 2: trailing numeral 144 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3177, prakarana 2: numbered 144 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 ।ऽए! इति द्रुतमेरुकोष्ठखम् इति द्रुतमेरुः लघुमेरौ कोष्ठपङ्क्तीः प्राग्वन्न्यसेत्तदादिमः एकैककोष्ठ एकाङ्कयुक्तोऽधःपङ्क्तिकेषु तु शेषकोष्ठेष्वन्त्यतुर्यषष्ठयोगं निवेशयेत्
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3180, prakarana 2: trailing numeral 345 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3180, prakarana 2: numbered 345 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 परासां शेषकोष्ठेषूपान्त्याधस्तनसंयुतम् त्रियोगमेवमादध्यादत्र च द्रुतमेरुवत्
@@ -31706,9 +31755,9 @@ Source line ~3182, prakarana 2: trailing numeral 456 where 270 was expected, and
 सदसत्त्वे प्रतिनिधिः कोष्ठाङ्कैरूर्ध्वपङ्क्तिगैः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3185, prakarana 2: trailing numeral 347 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3185, prakarana 2: numbered 347 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 लघुहीनादुपक्रम्यैकाद्येकोत्तरवृद्धलाः सर्वलान्ताः क्रमाज्ज्ञेयाः संख्या सर्वाङ्गसंगतेः
@@ -32066,33 +32115,33 @@ Source line ~3276, prakarana 2. Trailing numeral 10 is a row index in a matra/sv
 
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3280, prakarana 2: trailing numeral 348 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3280, prakarana 2: numbered 348 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति लघुमेरुः गुरुमेरावधःपङ्क्तेः परा कोष्ठत्रयोनिता चतुश्चतुष्कोष्ठहीनाः स्वस्वपूर्वाबलेः पराः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3283, prakarana 2: trailing numeral 349 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3283, prakarana 2: numbered 349 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 एकाङ्कवन्त आद्याद्यकोष्ठाः प्रथमपङ्क्तिगः द्वितीयो द्व्यङ्कवानन्त्योपान्त्यषष्ठाङ्कयोगिनः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3286, prakarana 2: trailing numeral 350 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3286, prakarana 2: numbered 350 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 शेषकोष्ठाः परासां तु द्वितीयादिषु लिख्यते योगोऽन्त्योपान्त्यषष्ठानामधस्तुर्याङ्कसंयुतः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3288, prakarana 2: trailing numeral 351 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3288, prakarana 2: numbered 351 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 लघुस्थाने गुरुर्ज्ञेयः शेषं तु लघुमेरुवत्
@@ -32338,25 +32387,25 @@ Source line ~3349, prakarana 2. Trailing numeral 10 is a row index in a matra/sv
 
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3353, prakarana 2: trailing numeral 352 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3353, prakarana 2: numbered 352 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति गुरुमेरुः प्लुतमेरावधःपङ्क्तेः पञ्चकोष्ठोनिता परा तत्पराः स्वस्वपूर्वान्ताः षट्षट्कोष्ठोनिता मताः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3356, prakarana 2: trailing numeral 353 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3356, prakarana 2: numbered 353 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अधःपङ्क्तौ तु षष्ठाङ्कस्थाने तुर्यं नियोजयेत् त्रियोगोऽयमधः षष्ठयुक्तः स्यात्परपङ्क्तिषु
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3358, prakarana 2: trailing numeral 354 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3358, prakarana 2: numbered 354 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 प्लुतो ज्ञेयो गुरुस्थाने शेषं तु गुरुमेरुवत्
@@ -32490,145 +32539,145 @@ Source line ~3393, prakarana 2. Trailing numeral 296 is a row index in a matra/s
 
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3398, prakarana 2: trailing numeral 355 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3398, prakarana 2: numbered 355 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति प्लुतमेरुकोष्ठकम् इति प्लुतमेरुः संयोगमेरावूर्ध्वाः स्युश्चतस्रः कोष्ठपङ्क्तयः इष्टतालद्रुतमितैः कोष्ठैर्युक्तास्ततः परे
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3401, prakarana 2: trailing numeral 356 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3401, prakarana 2: numbered 356 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 द्वे पङ्क्ती स्वस्वपूर्वातो द्विद्विकोष्ठोनिते ततः द्वे षष्ठ्या एककोष्ठोने ततस्तिस्रोऽष्टमावलेः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3404, prakarana 2: trailing numeral 357 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3404, prakarana 2: numbered 357 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 एककोष्ठोनिताः पश्चाद्द्विद्विकोष्ठोनिते परे पङ्क्तिभ्यां स्वस्वपूर्वाभ्यां तथैकैकोनिते परे
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3407, prakarana 2: trailing numeral 358 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3407, prakarana 2: numbered 358 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 आद्यासु चतसृष्वासां क्रमेण सकलद्रुताः समस्तलघवः सर्वगुरवः सकलप्लुताः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3410, prakarana 2: trailing numeral 359 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3410, prakarana 2: numbered 359 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 एकाङ्कयुक्तनिःशेषकोष्ठाऽऽद्या स्यात्परा पुनः खयुक्तैर्विषमैः कोष्ठैः समैस्त्वेकाङ्कसंयुतैः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3413, prakarana 2: trailing numeral 360 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3413, prakarana 2: numbered 360 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 कर्तव्या गुरुपङ्क्तेस्तु त्रयः कोष्ठा न भोन्विताः तुर्य एकाङ्कवानेवं चतुष्कोष्ठ्योः परा अपि
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3416, prakarana 2: trailing numeral 361 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3416, prakarana 2: numbered 361 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 प्लुतपङ्क्तौ सशून्याः स्युः पञ्च षष्ठस्तु रूपवान् षट्कोष्ठ्यस्तद्वदन्याः स्युः षट्सु पङ्क्तिष्वनन्तरम्
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3419, prakarana 2: trailing numeral 362 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3419, prakarana 2: numbered 362 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 द्वियोगजाः क्रमाद्भेदादलघू दगुरू दपौ लगौ लपौ गपौ चेति तदङ्क्तप्रक्रिया त्वियम्
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3422, prakarana 2: trailing numeral 363 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3422, prakarana 2: numbered 363 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अत्रोपरिष्टादारभ्य स्यादधोऽधोऽङ्कलेखनम् अन्त्यपूर्वद्वितीयाङ्कतुर्यषष्ठास्तथा क्रमात्
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3425, prakarana 2: trailing numeral 364 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3425, prakarana 2: numbered 364 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 योज्या दलगपेषु स्युस्तेषु यद्योगजा भिदाः पङ्क्तौ तदङ्कयोगाङ्कं तत्कोष्ठे संभवाल्लिँखेत्
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3427, prakarana 2: trailing numeral 365 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3427, prakarana 2: numbered 365 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 लेख्यपङ्क्त्युपरिश्रेणी या तिरश्ची तदाश्रिताः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3430, prakarana 2: trailing numeral 366 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3430, prakarana 2: numbered 366 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अङ्का दलगपानां स्युराद्यपङ्क्तिचतुष्टये तेषु प्रस्तुतभेदस्थद्रुतादिव्यक्तिसंश्रितान्
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3433, prakarana 2: trailing numeral 367 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3433, prakarana 2: numbered 367 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अङ्कान्गृह्णीत तेऽप्यन्त्यद्वितीयाद्या द्रुतादिषु प्रस्तुतेषु विपर्यस्ताः स्युरङ्कासंभवे तु खम्
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3436, prakarana 2: trailing numeral 368 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3436, prakarana 2: numbered 368 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 त्रियोगजाश्च ये भेदाश्चतुर्योगभवश्च यः तत्पङ्क्तीनामपि ज्ञेयमेवमेवाङ्कपूरणम्
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3439, prakarana 2: trailing numeral 369 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3439, prakarana 2: numbered 369 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 किंतु त्रियोगजे भेदे ये त्रयः स्युर्द्वियोगजाः तेषां संनिहिताद्यानां प्रागुक्तोऽङ्कविपर्ययः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3442, prakarana 2: trailing numeral 370 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3442, prakarana 2: numbered 370 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 चतुर्योगे तु चत्वारो ये स्युर्भेदास्त्रियोगजाः तदङ्केष्वेव पूर्वोक्तं स्याद्विपर्यासयोजनम्
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3445, prakarana 2: trailing numeral 371 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3445, prakarana 2: numbered 371 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 ये चत्वारस्त्रियोगोत्थाश्चतुर्योगोत्थपञ्चमाः भेदास्ते पङ्क्तिषु ज्ञेयाः क्रमादन्त्यासु पङ्क्तिषु
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3448, prakarana 2: trailing numeral 372 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3448, prakarana 2: numbered 372 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 दलगा दलपाश्चैव दगपा लगपाः क्रमात् त्रियोगजाश्चतुर्योगोद्भवा दलगपा इति
@@ -32642,17 +32691,17 @@ Source line ~3450, prakarana 2: trailing numeral 373 where 270 was expected, and
 एष संयोगमेरुः स्यादतो ज्ञेयमथोच्यते
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3453, prakarana 2: trailing numeral 374 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3453, prakarana 2: numbered 374 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 तिर्यक्पङ्क्तिस्थकोष्ठाङ्कैस्तैस्तैः सर्वद्रुतादयः ऊर्ध्वपङ्क्तिगता मेयास्तदभावस्तु शून्यतः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3456, prakarana 2: trailing numeral 375 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3456, prakarana 2: numbered 375 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 तावद्द्रुतोऽत्र तालः स्यात्पङ्क्तिर्यावतिथी तिरः उपरिष्ठात्समारभ्य संख्या पङ्क्त्यङ्कसंगतेः
@@ -33834,49 +33883,49 @@ Source line ~3753, prakarana 2. Trailing numeral 24 is a row index in a matra/sv
 
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3758, prakarana 2: trailing numeral 376 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3758, prakarana 2: numbered 376 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति संयोगमेरुः द्रुतहीनादयो भेदोद्धारा ये मेरुबोधिताः सर्वप्रस्तारवत्तेषां प्रस्तारः किं तु तेषु यः द्रुतादिनियमः सोऽत्र न भङ्क्तव्यः प्रयत्नतः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3761, prakarana 2: trailing numeral 377 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3761, prakarana 2: numbered 377 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति खण्डप्रस्तारः संख्यैषा मेरुकोष्ठाङ्काद्यस्मात्पूर्वोक्तरीतितः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3764, prakarana 2: trailing numeral 378 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3764, prakarana 2: numbered 378 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 लभ्यते तत्र नष्टाङ्कं पातयेदथ शेषतः तृतीयपञ्चमोपान्त्यावपाते लभ्यते लघुः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3768, prakarana 2: trailing numeral 379 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3768, prakarana 2: numbered 379 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 परो यद्यकृतार्थः स्यात्सह तेनाथ चेदुभौ अकृतार्थौ ततस्ताभ्यां स्वं विनैवैष लभ्यते परे कृतार्थे ग्राह्यः स्यादकृतार्थः पुरातनः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3772, prakarana 2: trailing numeral 380 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3772, prakarana 2: numbered 380 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 पतिताद्गुरुलाभः स्यात्सह प्राचा तदा परा चतुरङ्की निवर्तेत पतिते पञ्चमेऽप्यथ गुरुः प्लुती भवेत्प्राचा सह चैषा निवर्तते
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3775, prakarana 2: trailing numeral 381 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3775, prakarana 2: numbered 381 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 रूपाप्तौ प्रापकाङ्केभ्यः शेषेष्वेष पुनर्विधिः गुरुलाभे त्वपातार्हः पञ्चमः शेषतां व्रजेत्
@@ -33890,25 +33939,25 @@ Source line ~3777, prakarana 2: trailing numeral 382 where 270 was expected, and
 अङ्काभावे तु गृह्यन्ते लघवस्तालपूर्तये
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3782, prakarana 2: trailing numeral 383 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3782, prakarana 2: numbered 383 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति नष्टम् इति मेरोरधःपङ्क्तिसमकोष्ठनष्टम् । उद्दिष्टे तु गुरोर्लभ्यस्तृतीयोऽन्त्यात्पुरातनः प्राग्वच्चतुर्निवृत्तिः स्यात्तृतीयः पञ्चमस्तथा
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3786, prakarana 2: trailing numeral 384 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3786, prakarana 2: numbered 384 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 प्लुतालाप्यो निवृत्तिस्तु षण्णामथ पुनर्विधिः लघोरङ्को न लभ्येत निवृत्तिस्त्वङ्कयोर्द्वयोः लब्धाङ्कयोगहीनेऽन्त्ये शेषादुद्दिष्टबोधनम्
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3795, prakarana 2: trailing numeral 387 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3795, prakarana 2: numbered 387 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इत्युद्दिष्टम् इति द्रुतमेर्वधःपङ्क्तिसमकोष्ठोद्दिष्टम् समस्तनष्टवन्नष्टं विषमे कोष्ठके भवेत् द्रुते लब्धे ततः पूर्वैरङ्कैः स्यात्समकोष्ठनष्टम् । इति द्रुतमेर्वधःपङ्क्तिविषमकोष्ठनष्टम् । कोष्ठे समोर्ध्वपङ्क्तिस्थे परासामधिको भवेत् द्वितीयाधस्तनः पात्यस्तत्र त्वपतिता द्रुताः पतिताल्लः पात्यपातानन्तर्योऽल्पो महान्भवेत्
@@ -33922,81 +33971,81 @@ Source line ~3797, prakarana 2: trailing numeral 388 where 270 was expected, and
 रूपपूर्तौ निवर्तन्ते पूर्ववत्स्वीयपङ्क्तिगाः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3800, prakarana 2: trailing numeral 389 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3800, prakarana 2: numbered 389 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अधःसमवदन्यत्स्यान्निवृत्तौ तु पुनर्विधिः यस्मात्स यस्यामूर्ध्वायां पङ्क्तौ सा विषमा यदि
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3803, prakarana 2: trailing numeral 390 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3803, prakarana 2: numbered 390 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 विधिर्विषमकोष्ठोक्तः समा चेत्तदयं मतः विषमोर्ध्वश्रेणिसंस्थे कोष्ठेऽधोविषमोदितः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3808, prakarana 2: trailing numeral 391 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3808, prakarana 2: numbered 391 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति परपङ्क्तिनष्टम् इति द्रुतमेरुपरपङ्क्तिनष्टम् । यैरङ्कैः पतितैर्नष्टं लभ्यन्ते ये प्लुतादयः तेभ्य उद्दिष्टसंस्थेभ्यस्तदङ्कावाप्तिरिष्यते
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3812, prakarana 2: trailing numeral 392 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3812, prakarana 2: numbered 392 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 द्रुतहीनाद्यकोष्ठासु पङ्क्तिषूर्ध्वासु यो लघुः तस्मादुद्दिष्टरूपस्थान्नाङ्कः कश्चिदवाप्यते लब्धाङ्कन्यूनितान्त्याङ्कशेषादुद्दिष्टवेदनम्
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3817, prakarana 2: trailing numeral 393 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3817, prakarana 2: numbered 393 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति परपङ्क्त्युद्दिष्टम् इति द्रुतमेरुपरपङ्क्त्युद्दिष्टम् लघुमेरावधःपङ्क्तेर्नष्टाङ्केनान्त्यशेषतः पूर्वेषां पात्यमानानामपाते पूर्ववद्द्रुतः
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3821, prakarana 2: trailing numeral 394 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3821, prakarana 2: numbered 394 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 पतितात्सह पूर्वाभ्यां परेण च गुरुर्भवेत् पतिते वृत्तगुर्वङ्कानन्तरे गः प्लुती भवेत् एवं नष्टस्य बोधः स्यादित्युक्तं सूरिशार्ङ्गिणा
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3825, prakarana 2: trailing numeral 395 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3825, prakarana 2: numbered 395 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति लघुमेर्वधःपङ्क्तिनष्टम् नष्टे तु परपङ्क्तीनां पातयेत्प्रातिलोम्यतः द्वितीयं च तृतीयाधस्तनमङ्कं च पञ्चमम्
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3828, prakarana 2: trailing numeral 396 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3828, prakarana 2: numbered 396 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 परेषु च निवृत्तेषु शेषेष्वेष पुनर्विधिः समस्तनष्टवच्चात्र द्रुतादेः प्राप्तिरिष्यते
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3831, prakarana 2: trailing numeral 397 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3831, prakarana 2: numbered 397 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 किं तु लब्धे लघौ शेषेष्वाद्याधस्तनतः क्रिया सोऽधस्तनः स्वपङ्किस्थविधिमेवं प्रवर्तयेत्
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3834, prakarana 2: trailing numeral 298 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3834, prakarana 2: numbered 298 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 शेषाङ्काश्रितपङ्क्त्यङ्काभावे तु लघवो मताः अधस्तनश्रेणिसंख्या नष्टस्यैष विधिः स्मृतः
@@ -34018,9 +34067,9 @@ Source line ~3841, prakarana 2. Trailing numeral 399 is a row index in a matra/s
 परपङ्क्तिष्वथोच्यते
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3845, prakarana 2: trailing numeral 400 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3845, prakarana 2: numbered 400 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति लघुमेर्नष्टम् । इति लघुमेरुपरपङ्क्तिनष्टम् गुरुमेरोरधःपङ्क्तौ नष्टं सकलनष्टवत् प्लुतलाभस्तु गुरुवत् तृतीयाधस्तनस्थाने तृतीयोऽङ्कोऽत्र पात्यते स्थाने तु पञ्चमस्याधः पञ्चमो लघुवद्गुरौ लब्धेऽधोव्रजनं शेषाल्लघुवद्गुरुलम्भनम्
@@ -34034,33 +34083,33 @@ Source line ~3847, prakarana 2: trailing numeral 401 where 270 was expected, and
 लघुमेरुवदन्यत्तु नष्टे स्यात्परपङ्क्तिषु
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3852, prakarana 2: trailing numeral 402 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3852, prakarana 2: numbered 402 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति गुरुमेरुनष्टम् इति गुरुमेरुपरपङ्क्तिनष्टम् समस्तनष्टवन्नष्टं प्लुतमेरावुदाहृतम् विशेषः कथ्यते त्वेष द्वितीयादिषु पङ्क्तिषु
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3855, prakarana 2: trailing numeral 403 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3855, prakarana 2: numbered 403 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अधो गच्छेत्प्लुते पूर्णे गुरुमेरौ गुराविव द्रुतो लघुर्गुरुर्वाऽन्त्यैरङ्कैर्लब्धः प्लुती भवेत्
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3859, prakarana 2: trailing numeral 404 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3859, prakarana 2: numbered 404 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 तदङ्काधस्तनैः सार्धमङ्कषट्कमतीत्य च अधःपङ्क्तौ स्थितैरङ्कैः शेषैरेष पुनर्विधिः पङ्क्तौ तु प्लुतहीनायां नान्तिमः प्लुततां व्रजेत्
 ```
 
-### तालाध्यायः — out-of-sequence number
+### तालाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3863, prakarana 2: trailing numeral 405 where 270 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3863, prakarana 2: numbered 405 where 270 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति प्लुतमेरुनष्टम् । इति प्लुतमेरुपर्पङ्क्तिनष्टम् सर्वोद्दिष्टवदुद्दिष्टं लघुमेर्वादिषु त्रिषु
@@ -34074,17 +34123,17 @@ Source line ~3867, prakarana 2. No verse number found; excluded from verses.json
 इति लघुमेर्वादिमेरुत्रयोद्दिष्टम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~319, prakarana 1: trailing numeral 93 where 94 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~319, prakarana 1: numbered 93 where 94 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति कङ्कालम् स्पृष्टतारमुपेतं यत्कर्तर्या खसितेन च कुहरेणाथ तद्वाद्यं वस्तु वस्तुविदो विदुः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~327, prakarana 1: trailing numeral 15 where 95 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~327, prakarana 1: numbered 15 where 95 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति द्रुतम् बहुधा मूर्छना हस्ताः स्फुरिताः कर्तरी ततः खसितो यत्र तत्प्राहुर्गजलीलं कलाविदः
@@ -34106,9 +34155,9 @@ Prakarana 1: expected 131, found 132. Verse kept and numbered as in the source; 
 विस्तीर्णनादभेदत्वाद्विस्तारो धातुरुच्यते प्रहारलाघवात्कृत्वा स्वरान्ति स्वरो विस्तारजो भवेत् एकविस्तारसंज्ञं तमपरे सूरयो जगुः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~465, prakarana 1: trailing numeral 126 where 136 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~465, prakarana 1: numbered 126 where 136 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 तथाऽपि वालबोधाय तान्वयं विवृणीमहे मन्द्रस्वरद्विरुच्चाराद्धातुरत्र द्विरुत्तरः
@@ -34178,9 +34227,9 @@ Prakarana 1: expected 149, found 150. Verse kept and numbered as in the source; 
 इति प्लुतः अतिपातो लगाभ्यां द्विः इत्यतिपातः लघुर्यत्रातिकीर्णोऽसौ इत्यनुबन्धः द्वाभ्यां त्रिभिश्चतुर्भिश्च नवभिर्लघुभिः क्रमात् क्षेपादयोऽत्र चत्वारो भवन्तीत्यपरेऽब्रुवन्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~625, prakarana 1: trailing numeral 173 where 174 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~625, prakarana 1: numbered 173 where 174 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 एकतन्त्र्यां च यत्प्रोक्तं तज्ज्ञेयं नकुलादिषु वेणावपि तदिच्छन्ति वेणुप्रावीण्यशालिनः
@@ -34192,6 +34241,24 @@ Prakarana 1: expected 174, found 175. Verse kept and numbered as in the source; 
 
 ```
 इति गीतानुगे वाद्यम् भेदान्निर्गीतवाद्यस्य वैणस्याथ प्रचक्ष्महे
+```
+
+### वाद्याध्यायः — verse split from its svara illustration
+
+Source line ~679, prakarana 1 verse 192: the line carried a sloka followed by its svara illustration. The verse is in devanagari/slp1/iast; the illustration is preserved verbatim in the "notation" field.
+
+```
+VERSE: पञ्चमी शम्पातालाभ्यां षष्ठी स्यात्पञ्चपाणिना चच्चत्पुटा सप्तमी स्यात्तास्तिस्रो मन्वते
+NOTATION: परे
+```
+
+### वाद्याध्यायः — verse split from its svara illustration
+
+Source line ~710, prakarana 1 verse 202: the line carried a sloka followed by its svara illustration. The verse is in devanagari/slp1/iast; the illustration is preserved verbatim in the "notation" field.
+
+```
+VERSE: गश्चेत्येकोनविंशत्या वर्णैः खण्डं द्वितीयकम् यस्यास्तृतीयखण्डेऽष्टौ ला गोऽन्ते स्याद्ध्रुवाऽत्र
+NOTATION: सा
 ```
 
 ### वाद्याध्यायः — numbering gap
@@ -34210,25 +34277,43 @@ Prakarana 1 verse 213 is 270 characters against a corpus median near 83. Probabl
 अथ प्रतिमुखं कार्यं चतुरावृत्तियोगिना उत्तरेणापरेत्याहुः पूर्वोक्तो यः कलाष्टकः सोऽत्र कार्यस्त्रिरावृत्तो मात्रया तु विदारिका इति वक्त्रपाणिः अङ्गुष्ठाभ्यां च तर्जन्या तन्त्रीं निष्पीड्य वदयन् बिन्दुं मिथो मेलयेत वादिसंवादिनौ स्वरौ बहुधा तद्गुणत्वेन प्रयुञ्जीतानुवादिनः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — verse split from its svara illustration
 
-Source line ~1095, prakarana 1: trailing numeral 327 where 328 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~766, prakarana 1 verse 220: the line carried a sloka followed by its svara illustration. The verse is in devanagari/slp1/iast; the illustration is preserved verbatim in the "notation" field.
+
+```
+VERSE: गुरूण्यष्टौ च लघवः स्युश्चतुर्विंशतिर्गुरू द्वौ षोडश लघून्यन्ते गुरुर्यत्र ध्रुवाऽत्र
+NOTATION: सा
+```
+
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
+
+Source line ~1095, prakarana 1: numbered 327 where 328 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 षड्जतः स्थायिपर्यन्ताद्यथा हन्यात्तु धैवतम् आरुह्य पनिसान्पञ्चावरोह क्रमतः स्वरान्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — verse split from its svara illustration
 
-Source line ~1126, prakarana 1: trailing numeral 337 where 338 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~1101, prakarana 1 verse 329: the line carried a sloka followed by its svara illustration. The verse is in devanagari/slp1/iast; the illustration is preserved verbatim in the "notation" field.
+
+```
+VERSE: द्व्यर्धमर्धस्थितं तद्वदारुह्य द्विगुणं स्वरम् आद्यं स्वस्थानमातिष्ठेत्स्वस्थानं त्रितये
+NOTATION: परे
+```
+
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
+
+Source line ~1126, prakarana 1: numbered 337 where 338 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 रागाभिव्यक्तिशक्ताः ये स्युस्तुर्यादयः स्वराः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~1381, prakarana 1: trailing numeral 315 where 415 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~1381, prakarana 1: numbered 315 where 415 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 आक्रम्य वामेतरया पिनाक्यामिव वादनम् धनुषा वामहस्तस्थतुम्बकेन च सारणा
@@ -34242,25 +34327,25 @@ Prakarana 1: expected 415, found 416. Verse kept and numbered as in the source; 
 आर्द्रचर्मकृतां शुष्कां पेशीं कोणान्वितां खराम् वामेनाऽऽदाय तत्कोणेनाथवा सारणा भवेत्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~1437, prakarana 1: trailing numeral 428 where 433 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~1437, prakarana 1: numbered 428 where 433 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अर्धाङ्गुलान्तराणि स्यू रन्ध्राण्यन्यानि सप्त च तान्यष्टौ बदरीबीजसंकाशानि प्रचक्षते
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~1439, prakarana 1: trailing numeral 429 where 433 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~1439, prakarana 1: numbered 429 where 433 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 वंशोऽधः सर्वरन्ध्रेभ्यः परिशेष्योऽङ्गुलद्वयम्स्वरविभागाय सप्त रन्ध्राणि मन्वते
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~1442, prakarana 1: trailing numeral 430 where 433 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~1442, prakarana 1: numbered 430 where 433 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 नादहेतोर्मारुतस्य निर्गमायाष्टमं मतम् फूत्कारप्रभवो वायुः पूर्यते मुखरन्ध्रतः
@@ -34274,17 +34359,17 @@ Source line ~1444, prakarana 1: trailing numeral 431 where 433 was expected, and
 वंशस्थैर्नवभी रन्ध्रैरेकवीरो निगद्यते
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~1448, prakarana 1: trailing numeral 432 where 433 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~1448, prakarana 1: numbered 432 where 433 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 वंशस्य मुखरन्ध्रस्य ताररन्ध्रस्य चान्तरे एकैकाङ्गुलवृद्ध्या स्युरन्ये वंशाश्चतुर्दश अष्टादशाङ्गुलाद्वंशादेतदङ्गुलवर्धनम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~1557, prakarana 1: trailing numeral 368 where 468 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~1557, prakarana 1: numbered 368 where 468 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 चतुर्दशाङ्गुलं दण्डमेकवीरे प्रचक्षते सार्धाङ्गुलौ शिरःप्रान्तौ पृथग्जातिमुखेऽङ्गुलम्
@@ -34306,6 +34391,15 @@ Prakarana 1: expected 615, found 616. Verse kept and numbered as in the source; 
 न तद्रन्ध्रैः स्वजातीयैर्मिलन्ति स्वरभङ्गतः चतुर्दशादिवंशानामावंशादेकवीरतः
 ```
 
+### वाद्याध्यायः — verse split from its svara illustration
+
+Source line ~2128, prakarana 1 verse 658: the line carried a sloka followed by its svara illustration. The verse is in devanagari/slp1/iast; the illustration is preserved verbatim in the "notation" field.
+
+```
+VERSE: कपिलस्तुम्बकी काकी संदष्टश्चाव्यवस्थितः पञ्चेति फूत्कृतेर्दोषानपरानूचिरे
+NOTATION: परे
+```
+
 ### वाद्याध्यायः — numbering gap
 
 Prakarana 1: expected 662, found 663. Verse kept and numbered as in the source; not renumbered.
@@ -34322,9 +34416,9 @@ Prakarana 1: expected 679, found 680. Verse kept and numbered as in the source; 
 निं विलम्ब्यावरोही चेत्पूर्वः स्वस्थानगः कृतः तदा द्वितीयं स्वस्थानं धान्तमान्दोल्य सप्तमम् आहत्य च द्वितीयस्य स्वस्थानस्यावरोहणम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2450, prakarana 1: trailing numeral 656 where 756 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2450, prakarana 1: numbered 656 where 756 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 नाट्यरामकृतेराद्यं स्वस्थानमिति तद्विदः अथवा मध्यमं कृत्वा ग्रहमाहत्य पञ्चमम्
@@ -34346,9 +34440,9 @@ Prakarana 2 opens at verse 781. The source may be missing earlier verses.
 पावो वेणुसमुत्पन्नः स्यान्नवाङ्गुलवंशवत् कृतावेष्टो वङ्गपत्रैर्लोकरीत्यैष वाद्यते
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2583, prakarana 2: trailing numeral 975 where 795 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2583, prakarana 2: numbered 975 where 795 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति तुण्डकिनीलक्षणम् तुण्डकिन्येव चुक्का स्याद्दैर्घ्ये हस्तचतुष्टया
@@ -34362,9 +34456,9 @@ Prakarana 2: expected 795, found 796. Verse kept and numbered as in the source; 
 इति चुक्कालक्षणम् करेणुवदनाकारवदनं दोषवर्जितम् वृङ्गं यन्माहिषं श्लक्ष्णं स्निग्धं सुघटितं कृतम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2770, prakarana 2: trailing numeral 4 where 853 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2770, prakarana 2: numbered 4 where 853 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 ददगिद गिगिरिकिटदगि थॐ थॐ गिदथॐगिद इत्यर्धसमः
@@ -34378,33 +34472,33 @@ Source line ~2774: verse numbering resets to 1 with no section header present. T
 कथें कथें इत्युत्फुल्लः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2777, prakarana 3: trailing numeral 854 where 2 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2777, prakarana 3: numbered 854 where 2 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 यदा प्रसारिताङ्गुष्ठः शुकतुण्डस्य हन्यते विरलाङ्गुलिभिर्वाद्यं क्रमेण खलकस्तदा
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2783, prakarana 3: trailing numeral 855 where 3 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2783, prakarana 3: numbered 855 where 3 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 यस्तु दक्षिणहस्तस्य तर्जन्यङ्गुष्ठघाततः क्रमव्युत्क्रमघातात्तु वामहस्तेन रेफवत् जायते शार्ङ्गिणोक्तोऽसौ पाण्यन्तरनिकुट्टकः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2789, prakarana 3: trailing numeral 856 where 4 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2789, prakarana 3: numbered 856 where 4 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 ऊर्ध्वघातं पताकेन कृत्वैकमथ रेफतः कृतौ यत्रोर्ध्वघातौ द्वौ दण्डहस्तो भवेदसौ
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2796, prakarana 3: trailing numeral 857 where 6 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2796, prakarana 3: numbered 857 where 6 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 रेफात्मभ्यां कराभ्यां चेदूर्ध्वघातद्वयं पृथक्
@@ -34418,9 +34512,9 @@ Source line ~2801, prakarana 3: trailing numeral 858 where 7 was expected, and i
 ऊर्ध्वहस्तो दक्षिणेन तलेनोद्गाढघातकः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2806, prakarana 3: trailing numeral 859 where 8 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2806, prakarana 3: numbered 859 where 8 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 ऊर्ध्वघातद्वयं कृत्वा तलहस्तेन हन्यते यदा वाद्यपुटद्वंद्वं स्थूलहस्तस्तदोदितः
@@ -34458,17 +34552,17 @@ Source line ~2827, prakarana 3: trailing numeral 862 where 14 was expected, and 
 क्रमेण ताडनाद्द्वाभ्यां भवेद्विषमकर्तरी
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2832, prakarana 3: trailing numeral 863 where 15 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2832, prakarana 3: numbered 863 where 15 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अङ्गुष्ठाङ्गुलिसंघातौ हस्तयोर्युतपद्यदा पीडयेतां पुटद्वंद्वं समपाणिस्तदा भवेत्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2837, prakarana 3: trailing numeral 864 where 16 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2837, prakarana 3: numbered 864 where 16 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 व्यत्ययाद्व्यापृतौ हस्तौ साङ्गुष्ठाङ्गुलिभिः क्रमात् यस्मिन्विषमपाणिं तं ब्रूते शंकरवल्लभः
@@ -34482,9 +34576,9 @@ Source line ~2841, prakarana 3: trailing numeral 835 where 17 was expected, and 
 समपाणेस्तु विरलाङ्गुलित्वे पाणिहस्तकः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2846, prakarana 3: trailing numeral 866 where 18 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2846, prakarana 3: numbered 866 where 18 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 नागबन्धो विपर्यासात्पुटयोः करघाततः प्रत्येकं वा पुटद्वंद्वे कराभ्यां ताडनादयम्
@@ -34498,9 +34592,9 @@ Source line ~2848, prakarana 3. Trailing numeral 18 is a row index in a matra/sv
 इति नागबन्धः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2851, prakarana 3: trailing numeral 867 where 18 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2851, prakarana 3: numbered 867 where 18 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 तलेन हत्वा प्रहरेत्साङ्गुष्ठाङ्गुलिभिः क्रमात् पुटमेकैकपाणिश्चेद्भवेदवघटस्तदा
@@ -34514,57 +34608,57 @@ Prakarana 3: expected 18, found 19. Verse kept and numbered as in the source; no
 ततगिड गिड दगिटन गिनगिननगि इत्यवघटः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2855, prakarana 3: trailing numeral 868 where 20 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2855, prakarana 3: numbered 868 where 20 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 पुटमेकं निहन्यातां स्वस्तिके स्वस्तिकौ करौ
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2860, prakarana 3: trailing numeral 869 where 21 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2860, prakarana 3: numbered 869 where 21 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 समं करतलाभ्यां तु पुटघातात्समग्रहः तले केचिदिह प्राहुरङ्गुष्ठाङ्गुलिवर्जिते
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2866, prakarana 3: trailing numeral 870 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2866, prakarana 3: numbered 870 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इत्येकविंशतिर्हस्तपाटाः लोलो व्यवहिताङ्गुष्ठो दक्षिणो यस्य साधकः वामश्चेच्छ्वसितो हस्तमुल्लोलं तं प्रचक्षते
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2871, prakarana 3: trailing numeral 871 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2871, prakarana 3: numbered 871 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अङ्गुष्ठमध्यमन्येऽत्र ब्रुवते दक्षिणं करम् पुटमध्ये दक्षिणेन साङ्गुष्ठेन हतिं परे
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2874, prakarana 3: trailing numeral 872 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2874, prakarana 3: numbered 872 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 व्यङ्गुष्ठो दक्षिणो हस्तः पुटे चेन्मुहुरुल्लसेत् स्वपुटं पीडयेद्वामस्तदा पाण्यन्तरो भवेत्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2877, prakarana 3: trailing numeral 873 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2877, prakarana 3: numbered 873 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 विश्लिष्टाङ्गुलिसंचारमङ्गुष्ठार्धार्धताडनम् पाण्यन्तरस्य जनकं केचिदाचक्षते बुधाः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2880, prakarana 3: trailing numeral 874 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2880, prakarana 3: numbered 874 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अन्ये पाण्यन्तरं प्राहुर्व्यङ्गुष्ठाद्युक्तलक्षणम् हस्तान्तरं ततो न्निं विश्लिष्टादिकलक्षणम्
@@ -34578,9 +34672,9 @@ Source line ~2884, prakarana 3: trailing numeral 875 where 22 was expected, and 
 कोणघोआतेन निर्घोषं निःशङ्कः समभाषत
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2889, prakarana 3: trailing numeral 876 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2889, prakarana 3: numbered 876 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 घाताद्दक्षिणहस्तेन विरलाङ्गुलिना ततः अङ्गुष्ठघातैर्वामेन पीडनात्खण्डकर्तरी
@@ -34594,25 +34688,25 @@ Source line ~2891, prakarana 3. Trailing numeral 2 is a row index in a matra/sva
 दां खुखुदां
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2896, prakarana 3: trailing numeral 877 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2896, prakarana 3: numbered 877 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अङ्गुल्यग्रैः पीडयित्वाऽङ्गुष्ठेन परिघट्टनात् वामेन पीडनाद्वाद्य दण्डहस्तोऽभिजायते
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2901, prakarana 3: trailing numeral 878 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2901, prakarana 3: numbered 878 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 समत्वं पाटवर्णानामङ्गुलीनखराहते दृश्यते यत्र तं प्राहुः पाटं समनखाभिधम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2906, prakarana 3: trailing numeral 879 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2906, prakarana 3: numbered 879 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अवष्टभ्य पुटं वामपाणिना तर्जनीहते बिन्दुरुत्पद्यते प्रोक्तमिति सोढलसूनुना
@@ -34634,17 +34728,17 @@ Source line ~2910, prakarana 3. Trailing numeral 7 is a row index in a matra/sva
 इति बिन्दुः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2913, prakarana 3: trailing numeral 880 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2913, prakarana 3: numbered 880 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 समवष्टभ्य वामेन पुटं दक्षिणपाणिना संपीडनं वादयेच्चेत्तदा यमलहस्तकः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2918, prakarana 3: trailing numeral 881 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2918, prakarana 3: numbered 881 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 उत्तुङ्गीकरणं वाद्ये स्कन्धस्य स्फुरणं तथा अङ्गुष्ठतर्जनीघातः पाटं कुर्वन्ति रेचितम्
@@ -34690,9 +34784,9 @@ Source line ~2930, prakarana 3. Trailing numeral 10 is a row index in a matra/sv
 णह करें झें इति भ्रमरः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2933, prakarana 3: trailing numeral 883 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2933, prakarana 3: numbered 883 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अङ्गुष्ठतर्जनीघाताद्वलितार्धार्धहस्तकः विद्युद्विलासो भणितो विद्युद्विलसितोऽथवा
@@ -34714,9 +34808,9 @@ Source line ~2937, prakarana 3: trailing numeral 3 where 22 was expected, and it
 तिर झॐझॐ द्रि
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2942, prakarana 3: trailing numeral 884 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2942, prakarana 3: numbered 884 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 तर्जनीमध्यमानामा विरलाः प्रहरन्ति चेत् श्रीश्रीकरणनाथेन तदा प्रोक्ताऽर्धकर्तरी
@@ -34746,9 +34840,9 @@ Source line ~2948, prakarana 3: trailing numeral 12 where 22 was expected, and i
 झेंहें धिगिगि थॐटें इत्यर्धकर्तरी
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2951, prakarana 3: trailing numeral 2 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2951, prakarana 3: numbered 2 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 हस्तौ न कुण्डलीलग्नौ यत्रालग्नं तमूचिरे खुंखुं
@@ -34834,9 +34928,9 @@ Source line ~2976, prakarana 3. Trailing numeral 16 is a row index in a matra/sv
 इति परिवृत्तः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2980, prakarana 3: trailing numeral 887 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2980, prakarana 3: numbered 887 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति षोडश प्रायिकहौडुक्कहस्तपाटाः । तलप्रहारहेतुः स्याद्वामस्कन्धप्रचालनम् मध्येवामपुटं वामपाणिना च निपीडनम्
@@ -34850,9 +34944,9 @@ Source line ~2982, prakarana 3: trailing numeral 2 where 22 was expected, and it
 दें थॐ द्रें धिकिट किट झेंधितिरि
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2987, prakarana 3: trailing numeral 2 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2987, prakarana 3: numbered 2 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 तलाङ्गुष्ठप्रहारेण प्रहरोऽभिहितो बुधैः झेदां थॐ गिदिगिद
@@ -34866,9 +34960,9 @@ Source line ~2989, prakarana 3. Trailing numeral 2 is a row index in a matra/sva
 किट धॐ धॐ इति प्रहरः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2992, prakarana 3: trailing numeral 888 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2992, prakarana 3: numbered 888 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 ऊर्ध्वाग्रे पटहादौ तु तर्जन्यङ्गुष्ठधारिते वादनेन समुद्भूतमपाटं वलितं विदुः
@@ -34890,9 +34984,9 @@ Source line ~2996, prakarana 3. Trailing numeral 3 is a row index in a matra/sva
 दां थॐगि थॐगि इति वलितः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2999, prakarana 3: trailing numeral 889 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2999, prakarana 3: numbered 889 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अङ्गुष्ठानामिकाभ्यस्तवलनाद्दक्षिणे पुटे उच्छ्वासाद्वामपाणेश्च जायते गुरुगुञ्जितः
@@ -34914,9 +35008,9 @@ Source line ~3003, prakarana 3. Trailing numeral 2 is a row index in a matra/sva
 थॐरगिडिदा
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3008, prakarana 3: trailing numeral 890 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3008, prakarana 3: numbered 890 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 कम्पनं वामपादस्य नितम्बचलनं तथा उच्छ्वासनं करतलस्यार्धसञ्चप्रपञ्चकम्
@@ -34946,17 +35040,17 @@ Source line ~3014, prakarana 3. Trailing numeral 5 is a row index in a matra/sva
 इत्यर्धसञ्चः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3016, prakarana 3: trailing numeral 891 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3016, prakarana 3: numbered 891 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 त्रिकस्य चलनाद्वामागुष्ठस्य परिघट्टनात्स्कन्धसञ्चाच्च संजातं त्रिसञ्चं परिचक्षते
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3021, prakarana 3: trailing numeral 2 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3021, prakarana 3: numbered 2 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 हस्तवैषम्यसंजातो विषमः संमतः सताम् ॥ खेंदंधरि
@@ -35010,9 +35104,9 @@ Source line ~3033, prakarana 3. Trailing numeral 8 is a row index in a matra/sva
 तकिधिकित्त इत्यभ्यस्तः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3037, prakarana 3: trailing numeral 2 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3037, prakarana 3: numbered 2 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इत्यष्टावपाटाख्या हस्तपाटाः । अर्धाङ्गुल्यग्रघातोत्थं सञ्चमाचक्षते यथा थुकर
@@ -35034,9 +35128,9 @@ Source line ~3041, prakarana 3. Trailing numeral 1 is a row index in a matra/sva
 इति सञ्चः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3044, prakarana 3: trailing numeral 893 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3044, prakarana 3: numbered 893 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 करसञ्चेन शुद्धेनाङ्गुष्ठधातेन च क्रमात् उत्पन्नोऽलगपाटः स्यान्नाम्ना विच्छुरितो यथा
@@ -35058,9 +35152,9 @@ Source line ~3052, prakarana 3. Trailing numeral 4 is a row index in a matra/sva
 दं थं द्रें झेंद्र
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3054, prakarana 3: trailing numeral 1 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3054, prakarana 3: numbered 1 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इत्यलगपाटद्वयम् तलप्रहारो वलितभेदितो भ्रमरो यथा खुंखुंधरि दथॐगिं इति भ्रमरः
@@ -35130,449 +35224,449 @@ Source line ~3070, prakarana 3. Trailing numeral 2 is a row index in a matra/sva
 इति कुञ्चितः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3074, prakarana 3: trailing numeral 895 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3074, prakarana 3: numbered 895 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति चित्रपाटद्वयम् पटहस्य हुडुक्कायाः पञ्च सञ्चान्ब्रुवेऽधुना स्कन्दकूर्परयोस्तदुदङ्गुष्ठमणिबन्धयोः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3077, prakarana 3: trailing numeral 896 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3077, prakarana 3: numbered 896 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 वामस्य चरणस्यापि कम्पः सञ्चोऽभिधीयते श्रेष्ठः पाटहिकः सञ्चादङ्गुष्ठमणिबन्धयोः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3080, prakarana 3: trailing numeral 897 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3080, prakarana 3: numbered 897 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 स्कन्धकूर्परसञ्चात्तु नीचः पटहवादकः वरो हौडुक्किकोऽङ्गुष्ठकूर्परस्कन्धसञ्चतः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3083, prakarana 3: trailing numeral 898 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3083, prakarana 3: numbered 898 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 सञ्चाभ्यां मणिबन्धोत्थकौर्पराभ्यां तु मध्यमः असौ वामाङ्घ्रिसञ्चेन वादनादधमो भवेत्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3086, prakarana 3: trailing numeral 899 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3086, prakarana 3: numbered 899 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति पञ्चसञ्चलक्षणम् पाटविन्यासभेदाः स्युर्वाद्यानि पटहादिषु
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3089, prakarana 3: trailing numeral 900 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3089, prakarana 3: numbered 900 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 वोल्लावणी च चल्लावण्युडुबश्च कुचुम्बिणी चारुश्रवणिकाऽलग्नपरिश्रवणिका ततः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3092, prakarana 3: trailing numeral 901 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3092, prakarana 3: numbered 901 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 समप्रहारः कुडुपवारणा करवारणा दण्डहस्तो घनरवस्तानीति द्वादशावदन्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3095, prakarana 3: trailing numeral 902 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3095, prakarana 3: numbered 902 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 वल्लिश्च वल्लिपाटः स्याद्घत्ताभेदौ झडप्पणी अनुश्रवणिका हस्तो जोडणी त्रिगुणा ततः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3098, prakarana 3: trailing numeral 903 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3098, prakarana 3: numbered 903 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 पञ्चहस्तः पञ्चपाणिर्वाद्यं स्यात्पञ्चकर्तरी ततश्चन्द्रकला प्राहुर्वाद्यानीति त्रयोदश
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3101, prakarana 3: trailing numeral 904 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3101, prakarana 3: numbered 904 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 प्रायेणैतानि दृश्यन्ते हुडुक्कावाद्यगोचरे वाद्यानामुभयेषां स्यात्पञ्चविंशतिरित्यसौ
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3105, prakarana 3: trailing numeral 905 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3105, prakarana 3: numbered 905 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 आदिमध्यावसानेषु देंकारबहुलं भवेत् आद्यखण्डं द्वितीयं च तादृशं वाद्यते पृथक् यत्र वोल्लावणी सोक्ता पटहे वाद्यवेदिभिः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3107, prakarana 3: trailing numeral 906 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3107, prakarana 3: numbered 906 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अस्याः खण्डद्वयं वाद्यान्तरे स्याद्योजनान्वितम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3110, prakarana 3: trailing numeral 907 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3110, prakarana 3: numbered 907 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 झेंकृतिर्देंकृतिस्थाने हुडुक्कायां भवेदिह डक्कायां मर्दले चैव थॐ त्रिवल्ल्यां तु दॐ भवेत्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3113, prakarana 3: trailing numeral 908 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3113, prakarana 3: numbered 908 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 करटायां तु टेमेव प्रधानाक्षरयोजना वाद्यान्तरेष्वपि प्राज्ञैः प्रोह्यतामनया दिशा
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3119, prakarana 3: trailing numeral 909 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3119, prakarana 3: numbered 909 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति वोल्लावणी मण्डले चाल्यते यत्र प्रोचुश्चल्लावणीममूम् इति चल्लावणी वामेन तलहस्तेन दक्षिणेन तु पाणिना लुलितेन सकोणेन वादनादुडुवो भवेत्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3123, prakarana 3: trailing numeral 910 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3123, prakarana 3: numbered 910 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इत्युडुवः उद्दलीपिहिते वक्त्रे हस्तस्वस्तिकताडनात् खुकारबहुलं वाद्यं कीर्तयन्ति कुचुम्बिणीम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3128, prakarana 3: trailing numeral 911 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3128, prakarana 3: numbered 911 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति कुचुम्बिणी वोल्लावण्येव पाणिभ्यां क्रमाद्वा युगपत्कृतैः भूरिभिः संभृता पाटैश्चारुश्रवणिका भवेत् शुद्धैश्चित्रैः क्रमात्पाटैः शुद्धा चित्रेति सा द्विधा
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3131, prakarana 3: trailing numeral 912 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3131, prakarana 3: numbered 912 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति चारुश्रवणिका अलग्नः कुण्डलीस्पर्शं विना कोणप्रहारतः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3135, prakarana 3: trailing numeral 913 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3135, prakarana 3: numbered 913 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इत्यलग्नः कर्तरी समपाणिश्चावघटो यत्र तु क्रमात् सोक्ता परिश्रवणिका श्रीयज्ञपुरसूरिणा
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3141, prakarana 3: trailing numeral 914 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3141, prakarana 3: numbered 914 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति परिश्रवणिका समप्रहारो युगपत्करद्वंद्वेन घाततः इति सयप्रहारः कुडुपोद्भवपाटाख्यं वाद्यं कुडुपवारणा उच्यते वादनो दण्डः कोणः कुडुप इत्यपि
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3144, prakarana 3: trailing numeral 915 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3144, prakarana 3: numbered 915 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति कुडुपवारणा जाता हस्तजपाटैस्तु केवलैः करवारणा
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3148, prakarana 3: trailing numeral 916 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3148, prakarana 3: numbered 916 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति करवारणा अकैको यः करद्वंद्वान्मृदुदक्षिणपाणिकात् जायते तादृशैः पाटैर्दण्डहस्तोऽभिधीयते
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3152, prakarana 3: trailing numeral 917 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3152, prakarana 3: numbered 917 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति दण्डहस्तः यः करेण कराभ्यां वा कृतैः पाटैर्निरन्तरैः निरन्तरघनध्वानः स स्याद्घनरवाभिधः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3156, prakarana 3: trailing numeral 918 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3156, prakarana 3: numbered 918 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति घनरवः स्कन्धेन मणिबन्धेन कुडुपेन च चालनात् सोल्लासाज्जायते वल्लिस्त्रिविधा पटहादिषु
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3160, prakarana 3: trailing numeral 919 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3160, prakarana 3: numbered 919 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति वल्लिः अर्धं वाऽर्धद्वयं वल्ल्यां स्वैः स्वैः पाटैरयोजनम् कृतसंयोजनं वा चेद्वल्लिपाटस्तदा भवेत्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3164, prakarana 3: trailing numeral 920 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3164, prakarana 3: numbered 920 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति वल्लिपाटः निबद्धं वादयेदर्धं झेंकाराद्यं पुरातनम् अनिबद्धं स्वबुद्ध्याऽर्धं कराभ्यां वादयेदथ
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3168, prakarana 3: trailing numeral 921 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3168, prakarana 3: numbered 921 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 वाद्येनाऽऽद्यं निबद्धं चेत्पुनर्धत्ता तदोच्यते इति धत्ता योनेनैकेन निष्पन्नस्तदुपाङ्गभवोऽपरः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3171, prakarana 3: trailing numeral 922 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3171, prakarana 3: numbered 922 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 पाटोऽन्योन्याङ्गयोगस्तैः संमिश्रैः पादपूरणैः नानावाद्योद्भवैः पाटैर्भेदस्त्रेधा लयत्रयात्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3175, prakarana 3: trailing numeral 923 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3175, prakarana 3: numbered 923 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति भेदः यस्यामुपक्रमे मध्येऽन्येऽथ वाद्यैरनेकधा सर्ववाद्यानि वाद्यन्ते जगदुस्तां झडप्पणीम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3179, prakarana 3: trailing numeral 924 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3179, prakarana 3: numbered 924 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति झडप्पणी पाटः पाटाक्षरं यद्वा श्रूयते चेत्पुनः पुनः अनुश्रवणिकां प्राहं शंकरानुचरस्तदा
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3183, prakarana 3: trailing numeral 925 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3183, prakarana 3: numbered 925 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इत्यनुश्रवणिका द्वे चत्वारि भवन्त्यष्टौ यद्वा खण्डानि षोडश देंकारादीनि यत्रासौ हस्तः स तु चतुर्विधः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3188, prakarana 3: trailing numeral 926 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3188, prakarana 3: numbered 926 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 चतुरस्रत्र्यस्रमिश्रखण्डतालप्रयोगतः इति हस्तः तदर्धार्धादिभेदेन क्रमेण व्युत्क्रमेण वा अखण्डतालाः पाटाश्चेद्युज्यन्ते जोडणी तदा
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3192, prakarana 3: trailing numeral 927 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3192, prakarana 3: numbered 927 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति जोडणी खण्डानि त्रीणि यत्र स्युरेकैकं त्रिगुणं तथा वाद्यते यत्र सा प्रोक्ता त्रिगुणा त्रिविधा च सा
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3195, prakarana 3: trailing numeral 928 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3195, prakarana 3: numbered 928 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 आदिमध्यान्तखण्डाणां त्रैगुण्यात्सा पुनर्द्विआ! क्रमव्युत्क्रमतोऽथास्यास्तत्त्रैगुण्यमुदाहरेत्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3198, prakarana 3: trailing numeral 929 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3198, prakarana 3: numbered 929 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 प्रयुज्य त्रीणि खण्डानि प्रयुञ्जीताऽऽदिमद्वयम् ततश्चाऽऽद्यमिति प्रोक्तं खण्डे त्रैगुण्यमादिमे
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3201, prakarana 3: trailing numeral 930 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3201, prakarana 3: numbered 930 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इत्यादित्रिगुणा मध्ये त्रिगुणा तु द्विधा भवेत् त्रैगुण्यान्मध्यखण्डस्य द्विःप्रकारात्तदुच्यते
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3204, prakarana 3: trailing numeral 931 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3204, prakarana 3: numbered 931 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 खण्डत्रयं ततः खण्डद्वयमाद्यं प्रयुज्यते ततो मध्यममित्येवं यद्वा खण्डद्वयात्परम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3207, prakarana 3: trailing numeral 932 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3207, prakarana 3: numbered 932 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अन्त्यद्वयं वादयित्वा प्रयोज्यं मध्यमं दलम् अथान्तत्रिगुणायां प्राक्खण्डत्रितयवादनम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3210, prakarana 3: trailing numeral 933 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3210, prakarana 3: numbered 933 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 ततोऽन्तिमद्वयं खण्डमन्तिमं वादयेत्तथा एवमष्टविधामाह त्रिगुणां भववल्लभः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3213, prakarana 3: trailing numeral 934 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3213, prakarana 3: numbered 934 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अथवा चतुरस्रादौ क्वापि ताले दलत्रयम् प्रयुज्यैकस्य खण्डस्य मानेनाथ दलद्वयम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3216, prakarana 3: trailing numeral 935 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3216, prakarana 3: numbered 935 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 कुर्याद्दलत्रयं तावद्यत्र सा त्रिगुणा भवेत् चतुरस्रत्र्यस्रमिश्रयुक्तैर्वैषा क्रमाद्दलैः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3219, prakarana 3: trailing numeral 936 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3219, prakarana 3: numbered 936 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अन्ये त्वेककले ताले द्विकलेऽथ चतुष्कले क्रमाद्विरचितैः खण्डैस्त्रिगुणामभणन्बुधाः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3222, prakarana 3: trailing numeral 937 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3222, prakarana 3: numbered 937 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 एकं चच्चत्पुटे खण्डद्वयं चाचपुटे ततः मिश्रे खण्डत्रयं यत्र त्रिगुणां तां जगुः परे
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3225, prakarana 3: trailing numeral 938 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3225, prakarana 3: numbered 938 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 पदैश्चतुर्भिरस्यां स्यात्खण्डमेकं पदं पुनः मितं कलाभिरष्टाभिरित्युक्तं सूरिशार्ङ्गिणा
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3230, prakarana 3: trailing numeral 939 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3230, prakarana 3: numbered 939 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति त्रिगुणा पञ्चहस्तो हस्तपाटैर्हस्तशब्दान्विताभिधैः इति पञ्चहस्तः पञ्चपाणिस्तु पाटैः स्यात्पाणिशब्दयुताभिधैः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3233, prakarana 3: trailing numeral 940 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3233, prakarana 3: numbered 940 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति पञ्चपाणिः कर्तरीपदवत्संज्ञैः पाटैः स्यात्पञ्चकर्तरी
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3237, prakarana 3: trailing numeral 941 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3237, prakarana 3: numbered 941 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति पञ्चकर्तरी वर्धन्ते च ह्रसन्ते चेन्मात्राश्चन्द्रकला इव तालश्चन्द्रकलाख्यश्च तदा चन्द्रकला भवेत्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3241, prakarana 3: trailing numeral 942 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3241, prakarana 3: numbered 942 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 द्वात्रिंशन्मात्रिकामन्ये प्राहुश्चन्द्रकलामिमाम् द्विमात्राः षोडशकला वृद्धिह्रासयुजो विदुः तादृक्चतुःषष्टिकलां तामाहुर्दक्षिणे पथि
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3245, prakarana 3: trailing numeral 943 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3245, prakarana 3: numbered 943 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति चन्द्रकला उद्ग्राहादिनिबद्धाः स्युरत्र गीतप्रबन्धवत् वाद्यप्रबन्धास्तद्भेदलक्ष्माण्यभिदधेऽधुना
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3248, prakarana 3: trailing numeral 944 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3248, prakarana 3: numbered 944 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 यतिरोता च गजरो रिगोणी कवितं पदम् मेलापकश्चोपशमोद्ग्राहप्रकरणान्यथ
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3251, prakarana 3: trailing numeral 945 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3251, prakarana 3: numbered 945 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अवत्सकश्छण्डणश्च तुडुका मलपं ततः मलपाङ्गं च मलपपाटश्छेदोऽथ रूपकम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3254, prakarana 3: trailing numeral 946 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3254, prakarana 3: numbered 946 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अन्तरोऽन्तरपाटश्च खोजः खण्डयतिस्ततः खण्डच्छेदोऽप्यवयतिः खण्डपाटश्च खण्डकः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3257, prakarana 3: trailing numeral 947 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3257, prakarana 3: numbered 947 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 खण्डहुल्लः समः पाटो ध्रुवकोऽङ्गाङ्गरूपके तालो वितालः खलकः समुदायश्च जोडणी
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3260, prakarana 3: trailing numeral 948 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3260, prakarana 3: numbered 948 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 उदवस्तलपाटश्चोट्टवणी तुण्डकस्ततः अङ्गपाटश्च पैसारस्त्रिचत्वारिंशदित्यमी
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3263, prakarana 3: trailing numeral 949 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3263, prakarana 3: numbered 949 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 उक्ताः श्रीकरणाग्रण्या प्रबन्धा वाद्यसंश्रयाः शीतोदकास्तथा स्नानगर्वोऽन्यो गर्वनिर्णयः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3266, prakarana 3: trailing numeral 950 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3266, prakarana 3: numbered 950 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 उत्प्रेक्षामात्रजा लक्ष्महीनास्तेऽस्मदुपेक्षिताः प्रायो वाद्यप्रबन्धानां देंकारोऽन्ते निधीयते
@@ -35586,73 +35680,73 @@ Source line ~3269, prakarana 3: trailing numeral 951 where 22 was expected, and 
 काभ्यांचित्कूटवर्णाभ्यां रचितोऽत्यन्तकोमलः एकरूपाक्षरस्तालच्छन्दोभिव्यञ्जनोज्ज्वलः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3272, prakarana 3: trailing numeral 952 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3272, prakarana 3: numbered 952 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 यो वाद्यते वाद्यखण्डो विरामैर्बहुभिर्मुहुः यतिर्जक्का च सा तज्ज्ञैर्वाद्या मण्ठादिसालगे
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3275, prakarana 3: trailing numeral 953 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3275, prakarana 3: numbered 953 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 आदौ वाद्यप्रबन्धस्य कस्याप्यङ्गतया यदा तद्विदो वादयन्त्येतां वदन्त्युटवणं तदा
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3278, prakarana 3: trailing numeral 954 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3278, prakarana 3: numbered 954 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 गड्दगथॐ गक्कयॐटें गड्दगथॐ गक्कथॐटें गड्दगथॐ गक्कथॐटें । पाटानां रचनां केचिदत्र नेच्छन्ति सूरयः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3282, prakarana 3: trailing numeral 955 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3282, prakarana 3: numbered 955 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति यतिः द्विरुद्ग्राहस्ततः खण्डः यस्यां द्विर्भूरिदेंकृति तत्किंचिदधिकं वारे द्वितीयेऽथ तृतीयकम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3285, prakarana 3: trailing numeral 956 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3285, prakarana 3: numbered 956 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 कियद्दीर्धं शुद्धकूटखण्डैः पाटैर्विमिश्रितैः व्यस्तैः समस्तै रचितं ततो देंकृतिमत्पुनः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3289, prakarana 3: trailing numeral 957 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3289, prakarana 3: numbered 957 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 सकृत्तच्च प्रयोक्तव्यमथ वर्णसरात्मकम् दीर्घं खण्डं ततोऽल्पं च प्राच्यं शुद्धादिनिर्मितम् ओता सोक्ता छण्डणान्ता कैश्चिद्देंकृतिमुक्तिका
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3292, prakarana 3: trailing numeral 958 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3292, prakarana 3: numbered 958 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 एषैककलयुग्मे स्यान्निःसारौ छण्डणो भवेत् उद्धतो ध्वनिरत्र स्यात्प्रायो मानं विलम्बितम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3295, prakarana 3: trailing numeral 959 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3295, prakarana 3: numbered 959 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 दीप्तं नृत्तं च तामाहुः केचित्केदार इत्यपि इमामावहनीं प्राहुरेकेऽन्ये त्वन्यथा जगुः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3298, prakarana 3: trailing numeral 960 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3298, prakarana 3: numbered 960 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 पाटैर्बहुलदेंकारैस्तालैश्च निखिलैः कृता बहुधा स्थापना यस्यामाहुराहवनीं बुधाः
@@ -35690,25 +35784,25 @@ Source line ~3307, prakarana 3: trailing numeral 2 where 22 was expected, and it
 तकट- थॐगक धिधिक थोरघट
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3316, prakarana 3: trailing numeral 2 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3316, prakarana 3: numbered 2 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इत्युद्ग्राहो द्विवारं कर्तव्यः । तड्दगदे गिनदेंगक् तु थं हं देंगक् देंगनथ गनतदिगि नत्तत्तेक्कटदेंदेंगिन- तक्कट खुखुघंघं देंगक् । इति देंकारखण्डं द्विः । द्वितीयवारे त्वधिकं कथ्यते यथा--गड्पक् देंगक् गडड्दक् देंगक् इति । तदेंगडदक्टें थॐकदथॐगक् तटे कटदकट् दरे हॐकथोरे- हेटैतक्कें धिकथॐटैं थॐ टैं थॐ टैं इति तृतीयखण्डे शुद्धादिपाटरचितम् । ततः पुनः प्राचीनदेंकारखण्डं सकृत् । ततः--गड्दक् दग्निन- धिकाधिक तकदेंगि कथन हकदक दडक् दरगड धिरिगिड धरगड्दक् । दरगरदग धिरगडदग
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3319, prakarana 3: trailing numeral 2 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3319, prakarana 3: numbered 2 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 तकधिंगथॐगटे धिकथॐ- गटै थिक थोडिं खुं खुततक् थोरगड
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3325, prakarana 3: trailing numeral 2 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3325, prakarana 3: numbered 2 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 तक् थोरगडतक् थोतक् थोतक् थोरगड थोरगड तक् धिकथॐगटें । इति वर्णसरात्मकं खण्डम् । ततः प्राचीनं शुद्धादिनिर्मितं स्वल्पम् । एतावत्पर्यन्तं चच्चत्पुटे । गड्दग् टेंद्रग् थोहटें हेते दहं थो
@@ -35722,33 +35816,33 @@ Source line ~3327, prakarana 3. Trailing numeral -1 is a row index in a matra/sv
 तद धिधि थॐ थॐ रघटे टैं
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3331, prakarana 3: trailing numeral 962 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3331, prakarana 3: numbered 962 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 थॐ तथॐ तकथॐ धिकथॐटें । इति निःसारौ छण्डणः । टेंकारस्थाने टेंकार इत्यन्ये । कृत्वैकवारमुद्ग्राहं नातिदीर्घो न चाल्पकः वादकोद्घोषगम्भीरध्वनिमुच्चतरं दधत्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3334, prakarana 3: trailing numeral 963 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3334, prakarana 3: numbered 963 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 त्रिः खण्डोभ्यस्यते कूटैर्बद्धो वर्णसरेण वा मुहुर्विधायोपशमं छण्डणो यत्र रज्यते
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3337, prakarana 3: trailing numeral 964 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3337, prakarana 3: numbered 964 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 गजरोऽसावुट्टवणं स्यादस्याऽऽदौ पुनः पुनः एकताल्यामुट्टवणं तस्यां निःसारुकेऽथवा
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3340, prakarana 3: trailing numeral 965 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3340, prakarana 3: numbered 965 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 भवेदुपशमोऽन्यत्र नास्य तालो नियम्यते गजरावयवाः सर्वे वाद्यन्ते ते निरन्तराः
@@ -35762,9 +35856,9 @@ Source line ~3342, prakarana 3: trailing numeral 2 where 22 was expected, and it
 यथा--तथोह तथोह धियॐ
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3346, prakarana 3: trailing numeral 3 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3346, prakarana 3: numbered 3 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 हटे । थॐहदग थोहट । इत्युट्टवणमेकताल्यां पुनः पुनः । थॐटें दंदगेन थॐगटें गें धिकतक । इत्युद्ग्राहः । प्रतिग्राहेण वोच्यते । अयं किलैकताल्यां कृतः । गड्दगत देंगगनग्दिहिक् । कथॐगतकधिक थॐगटेंहें थोदगक् । गिड्दक्थॐगक्कथॐ
@@ -35778,33 +35872,33 @@ Source line ~3348, prakarana 3. Trailing numeral 3 is a row index in a matra/sva
 देंथॐहटगथॐ
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3355, prakarana 3: trailing numeral 966 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3355, prakarana 3: numbered 966 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 दें इति त्रिरेकताल्यां खण्डः । केवलोऽप्ययं खण्डो गजर इत्युच्यते । गड्दक्थॐगक्थॐ- गक्कथोहरघट थरे । इत्येकताल्यां पुनः पुनरुपशमः । थोहटें । इति च्छण्डणः । एतत्सर्वं नैरन्तर्येण वाद्यते । इति गजरः । प्रत्येकं द्विः प्रयुक्तेनोपशमेनान्तयोगिना युक्तं खण्डत्रयं शुद्धैः कूटैः खण्डैश्च निर्मितम् पाटैर्व्यस्तैः समस्तैश्च बद्धं वर्णसरेण वा
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3358, prakarana 3: trailing numeral 967 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3358, prakarana 3: numbered 967 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 यस्यां स्याद्वादकस्थूलमिलत्कोलाहलाकुलम् छण्डनान्ता रिगोणी सा दधती ध्वनिमुत्तमम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3361, prakarana 3: trailing numeral 968 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3361, prakarana 3: numbered 968 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अस्यामुट्टवणं कार्यं वैकल्पिकमुपक्रमे दीप्तनृत्ते भवेदेषोपशमा ललिता मता
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3364, prakarana 3: trailing numeral 969 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3364, prakarana 3: numbered 969 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 ललितं यद्युट्टवणं तदा तल्ललिते भवेत् अन्त्यखण्डात्सोपशमच्छण्डणाद्दीप्तनर्तनम्
@@ -35826,41 +35920,41 @@ Source line ~3368, prakarana 3. Trailing numeral 3 is a row index in a matra/sva
 थॐगक्कथॐ
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3373, prakarana 3: trailing numeral 2 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3373, prakarana 3: numbered 2 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति प्रथमखण्डम् । टैथोटेंगें त्थॐधिथॐहधिहटें । इत्युपशमो द्विः । तर्क्कर्ग दड- रद कुथिकुर्गदडधिक्क दक्कर्ग दडग्दक्थॐगत्तकधिक कधिकत धिक- कधि टेंगेंनथॐग
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3380, prakarana 3: trailing numeral 970 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3380, prakarana 3: numbered 970 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 थॐगक्कथॐ इति द्वितीयखण्डम् । टैं थॐ हटगें थॐटें । इत्युपशमो द्विः । थॐगटं दरगड धिरगड धित्थाः थॐकट तकथॐ कटधिक्कक् । थॐधिक तद्धितक् । इति तृतीयखण्डम् । कत्थॐटक्क थॐहकटगे धिकटै थौ हटगें थॐ हटें इत्युपशमो द्विः । तथॐ गिड्दक् दिगनदिगन दिगनक थॐगतद्धितक् । थॐहटें । इति च्छण्डणः । इत्येकताल्यामुदाहरणम् । इति रिगोणी । नातिदीर्घं द्विराद्यं स्यात्खण्डं शुद्धादिनिर्मितम् यद्वा वर्णसरेणाथ तादृक्खण्डं सकृद्भवेत्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3383, prakarana 3: trailing numeral 971 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3383, prakarana 3: numbered 971 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इत्युद्ग्राहध्रुवौ कृत्वा स्वोद्ग्राहान्त्यदलेऽथवा स्वोद्ग्राहे यत्र मुक्तिस्तत्कवितं कवयो विदुः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3387, prakarana 3: trailing numeral 972 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3387, prakarana 3: numbered 972 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अस्य नामान्तरं प्राहुरन्येऽवच्छेद इत्यपि भवेदिह द्रुतं मानं वर्णाः प्रायः स्युरुद्धताः बाहुल्यान्नर्तनं दीप्तं निःशङ्केनेति कीर्तितम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3389, prakarana 3: trailing numeral 2 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3389, prakarana 3: numbered 2 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 यथा--गड्दक्दगिनदंदं गिनथॐग धिक्कट नकाधितक देंहकदर गडदरिक्थ रिक्थ रिदरगड थरिक थॐ गंडके । धिक्थॐटें
@@ -35874,65 +35968,65 @@ Source line ~3392, prakarana 3: trailing numeral 2 where 22 was expected, and it
 । इत्युद्ग्राहो द्विः । झेंकक नखखिन
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3399, prakarana 3: trailing numeral 973 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3399, prakarana 3: numbered 973 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 तहें हके नखखिनथॐ । इति ध्रुवाख्यं खण्डम् ततो देंहकडरगडेत्यादिनोद्ग्राहान्त्यखण्डेनोद्ग्राहेण वा सकलेन गड्गतित्यादिना त्यागः । निःसारुताले चेदमुदाहरणम् । इति कवितम् उद्ग्राहोऽल्पो ध्रुवो नातिदीर्घः शुद्धादिनिर्मितः स्याद्वर्णसरबद्धो वा छण्डणोऽन्ते यदा तदा पदं वदन्ति वाद्यज्ञाः प्रायस्तद्दीप्तनर्तने
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3405, prakarana 3: trailing numeral 974 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3405, prakarana 3: numbered 974 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 यथा--तद्देहें तद्दें ततक्तद्दै । इत्युद्ग्राहः । तकट धिकट धिधिकिट धिकिटर्गाड्दगधिकतक धिकथॐगटें । इति ध्रुवः । गत कटधिधि कटधिक्किडदगधिधिकट धिक्किरडाडगधिगक्कि- ग्डाहगथॐटैं हंधिक्कथॐगटें । इति च्छण्डणः । इदमुदाहरणं वर्णताले । वादयित्वा यतिं मध्ये प्रबन्धस्य विमुच्यते पाटेन यत्र तत्प्रोक्तमपरैः सूरिभिः पदम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3409, prakarana 3: trailing numeral 975 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3409, prakarana 3: numbered 975 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति पदम् एकताल्यां द्रुते माने नर्तनारम्भगोचरे समं च करटाटीपिकाहलावादने सति
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3412, prakarana 3: trailing numeral 976 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3412, prakarana 3: numbered 976 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अभ्यस्तो वाद्यखण्डोऽल्ल्पः कूटेनैकेन निर्मितः तद्धीमितिच्छण्डणान्तः स्मृतो मेलापको बुधैः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3415, prakarana 3: trailing numeral 977 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3415, prakarana 3: numbered 977 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 विद्यावन्तः स्वसमये प्राहुर्मेलापनीमिमाम् वर्णानां टिरिकीत्येषामावृत्तिष्टीपिरुच्यते
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3420, prakarana 3: trailing numeral 978 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3420, prakarana 3: numbered 978 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 यथा--थॐगटें गड्दग्नं थॐगटें । इति यावत्प्रबन्धपूर्ति पुनः पुनर्वादनीयम् । तद्धीमिति । इति च्छण्डणः । इति मेलापकः । खण्डं शुद्धादिभिः पाटैर्बद्धं वर्णसरेण वा अल्पं कोमलनादं च सुकुमाराक्षरान्वितम् अभ्यस्तं कोमले नृत्ते भवेदुपशमाभिधम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3424, prakarana 3: trailing numeral 979 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3424, prakarana 3: numbered 979 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 यथाक्--टेंथॐक्कगे थोटेटे थॐहटगे थाथें थॐटे । इत्युपशमः । आदौ वाद्यप्रबन्धानां शुद्धकूटादिनिर्मितः यः खण्डो वाद्यते प्राहुरुद्ग्राहं तं महत्तमाः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3427, prakarana 3: trailing numeral 980 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3427, prakarana 3: numbered 980 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 उद्ग्राहोपशमादीनां यद्यप्यन्याङ्गतोदिता यावत्पूरणमावृत्तेस्तथाऽपि स्यात्प्रबन्धता
@@ -35946,97 +36040,97 @@ Source line ~3429, prakarana 3: trailing numeral 981 where 22 was expected, and 
 द्विरावृत्तिरनावृत्तिर्वा स्यादङ्गतया स्थितौ
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3435, prakarana 3: trailing numeral 982 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3435, prakarana 3: numbered 982 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 तें टें है तट्टें तक्कतटे इति यावत्प्रबन्धपूरणमभ्यासादुद्ग्राह- प्रबन्धः । अङ्गत्वं तु द्विः सकृद्वा । प्राक्प्रयोगस्त्वङ्गप्रबन्धयोस्तुल्यः । इत्युद्ग्राहः । उद्धतं ध्वनितं कूटबद्धं खण्डं मुहुर्मुहुः प्रयुक्तं स्यात्प्रहरणं ध्रुवाद्याभोगगोचरे नृत्ते प्रायः प्रयोक्तव्यमन्यत्रापीच्छया भवेत्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3438, prakarana 3: trailing numeral 983 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3438, prakarana 3: numbered 983 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 यथा--कथॐगक्क थॐगत्थॐगटथॐगक्क थोग थोगथोक् कथोगक् थॐकट योगक्थोकटं थोगक् । गड्दक्काधिक थॐगक् । टगें दंथॐह । दिङ्-निकुकुधित्थो हधिक्कं धिटैं इति पुनः पुनः प्रयोज्यम् । एकताल्यामिदमुदाहरणम् । इति प्रहरणम् । उद्ग्राहः स्यात्ततः खण्डं शुद्धकूटादिनिर्मितम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3441, prakarana 3: trailing numeral 984 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3441, prakarana 3: numbered 984 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 तद्वर्णसरबद्धं वा प्रयुज्य द्विरिदं द्वयम् ततः प्राक्खण्डसहितं तादृक्कूटमयं दलम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3444, prakarana 3: trailing numeral 985 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3444, prakarana 3: numbered 985 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 वाद्यते छण्डणोऽन्ते च यत्र सोऽवत्सको भवेत् प्रयोज्य नर्तने दीप्ते शार्ङ्गदेवेन कीर्तितः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3452, prakarana 3: trailing numeral 986 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3452, prakarana 3: numbered 986 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 यथा-- गड्दग्दंदं गड्दक्थिक्कट तकधिक्कट तक्धिक्तक् । इत्युद्ग्राहः । खडि खडि खखनख खिदक् झेंखखनख खिदक्तदक्क धिक्कक- कगिणनग थॐगदिहिकिं थोगदिहिक्कितक धिकथॐगटे गडक् । तकधिक थॐगटें । इति द्वितीयं खण्डम् । एतच्च सहोद्ग्राहेण पुनः पुनर्वादयेत् । झक झखिखिन्नखनखखित ह्रें खखनखझें खन खरिब तुडि हिदिहि । कथॐगक् । इति तृतीयखण्डं पूर्वखण्डेन सह वादयेत् । तकधिक तक्करे घटथथॐगक्क थॐगक्कटें । इति छण्डणः । इदमुदाहरणं रङ्गविद्याधरताले । इत्यवत्सकः । कूटादिबद्धः खण्डः स्याच्छण्डणो वाद्यमोक्षकः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3457, prakarana 3: trailing numeral 987 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3457, prakarana 3: numbered 987 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति च्छण्डणः शुद्धकूटादिभिर्बद्धः खण्डो वर्नसरेण वा अभ्यस्तः स्याद्द्रुते माने तुडुका दीप्तनर्तने द्रुताद्रुततरं मानमत्र लक्ष्येषु दृश्यते
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3460, prakarana 3: trailing numeral 988 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3460, prakarana 3: numbered 988 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 यथा--टें दंदगि तथॐगटेंधिकतः रघटे हे कथोः टेगेधिक तटथॐगः गण नगिः थॐगतक धिकथॐगटें । एकताल्यामिदमुदाहरणम् । उद्ग्राहध्रुवकाभोगे यत्रान्यतमखण्डकम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3463, prakarana 3: trailing numeral 989 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3463, prakarana 3: numbered 989 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 वादनीयं म्परे प्राहुरन्ये तु तुडुकां जगुः उद्ग्राहध्रुवकाभोगोद्ग्राहाणां वादनं क्रमात्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3467, prakarana 3: trailing numeral 990 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3467, prakarana 3: numbered 990 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति तुडुका यत्र शुद्धादिभिर्बद्धः खण्डो वर्णसरेन वा विशालः स्याद्द्रुतलयः पर्यन्ते तु विलम्बितः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3470, prakarana 3: trailing numeral 991 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3470, prakarana 3: numbered 991 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 दीप्तैर्वर्णैः क्वचित्क्वापि कोमलैश्चारुगुम्फितः यत्रासौ मलपः प्रोक्तः प्रायिको दीप्तनर्तने
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3472, prakarana 3: trailing numeral 3 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3472, prakarana 3: numbered 3 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 यथा--गड्दक् तद्धित्थॐ हथॐहरे घटैं गणनगतक धिकक थौं हटें हैं थोदगक् । तक्क तहधिक थोकथोहक थो
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3474, prakarana 3: trailing numeral 2 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3474, prakarana 3: numbered 2 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 हट्टै डिं खिखरखिखिखेरथटैं हैं थोहगक् । दिहं कटदहं कटगड्द गथरिकटं
@@ -36050,329 +36144,329 @@ Source line ~3476, prakarana 3. Trailing numeral 3 is a row index in a matra/sva
 थरिकटतक
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3481, prakarana 3: trailing numeral 992 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3481, prakarana 3: numbered 992 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 ततक धिधिक थोऽथॐदटें । इदमुदाहरणं मुद्रितमण्ठताले । यत्रोद्ग्राहः सकृद्द्विर्वा ध्रुवकोऽथ सकृद्भवेत् व्यापकाक्षरमिश्रैस्तद्धिथॐटेंदेंभिरक्षरैः बद्धं निरन्तरयतिं प्राहुस्तं मलपं परे
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3485, prakarana 3: trailing numeral 993 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3485, prakarana 3: numbered 993 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति मलपम् सोदाहरणलक्ष्माणि वालबोधार्थमभ्यधाम् लक्ष्ममात्रमथो वक्ष्ये विस्तरत्रस्तमानसः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3489, prakarana 3: trailing numeral 994 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3489, prakarana 3: numbered 994 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 मलपाङ्गं तु मलपेनाङ्गेन मलपेन च इति मलपाङ्गम् पाटैर्मलपपाटः स्याद्विषमैर्मलपोपमः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3496, prakarana 3: trailing numeral 996 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3496, prakarana 3: numbered 996 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति मलपपाटः द्रुतैः करतलाघातैविंकृतैर्यत्र वाद्यते वाद्यं विच्छिद्य विच्छिद्य च्छेदमिच्छन्ति तं बुधाः ओतां कृत्वा द्विरुद्ग्राहः सकृद्वा व्यापकाक्षरैः सपाटैर्विहितो यत्र प्रान्ते रचितदेंकृतिः मध्ये लये छण्डणः स्याद्रूपकं तन्निरूपितम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3499, prakarana 3: trailing numeral 997 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3499, prakarana 3: numbered 997 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति रूपकम् निबद्धो वादितो गीतवाद्यसंधौ मतोऽन्तरः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3503, prakarana 3: trailing numeral 998 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3503, prakarana 3: numbered 998 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इत्यन्तरः अन्तरं वादयित्वा चेदनिबद्धस्य वादनम् क्रियतेऽन्तरपाटः स्यात्तदा निःशङ्कसंमतः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3507, prakarana 3: trailing numeral 999 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3507, prakarana 3: numbered 999 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इत्यन्तरपाटः समुश्लिष्टघनश्लक्ष्णपाटवर्णविनिर्मितः हस्तलाघवसंपन्नः खोजः संजल्पितो बुधैः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3511, prakarana 3: trailing numeral 1000 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3511, prakarana 3: numbered 1000 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति खोजः कृत्वा खण्डं पाटबद्धं यतिवद्वादनं भवेत् एवमावृत्तिकरणादाहुः खण्डयतिं बुधाः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3515, prakarana 3: trailing numeral 1001 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3515, prakarana 3: numbered 1001 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति खण्डयतिः खण्डच्छेदसमायोगात्खण्डच्छेदप्रबन्धयोः छेदैर्व्यक्तैः समायुक्तं खण्डच्छेदं परे जगुः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3519, prakarana 3: trailing numeral 1002 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3519, prakarana 3: numbered 1002 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति खण्डच्छेदः यस्यां विरतिरन्ते च तालस्य व्यापकाक्षरैः सपाटैर्बद्धखण्डा या साऽऽख्याताऽवयतिर्बुधैः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3524, prakarana 3: trailing numeral 1003 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3524, prakarana 3: numbered 1003 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इत्यवयतिः पाटस्य खण्डनाद्वाद्य खण्डपाटोऽभिधीयते इति खण्डपाटः खण्डः स्यात्खण्डमध्येऽपि खण्डशो वादने सति
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3529, prakarana 3: trailing numeral 1004 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3529, prakarana 3: numbered 1004 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति खण्डकः श्रोतोगताख्यया यत्या खण्डडुल्लोऽभिधीयते इति खण्डहुल्लः गीतनृत्तसमो माने प्रबन्धः प्रोच्यते समः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3534, prakarana 3: trailing numeral 1005 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3534, prakarana 3: numbered 1005 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति समः निष्पन्नः केवलैः पाटैः पाट इत्यभिधीयते इति पाटः ध्रुवको भूरिवाद्येषु स्यादावृत्तोऽन्तरेऽन्तरे
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3540, prakarana 3: trailing numeral 1006 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3540, prakarana 3: numbered 1006 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति ध्रुवकः अङ्गमङ्गीकृतं सान्द्रैरपाटैर्व्यापकाक्षरैः इत्यङ्गम् द्विरुद्ग्राहो ध्रुवाभोग ध्रुवाख्यः क्रमशस्ततः यत्राङ्गरूपकं प्राह तत्तेजोन्वयदीपकम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3545, prakarana 3: trailing numeral 1007 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3545, prakarana 3: numbered 1007 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इत्यङ्गरूपकम् तालश्चतुःषष्टिकलो युग्मे मार्गे च दक्षिणे इति तालः वितालस्त्वादिमध्यान्तविकृतस्ताल इष्यते
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3549, prakarana 3: trailing numeral 1008 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3549, prakarana 3: numbered 1008 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति वितालः हस्तेन वितताङ्गुष्ठविरलाङ्गुलिना क्रमात् पताकेन हतैर्जातैः पाटैः स्यात्खलकाभिधः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3554, prakarana 3: trailing numeral 1009 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3554, prakarana 3: numbered 1009 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति खलकः समुदायो निजैः पापैः समस्तातोद्यवादनात् इति समुदायः पाटानां पृथगुक्तानां मिश्रणाज्जोडणी मता
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3559, prakarana 3: trailing numeral 1010 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3559, prakarana 3: numbered 1010 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति जोडणी उडवः सलयात्तालाद्द्वितालाच्च लयोज्झितात् इत्युडवः तलपाटस्तु मलपोन्मिश्रपाटप्रबन्धजः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3562, prakarana 3: trailing numeral 1011 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3562, prakarana 3: numbered 1011 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति तलपाटः निजैर्या तद्धिथॐटेभिर्व्यापकैरक्षरैस्तथा
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3565, prakarana 3: trailing numeral 1012 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3565, prakarana 3: numbered 1012 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 पाटैर्वा रचिता किंचिद्विलम्बितलयाश्रया देकारालंकृताद्यन्ता वदन्त्युट्टवणीममूम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3569, prakarana 3: trailing numeral 1013 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3569, prakarana 3: numbered 1013 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इत्युट्टवणी वाद्यैकदेशं वर्गान्तमयं वाद्यादिमध्ययोः वादयेल्लघुहस्तत्वाद्यं तमाख्याति तुण्डकम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3574, prakarana 3: trailing numeral 1014 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3574, prakarana 3: numbered 1014 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति तुण्डकः पाटैरेव यतिः सान्द्रैः प्राञ्जलैरङ्गपाटकः इत्यङ्गपाटकः खण्डः स्यात्पृथगातोद्यवाद्यैः पैसारसंज्ञकः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3578, prakarana 3: trailing numeral 1015 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3578, prakarana 3: numbered 1015 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति पैसारः प्रदर्शनार्थमित्युक्ताः प्रबन्धाः कतिचिन्मया अन्यानपि पथाऽनेन विदांकुर्वन्तु तद्विदः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3581, prakarana 3: trailing numeral 1016 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3581, prakarana 3: numbered 1016 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 पाटभेदाश्च वाद्यानि प्रबन्धा वाद्यसंश्रयाः यथायोगं मर्दलादिसर्ववाद्येष्विमे मताः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3585, prakarana 3: trailing numeral 1017 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3585, prakarana 3: numbered 1017 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति वाद्यप्रबन्धलक्षणम् निर्दोषबीजवृक्षोत्थः पिण्डेऽर्धाङ्गुलसंमितः एकविंशत्यङ्गुलः स्याद्दैर्घ्ये वामे मुखे पुनः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3588, prakarana 3: trailing numeral 1018 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3588, prakarana 3: numbered 1018 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 चतुर्दशाङ्गुलानि स्युर्दक्षिणे तु त्रयोदश मानं यस्य मनाङ्मध्यः पृथुरेकाङ्गुलाधिके
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3591, prakarana 3: trailing numeral 1019 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3591, prakarana 3: numbered 1019 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 वक्त्राभ्यां चर्मणी वृत्ते घने ये प्रान्तयोस्तयोः चत्वारिंशत्पृथग्रन्ध्राण्यङ्गुलान्तरवन्ति च
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3594, prakarana 3: trailing numeral 1020 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3594, prakarana 3: numbered 1020 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 वध्रे तद्रन्ध्रविन्यस्ते सीवनप्रक्रियावति प्रोतोर्ध्वाधःस्थिता दृष्टोदरपृष्ठा च विग्निका
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3597, prakarana 3: trailing numeral 1021 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3597, prakarana 3: numbered 1021 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 क्रियते वेष्ट्यते मध्ये त्रिभिर्बन्धैर्दृढं तथा कार्यो गोमूत्रिकाबन्धस्तत्र वध्रद्वयेन च
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3600, prakarana 3: trailing numeral 1022 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3600, prakarana 3: numbered 1022 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 तथा यथा पिनद्धास्ये भवेतां चर्मणी दृढे कुण्डल्योः प्रान्तयोर्वामकुण्डल्यां संनिवेश्य च
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3603, prakarana 3: trailing numeral 1023 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3603, prakarana 3: numbered 1023 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 कच्छां क्षिप्त्वा दक्षिणस्यां कृष्ट्वा द्विगुणतां नयेत् साञ्चलद्वितयां पट्टमयीमष्टाङ्गुलायताम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3606, prakarana 3: trailing numeral 1024 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3606, prakarana 3: numbered 1024 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 यद्वाऽन्यवस्त्रजां शोभानुगां न्यस्येत्कटीतटे निगदन्ति मृदङ्गं तं मर्दलं मुरजं तथा
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3609, prakarana 3: trailing numeral 1025 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3609, prakarana 3: numbered 1025 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 प्रोक्तं मृदङ्गशब्देन मुनिना पुष्करत्रयम् अत्यन्ताव्यवहार्यत्वान्निःशङ्को न तनोति तत्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3612, prakarana 3: trailing numeral 1026 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3612, prakarana 3: numbered 1026 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 भूरिमिश्रेण भक्तेन चिक्कणेनातिमर्दनात् पिण्डिकां पूरिकाकारां वामवक्त्रे निवेशयेत्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3615, prakarana 3: trailing numeral 1027 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3615, prakarana 3: numbered 1027 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 बोहणाख्येन तेनाऽऽस्यं लिम्पेदल्पेन दक्षिणम् एवं जलधरध्वानगम्भीरो भवति ध्वनिः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3618, prakarana 3: trailing numeral 1028 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3618, prakarana 3: numbered 1028 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 निःशङ्केनात्र च प्रोक्ता देवता नन्दिकेश्वरः रक्तचन्दनजो यद्वा खादिरोऽन्यैरयं मतः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3621, prakarana 3: trailing numeral 1029 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3621, prakarana 3: numbered 1029 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 त्रिंशदङ्गुलदैर्घ्यश्च पिण्डे त्वङ्गुलसंमितः एतस्य वामं वदनं द्वादशाङ्गुलसंमितम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3624, prakarana 3: trailing numeral 1030 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3624, prakarana 3: numbered 1030 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 दक्षिणं तु मितं सार्धैरेकादशभिरङ्गुलैः पाटाश्च तद्धिथोटेंहेंनंदेमित्यत्र कीर्तिताः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3627, prakarana 3: trailing numeral 1031 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3627, prakarana 3: numbered 1031 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 तटहा दधलाश्चेति पाटानन्यत्र मन्वते इह स्युः पटहोक्ताश्च वर्णाः षोडश कादयः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3630, prakarana 3: trailing numeral 1032 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3630, prakarana 3: numbered 1032 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अधिकान्भझमान्वर्णान्वर्णयन्त्यपरे त्विह तेषु तद्ध्यादयः सप्त केवलाः शुद्धसंज्ञकाः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3634, prakarana 3: trailing numeral 1033 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3634, prakarana 3: numbered 1033 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 सस्वरैरस्वरैर्युक्तैरयुक्तैर्वा कखादिभिः व्यापकाख्यैः षोडशभिर्मिश्रास्ते कूटसंज्ञकाः कूटमिश्रास्तु ते शुद्धा बुधैः खण्डाभिधा मताः
@@ -36386,121 +36480,121 @@ Source line ~3636, prakarana 3: trailing numeral 1034 where 22 was expected, and
 छन्दसा भूरिहृद्येन स्फूर्तिमूर्तिरुदारधीः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3639, prakarana 3: trailing numeral 1035 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3639, prakarana 3: numbered 1035 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 कविः कवयति श्लोकं श्रवणोत्सवदैः पदैः यथा तथा क्वचित्ताले वर्णाल्लँ यमनोहरान्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3642, prakarana 3: trailing numeral 1036 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3642, prakarana 3: numbered 1036 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 विधाय वादको वाद्यप्रबन्धान्बद्धुमर्हति एमं कवितकाराख्यं वादकं ब्रुवते मनाः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3646, prakarana 3: trailing numeral 1037 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3646, prakarana 3: numbered 1037 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति मर्दललक्षणम् चतुर्विधो मार्दलिको वादिको मुखरी तथा ततः प्रतिमुखर्याख्यस्तुर्यो गीतानुगो मतः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3649, prakarana 3: trailing numeral 1038 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3649, prakarana 3: numbered 1038 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 वादिको वादकर्ता स्याद्वादः पक्षपरिग्रहः स्वपक्षसाधनं तद्वत्परपक्षस्य दूषणम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3653, prakarana 3: trailing numeral 1039 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3653, prakarana 3: numbered 1039 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 येऽन्ये जल्पवितण्डाद्या वादभेदाः सलक्षणाः न तान्ब्रवीम्यहं ग्रन्थप्रपञ्चभयभङ्गुरः वादे च वादनं कार्यं प्रथमं त्राटनाभिधम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3656, prakarana 3: trailing numeral 1040 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3656, prakarana 3: numbered 1040 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 मर्दले तालरहिते वोहणेन विना ध्वनिः यो देहडडगित्यादि कृतोऽसौ त्राटनं मतम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3660, prakarana 3: trailing numeral 1041 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3660, prakarana 3: numbered 1041 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 वोडवाडं घनरवं हस्तावत्यर्थमाचरेत् मुक्तशब्दात्मकं रेहदडादप्रमुखं ततः उधार स्थापनं पश्चाद्वादयेत्तदथोच्यते
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3663, prakarana 3: trailing numeral 1042 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3663, prakarana 3: numbered 1042 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 मुखयोर्बोहणं दत्त्वा वादयेद्वाममाननम् गड्दग्नेमिति वक्त्रं तु गड्दग्नामिति दक्षिणम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3666, prakarana 3: trailing numeral 1043 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3666, prakarana 3: numbered 1043 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 ततो मध्यलये ताले द्वितीये मुखयोर्द्वयोः कुर्यान्नादसमायोग्मथोच्चोच्चं दलत्रयम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3669, prakarana 3: trailing numeral 1044 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3669, prakarana 3: numbered 1044 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 पृथग्विलम्बिते मध्ये द्रुते चैव लये क्रमात् तथैकद्वित्रिथॐकाररचितं ग्रहमोक्षभाक्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3672, prakarana 3: trailing numeral 1045 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3672, prakarana 3: numbered 1045 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 आलप्तिवच्च त्रिस्थानशुद्धं हस्तद्वयेन यत् मधुरं वाद्यते तज्ज्ञैःस्थापनं तदुदाहृतम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3675, prakarana 3: trailing numeral 1046 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3675, prakarana 3: numbered 1046 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 ततस्थॐकारबहुलग्रहमोक्षोऽन्तरो भवेत् चतुरस्रत्र्यस्रमिश्रखण्डेष्वेकेन केनचित्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3678, prakarana 3: trailing numeral 1047 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3678, prakarana 3: numbered 1047 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 तालेन टाकणीवादौ कर्तव्यौ तदनन्तरम् तयोरेकसरो जोडा चेति भेदद्वयं मतम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3682, prakarana 3: trailing numeral 1048 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3682, prakarana 3: numbered 1048 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 कृत्वा श्रमस्य वहनीं यस्तालेऽष्टकलादिके वाद्यखण्डस्तालकलाप्रस्तारानुगतः कृतः अखण्डितष्टाकिणी सैकसरत्वं सकृत्कृतेः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3685, prakarana 3: trailing numeral 1049 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3685, prakarana 3: numbered 1049 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 एकद्वित्रिचतुर्वारं शुद्धाभ्यसनतो भवेत् इह श्रमवहन्याख्यः प्रकारो वादने यथा
@@ -36514,17 +36608,17 @@ Source line ~3687, prakarana 3. Trailing numeral -1 is a row index in a matra/sv
 तद्धितोटें ततधिधि थॐ थॐ टें टें तततधि धिधि थॐ थॐ थॐ टें टें टें । तततत धि धि धि धि थो थो थो थो टे टे टे टे । इति श्रमवहनीं कृत्वैकसरटाकिणी यथा । तकधिकट । तकधिकट । धिकटतक तकधिकट तकतकधिकट धिकटकतधिकट ।
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3689, prakarana 3: trailing numeral 1050 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3689, prakarana 3: numbered 1050 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इत्यष्टौ वाद्यखण्डस्य खण्डा अष्टासु कलासु । सैव द्विवारं जोडा । टाकणीवत्समस्तं प्राक्खण्डं कृत्वा ततः परम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3692, prakarana 3: trailing numeral 1051 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3692, prakarana 3: numbered 1051 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 खण्डं खण्डं द्विर्द्विवारं वाद्यते वाद्यसंज्ञके तत्रैकसरजोडात्वं टाकिणीवदुदाहृतम्
@@ -36546,265 +36640,265 @@ Source line ~3696, prakarana 3. Trailing numeral -1 is a row index in a matra/sv
 । थरिकथरि । टगण-
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3700, prakarana 3: trailing numeral 1052 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3700, prakarana 3: numbered 1052 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 गणधरि । गणगणधरि । दथरि गडदग । दथरिगडदग । दथरिगडदग । दथरि दथरितर्गड्दक्थरिक्कटतत्तक् । इति षोडशकले ताले षोडशकलासु षोडशखण्डकं वाद्यं कृत्वा तान्षोडश खण्डान्द्विर्द्विः कुर्यात् इत्येकसरवादः तकारेण च सर्वेषामेतेषां त्याग इष्यते कुर्यात्ततो दिगिदिगिं ताटवादादिकं तथा
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3703, prakarana 3: trailing numeral 1053 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3703, prakarana 3: numbered 1053 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 वर्णा दिगिदिगीत्येते प्रोक्ता दिगिदिगे बुधैः यः खण्डोऽतिद्रुते माने ताटवादः स कथ्यते
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3706, prakarana 3: trailing numeral 1054 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3706, prakarana 3: numbered 1054 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अन्येऽपि वादविधयोऽभ्यूह्यन्तामध्वनाऽमुना इति वादप्रकाराणां सम्यक्त्वे विजयो भवेत्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3710, prakarana 3: trailing numeral 1055 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3710, prakarana 3: numbered 1055 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति वादकः कर्ता वाद्यप्रबन्धानां नृत्तशिक्षाविचक्षणः गीतवादननिष्णातः सुरेखोऽन्तर्मुखश्च यः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3713, prakarana 3: trailing numeral 1056 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3713, prakarana 3: numbered 1056 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अर्धाङ्गमिव नर्तक्या वादयेद्रङ्गभूमिगः वादकैः प्रेक्षितमुखो वादनार्थं मुखर्यसौ
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3716, prakarana 3: trailing numeral 1057 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3716, prakarana 3: numbered 1057 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति मुखरी किंचिद्धीनो मुखरिणः प्रोक्तः प्रतिमुखर्यसौ
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3720, prakarana 3: trailing numeral 1058 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3720, prakarana 3: numbered 1058 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति प्रतिमुखरी शुद्धसालगगीतानां वर्णान्कठिनकोमलान् समांश्च विषमान्नादं मन्द्रं मध्यं च तारकम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3723, prakarana 3: trailing numeral 1059 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3723, prakarana 3: numbered 1059 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 प्रौढं वा मधुरं सम्यगनुगच्छति वादनात् पूर्वभागे तथाऽऽभोगे जक्काप्रहरणे क्रमात्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3726, prakarana 3: trailing numeral 1060 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3726, prakarana 3: numbered 1060 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 कुर्याद्वैकल्पिके यद्वा समग्रं गीतमाश्रिते समुत्थिते वाऽऽनुलोम्याद्वैलोम्याद्वोभयेन वा
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3729, prakarana 3: trailing numeral 1061 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3729, prakarana 3: numbered 1061 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 निःसारो सालगे गीते यस्तं गीतानुगं विदुः क्रमात्तकारथॐकारौ स कुर्याद्ग्रहमोक्षयोः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3734, prakarana 3: trailing numeral 1062 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3734, prakarana 3: numbered 1062 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति गीतानुगः इति चतुर्विधमार्दलिकलक्षणम् वर्णव्यक्तिः सुरेखत्वमनुयायप्रवीणता मधुरोद्धतवाद्येषु विज्ञता हस्तलाघवम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3737, prakarana 3: trailing numeral 1063 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3737, prakarana 3: numbered 1063 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अवधानं श्रमजयो मुखवाद्येषु पाटवम् रक्तिरावर्जिकस्यानुवृत्तिर्बहुलता तथा
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3740, prakarana 3: trailing numeral 1064 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3740, prakarana 3: numbered 1064 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 यतिताललयज्ञत्वं गीतानुगमनं तथा गुणा मार्दलिकस्यैते दोषः स्यात्तद्विपर्ययः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3744, prakarana 3: trailing numeral 1065 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3744, prakarana 3: numbered 1065 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति मार्दलिकगुणदोषाः तद्वृन्दं द्वित्रिचतुरैस्तज्ज्ञैर्मर्दलधारिभिः प्राधान्येन विधातव्यं तैर्मुखर्यनुवर्तनम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3747, prakarana 3: trailing numeral 1066 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3747, prakarana 3: numbered 1066 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 या हस्तसंमिता दैर्घ्येऽष्टाविंशत्यङ्गुला पुनः परिधावङ्गुलमिता पिण्डे सप्ताङ्गुले मुखे
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3750, prakarana 3: trailing numeral 1067 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3750, prakarana 3: numbered 1067 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 मण्डल्यौ वक्त्रयोर्वल्लीमध्यावेकादशाङ्गुले सपादाङ्गुलकस्थौल्ये उद्दलीकृतबन्धने
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3753, prakarana 3: trailing numeral 1068 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3753, prakarana 3: numbered 1068 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 वदनाभ्यां सह स्यातां कुर्याद्रन्ध्राणि षट्तयोः बद्धरज्जुनिवेशार्थं पुरोभागेऽर्गलात्रयम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3756, prakarana 3: trailing numeral 1069 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3756, prakarana 3: numbered 1069 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 कलशाकलितद्व्यन्तं पश्चाद्भागेऽर्गलाद्वयम् बन्धसूत्रान्तरे मध्ये भवेदुदरपट्टिका
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3759, prakarana 3: trailing numeral 1070 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3759, prakarana 3: numbered 1070 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अङ्गुलत्रयविस्तारा श्लक्ष्णा हृदयहारिणी द्वात्रिंशत्तन्तुसंजातरज्ज्वा पक्षद्वयं दृढम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3762, prakarana 3: trailing numeral 1071 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3762, prakarana 3: numbered 1071 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 बद्ध्वा तत्रोत्कक्षकौ च विधाय स्कन्धपट्टिकाम् तयोर्द्विगुणतां न्यस्येदङ्गुलार्धार्धसंमितम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3765, prakarana 3: trailing numeral 1072 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3765, prakarana 3: numbered 1072 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 छिद्रं यस्याश्चतुर्थांशे नादोद्बोधविधायकम् हुडुक्का सा बुधैः प्रोक्ता तस्याश्च स्कन्धपट्टिकाम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3768, prakarana 3: trailing numeral 1073 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3768, prakarana 3: numbered 1073 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 न्यस्य स्कन्धे दक्ष्णेन पाणिना वादनं भवेत् उदरे पट्टिका योक्ता तस्यां वामं निवेशयेत्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3771, prakarana 3: trailing numeral 1074 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3771, prakarana 3: numbered 1074 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 देवता मातरः सप्त शार्ङ्गदेवेन कीर्तिताः कुर्वीत पाटहान्वर्णानिह देंकारवर्जितान्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3774, prakarana 3: trailing numeral 1075 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3774, prakarana 3: numbered 1075 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अत्रान्यैरधिकावुक्तौ मझेंकारौ मनीषिभिः लक्षज्ञास्त्वावजं प्राहुरिमां स्कन्धावजं तथा
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3778, prakarana 3: trailing numeral 1076 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3778, prakarana 3: numbered 1076 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति हुडुक्कालक्षणम् बीजवृक्षोद्भवा पिण्डेऽङ्गुलतुर्यांशसंमिता एकविंशत्यङ्गुला स्याद्दैर्घ्ये हस्तमिताऽथवा
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3781, prakarana 3: trailing numeral 1077 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3781, prakarana 3: numbered 1077 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 परिधौ दधते मानं या चत्वारिंशदङ्गुलम् चतुर्दशाङ्गुले वक्त्रे केषांचिद्द्वादशाङ्गुले
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3784, prakarana 3: trailing numeral 1078 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3784, prakarana 3: numbered 1078 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 मण्डल्यु लोहजे सूत्रवेष्टिते चर्मबन्धने परिधौ संमिते ते च द्वाचत्वारिंशताऽङ्गुलैः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3787, prakarana 3: trailing numeral 1079 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3787, prakarana 3: numbered 1079 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 तिस्रस्तिस्रस्तथा तन्त्रीर्मुखयोर्वलयद्वयम् दधते केवलं व्याप्तं चतुर्दशभिरन्वितम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3790, prakarana 3: trailing numeral 1080 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3790, prakarana 3: numbered 1080 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 रन्ध्रैस्तेष्वेकान्तरेषु विग्निकास्तावतीः क्षिपेत् द्वाभ्यां द्वाभ्यां विग्निकाभ्यां बन्धो मत्स्याकृतिर्भवेत्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3793, prakarana 3: trailing numeral 1081 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3793, prakarana 3: numbered 1081 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 यस्यास्तां करटामाहुः प्रान्तयोः प्रान्तबद्धया कच्छया स्कन्धदेशे तां कट्यां वा वादने वहेत्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3795, prakarana 3: trailing numeral 1082 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3795, prakarana 3: numbered 1082 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 चर्चिका देवता चास्यां पाटास्तु करटेत्यमी
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3798, prakarana 3: trailing numeral 1083 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3798, prakarana 3: numbered 1083 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 वादनं कुडुपाभ्यां तु शार्ङ्गदेवेन कीर्तितम् तिरिकितिरिकिरीति प्रायः पाटद्वयं मतम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3803, prakarana 3: trailing numeral 1084 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3803, prakarana 3: numbered 1084 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति करटालक्षणम् धनः श्लक्ष्णः सुपक्वश्च स्तोकवक्रो महोदरः पाणिभ्यां वाद्यते तज्ज्ञैश्चर्मनद्धाननो घटः कथिताः पाटवर्णा ये मर्दले ते घटे मताः
@@ -36818,577 +36912,577 @@ Source line ~3805, prakarana 3: trailing numeral 1085 where 22 was expected, and
 हुडुक्कयैव घडसो व्याख्यातः किंतु मण्डली
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3808, prakarana 3: trailing numeral 1086 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3808, prakarana 3: numbered 1086 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 दक्षिणस्योद्दलीबद्धा वामा रज्ज्वा नियन्त्रिता औदर्यां पट्टिकायां च वामोऽत्र न निवेश्यते
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3811, prakarana 3: trailing numeral 1087 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3811, prakarana 3: numbered 1087 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 गॐकारबहुलं चामुं वादयेदिति तद्विदः अङ्गुष्ठमध्यमाङ्गुल्यौ मदनाक्ताग्रभागतः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3814, prakarana 3: trailing numeral 1088 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3814, prakarana 3: numbered 1088 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 दक्षिणेन करेणाऽऽस्ये घर्षणाद्गॐकृतिर्भवेत् घातोऽङ्गुलीभिर्वामस्य वामाङ्गुष्ठेन पीडनम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3818, prakarana 3: trailing numeral 1089 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3818, prakarana 3: numbered 1089 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति घडसलक्षणम् स्याद्धस्तदैर्घ्यः परिधौ सनवत्रिंशदङ्गुलः द्वादशाङ्गुलके वक्त्रे वल्लीवलयसंयुते
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3821, prakarana 3: trailing numeral 1090 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3821, prakarana 3: numbered 1090 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 यो धत्ते सप्त सप्तापि रन्ध्राणि वलयद्वये तथा कवलयोस्ताभ्यां तुण्डे वलयसंयुते
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3824, prakarana 3: trailing numeral 1091 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3824, prakarana 3: numbered 1091 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 पिधाय गाढं बध्येते रन्ध्रविन्यस्तदोरकैः यस्यासौ ढवसः प्रोक्तः शार्ङ्गदेवेन सूरिणा
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3828, prakarana 3: trailing numeral 1092 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3828, prakarana 3: numbered 1092 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 स्कन्धे निक्षिप्य कच्छान्तं वामहस्तेन वादयेत् वामास्ये दक्षिणस्थेन कुडुपेन तु दक्षिणे ढेंकारपाटवसते रूढोऽयं ढवसो जने
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3832, prakarana 3: trailing numeral 1093 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3832, prakarana 3: numbered 1093 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति ढवसलक्षणम् व्याख्याता ढवसेनैव ढक्का किंतु मुखद्वयम् त्रयोदशाङ्गुलं तस्या धृत्वा तां वामपाणिना
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3835, prakarana 3: trailing numeral 1094 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3835, prakarana 3: numbered 1094 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 तज्ज्ञो दक्षिणहस्तस्थकोणघातेन वादयेत् ढेंकारः पाटवर्णाः स्युर्निशङ्केनेति कीर्तितम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3839, prakarana 3: trailing numeral 1095 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3839, prakarana 3: numbered 1095 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति ढक्कालक्षणम् हुडुक्कैवार्गलाहीना कुडुक्का किंतु वादनम् अस्याः करेण कोणेन क्षेत्रपालस्तु देवता
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3843, prakarana 3: trailing numeral 1096 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3843, prakarana 3: numbered 1096 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति कुडुक्कालक्षणम् बीजदारुमयी सप्ताङ्गुलगर्भमुखद्वया एकविंशत्यङ्गुला च यस्या दैर्घ्ये समाकृतिः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3846, prakarana 3: trailing numeral 1097 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3846, prakarana 3: numbered 1097 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 संहताग्नित्रयाकारत्र्यङ्गुलस्थूलतायुते वृत्ते नवाङ्गुले गर्भे वलये वल्लिनिर्मिते
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3849, prakarana 3: trailing numeral 1098 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3849, prakarana 3: numbered 1098 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 सप्तसप्तच्छिद्रयुते यस्याः स्यातां मुखद्वये कवलाभ्यां पिनह्येते मुखे च वलयान्विते
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3852, prakarana 3: trailing numeral 1099 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3852, prakarana 3: numbered 1099 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 सरन्ध्रे कवले रन्ध्रन्यस्ततन्त्रीसुयन्त्रिते कुडुवा सा हुडुक्कोक्तवर्णात्क्रेंकारभूयसी
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3854, prakarana 3: trailing numeral 1100 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3854, prakarana 3: numbered 1100 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 कोणाभ्यां मदनाक्ताभ्यां वाद्यते त्यक्तझेंकृतिः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3858, prakarana 3: trailing numeral 1101 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3858, prakarana 3: numbered 1101 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति कुडुवालक्षणम् अष्टादशाङ्गुला दैर्घ्ये दृढा रुञ्जा समाकृतिः एकादशाङ्गुले तस्या वदने कुण्डलीयुते
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3861, prakarana 3: trailing numeral 1102 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3861, prakarana 3: numbered 1102 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 तद्वद्ये चर्मणा वामवक्त्रान्तःकुण्डलीद्वयम् तत्रैका वक्त्रमात्रा स्यादपरा चतुरङ्गुला
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3864, prakarana 3: trailing numeral 1103 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3864, prakarana 3: numbered 1103 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 कुण्डल्योरन्तराले स्याज्जालिका स्नायुनिर्मिता सैकच्छिद्रं वामवक्त्रं सूत्रतत्त्वञ्चनीयुतम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3867, prakarana 3: trailing numeral 1104 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3867, prakarana 3: numbered 1104 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 पूर्ववद्विग्निकाः कार्या वक्त्रयोः सप्त सप्त च पादोनहस्तमात्रां च नागपाशवतीं दृढाम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3870, prakarana 3: trailing numeral 1105 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3870, prakarana 3: numbered 1105 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 कच्छां स्कन्धे निवेश्यास्या वादनं वेदितं बुधैः रुंकारजननाद्रुञ्जा सा भवेद्भृङ्गिदैवता
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3873, prakarana 3: trailing numeral 1106 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3873, prakarana 3: numbered 1106 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 मतङ्गोक्तास्त्विमे वर्णाः करगा धटनाः खहौ विग्निका वाद्यशास्त्रेऽस्मिन्कर्कराः परिकीर्तिताः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3877, prakarana 3: trailing numeral 1107 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3877, prakarana 3: numbered 1107 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति रुञ्जालक्षणम् वितस्तिमात्रदैर्घ्यः स्यादष्टाङ्गुलमुखद्वयः योगस्य मण्डलीयुक्ते मुखे बद्धे च चर्मणा
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3880, prakarana 3: trailing numeral 1108 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3880, prakarana 3: numbered 1108 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 त्रिवलीवत्क्षाममध्यो निबद्धः सूत्रदोरकैः मध्ये च गाढतां नीते रञ्चन्यौ वादनाय च
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3883, prakarana 3: trailing numeral 1109 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3883, prakarana 3: numbered 1109 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 भवेतां प्रान्तसंलग्नसम्यङ्मदनगोलकैः असौ डमरुको मध्ये धृत्वा हस्तद्वयेन च
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3886, prakarana 3: trailing numeral 1110 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3886, prakarana 3: numbered 1110 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 डघवर्णो वादनीयः प्रोक्तो निःशङ्कसूरिणा अन्यैः कखरटा वर्णाः प्रोक्ता डमरुकऽधिकाः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3890, prakarana 3: trailing numeral 1111 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3890, prakarana 3: numbered 1111 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति डमरुकलक्षणम् वितस्तिमात्रं दैर्घ्यं स्यान्मध्यः किंचित्कृशो भवेत् मुखे त्वष्टाङ्गुलैः पिण्डोऽर्धाङ्गुलस्तन्त्रिकाद्वयम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3893, prakarana 3: trailing numeral 1112 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3893, prakarana 3: numbered 1112 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 मुखे मुखे शङ्कवश्च चत्वारस्ताम्रनिर्मिताः तेषामधोऽधावूर्ध्वं द्वौ तन्त्रीबन्धनसिद्धये
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3896, prakarana 3: trailing numeral 1113 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3896, prakarana 3: numbered 1113 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 तन्त्र्योस्तृणशलाकां च निदध्याद् ध्वनिपुष्टये अन्यल्लक्ष्म हुडुक्कावद्यस्याः पाटाक्षराण्यपि
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3899, prakarana 3: trailing numeral 1114 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3899, prakarana 3: numbered 1114 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 स्याद्दशाङ्गुलदैर्घ्येण कुडुपेन तु वादनम् निःशङ्कशार्ङ्गदेवेन डक्का सा परिकीर्तिता
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3902, prakarana 3: trailing numeral 1115 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3902, prakarana 3: numbered 1115 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अन्येऽस्या वादनं प्राहुः करेण कुडुपेन च हस्तघातेन डंकारो वादने कुडुपेन तु
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3905, prakarana 3: trailing numeral 1116 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3905, prakarana 3: numbered 1116 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 घटस्ततो डगिश्चेति मुखान्पाटान्वदन्त्यमी नगौ खकरटा वर्णा मुख्याः प्रोक्ताः परैरिह
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3908, prakarana 3: trailing numeral 1117 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3908, prakarana 3: numbered 1117 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अस्यां च सूरयः प्राहुर्देवतां विन्ध्यवासिनीम् अङ्गुलोना मध्यमा सा द्व्यङ्गुलोना कनीयसी
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3912, prakarana 3: trailing numeral 1118 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3912, prakarana 3: numbered 1118 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति डक्कालक्षणम् डक्कैव मण्डिडक्का स्यात्किं त्वस्याः षोडशाङ्गुलम् दैर्घ्यमष्टाङ्गुलौ गर्भौ स्यातां वदनयोर्द्वयोः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3915, prakarana 3: trailing numeral 1119 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3915, prakarana 3: numbered 1119 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 षोडशाङ्गुलको मध्यपरिधिर्नात्र चार्गला न च कच्छोत्कक्षकस्तु मध्ये स्यादञ्चनीद्वयम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3918, prakarana 3: trailing numeral 1120 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3918, prakarana 3: numbered 1120 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 उत्कक्षं चाञ्चनीद्वंद्वं वामाङ्गुष्ठाङ्गुलित्रयात् धृत्वा संपीड्य तर्जन्या मण्डलीप्रान्तमाननम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3921, prakarana 3: trailing numeral 1121 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3921, prakarana 3: numbered 1121 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अस्या दक्षिणजानुस्थं हन्याद्दक्षिणपाणिना उत्कक्षं मणिबन्धोर्ध्वं यद्वाऽन्यस्याञ्चनीद्वयम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3924, prakarana 3: trailing numeral 1122 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3924, prakarana 3: numbered 1122 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 कनिष्ठानामिकाङ्गुष्ठैः संयुज्याऽऽपीड्य मण्डलीम् तर्जन्या मध्यया वाऽथ हस्तेनान्येन वादयेत्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3927, prakarana 3: trailing numeral 1123 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3927, prakarana 3: numbered 1123 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 वदन्ति वादनं तस्याः करेण कुडुपेन वा चर्यागाने च पूजायां शक्तेः सा विनियुज्यते
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3931, prakarana 3: trailing numeral 1124 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3931, prakarana 3: numbered 1124 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति मण्डिडक्कालक्षणम् कांस्याद्गोशृङ्गतो दन्त्रिदन्ताद्वा डद्दुली भवेत् दैर्घ्ये पञ्चाङ्गुला वक्त्रे तस्याश्च चतुरङ्गुले
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3934, prakarana 3: trailing numeral 1125 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3934, prakarana 3: numbered 1125 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 मेषपार्युद्दलीबद्धे स्वस्वचक्रसमन्विते चक्रे च कांस्यजे ताम्रमये वा लोहजे पृथक्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3937, prakarana 3: trailing numeral 1126 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3937, prakarana 3: numbered 1126 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 पञ्चरन्ध्रे तथोद्दल्यौ रन्ध्रविन्यस्तदोरकैः सौत्रैर्गाढं निबध्येते मध्ये सूत्रेण वेष्टितम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3940, prakarana 3: trailing numeral 1127 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3940, prakarana 3: numbered 1127 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 नातिश्लथं नातिगाढं मध्यं सूत्रे त्वनामिकाम् निधाय मध्यतर्जन्यौ विवृते चक्रसंयुते
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3943, prakarana 3: trailing numeral 1128 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3943, prakarana 3: numbered 1128 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 कृत्वाऽङ्गुष्ठं त्वन्यचक्रे न्यस्याथ मदनाञ्चिताम् विधायाञ्चनिकामेकां तां दुंदुमिति वादयेत्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3946, prakarana 3: trailing numeral 1129 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3946, prakarana 3: numbered 1129 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 तुंतुमित्यपरे प्राहुः पाटा मर्दलसंभवाः यथासंभवमेतस्यां शार्ङ्गदेवेन कीर्तिताः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3950, prakarana 3: trailing numeral 1130 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3950, prakarana 3: numbered 1130 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति डक्कुलीलक्षणम् षड्विंशत्यङ्गुला दैर्घ्ये परिधौ त्रिंशदङ्गुला समकाया सेल्लुका स्याद्बीजकाष्ठेन निर्मिता
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3953, prakarana 3: trailing numeral 1131 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3953, prakarana 3: numbered 1131 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 दशाङ्गुले मुखे तस्याः मरैस्त्वेकादशाङ्गुले उक्ते न बन्धनोद्दल्यौ ताभ्यामेकाङ्गुलाधिके
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3956, prakarana 3: trailing numeral 1132 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3956, prakarana 3: numbered 1132 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 वल्लीजं तर्जनीस्थौल्यं मुखयोर्वलयद्वयम् सरन्ध्रषट्कं रन्ध्रस्थरज्जुभिर्गाढयन्त्रितम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3959, prakarana 3: trailing numeral 1133 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3959, prakarana 3: numbered 1133 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 एकाङ्गुलाधिकं तच्च वक्त्राभ्यां वदनं पुनः तन्त्रिकागर्भितं वामं वामहस्तेन वादयेत्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3962, prakarana 3: trailing numeral 1134 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3962, prakarana 3: numbered 1134 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 मुखं दक्षिणपाणिस्थकुडुपेन तु दक्षिणम् मुखे वामे तु झेंकारो धिंकारो दक्षिणे मुखे
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3965, prakarana 3: trailing numeral 1135 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3965, prakarana 3: numbered 1135 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति सेल्लुकालक्षणम् पलैः स्यात्पञ्चविंशत्या दैर्घ्ये तु द्वादशाङ्गुला
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3968, prakarana 3: trailing numeral 1136 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3968, prakarana 3: numbered 1136 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अष्टादशाङ्गुलमिता परिधौ समविग्रहा ससूत्रकटकं रन्ध्रद्वयं कण्ठे च बिभ्रती
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3971, prakarana 3: trailing numeral 1137 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3971, prakarana 3: numbered 1137 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 चर्मणाऽऽनद्धवदना झल्लरी परिकीर्तिता वामहस्तधृता सा च वाद्या दक्षिणपाणिना
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3975, prakarana 3: trailing numeral 1138 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3975, prakarana 3: numbered 1138 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति झल्लरीलक्षणम् स्यात्तदर्धपलो भाणः परिधौ द्वादशाङ्गुलः अन्यत्तु झल्लरीलक्ष्म तस्य श्रीशार्ङ्गिणोदितम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3979, prakarana 3: trailing numeral 1139 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3979, prakarana 3: numbered 1139 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति भाणलक्षणम् सप्ताङ्गुलमुखद्वंद्वात्त्रिवली हस्तदैर्घ्यभाक् मुष्टिग्राह्यश्च मध्योऽस्या वदने कवलावृते
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3982, prakarana 3: trailing numeral 1140 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3982, prakarana 3: numbered 1140 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 कवले लोहमण्डल्यौ सप्तरन्ध्रे पृथक्पृथक् रन्ध्रन्यस्तैर्गुणैर्बद्धो मध्ये गाढं च वेष्टनम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3985, prakarana 3: trailing numeral 1141 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3985, prakarana 3: numbered 1141 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 सूत्ररज्ज्वा हस्तमात्रा कच्छा स्कन्धावलम्बिनी वादनं करयुग्मेण शार्ङ्गदेवेन कीर्तितम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3988, prakarana 3: trailing numeral 1142 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3988, prakarana 3: numbered 1142 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 तदांदॐदेति वर्णाः स्युस्त्रिपुरा चात्र देवता एकादशाङ्गुलमुखी विंशत्यङ्गुलदैर्घ्यभाक्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3991, prakarana 3: trailing numeral 1143 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3991, prakarana 3: numbered 1143 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 मुखार्धमानमध्याऽसौ मध्ये चाञ्चनिकायुता तदर्धवर्णसंयुक्ता त्रिकुल्या चोच्यते बुधैः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3995, prakarana 3: trailing numeral 1144 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3995, prakarana 3: numbered 1144 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति त्रिवलीलक्षणम् आम्रद्रुमसमुद्भूतो महागात्रो महाध्वनिः कांस्यभाजनसंभारगर्भो वलयवर्जितः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3998, prakarana 3: trailing numeral 1145 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3998, prakarana 3: numbered 1145 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 चर्मनद्धाननो बद्धो वध्रैर्गाढं समन्ततः दृढवर्णेन कोणेन वाद्यः प्राणेन दुन्दुभिः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4001, prakarana 3: trailing numeral 1146 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4001, prakarana 3: numbered 1146 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 मेघनिर्घोषगम्भीरघॐकारस्यात्र मुख्यता मङ्गले विजये चैव बाद्यते देवतालये
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4004, prakarana 3: trailing numeral 1147 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4004, prakarana 3: numbered 1147 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति दुन्दुभिलक्षणम् वितस्तित्रयदैर्घ्या स्याद्भेरी ताम्रेण निर्मिता
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4007, prakarana 3: trailing numeral 1148 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4007, prakarana 3: numbered 1148 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 चतुर्विंशत्यङ्गुले च वदने वलयान्विते तस्याः सवलये चर्मच्छन्ने छिद्रसमन्विते
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4010, prakarana 3: trailing numeral 1449 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4010, prakarana 3: numbered 1449 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 रज्ज्वा नियन्त्रिते गाढं मध्ये सूत्रेण बन्धनम् दक्षिणस्थेन कोणेन वामहस्तेन ताडनात्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4013, prakarana 3: trailing numeral 1150 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4013, prakarana 3: numbered 1150 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 उद्भटो भवति ध्वानो गम्भीरोऽरिभयंकरः तकारः पाटवर्णोऽस्यां मुख्यो निःशङ्ककीर्तितः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4017, prakarana 3: trailing numeral 1151 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4017, prakarana 3: numbered 1151 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति भेरीलक्षणम् कांस्यजस्ताम्रजो लौहो वोत्तमो मध्यमोऽधमः एकवक्त्रो महान्वक्त्रे स्वल्पोऽधोऽर्धयवाकृतिः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4020, prakarana 3: trailing numeral 1152 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4020, prakarana 3: numbered 1152 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 भृतगर्भः कांस्यपात्रभारैर्महिषचर्मणा छन्नाननो बद्धचर्मा तद्रन्ध्रन्यस्तवध्रकैः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4023, prakarana 3: trailing numeral 1153 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4023, prakarana 3: numbered 1153 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 क्षिप्तोऽधो वध्रवलये निवेश्याऽऽवर्तितैर्मुहुः द्विषद्वित्रासजननो निःसाणः शार्ङ्गिणोदितः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4027, prakarana 3: trailing numeral 1154 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4027, prakarana 3: numbered 1154 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 चार्मणेनास्य कोणेन सद्वितीयस्य वादनम् दृढशब्देन भीरूणां भिनत्ति हृदयान्ययम् स्यादस्माद्युद्धवीराणां रोमाञ्चोपचितं वपुः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4030, prakarana 3: trailing numeral 1155 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4030, prakarana 3: numbered 1155 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति निःसाणलक्षणम् निःसाणवत्तम्बकी स्यात्ततोऽल्पा गात्रनादयोः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4034, prakarana 3: trailing numeral 1156 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4034, prakarana 3: numbered 1156 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति तम्बकीलक्षणम् उक्तौ प्रकृतिदारूणामनुक्तौ वा विकल्पतः ज्ञेयो दारववाद्यानां खदिरो रक्तचन्दनः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4036, prakarana 3: trailing numeral 1157 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4036, prakarana 3: numbered 1157 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 सर्वेषु स्युर्यथायोगं पाटाः पाटहमार्दलाः
@@ -37402,377 +37496,377 @@ Source line ~4038, prakarana 3: trailing numeral 1158 where 22 was expected, and
 नीरसोच्छ्रितभूजाताज्जीर्णाद्वाताहतात्तरोः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4041, prakarana 3: trailing numeral 1159 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4041, prakarana 3: numbered 1159 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 निर्भिद्योत्सारिते गर्भे शेषाद्वाद्यानि कारयेत् पूर्वप्ररोहे छिन्नेऽन्यो यः प्ररोहः प्ररोहति
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4044, prakarana 3: trailing numeral 1160 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4044, prakarana 3: numbered 1160 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 तदुद्भवद्रुमोद्भूतं वाद्यं सर्वं प्रशस्यते गर्भस्योत्सारणं त्वेतद्वेणोरन्यत्र पादपे
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4047, prakarana 3: trailing numeral 1161 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4047, prakarana 3: numbered 1161 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 तरूणां जातयस्तिस्रः पित्तला वातला तथा श्लेष्मला चेति तत्र स्यात्पित्तला नीरसक्षितौ
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4050, prakarana 3: trailing numeral 1162 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4050, prakarana 3: numbered 1162 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अत्यल्परसभूजाता वातला श्लेष्मला पुनः जलाशयसमीपस्थरससंप्लुतभूमिजा
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4053, prakarana 3: trailing numeral 1163 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4053, prakarana 3: numbered 1163 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 पित्तलाऽत्युत्तमा जातिर्वातला त्वधमा भवेत् श्लेष्मला वर्ज्यते शुष्के वृक्षेऽपि च्छेदनात्पुरा
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4055, prakarana 3: trailing numeral 1164 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4055, prakarana 3: numbered 1164 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति काष्ठलक्षणम्कोमलत्वं व्रणग्रन्थिभेदान्दारुषु वर्जयेत्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4059, prakarana 3: trailing numeral 1165 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4059, prakarana 3: numbered 1165 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति काष्ठदोषाः षाण्मासिकस्य वत्सस्य चर्म स्यात्पुटबन्धने अन्ये द्विवत्सरस्याऽऽहुस्तन्न लक्ष्येषु दृश्यते
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4062, prakarana 3: trailing numeral 1166 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4062, prakarana 3: numbered 1166 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 वृद्धस्य वृषभस्यास्य चर्मणा वध्रकल्पना कुन्देन्दुहिमसंकाशमाम्रपल्लवसंनिभम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4066, prakarana 3: trailing numeral 1167 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4066, prakarana 3: numbered 1167 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 स्नायुमांसविहीनं च चर्म गोसंभवं च यत् शीतोदके निशामेकां वासयित्वा समुद्धृतम् वाद्यावनहनार्थं तद्ग्राह्यं श्रीशार्ङ्गिणोदितम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4070, prakarana 3: trailing numeral 1168 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4070, prakarana 3: numbered 1168 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति चर्मगुणाः मेदोदुष्टं जराक्रान्तं क्लिन्नं काकमुखाहतम् अग्निधूमहतं जीर्णं न वाद्ये चर्म कर्मकृत्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4074, prakarana 3: trailing numeral 1169 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4074, prakarana 3: numbered 1169 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति चर्मदोषाः गुणैर्भूरितरोदारैर्यस्य नद्धं जगत्त्रयम् अवनद्धमिदं तेन शार्ङ्गिदेवेन कीर्तितम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4077, prakarana 3: trailing numeral 1170 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4077, prakarana 3: numbered 1170 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अथ घववाद्यम् कांस्यजे घनवाद्ये स्यात्कांस्यमग्नौ सुशोधितम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4080, prakarana 3: trailing numeral 1171 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4080, prakarana 3: numbered 1171 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 कांस्यजो वर्तुलस्तालः सपादद्व्यङ्गुलाननः मध्येऽस्याङ्गुलविस्तारो निम्नो रन्ध्रं च निम्नगम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4083, prakarana 3: trailing numeral 1172 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4083, prakarana 3: numbered 1172 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 पादोनगुञ्जामात्रं स्यात्पिण्डस्तु यवमात्रकः सार्धाङ्गुलः स्यादुत्सेधः समा श्लक्ष्णशुभाऽऽकृतिः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4086, prakarana 3: trailing numeral 1173 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4086, prakarana 3: numbered 1173 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 कार्या तथा यथा नादो भवेच्छ्रुतिमनोहरः नेत्रवस्त्रांञ्चलाग्राणि रज्जूकृत्य निवेशयेत्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4089, prakarana 3: trailing numeral 1174 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4089, prakarana 3: numbered 1174 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 रन्ध्रेऽग्राणाम्ननिर्गत्यै ग्रन्थिं च रचयेद्दृढम् ईदृक्तालयुगं कृत्वा तालमेकमथाञ्चलैः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4092, prakarana 3: trailing numeral 1175 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4092, prakarana 3: numbered 1175 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 आवेष्ट्य तर्जनीं वामामङ्गुष्ठेन च वेष्टनम् आक्रम्य तलमध्यस्थं धृत्वा तिर्यङ्मुखीकृतम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4095, prakarana 3: trailing numeral 1176 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4095, prakarana 3: numbered 1176 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 शेषाङ्गुलीः प्रसार्योर्ध्वाद्दक्षिणेन तु पाणिना तालमन्यतरस्यान्तलम्बमानाचलावलिम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4098, prakarana 3: trailing numeral 1177 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4098, prakarana 3: numbered 1177 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 तर्जन्यङ्गुष्ठयोरग्रभागतस्तिर्यगाननम् धृत्वा तस्याग्रभागेण मध्यमन्यस्य ताडयेत्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4101, prakarana 3: trailing numeral 1178 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4101, prakarana 3: numbered 1178 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अल्पनादो भवेच्छक्तिर्भूरिनादः शिवो भवेत् शिवे स्निग्धे घनो नादः शक्तौ स्यात्तद्विपर्ययः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4104, prakarana 3: trailing numeral 1179 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4104, prakarana 3: numbered 1179 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 वामेन धारयेच्छक्तिं शिवं दक्षिणपाणिना अश्वमेधफलं चैव प्राप्नुयाद्दोषमन्यथा
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4107, prakarana 3: trailing numeral 1180 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4107, prakarana 3: numbered 1180 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 देवता तुम्बरुर्युग्मे शक्तिः शक्तौ शिवे शिवः द्रुतादिसिद्ध्यै तन्नादधृतिरूर्ध्वाङ्गुलीकृता
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4110, prakarana 3: trailing numeral 1181 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4110, prakarana 3: numbered 1181 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 कल्पनेत्युच्यते कार्यमस्य स्यात्तालधारणम् निःशङ्कशार्ङ्गदेवेन पाटाः सर्वेऽत्र कीर्तिताः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4114, prakarana 3: trailing numeral 1182 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4114, prakarana 3: numbered 1182 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति ताललक्षणम् नलिनीदलसंकाशौ कांस्यतालौ समाकृती त्रयोदशाङ्गुलौ वक्त्रे कांस्यजे द्व्यङ्गुलौ तले
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4116, prakarana 3: trailing numeral 1183 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4116, prakarana 3: numbered 1183 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 मध्येऽङ्गुलमितौ निम्नौ तयोरन्यत्तु तालवत्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4119, prakarana 3: trailing numeral 1184 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4119, prakarana 3: numbered 1184 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 पाटा झनकटा मुख्याः सन्ति पाटान्तराण्यपि नारदो देवता चात्रेत्युक्तं सोढलसूनुना
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4123, prakarana 3: trailing numeral 1185 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4123, prakarana 3: numbered 1185 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति कांस्यताललक्षणम् अर्धाङ्गुलमिता पिण्डे घण्टा कांस्यमयी भवेत् उच्छ्रायेऽष्टाङ्गुला वक्त्रे विशाला मूलतोऽल्पिका
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4126, prakarana 3: trailing numeral 1186 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4126, prakarana 3: numbered 1186 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 सा च प्रासादसंबद्धा शलाकाकारधारिणी मूले दण्डं त्रिशृङ्गाग्रं दधती मूलसंयुता
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4129, prakarana 3: trailing numeral 1187 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4129, prakarana 3: numbered 1187 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 षडङ्गुलायतं सार्धाङ्गुलपिण्डं च लम्बितम् लोहजं लालकं गर्भे दधानां तामधोमुखीम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4132, prakarana 3: trailing numeral 1188 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4132, prakarana 3: numbered 1188 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 दण्डे धृत्वा टणत्कारबहुलं वादयेत्सुधीः सा सर्वदेवता तज्ज्ञैर्वाद्यते देवतार्चने
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4135, prakarana 3: trailing numeral 1189 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4135, prakarana 3: numbered 1189 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति घण्टालक्षणम् तैक्ष्णगोलकगर्भाः स्युः कांस्योद्भवपुटद्वयाः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4138, prakarana 3: trailing numeral 1190 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4138, prakarana 3: numbered 1190 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 सघनाः सूक्ष्मजातीयबदरीबीजसंमिताः शिरःसुषिरविन्यस्तरज्जवः क्षुद्रघण्टिकाः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4141, prakarana 3: trailing numeral 1191 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4141, prakarana 3: numbered 1191 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 ताश्च घर्घरिका लोके भाष्यन्ते घर्घरास्तथा ताभिर्घर्घरभेदानां कृतिः पराणि नर्तने
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4144, prakarana 3: trailing numeral 1192 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4144, prakarana 3: numbered 1192 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति क्षुद्रघण्टिकालक्षणम् कांस्यजा हस्तमात्रा स्यात्पिण्डे त्वर्धाङ्गुला घना
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4147, prakarana 3: trailing numeral 1193 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4147, prakarana 3: numbered 1193 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 जयघण्टा समा श्लक्ष्णा वृत्ता प्रान्ते द्विरन्ध्रभाक् धृत्वा तद्रन्ध्रविन्यस्तरज्जौ तां वामपाणिना
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4150, prakarana 3: trailing numeral 1193 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4150, prakarana 3: numbered 1193 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 दक्षिणो दक्षिणस्थेन दृढकोणेन वादयेत् डेंकारबहुलाः पाटाः सर्वेऽस्याः शार्ङ्गिणोदिताः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4153, prakarana 3: trailing numeral 1194 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4153, prakarana 3: numbered 1194 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति जयघण्टालक्षणम् खादिरं घनवेणूत्थं यद्वा कम्राचतुष्टयम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4156, prakarana 3: trailing numeral 1195 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4156, prakarana 3: numbered 1195 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 श्लक्ष्णद्वय्ङ्गुलविस्तारं द्वादशाङ्गुलदैर्घ्यकम् मध्ये पिण्डो यथाशोभं किंचिन्न्यूनस्ततोऽन्तयोः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4159, prakarana 3: trailing numeral 1196 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4159, prakarana 3: numbered 1196 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 यस्य तत्कम्रिकावाद्यं तत्र द्वे द्वे तु कम्रिके एकैकहस्तन्यस्ते ये तयोरेकैककम्रिकाम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4162, prakarana 3: trailing numeral 1197 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4162, prakarana 3: numbered 1197 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 मध्यमाङ्गुष्ठयोर्मूले धृत्वा प्रान्ते तयोः पुनः अपरामपरां धृत्वा शिथिलां वादयेद्धिया
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4165, prakarana 3: trailing numeral 1198 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4165, prakarana 3: numbered 1198 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 कम्पेन मणिबन्धस्य कम्रिकावादनं मतम् पाटाः किटकिटामुख्यास्तत्र पाटान्तराण्यपि
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4168, prakarana 3: trailing numeral 1199 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4168, prakarana 3: numbered 1199 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 कम्राणामन्तरं कृत्वाऽनामया दक्षिणस्थया तलघाताङ्गुष्ठघृष्टी वामस्येत्यपरे जगुः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4172, prakarana 3: trailing numeral 1200 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4172, prakarana 3: numbered 1200 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति कम्रालक्षणम् सर्पाकृतिरथो निम्ना कांस्यजा लोहजाऽथवा शुक्तिस्त्र्यङ्गुलविस्तारा सार्धहस्तद्वया मता
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4175, prakarana 3: trailing numeral 1201 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4175, prakarana 3: numbered 1201 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 तिर्यग्रेखाराजिता च मृगशृङ्गोपमेन सा ऋजुणा लोहकोणेन सरोषेण विघर्षणात्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4179, prakarana 3: trailing numeral 1202 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4179, prakarana 3: numbered 1202 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 वाद्यते किरिकिट्टेति पाठा यक्षास्तु देवताः यतिमात्रावबोधेऽत्रेत्युक्तं निःशङ्कसूरिणा किरिकिट्टकमित्युक्तं तल्लोके रुद्रवल्लभम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4182, prakarana 3: trailing numeral 1203 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4182, prakarana 3: numbered 1203 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति शुक्तिवाद्यम् श्रीपर्णीदारुजः पट्टश्चतुरस्रायतो भवेत्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4185, prakarana 3: trailing numeral 1204 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4185, prakarana 3: numbered 1204 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 द्वात्रिंशदङ्गुलो दैर्घ्येऽन्यैरुक्तस्त्रिंशदङ्गुलः विस्तारे हस्तमात्रः स्यादूर्ध्वाधःस्थितयोर्द्वयोः
@@ -37786,89 +37880,89 @@ Source line ~4188, prakarana 3: trailing numeral 1205 where 22 was expected, and
 लोहमय्योः सरिकयोस्त्रिवृद्रज्जूपमायुजोः क्षिप्ताभिस्तादृशक्षुद्रवलयाविलिभिर्युतः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4191, prakarana 3: trailing numeral 1206 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4191, prakarana 3: numbered 1206 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 वक्षोग्रे जानुनोर्मध्ये यद्वा संधार्य वाद्यते अयं च करशाखाग्रै रालालिप्तो विघृष्यते
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4194, prakarana 3: trailing numeral 1207 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4194, prakarana 3: numbered 1207 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 करवौ थडरटाः पाटाः पाटहाश्चेह संमताः सप्तात्र देवमुनयो देवताः शार्ङ्गिणोदिताः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4198, prakarana 3: trailing numeral 1208 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4198, prakarana 3: numbered 1208 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति पट्टवाद्यम् सन्त्यन्यान्यपि वाद्यानि लोके भूयांसि यानि च तेषु विस्तारसंत्रासादुदास्ते सोढलात्मजः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4202, prakarana 3: trailing numeral 1209 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4202, prakarana 3: numbered 1209 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति घनवाद्यलक्षणम् रक्तं विरक्तं मधुरं समं शुद्धं कलं घनम् स्फुटप्रहारं सुलभं वुघुष्टं च गुणैरिति
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4205, prakarana 3: trailing numeral 1210 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4205, prakarana 3: numbered 1210 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 दशभिः संयुतं वाद्यमुक्तं सोढलसूनुना अन्वर्थान्यत्र नामानि समं त्वष्टविधं मतम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4208, prakarana 3: trailing numeral 1211 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4208, prakarana 3: numbered 1211 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अक्षराद्यङ्गपूर्वं च तालादि यतिपूर्वकम् लयादि न्यासापन्यासपूर्वैः पाणिसमं तथा
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4211, prakarana 3: trailing numeral 1212 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4211, prakarana 3: numbered 1212 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 स्यादक्षरसमं गीतगुरुलघ्वक्षरानुगम् गीतस्य ग्रहमोक्षादीन्यङ्गान्यत्रेति यत्पुनः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4215, prakarana 3: trailing numeral 1213 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4215, prakarana 3: numbered 1213 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 स्यात्तदङ्गसमं तालानुगं तालसमं मतम् यतिर्लयस्य न्यासः स्यात्सन्यासस्य च साम्यतः यत्यादिपूर्वकं ज्ञेयं क्रमात्समचतुष्टयम्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4218, prakarana 3: trailing numeral 1214 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4218, prakarana 3: numbered 1214 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 गीतग्रहैः पाणिसंज्ञैः समं पाणिसमं मतम् वाद्यस्यैते गुणाः प्रोक्ता दोषः स्यात्तद्विपर्ययः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4222, prakarana 3: trailing numeral 1215 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4222, prakarana 3: numbered 1215 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति वाद्यगुणदोषाः हस्तकोणप्रहारज्ञो गीतवादनकोविदः यतिताललयाभिज्ञः पाटज्ञः पञ्चसञ्चवित्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4225, prakarana 3: trailing numeral 1216 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4225, prakarana 3: numbered 1216 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 दशहस्तगुणोपेतः पात्राभिप्रेतवादकः आतोद्यध्वनितत्त्वज्ञः समादिग्रहवेदिता
@@ -37882,33 +37976,33 @@ Source line ~4228, prakarana 3: trailing numeral 1217 where 22 was expected, and
 गीतवादननृत्यस्थच्छिद्रच्छादनपण्डितः ग्रहमोक्षप्रदेशज्ञो गीतनृत्तप्रमाणवित्
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4231, prakarana 3: trailing numeral 1218 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4231, prakarana 3: numbered 1218 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 वाद्ये समस्तभेदज्ञो रूपरेखान्वितस्तथा उद्घट्टनपटुः सर्ववाद्यभेदविवेचकः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4234, prakarana 3: trailing numeral 1219 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4234, prakarana 3: numbered 1219 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 नादवृद्धिक्षयापत्तिकोविदो वादको विदः गुणैः कतिपयैर्हीनः सर्वैर्वा वादकोऽधमः
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4236, prakarana 3: trailing numeral 1220 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4236, prakarana 3: numbered 1220 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 वाञ्छानुगौ दृढौ व्यक्तौ स्निग्धौ दृढनखौ लघू
 ```
 
-### वाद्याध्यायः — out-of-sequence number
+### वाद्याध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4239, prakarana 3: trailing numeral 1221 where 22 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4239, prakarana 3: numbered 1221 where 22 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 विधायाङ्गुलिसंचारौ स्वदहीनौ जितश्रमौ युक्तप्रहारौ च करौ प्रोक्तौ दशगुणाविति
@@ -37938,6 +38032,42 @@ Prakarana 1: expected 140, found 141. Verse kept and numbered as in the source; 
 इति खटकामुखः अरालस्य यदाऽत्यन्तवक्रे तर्जन्यनामिके शुकतुण्डस्तदा स स्यात्प्रेमकोपेन वर्षया द्यूताक्षपातनादौ स्यात्सावज्ञे तु विसर्जने आह्वाने च बहिश्चान्तः क्रमात्क्षिप्ताङ्गुलिर्भवेत्
 ```
 
+### नर्तनाध्यायः — verse split from its svara illustration
+
+Source line ~672, prakarana 1 verse 206: the line carried a sloka followed by its svara illustration. The verse is in devanagari/slp1/iast; the illustration is preserved verbatim in the "notation" field.
+
+```
+VERSE: आकुञ्चत्कूर्परौ स्कन्धदेशस्थौ सर्पशीर्षकौ अन्योन्याभिमुखौ लक्ष्म गजदन्ते जगुः
+NOTATION: परे
+```
+
+### नर्तनाध्यायः — verse split from its svara illustration
+
+Source line ~723, prakarana 1 verse 222: the line carried a sloka followed by its svara illustration. The verse is in devanagari/slp1/iast; the illustration is preserved verbatim in the "notation" field.
+
+```
+VERSE: प्राङ्मुखौ हंसपक्षाख्यौ व्यावृत्तपरिवर्तितौ जयशब्दे प्रयोक्तव्यावुद्वृत्तौ मेनिरे
+NOTATION: परे
+```
+
+### नर्तनाध्यायः — verse split from its svara illustration
+
+Source line ~736, prakarana 1 verse 225: the line carried a sloka followed by its svara illustration. The verse is in devanagari/slp1/iast; the illustration is preserved verbatim in the "notation" field.
+
+```
+VERSE: इति स्वस्तिकौ विप्रकीर्णौ तु तावेव सहसा स्वस्तिके च्युते नीचाग्रावुन्नताग्रौ वा कुचाभ्यां पुरतः स्थितौ पराङ्मुखौ हंसपक्षौ विप्रकीर्णौ जगुः
+NOTATION: परे
+```
+
+### नर्तनाध्यायः — verse split from its svara illustration
+
+Source line ~810, prakarana 1 verse 246: the line carried a sloka followed by its svara illustration. The verse is in devanagari/slp1/iast; the illustration is preserved verbatim in the "notation" field.
+
+```
+VERSE: क्षणं भूत्वा प्रचलितौ ज्ञेयावुत्तानवञ्चितौ अंसकूर्परयोः किंचित्पतनं मन्वते
+NOTATION: परे
+```
+
 ### नर्तनाध्यायः — division does not start at 1
 
 Prakarana 2 opens at verse 298. The source may be missing earlier verses.
@@ -37946,12 +38076,39 @@ Prakarana 2 opens at verse 298. The source may be missing earlier verses.
 स्यादक्षः सममाभुग्नं निर्भुग्नं च प्रकम्पितम् उद्वाहितं पञधेति तेषां लक्ष्माभिदध्महे
 ```
 
+### नर्तनाध्यायः — verse split from its svara illustration
+
+Source line ~1209, prakarana 2 verse 355: the line carried a sloka followed by its svara illustration. The verse is in devanagari/slp1/iast; the illustration is preserved verbatim in the "notation" field.
+
+```
+VERSE: तदन्तखण्डेऽन्यत्रापि प्रोद्धते तुण्डकैशिके कवितेऽपि प्रयोज्यास्ते नान्यत्रेत्यूचिरे
+NOTATION: परे
+```
+
 ### नर्तनाध्यायः — division does not start at 1
 
 Prakarana 3 opens at verse 356. The source may be missing earlier verses.
 
 ```
 पृष्ठं तु जठरोक्ताभिर्वर्तनाभिर्विवर्तते अतो न तत्पृथग्वाच्यं जठरं तूच्यतेऽधुना
+```
+
+### नर्तनाध्यायः — verse split from its svara illustration
+
+Source line ~1248, prakarana 3 verse 364: the line carried a sloka followed by its svara illustration. The verse is in devanagari/slp1/iast; the illustration is preserved verbatim in the "notation" field.
+
+```
+VERSE: निःसृता च परावृत्ता तिरश्चीना बहिर्गता कम्पितेत्यपराः पञ्च जङ्घाः संचक्षते
+NOTATION: परे
+```
+
+### नर्तनाध्यायः — verse split from its svara illustration
+
+Source line ~1256, prakarana 3 verse 366: the line carried a sloka followed by its svara illustration. The verse is in devanagari/slp1/iast; the illustration is preserved verbatim in the "notation" field.
+
+```
+VERSE: इत्यावर्तिता नमज्जानुर्नता जङ्घा स्थानासनगतादिषु इति नता बहिर्विक्षेपतः क्षिप्ता व्यायामे ताण्डवे च
+NOTATION: सा
 ```
 
 ### नर्तनाध्यायः — numbering gap
@@ -37970,9 +38127,9 @@ Prakarana 3: expected 376, found 377. Verse kept and numbered as in the source; 
 इति संहतम् जानु लग्नोरुजङ्घं तु भवेत्कुञ्चितमासने इति कुञ्चितम् नितम्बनमनाज्जानु त्वर्धकुञ्चितमुच्यते इत्यर्धकुञ्चितम् महीगतं नतं जानु मतं पाते नमस्कृतौ
 ```
 
-### नर्तनाध्यायः — out-of-sequence number
+### नर्तनाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~1312, prakarana 3: trailing numeral 372 where 379 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~1312, prakarana 3: numbered 372 where 379 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति समम् तत्तद्वेशजुषो भूषा भूषणानीति मन्वते
@@ -37986,9 +38143,9 @@ Prakarana 3: expected 379, found 380. Verse kept and numbered as in the source; 
 इति नव प्रत्यङ्गानि कान्ता हास्या च करुणा रौद्री वीरा भयानका बीभत्सा चाद्भुतेत्यष्टौ द्रष्टव्या रसदृष्टयः
 ```
 
-### नर्तनाध्यायः — out-of-sequence number
+### नर्तनाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~1349, prakarana 3: trailing numeral 389 where 390 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~1349, prakarana 3: numbered 389 where 390 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति करुणा चकितद्विपुटा स्तभ्दतारकाऽत्यन्तलोहिता रूक्षा भ्रुकुटिभीमोग्रा रौद्री दृष्टिरुदाहृता
@@ -38010,12 +38167,21 @@ Prakarana 3: expected 393, found 394. Verse kept and numbered as in the source; 
 इति वीरा स्तब्धोद्वृत्तपुटाऽत्यन्तचञ्चलोद्वृत्ततारका दृश्यात्पलायमाने च भीत्या दृष्टिर्भयानका
 ```
 
-### नर्तनाध्यायः — out-of-sequence number
+### नर्तनाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~1364, prakarana 3: trailing numeral 394 where 395 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~1364, prakarana 3: numbered 394 where 395 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति भयानका बीभत्सा स्यान्मिलल्लोलपक्ष्मा तरलतारका दृश्योद्वेगादपाङ्गौ च निकुञ्चितपुटौ श्रिता
+```
+
+### नर्तनाध्यायः — verse split from its svara illustration
+
+Source line ~1452, prakarana 3 verse 417: the line carried a sloka followed by its svara illustration. The verse is in devanagari/slp1/iast; the illustration is preserved verbatim in the "notation" field.
+
+```
+VERSE: इति जिह्मा किंचिच्चेत्कुञ्चितानि स्युः पक्ष्माग्राणि पुटावपि सम्यक्च कुञ्चिता तारा तदा दृक्कुञ्चितोच्यते अनिष्टे सूचिते तेजो दुष्प्रेक्ष्येऽक्षिव्यथासु
+NOTATION: सा
 ```
 
 ### नर्तनाध्यायः — numbering gap
@@ -38034,17 +38200,26 @@ Prakarana 4 opens at verse 435. The source may be missing earlier verses.
 सहजा पतितोत्क्षिप्ता रेचिता कुञ्चिता तथा भ्रुकुटी चतुरा चेति प्रोक्ता भ्रूः सप्तधा बुधैः स्वाभाविकी स्यात्सहजा भावेष्वकुटिलेष्वसौ
 ```
 
-### नर्तनाध्यायः — out-of-sequence number
+### नर्तनाध्यायः — verse split from its svara illustration
 
-Source line ~1593, prakarana 4: trailing numeral 454 where 455 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~1542, prakarana 4 verse 441: the line carried a sloka followed by its svara illustration. The verse is in devanagari/slp1/iast; the illustration is preserved verbatim in the "notation" field.
+
+```
+VERSE: इति भ्रुकुटी सद्वितीयाऽल्पकस्यन्दादायता मन्थरा भवेत् चतुरा रुचिरे स्पर्शे शृङ्गारे ललिते च
+NOTATION: सा
+```
+
+### नर्तनाध्यायः — numbering anomaly (verse KEPT)
+
+Source line ~1593, prakarana 4: numbered 454 where 455 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 शृङ्गारे स्यात्तु निष्क्रामो वीरे रौद्रे भयानके अद्भुते च प्राकृतं तु भावेनाऽऽवेशभागिनि
 ```
 
-### नर्तनाध्यायः — out-of-sequence number
+### नर्तनाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~1596, prakarana 4: trailing numeral 356 where 455 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~1596, prakarana 4: numbered 356 where 455 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति नव स्वनिष्ठानि ताराकर्माणि विषयाभिमुखान्यष्टौ ताराकर्माण्यथ ब्रुवे
@@ -38066,9 +38241,9 @@ Prakarana 4: expected 465, found 466. Verse kept and numbered as in the source; 
 इति कम्पितौ कपोलावुन्नतौ पूर्णौ तौ गर्वोत्साहगोचरे इति पूर्णौ क्षामौ त्ववनतौ ज्ञेयौ दुःखे कार्याविमौ नटैः इति क्षामौ गण्डौ विकसितौ फुल्लौ प्रहर्षे परिकीर्तितौ इति फुल्लौ समौ स्वाभाविकौ भावेष्वनावेशेषु तौ मतौ
 ```
 
-### नर्तनाध्यायः — out-of-sequence number
+### नर्तनाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~1839, prakarana 4: trailing numeral 158 where 518 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~1839, prakarana 4: numbered 158 where 518 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 किंचिदायामिवक्रं च व्याभुग्नं मुखमुच्यते निर्वेदौत्सुक्यचिन्तादौ तदुक्तं पूर्वसूरिभिः
@@ -38082,9 +38257,9 @@ Prakarana 4: expected 518, found 519. Verse kept and numbered as in the source; 
 इति व्याभुग्नम् अधोमुखं तु भुग्नं तल्लज्जायां प्रकृतौ यतेः इति भुग्नम् लीलासूत्क्षिप्तमुद्वाहि गर्वानादरतो गतौ
 ```
 
-### नर्तनाध्यायः — out-of-sequence number
+### नर्तनाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2603, prakarana 4: trailing numeral 837 where 737 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2603, prakarana 4: numbered 837 where 737 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति तलसंघट्टितम् यत्रापसारितानीतं हस्तपादं विधीयते गात्रमुद्वृत्तचारीकं तदुद्वृत्तं विदुर्बुधाः
@@ -38098,9 +38273,9 @@ Prakarana 4: expected 737, found 738. Verse kept and numbered as in the source; 
 इत्युद्वृत्तम् कुञ्चितः प्रसरत्यङ्घ्रिरग्रे यत्रोद्गमोन्मुखः करौ च रेचितौ विष्णुक्रान्तं तत्क्रमणे हरेः
 ```
 
-### नर्तनाध्यायः — out-of-sequence number
+### नर्तनाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~2612, prakarana 4: trailing numeral 749 where 739 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~2612, prakarana 4: numbered 749 where 739 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 इति विष्णुक्रान्तम् रेचितः पाणिरेकः स्याद्वक्षस्यन्योऽलपल्लवः लोलितं शीर्षमुभयोर्विश्रान्तं पार्श्वयोरपि वैष्णवं स्थानकं यत्र तदाहुर्लोलितं बुधाः
@@ -38122,9 +38297,9 @@ Prakarana 4: expected 825, found 826. Verse kept and numbered as in the source; 
 इति भ्रमरः कृत्वा नूपुरविक्षिप्तालातान्याक्षिप्तकं ततः उरोमण्डलसंज्ञं च करणैरेभिराक्षिप्तकोऽष्टभिः विक्षिप्तालातकाक्षिप्तप्रयोगं द्विः परे जगुः
 ```
 
-### नर्तनाध्यायः — out-of-sequence number
+### नर्तनाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~3765, prakarana 4: trailing numeral 1970 where 1069 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~3765, prakarana 4: numbered 1970 where 1069 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 रङ्गावतरणारम्भे पुष्पाञ्जलिविसर्जने अमर्षे प्रतिषेधे च कार्यं मानावलम्बने गर्वगाम्भीर्यमौने स्यादावाहनविसर्जने
@@ -38138,9 +38313,9 @@ Prakarana 4: expected 1069, found 1071. Verse kept and numbered as in the source
 पूर्वरङ्गे स्त्रीभिरेव प्रयोज्यं केचिदूचिरे नरो नार्योऽथवा कुर्युः प्रवेशे स्थानकं स्त्रियाः
 ```
 
-### नर्तनाध्यायः — out-of-sequence number
+### नर्तनाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4066, prakarana 4: trailing numeral 1144 where 1154 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4066, prakarana 4: numbered 1144 where 1154 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 पिष्टकुट्टं चाषगतं भौमानीति दशावदन् अतिक्रान्तं दण्डपादं क्रान्तं ललितसंचरम्
@@ -38170,9 +38345,9 @@ Prakarana 4: expected 1242, found 1243. Verse kept and numbered as in the source
 अत्युच्चखर्वपीनत्वराहित्यमशिरालता
 ```
 
-### नर्तनाध्यायः — out-of-sequence number
+### नर्तनाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~4745, prakarana 4: trailing numeral 1266 where 1366 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~4745, prakarana 4: numbered 1266 where 1366 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 ब्रह्मसंविद्विसदृशी नानारत्यादिसंगमात् सुखरूपा स्वसंवेद्या संविदास्वादनाभिधा रसः स्यादथवा स्थायी रसस्तद्गोचरीभवन्
@@ -38194,9 +38369,9 @@ Prakarana 4: expected 1466, found 1467. Verse kept and numbered as in the source
 साक्षात्स्वेदोऽभिनेयो वा व्यजनग्रहणादिना उत्साहस्त्वत्र संचारी न तस्माद्वीरसंकरः
 ```
 
-### नर्तनाध्यायः — out-of-sequence number
+### नर्तनाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~5065, prakarana 4: trailing numeral 1472 where 1473 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~5065, prakarana 4: numbered 1472 where 1473 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 अपाङ्गनिर्गताल्पास्रो भ्रुकुटीकुटिलाननः स्फुरितोष्ठो मृगाक्षीणां कोपः प्रणयजः प्रिये
@@ -38218,9 +38393,9 @@ Prakarana 4: expected 1614, found 1615. Verse kept and numbered as in the source
 इति बोधः एकैकशो द्वंद्वशो वा त्रयाणां वा प्रकोपतः वातपित्तकफानां भावो व्याधिरित्यभिधीयते स्तम्भाङ्गस्रंसविक्षिप्तगात्रसंकुचिताननैः
 ```
 
-### नर्तनाध्यायः — out-of-sequence number
+### नर्तनाध्यायः — numbering anomaly (verse KEPT)
 
-Source line ~5550, prakarana 4: trailing numeral 1525 where 1625 was expected, and it does not begin a new run. Likely a mis-transcribed number (e.g. a dropped hundreds digit). Excluded from verses.json.
+Source line ~5550, prakarana 4: numbered 1525 where 1625 was expected. The text is a genuine verse, so it is kept with the source number and flagged. Verify the numbering against a print edition.
 
 ```
 नीचानां जायते गर्वः प्राधान्येन मुहुर्मुहुः विद्युद्वदुत्तमानां तु बाहुल्यात्त्वेष योषिताम्

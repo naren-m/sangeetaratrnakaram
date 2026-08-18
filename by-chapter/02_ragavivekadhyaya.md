@@ -2,7 +2,7 @@
 
 *Sāṅgītaratnākara of Śārṅgadeva — Sanskrit Wikisource (CC-BY-SA), retrieved 2026-08-17.*
 
-Verses: **238**
+Verses: **244**
 
 ---
 
@@ -524,6 +524,15 @@ Verses: **238**
 
 *nokte karaṇavartinyau prabandhāntargateriha mataṅgādimatādbrūmo bhāṣādiṣveva rūpakam*
 
+**0**
+
+धारीपाधापाधासासा सारीगामाधापानीधापानी धापा सीं सीं--इत्यालापः ।  
+शे ख
+
+*dhārīpādhāpādhāsāsā sārīgāmādhāpānīdhāpānī dhāpā sīṃ sīṃ--ityālāpaḥ | śe kha*
+
+> ⚠ source numbering anomaly: found 0, expected 28
+
 **28**
 
 इत्याक्षिप्तिका । इति शुद्धसाधारितः ।  
@@ -545,6 +554,17 @@ Verses: **238**
 गेयोऽह्नः प्रथमे यामे षड्जग्रामाभिधो बुधैः
 
 *viniyuktaḥ pratimukhe varṣāsu gurudaivataḥ geyo'hnaḥ prathame yāme ṣaḍjagrāmābhidho budhaiḥ*
+
+**0**
+
+षड्जमध्यमया सृष्ट इत्यादिना । स्पष्टोऽर्थः ।  
+समा सा । सगरि गप निधप मामा--इत्यालापः ।  
+रींरीं गाधा गरि सासा नींधपापा । रींरीं गधा गरीं सांसांसां संसांगांनिंधारीं रींगंधां गारीं सांसां निधापापा । रीरी पापा निधानि सांसां सांसां रिसरि पांधानिधपामांमांमांमां--इति करणम्  
+ता
+
+*ṣaḍjamadhyamayā sṛṣṭa ityādinā | spaṣṭo'rthaḥ | samā sā | sagari gapa nidhapa māmā--ityālāpaḥ | rīṃrīṃ gādhā gari sāsā nīṃdhapāpā | rīṃrīṃ gadhā garīṃ sāṃsāṃsāṃ saṃsāṃgāṃniṃdhārīṃ rīṃgaṃdhāṃ gārīṃ sāṃsāṃ nidhāpāpā | rīrī pāpā nidhāni sāṃsāṃ sāṃsāṃ risari pāṃdhānidhapāmāṃmāṃmāṃmāṃ--iti karaṇam tā*
+
+> ⚠ source numbering anomaly: found 0, expected 31
 
 **31**
 
@@ -646,6 +666,15 @@ Verses: **238**
 उद्भटे नटने गेयो ग्रीष्मेऽह्नो मध्ययामयोः
 
 *bhayānake ca bībhatse vipralambhe rase bhavet udbhaṭe naṭane geyo grīṣme'hno madhyayāmayoḥ*
+
+**4**
+
+इत्याक्षिप्तिका । इति गौडपञ्चमः ॥  
+उद्भूतः कैशिकीषड्जमध्यमाभ्यां ग्रहांशसः
+
+*ityākṣiptikā | iti gauḍapañcamaḥ || udbhūtaḥ kaiśikīṣaḍjamadhyamābhyāṃ grahāṃśasaḥ*
+
+> ⚠ source numbering anomaly: found 4, expected 44
 
 **45**
 
@@ -831,6 +860,20 @@ Verses: **238**
 
 *manyāso mandraṣaḍjāṃśagrahaḥ sauvīramūrchanaḥ prasannādyavarohibhyāṃ mukhasaṃdhau niyujyate*
 
+**17**
+
+मध्यमग्रामरागोऽयं हास्यशृङ्गारकारकः  
+ग्रीष्मेऽह्नः प्रथमे यामे ध्रुवप्रीत्यै  
+सांनीधापांधांधरि । गांसां रिगानीसां । सगपांपपप निनि पनि सां सां  
+गपसानिधनिनि निरिगासा । पां मं पं निधामा -- इत्यालापः ॥  
+निनिपपगंगंसंसंरिगं निंसंसासा । संसंगंगंपंपंधंधंनिसनिध पापापापा पनी  
+पनी सांसांसांगागासागासनी धनीनीनिनिरिगांसांसांपापामापानिधपामामा--  
+इति करणम् ॥
+
+*madhyamagrāmarāgo'yaṃ hāsyaśṛṅgārakārakaḥ grīṣme'hnaḥ prathame yāme dhruvaprītyai sāṃnīdhāpāṃdhāṃdhari | gāṃsāṃ rigānīsāṃ | sagapāṃpapapa nini pani sāṃ sāṃ gapasānidhanini nirigāsā | pāṃ maṃ paṃ nidhāmā -- ityālāpaḥ || ninipapagaṃgaṃsaṃsaṃrigaṃ niṃsaṃsāsā | saṃsaṃgaṃgaṃpaṃpaṃdhaṃdhaṃnisanidha pāpāpāpā panī panī sāṃsāṃsāṃgāgāsāgāsanī dhanīnīninirigāṃsāṃsāṃpāpāmāpānidhapāmāmā-- iti karaṇam ||*
+
+> ⚠ source numbering anomaly: found 17, expected 69
+
 **69**
 
 इत्याक्षिप्तिका । इति मध्यमग्रामरागः ॥  
@@ -913,6 +956,19 @@ Verses: **238**
 
 *saṃcārivarṇaruciraḥ prasannāntavibhūṣitaḥ kākalyantarasaṃyuktaścaturānanadaivataḥ*
 
+**20**
+
+हेमन्ते प्रथमे यामे बीभत्से सभयानके ।  
+सार्वभौमोत्सवे गेयः  
+मामा--इत्यालापः ।  
+। मा मा
+
+*hemante prathame yāme bībhatse sabhayānake | sārvabhaumotsave geyaḥ māmā--ityālāpaḥ*
+
+> svara illustration: `मा मा`
+
+> ⚠ source numbering anomaly: found 20, expected 80
+
 **80**
 
 इत्याक्षिप्तिका । इति भिन्नषड्जः ।  
@@ -940,6 +996,16 @@ Verses: **238**
 प्रसन्नाद्येन संचारिवर्णः शौरिप्रियो रसे
 
 *kākalyā kalitaḥ kvāpi niṣādenāpyalaṃkṛtaḥ prasannādyena saṃcārivarṇaḥ śauripriyo rase*
+
+**21**
+
+भयानके सबीभत्से सूत्रधारप्रवेशने  
+ग्रीष्मे प्राक्प्रहरे गेयः  
+मा पा पा--इत्यालापः ।
+
+*bhayānake sabībhatse sūtradhārapraveśane grīṣme prākprahare geyaḥ mā pā pā--ityālāpaḥ |*
+
+> ⚠ source numbering anomaly: found 21, expected 84
 
 **85**
 

@@ -2,7 +2,7 @@
 
 *Sāṅgītaratnākara of Śārṅgadeva — Sanskrit Wikisource (CC-BY-SA), retrieved 2026-08-17.*
 
-Verses: **373**
+Verses: **377**
 
 ---
 
@@ -1217,7 +1217,9 @@ Verses: **373**
 भागोऽस्मिञ्झोम्बडेऽप्यूर्ध्वं ध्रुवादुद्ग्राहसंनिभः  
 ध्रुवाभोगध्रुवा गेयास्तत इत्यूचिरे परे
 
-*bhāgo'smiñjhombaḍe'pyūrdhvaṃ dhruvādudgrāhasaṃnibhaḥ dhruvābhogadhruvā geyāstata ityūcire pare*
+*bhāgo'smiñjhombaḍe'pyūrdhvaṃ dhruvādudgrāhasaṃnibhaḥ dhruvābhogadhruvā geyāstata ityūcire*
+
+> svara illustration: `परे`
 
 **171**
 
@@ -1369,6 +1371,15 @@ Verses: **373**
 वैदर्भ्या रचितं रीत्या नानारीतिविचित्रया
 
 *śṛṅgāre vaiṣṇavaṃ citraṃ citrakaiśikavṛttijam vaidarbhyā racitaṃ rītyā nānārītivicitrayā*
+
+**101**
+
+वेणी मिश्रमिति प्राहुरन्ये भेदद्वयं परम्  
+वेणी सर्वैः कृता मिश्रं चूर्णकैर्वृत्तगन्धिभिः
+
+*veṇī miśramiti prāhuranye bhedadvayaṃ param veṇī sarvaiḥ kṛtā miśraṃ cūrṇakairvṛttagandhibhiḥ*
+
+> ⚠ source numbering anomaly: found 101, expected 191
 
 **192**
 
@@ -1739,6 +1750,16 @@ Verses: **373**
 गद्यात्मा चेत्स्वरान्गीत्वा ततः पदनिवेशनम्
 
 *varṇajo mātrikaśceti kalahaṃso dvidhā mataḥ gadyātmā cetsvarāngītvā tataḥ padaniveśanam*
+
+**142**
+
+इति कलहंसः  
+तोटकच्छन्दसा न्यस्तस्वरोऽङ्घ्र्यन्ते तु तोटकः  
+ननु वृत्ते वक्ष्यमाणे पुनरुक्तोऽत्र तोटकः
+
+*iti kalahaṃsaḥ toṭakacchandasā nyastasvaro'ṅghryante tu toṭakaḥ nanu vṛtte vakṣyamāṇe punarukto'tra toṭakaḥ*
+
+> ⚠ source numbering anomaly: found 142, expected 242
 
 **243**
 
@@ -2242,6 +2263,16 @@ Verses: **373**
 ढोल्लरी नाम सा प्रोक्ता लाटभाषाविभूषिता
 
 *iti lolī dohaḍaḥ syādyadā prānte prollasaḍhḍhollarīpadāḥ ḍhollarī nāma sā proktā lāṭabhāṣāvibhūṣitā*
+
+**110**
+
+इति ढोल्लरी  
+अनुप्रासप्रधानं चेत्खण्डत्रयसमन्वितम्  
+दन्तीपदान्वितं प्रान्ते तदा दन्ती निगद्यते
+
+*iti ḍhollarī anuprāsapradhānaṃ cetkhaṇḍatrayasamanvitam dantīpadānvitaṃ prānte tadā dantī nigadyate*
+
+> ⚠ source numbering anomaly: found 110, expected 310
 
 **311**
 
@@ -2748,6 +2779,16 @@ Verses: **373**
 सुरक्तं वल्लकीवंशकण्ठध्वन्यैकतायुतम्
 
 *samavarṇalayasthānaṃ samamityabhidhīyate suraktaṃ vallakīvaṃśakaṇṭhadhvanyaikatāyutam*
+
+**387**
+
+नीचोच्चद्रुतमध्यादौ श्लक्ष्णत्वे श्लक्ष्णमुच्यते  
+उच्चैरुच्चारणादुक्तं विकृष्टं भरतादिभिः  
+मधुरं धुर्यलावण्यपूर्णं जनमनोहरम्
+
+*nīcoccadrutamadhyādau ślakṣṇatve ślakṣṇamucyate uccairuccāraṇāduktaṃ vikṛṣṭaṃ bharatādibhiḥ madhuraṃ dhuryalāvaṇyapūrṇaṃ janamanoharam*
+
+> ⚠ source numbering anomaly: found 387, expected 378
 
 **379**
 

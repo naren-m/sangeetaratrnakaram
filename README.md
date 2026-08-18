@@ -16,9 +16,10 @@ Raw API responses are cached in `raw/`, so re-runs do not re-fetch.
 ## Layout
 
 ```
-raw/                    cached MediaWiki API responses (wikitext + full JSON)
+raw/                    cached API responses, ASCII-slugged
+                        (sangitaratnakara__svaragatadhyaya.wikitext, …)
 by-chapter/             01_svaragatadhyaya.md … 08_parishishta_1.md
-verses.json             all 4,276 records, structured
+verses.json             all 4,827 records, structured
 review_needed.md        every parsing ambiguity, with context
 scripts/build_corpus.py the pipeline
 ```
@@ -27,20 +28,20 @@ scripts/build_corpus.py the pipeline
 
 | # | Chapter | Ślokas | Pāṭākṣara | Divisions | Inferred |
 |---|---------|-------:|----------:|----------:|---------:|
-| 1 | स्वरगताध्यायः | 575 | 0 | 8 | 2 |
-| 2 | रागविवेकाध्यायः | 238 | 0 | 2 | 0 |
+| 1 | स्वरगताध्यायः | 604 | 0 | 8 | 2 |
+| 2 | रागविवेकाध्यायः | 244 | 0 | 2 | 0 |
 | 3 | प्रकीर्णकाध्यायः | 218 | 0 | 1 | 0 |
-| 4 | प्रबन्धाध्यायः | 373 | 0 | 1 | 0 |
-| 5 | तालाध्यायः | 259 | 16 | 2 | 0 |
-| 6 | वाद्याध्यायः | 847 | 28 | 3 | 1 |
-| 7 | नर्तनाध्यायः | 1667 | 0 | 4 | 0 |
+| 4 | प्रबन्धाध्यायः | 377 | 0 | 1 | 0 |
+| 5 | तालाध्यायः | 381 | 16 | 2 | 0 |
+| 6 | वाद्याध्यायः | 1224 | 28 | 3 | 1 |
+| 7 | नर्तनाध्यायः | 1680 | 0 | 4 | 0 |
 | 8 | परिशिष्ट १ | 55 | 0 | 1 | 0 |
-| | **Total** | **4232** | **44** | | |
+| | **Total** | **4783** | **44** | | |
 
 Each `verses.json` record carries: `chapter`, `chapter_num`, `prakarana`,
 `prakarana_num`, `verse_num`, `devanagari`, `lines` (hemistichs as they appear
-in the source), `slp1`, `iast`, `content_type`, `note`, `source_url`,
-`retrieved_date`.
+in the source), `slp1`, `iast`, `content_type`, `notation`, `note`,
+`source_url`, `retrieved_date`.
 
 SLP1 and IAST are generated with `indic_transliteration`, matching the encoding
 used elsewhere in this project (`dhatupatha.tsv` et al.).
@@ -60,7 +61,8 @@ main correctness risk. The parser distinguishes:
 2. a reset to 1 where the source failed to write a section header → treated as
    an inferred division, flagged;
 3. a row index inside embedded notation → excluded (see below);
-4. a mis-transcribed number → excluded and flagged.
+4. a duplicated or skipped number in the source → the verse is **kept** with
+   the source's number and flagged; only genuinely non-verse lines are excluded.
 
 **Embedded musical notation is pervasive and is not verse.** Tālādhyāya carries
 prastāra grids (`ऽ ऽ ऽ ऽ` beat rows, `… ॥ मात्रा १`), Rāgavivekādhyāya carries
@@ -87,9 +89,24 @@ and are numbered in the source, but they are not ślokas and run their own local
 numbering. They carry `content_type: "patakshara"` and are excluded from the
 verse-numbering gap report.
 
+**The source repeats and skips verse numbers, and the text wins.** Vādyādhyāya
+numbers two different ślokas ९३; Wikisource does this in 551 places. An earlier
+build dropped those verses to keep its counter consistent, losing about 11% of
+the work. They are now kept with the source's own number, carry a
+`source numbering anomaly` note, and are barred from moving the counter. Verify
+the numbering against a print edition before relying on `verse_num` in
+Vādyādhyāya or Tālādhyāya.
+
+**Some ślokas share a line with their svara illustration.** In the alaṅkāra and
+tāla sections a verse is followed inline by the notation demonstrating it
+(`… तदोद्गीतः सससरिग मममपध`). These are split at the seam: the verse goes to
+`devanagari`/`slp1`/`iast`, the illustration is preserved verbatim in
+`notation`. The seam is found by svara-token runs, since svara names form a
+closed alphabet that ordinary Sanskrit breaks immediately.
+
 **The verse counts do not match the figures in the project plan.** That plan
 cited ~170 verses for Svaragatādhyāya and ~1,678 for the whole work; this build
-yields 575 and 4,232. Those figures came from secondary literature and were
+yields 604 and 4,783. Those figures came from secondary literature and were
 explicitly flagged as approximate rather than authoritative, so the mismatch is
 **reported, not corrected** — no text was dropped or invented to reach a target.
 Independent verification against a print edition is the right next step.
