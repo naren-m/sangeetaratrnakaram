@@ -113,8 +113,9 @@ Independent verification against a print edition is the right next step.
 
 ## Licensing and scope
 
-Source text is public domain; the Wikisource transcription is CC-BY-SA, so
-redistribution of `by-chapter/` and `verses.json` should carry that attribution.
+Text and derived data (`raw/`, `by-chapter/`, `verses.json`,
+`review_needed.md`) are **CC BY-SA 4.0**, inherited from the Wikisource
+transcription; the code in `scripts/` is **MIT**. See `LICENSE`.
 
 Deliberately **out of scope**: the 1943 Adyar Library edition and the 1978
 Shringy & Sharma translation on archive.org. Those are copyrighted critical

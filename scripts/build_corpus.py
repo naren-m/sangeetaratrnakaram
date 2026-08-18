@@ -51,7 +51,6 @@ def cache_slug(title: str) -> str:
 DEV_DIGITS = str.maketrans('०१२३४५६७८९', '0123456789')
 RE_TRAIL_NUM = re.compile(r'([०-९]+)\s*$')
 RE_SECTION = re.compile(r"^'''\s*(अथ|इति)")
-RE_PRAK_NUM = re.compile(r'([०-९]+)\s*$')
 
 review: list[str] = []
 
@@ -164,10 +163,15 @@ def split_verse_notation(text):
     verse = ' '.join(head).strip(' ।॥')
     if len(verse) < MIN_VERSE_CHARS:
         return text, None
-    # A lone short svara token is ambiguous ("gama" is also a word), so it only
-    # counts as notation when what precedes it is unmistakably a verse.
-    if len(svara) < 2 and len(svara[0]) < 5 and not is_verse_substance(verse):
-        return text, None
+    # A lone short svara token is ambiguous ("gama" is also a word). It counts
+    # as notation only when what precedes it is unmistakably a verse, or when a
+    # danda sits right before it -- the danda closes the verse, so whatever
+    # follows cannot be part of it.
+    if len(svara) < 2 and len(svara[0]) < 5:
+        # The walk-back consumes the danda into `tail`, so look for it there.
+        after_danda = any(t in ('।', '॥') for t in tail)
+        if not after_danda and not is_verse_substance(verse):
+            return text, None
     return verse, ' '.join(tail).strip(' ।॥')
 
 
@@ -476,6 +480,7 @@ def parse_chapter(title, wikitext, chap_num, chap_name):
                        f'so it is kept with the source number and flagged. Verify '
                        f'the numbering against a print edition.', text)
             vtext, notation = split_verse_notation(text)
+            vtext = vtext.strip(' ।॥').strip()
             verses.append({
                 'chapter': chap_name, 'chapter_num': chap_num,
                 'prakarana': prak_name, 'prakarana_num': prak_num,
@@ -497,6 +502,7 @@ def parse_chapter(title, wikitext, chap_num, chap_name):
         if not text:
             continue
         text, notation = split_verse_notation(text)
+        text = text.strip(' ।॥').strip()
         if notation:
             log_review(chap_name, 'verse split from its svara illustration',
                        f'Source line ~{lineno}, prakarana {prak_num} verse {n}: the '

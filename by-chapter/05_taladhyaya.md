@@ -2091,7 +2091,7 @@ Verses: **397**
 लघुर्द्रुतद्वयं चान्ते गुरुः स्याद्वीरविक्रमः ॥  
 ।
 
-*laghurdrutadvayaṃ cānte guruḥ syādvīravikramaḥ || |*
+*laghurdrutadvayaṃ cānte guruḥ syādvīravikramaḥ*
 
 > ⚠ source numbering anomaly: found 0, expected 264
 
@@ -2099,7 +2099,7 @@ Verses: **397**
 
 विरामान्तद्रुतद्वंद्वान्यष्टौ लघु च चच्चरी ॥
 
-*virāmāntadrutadvaṃdvānyaṣṭau laghu ca caccarī ||*
+*virāmāntadrutadvaṃdvānyaṣṭau laghu ca caccarī*
 
 > ⚠ source numbering anomaly: found 0, expected 264
 
@@ -2131,7 +2131,7 @@ Verses: **397**
 
 त्र्यस्रो मिश्रो द्विधा वर्णस्त्र्यस्रो लौ दौ लघुद्वयम् ॥
 
-*tryasro miśro dvidhā varṇastryasro lau dau laghudvayam ||*
+*tryasro miśro dvidhā varṇastryasro lau dau laghudvayam*
 
 > ⚠ source numbering anomaly: found 0, expected 268
 
@@ -2178,7 +2178,7 @@ Verses: **397**
 गलपाः स्युः  
 लघुर्गुरुर्द्रुतद्वंद्वं राजविद्याधरो भवेत् ॥
 
-*ᳲ! iti mudritamaṇṭhaḥ || maṇṭho na jau laghuryadvā maṇṭharūpakavelāyām galapāḥ syuḥ laghurgururdrutadvaṃdvaṃ rājavidyādharo bhavet ||*
+*ᳲ! iti mudritamaṇṭhaḥ || maṇṭho na jau laghuryadvā maṇṭharūpakavelāyām galapāḥ syuḥ laghurgururdrutadvaṃdvaṃ rājavidyādharo bhavet*
 
 > ⚠ source numbering anomaly: found 0, expected 270
 
@@ -2187,7 +2187,7 @@ Verses: **397**
 मल्लिकामोदताले तु लौ द्वौ द्रुतचतुष्टयम्  
 । ।
 
-*mallikāmodatāle tu lau dvau drutacatuṣṭayam | |*
+*mallikāmodatāle tu lau dvau drutacatuṣṭayam*
 
 > ⚠ source numbering anomaly: found 0, expected 270
 
@@ -2203,7 +2203,7 @@ Verses: **397**
 
 क्रीडा द्रुतौ विरामान्तौ चण्डनिःसारुकश्च सः ॥
 
-*krīḍā drutau virāmāntau caṇḍaniḥsārukaśca saḥ ||*
+*krīḍā drutau virāmāntau caṇḍaniḥsārukaśca saḥ*
 
 > ⚠ source numbering anomaly: found 0, expected 270
 
@@ -2228,7 +2228,7 @@ Verses: **397**
 
 गुर्वोर्मध्ये तु चत्वारो विन्दवो बिन्दुमालिनी ॥
 
-*gurvormadhye tu catvāro vindavo bindumālinī ||*
+*gurvormadhye tu catvāro vindavo bindumālinī*
 
 > ⚠ source numbering anomaly: found 0, expected 270
 
@@ -2261,7 +2261,7 @@ Verses: **397**
 
 द्विश्चत्वारो विरामान्ता द्रुतास्तु विषमे मताः ॥
 
-*dviścatvāro virāmāntā drutāstu viṣame matāḥ ||*
+*dviścatvāro virāmāntā drutāstu viṣame matāḥ*
 
 > ⚠ source numbering anomaly: found 0, expected 270
 
@@ -2285,7 +2285,7 @@ Verses: **397**
 
 अभिनन्दो लघुद्वंद्वं द्रुतयुग्मं गुरुस्तथा ॥
 
-*abhinando laghudvaṃdvaṃ drutayugmaṃ gurustathā ||*
+*abhinando laghudvaṃdvaṃ drutayugmaṃ gurustathā*
 
 > ⚠ source numbering anomaly: found 0, expected 270
 
@@ -2310,7 +2310,7 @@ Verses: **397**
 वसन्तो न्मौ  
 प्रतापशेखरो दीप्ताद्विरामान्तं द्रुतद्वयम् ॥
 
-*vasanto nmau pratāpaśekharo dīptādvirāmāntaṃ drutadvayam ||*
+*vasanto nmau pratāpaśekharo dīptādvirāmāntaṃ drutadvayam*
 
 > ⚠ source numbering anomaly: found 0, expected 270
 
@@ -2342,7 +2342,7 @@ Verses: **397**
 
 गजझम्पो गुरोरूर्ध्वं विरामान्तं द्रुतत्रयम् ॥
 
-*gajajhampo gurorūrdhvaṃ virāmāntaṃ drutatrayam ||*
+*gajajhampo gurorūrdhvaṃ virāmāntaṃ drutatrayam*
 
 > ⚠ source numbering anomaly: found 0, expected 270
 
@@ -2390,7 +2390,7 @@ Verses: **397**
 
 द्रुतत्रयं लघुद्वंद्वं चण्डताले बभाषिरे ॥
 
-*drutatrayaṃ laghudvaṃdvaṃ caṇḍatāle babhāṣire ||*
+*drutatrayaṃ laghudvaṃdvaṃ caṇḍatāle babhāṣire*
 
 > ⚠ source numbering anomaly: found 0, expected 270
 
@@ -2398,7 +2398,7 @@ Verses: **397**
 
 गलौ प्लुतत्रयं वक्रः प्लुतो बिन्दुत्रयं लये ॥
 
-*galau plutatrayaṃ vakraḥ pluto bindutrayaṃ laye ||*
+*galau plutatrayaṃ vakraḥ pluto bindutrayaṃ laye*
 
 > ⚠ source numbering anomaly: found 0, expected 270
 
@@ -2415,7 +2415,7 @@ Verses: **397**
 
 मुकुन्दे तु लघोर्बिन्दुचतुष्टयमथो गुरुः ॥
 
-*mukunde tu laghorbinducatuṣṭayamatho guruḥ ||*
+*mukunde tu laghorbinducatuṣṭayamatho guruḥ*
 
 > ⚠ source numbering anomaly: found 0, expected 270
 
@@ -2433,7 +2433,7 @@ Verses: **397**
 पञ्चभिर्लघुभिर्गौरी  
 ताले सरस्वतीकण्ठाभरणे शार्ङ्गिसंमतौ ॥
 
-*kaladhvanirlaghudvaṃdvaṃ gururlaghuratha plutaḥ || pañcabhirlaghubhirgaurī tāle sarasvatīkaṇṭhābharaṇe śārṅgisaṃmatau ||*
+*kaladhvanirlaghudvaṃdvaṃ gururlaghuratha plutaḥ || pañcabhirlaghubhirgaurī tāle sarasvatīkaṇṭhābharaṇe śārṅgisaṃmatau*
 
 > ⚠ source numbering anomaly: found 0, expected 270
 
@@ -2441,7 +2441,7 @@ Verses: **397**
 
 ताले राजमृगाङ्के तु द्रुतौ लघुरथो गुरुः ॥
 
-*tāle rājamṛgāṅke tu drutau laghuratho guruḥ ||*
+*tāle rājamṛgāṅke tu drutau laghuratho guruḥ*
 
 > ⚠ source numbering anomaly: found 0, expected 270
 
@@ -2779,7 +2779,7 @@ Verses: **397**
 एकैककोष्ठ एकाङ्कयुक्तोऽधःपङ्क्तिकेषु तु  
 शेषकोष्ठेष्वन्त्यतुर्यषष्ठयोगं निवेशयेत्
 
-*|'e! iti drutamerukoṣṭhakham iti drutameruḥ laghumerau koṣṭhapaṅktīḥ prāgvannyasettadādimaḥ ekaikakoṣṭha ekāṅkayukto'dhaḥpaṅktikeṣu tu śeṣakoṣṭheṣvantyaturyaṣaṣṭhayogaṃ niveśayet*
+*'e! iti drutamerukoṣṭhakham iti drutameruḥ laghumerau koṣṭhapaṅktīḥ prāgvannyasettadādimaḥ ekaikakoṣṭha ekāṅkayukto'dhaḥpaṅktikeṣu tu śeṣakoṣṭheṣvantyaturyaṣaṣṭhayogaṃ niveśayet*
 
 > ⚠ source numbering anomaly: found 144, expected 270
 

@@ -2786,7 +2786,9 @@ Verses: **604**
 कुर्वन्क्रमाद्यदारोहेत्तदा विन्दुरर्यं मतः ।  
 स
 
-*kurvankramādyadārohettadā vinduraryaṃ mataḥ | sa*
+*kurvankramādyadārohettadā vinduraryaṃ mataḥ*
+
+> svara illustration: `स`
 
 > ⚠ source numbering anomaly: found 3, expected 19
 

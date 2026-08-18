@@ -870,7 +870,7 @@ Verses: **244**
 पनी सांसांसांगागासागासनी धनीनीनिनिरिगांसांसांपापामापानिधपामामा--  
 इति करणम् ॥
 
-*madhyamagrāmarāgo'yaṃ hāsyaśṛṅgārakārakaḥ grīṣme'hnaḥ prathame yāme dhruvaprītyai sāṃnīdhāpāṃdhāṃdhari | gāṃsāṃ rigānīsāṃ | sagapāṃpapapa nini pani sāṃ sāṃ gapasānidhanini nirigāsā | pāṃ maṃ paṃ nidhāmā -- ityālāpaḥ || ninipapagaṃgaṃsaṃsaṃrigaṃ niṃsaṃsāsā | saṃsaṃgaṃgaṃpaṃpaṃdhaṃdhaṃnisanidha pāpāpāpā panī panī sāṃsāṃsāṃgāgāsāgāsanī dhanīnīninirigāṃsāṃsāṃpāpāmāpānidhapāmāmā-- iti karaṇam ||*
+*madhyamagrāmarāgo'yaṃ hāsyaśṛṅgārakārakaḥ grīṣme'hnaḥ prathame yāme dhruvaprītyai sāṃnīdhāpāṃdhāṃdhari | gāṃsāṃ rigānīsāṃ | sagapāṃpapapa nini pani sāṃ sāṃ gapasānidhanini nirigāsā | pāṃ maṃ paṃ nidhāmā -- ityālāpaḥ || ninipapagaṃgaṃsaṃsaṃrigaṃ niṃsaṃsāsā | saṃsaṃgaṃgaṃpaṃpaṃdhaṃdhaṃnisanidha pāpāpāpā panī panī sāṃsāṃsāṃgāgāsāgāsanī dhanīnīninirigāṃsāṃsāṃpāpāmāpānidhapāmāmā-- iti karaṇam*
 
 > ⚠ source numbering anomaly: found 17, expected 69
 
@@ -1003,7 +1003,7 @@ Verses: **244**
 ग्रीष्मे प्राक्प्रहरे गेयः  
 मा पा पा--इत्यालापः ।
 
-*bhayānake sabībhatse sūtradhārapraveśane grīṣme prākprahare geyaḥ mā pā pā--ityālāpaḥ |*
+*bhayānake sabībhatse sūtradhārapraveśane grīṣme prākprahare geyaḥ mā pā pā--ityālāpaḥ*
 
 > ⚠ source numbering anomaly: found 21, expected 84
 
